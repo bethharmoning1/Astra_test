@@ -33,6 +33,23 @@ bash "$DEXJOCO_ROOT/agent_bridge/run_cpu.sh" tasks
 - 包含上游其他工具是为了保留源码与资源，不表示本方案安装了 OpenPI、大模型训练或遥操作环境。
 - 模型网格、贴图等资源属于源码，已经纳入版本管理；新的实验结果应保存在被忽略的 `artifacts/` 中。
 
+## 推理测试执行方式
+
+完成上述环境安装与验收后，在能够访问目标 Linux 机器文件系统、终端和观察图片的 Codex 会话中执行测试：
+
+1. 打开克隆后的仓库根目录（例如 `$HOME/Astra_test`），确保可以读取根目录的 `CODEX_AGENT.md`；执行命令时仍使用上文设置的 `DEXJOCO_ROOT`。
+2. 将测试会话的模型设为 **GPT-6-Astra**（`gpt-6-astra`）。
+3. 将推理强度设为 **中等（Medium / `medium`）**。
+4. 发送以下 prompt（保持原文）：
+
+```text
+请你读取CODEX_AGENT.md 这个教程 进行任务的测试
+```
+
+Agent 应先读取 [CODEX_AGENT.md](CODEX_AGENT.md)，再按教程中的任务执行、视觉闭环、正式评测和结果存档规则开展测试。正式五轮评测须遵循教程中的跨轮上下文隔离要求，各轮使用相同的模型、推理强度和上述初始 prompt。
+
+**注意：** 模型与推理强度需要在实际执行测试的 Codex 会话中明确选择；README 和 prompt 本身不会自动切换模型或推理强度。本节仅规定测试配置，不代表已经完成推理测试。
+
 ## 上游来源与许可证
 
 DexJoCo 上游为 `brave-eai/dexjoco`，固定提交为 `8d23b0fab23b17a58c4b55f3942e17013aaf8267`。
