@@ -1,0 +1,36 @@
+# Local environments and dependency caches
+.venv/
+venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Generated experiments and runtime state
+artifacts/
+observations/
+*.log
+*.pid
+*.sock
+agent_bridge/preview-url.txt
+
+# Local credentials/configuration; do not publish secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+.aws/
+.ssh/
+id_rsa*
+id_ed25519*
+
+# Generated transfer archives and local editor state
+*.zip
+*.tar.gz
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
