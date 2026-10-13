@@ -1,6 +1,8 @@
 # Astra_test：DexJoCo Linux CPU-only 测试项目
 
-本仓库保存 DexJoCo 源码、任务资源和 Codex 操作指南，面向 **Linux CPU-only、本机执行仿真和视觉闭环**。它不是已安装的虚拟环境或容器镜像，不包含历史实验结果。
+本仓库保存 DexJoCo 源码、任务资源和 Codex 操作指南，面向 **Linux CPU-only、本机执行仿真和视觉闭环**。它不是已安装的虚拟环境或容器镜像，不包含原始运行 artifacts。
+
+[2026-10-13 本机验收记录](reports/2026-10-13-cpu-validation.md) 记录了 CPU 构建、37 项单元测试、11 个任务相机验收，以及 GPT-6-Astra medium 在 `click_mouse` 单次尝试中的官方成功（518 步、18 次动作调用）。记录也列出了环境适配和未执行的可选回归；单次尝试不是五轮评测。
 
 ## 目录与阅读顺序
 
@@ -48,7 +50,7 @@ bash "$DEXJOCO_ROOT/agent_bridge/run_cpu.sh" tasks
 
 Agent 应先读取 [CODEX_AGENT.md](CODEX_AGENT.md)，再按教程中的任务执行、视觉闭环、正式评测和结果存档规则开展测试。正式五轮评测须遵循教程中的跨轮上下文隔离要求，各轮使用相同的模型、推理强度和上述初始 prompt。
 
-**注意：** 模型与推理强度需要在实际执行测试的 Codex 会话中明确选择；README 和 prompt 本身不会自动切换模型或推理强度。本节仅规定测试配置，不代表已经完成推理测试。
+**注意：** 模型与推理强度需要在实际执行测试的 Codex 会话中明确选择；README 和 prompt 本身不会自动切换模型或推理强度。测试配置本身不代表已经完成测试；已执行的范围和结果见上方本机验收记录。
 
 ## 上游来源与许可证
 
