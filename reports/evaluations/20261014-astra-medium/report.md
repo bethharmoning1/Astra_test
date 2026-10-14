@@ -2,7 +2,7 @@
 
 固定初始场景、环境 seed=0、每任务五轮、跨轮上下文隔离。五轮为小样本稳定性观察，不代表跨场景泛化或官方 benchmark 成绩。
 
-计分进度：14/55；成功 5 轮；实际尝试 14 次。
+计分进度：15/55；成功 5 轮；实际尝试 15 次。
 评测状态：未完成正式评测。证据状态：已归档并通过核验。
 
 不足五轮的任务不发布正式任务成功率；全部 11 个任务完成前不发布正式总体成功率。
@@ -12,7 +12,7 @@
 | click_mouse | 5 | 5 | 4 | 1 | 0 | 0 | 80% | complete | [click_mouse](episodes/click_mouse) |
 | fold_glasses | 5 | 4 | 1 | 3 | 0 | 1 | 未完成 | 未完成正式评测 | [fold_glasses](episodes/fold_glasses) |
 | hammer_nail | 5 | 5 | 0 | 5 | 0 | 0 | 0% | complete | [hammer_nail](episodes/hammer_nail) |
-| pick_bucket | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
+| pick_bucket | 5 | 1 | 0 | 1 | 0 | 4 | 未完成 | 未完成正式评测 | [pick_bucket](episodes/pick_bucket) |
 | pinch_tongs | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
 | water_plant | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
 | bimanual_assembly | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
@@ -39,11 +39,12 @@
 | click_mouse / 5 | [trial05-attempt01](episodes/click_mouse/trial05-attempt01) | true | completed | False | 1200 | 40 | native_step_limit |  | passed |
 | fold_glasses / 4 | [trial04-attempt01](episodes/fold_glasses/trial04-attempt01) | true | completed | False | 1200 | 40 | native_step_limit |  | passed |
 | hammer_nail / 5 | [trial05-attempt01](episodes/hammer_nail/trial05-attempt01) | true | completed | False | 1000 | 34 | native_step_limit |  | passed |
+| pick_bucket / 1 | [trial01-attempt01](episodes/pick_bucket/trial01-attempt01) | true | completed | False | 1200 | 40 | native_step_limit |  | passed |
 
 未完成任务及原因：
 
 - fold_glasses：缺少 1 轮；native_step_limit。
-- pick_bucket：缺少 5 轮；not started。
+- pick_bucket：缺少 4 轮；native_step_limit。
 - pinch_tongs：缺少 5 轮；not started。
 - water_plant：缺少 5 轮；not started。
 - bimanual_assembly：缺少 5 轮；not started。
