@@ -1,0 +1,27 @@
+{
+  "errors": [
+    {
+      "command_log_line": 1,
+      "returncode": 1,
+      "response_ok": false,
+      "exception_class": null,
+      "evidence_path": "command_log.jsonl"
+    },
+    {
+      "command_log_line": 28,
+      "returncode": 1,
+      "response_ok": false,
+      "exception_class": null,
+      "evidence_path": "command_log.jsonl"
+    },
+    {
+      "command_log_line": 37,
+      "returncode": 1,
+      "response_ok": false,
+      "exception_class": null,
+      "evidence_path": "command_log.jsonl"
+    }
+  ],
+  "count": 3,
+  "source": "All command_log.jsonl records; no error records are deleted."
+}
