@@ -2,10 +2,10 @@
 
 固定初始场景、环境 seed=0、每任务五轮、跨轮上下文隔离。五轮为小样本稳定性观察，不代表跨场景泛化或官方 benchmark 成绩。
 
-计分进度：54/55；成功 5 轮；实际尝试 57 次。
-评测状态：未完成正式评测。证据状态：未全部通过完整证据核验。
+计分进度：55/55；成功 5 轮；实际尝试 58 次。
+评测状态：全部 11 个任务已完成五轮。证据状态：未全部通过完整证据核验。
 
-不足五轮的任务不发布正式任务成功率；全部 11 个任务完成前不发布正式总体成功率。
+总体任务成功率：5/55 = 9.09%。
 
 | task | 计划 | 有效完成 | 成功 | 失败 | 中断 | 缺少 | 任务成功率 | 状态 | 证据 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- | --- |
@@ -18,7 +18,7 @@
 | bimanual_assembly | 5 | 5 | 0 | 5 | 0 | 0 | 0% | complete | [bimanual_assembly](episodes/bimanual_assembly) |
 | bimanual_hanoi | 5 | 5 | 0 | 5 | 0 | 0 | 0% | complete | [bimanual_hanoi](episodes/bimanual_hanoi) |
 | bimanual_microwave_cook | 5 | 5 | 0 | 5 | 0 | 0 | 0% | complete | [bimanual_microwave_cook](episodes/bimanual_microwave_cook) |
-| bimanual_photograph | 5 | 4 | 0 | 4 | 0 | 1 | 未完成 | 未完成正式评测 | [bimanual_photograph](episodes/bimanual_photograph) |
+| bimanual_photograph | 5 | 5 | 0 | 5 | 0 | 0 | 0% | complete | [bimanual_photograph](episodes/bimanual_photograph) |
 | bimanual_unlock_ipad | 5 | 5 | 0 | 5 | 0 | 0 | 0% | complete | [bimanual_unlock_ipad](episodes/bimanual_unlock_ipad) |
 
 每次尝试（包括所有中断及补测）：
@@ -82,10 +82,7 @@
 | bimanual_unlock_ipad / 5 | [trial05-attempt01](episodes/bimanual_unlock_ipad/trial05-attempt01) | true | completed | False | 654 | 22 | official_failure |  | passed |
 | bimanual_photograph / 3 | [trial03-attempt01](episodes/bimanual_photograph/trial03-attempt01) | true | completed | False | 1000 | 34 | native_step_limit |  | passed |
 | bimanual_photograph / 4 | [trial04-attempt01](episodes/bimanual_photograph/trial04-attempt01) | true | completed | False | 1000 | 34 | native_step_limit |  | passed |
-
-未完成任务及原因：
-
-- bimanual_photograph：缺少 1 轮；native_step_limit。
+| bimanual_photograph / 5 | [trial05-attempt01](episodes/bimanual_photograph/trial05-attempt01) | true | completed | False | 1000 | 34 | native_step_limit |  | passed |
 
 归档核验问题：
 
