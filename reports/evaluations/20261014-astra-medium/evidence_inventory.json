@@ -9,8 +9,8 @@
     },
     {
       "path": "attempts.json",
-      "size_bytes": 28709,
-      "sha256": "9117696345cd478c4a10205348121525c8f852d4ca2dd530731ca5adb922f41e"
+      "size_bytes": 29730,
+      "sha256": "ebbe99eb0e43eac48233118709172f89fdd80335acc8a38503530acf66ed4cdb"
     },
     {
       "path": "batch_config.json",
@@ -19,8 +19,8 @@
     },
     {
       "path": "episode_results.csv",
-      "size_bytes": 6289,
-      "sha256": "4f1dc3097fdb4e3ea1f35314ce8d7545d0ce28a719428426eb6b7a411a825c32"
+      "size_bytes": 6504,
+      "sha256": "b78a7a221f3b884af520a9ba8b0745fbdbdbc248ce116dd66bd20318d9351d6e"
     },
     {
       "path": "episodes/click_mouse/trial01-attempt01/attempt.json",
@@ -28093,6 +28093,986 @@
       "sha256": "ff46b1ea48675d1fdd7d64960f929dc0e92322e8191b70b146e791505e2ef09c"
     },
     {
+      "path": "episodes/water_plant/trial04-attempt01/attempt.json",
+      "size_bytes": 2621,
+      "sha256": "f890f2ded9ecbdd63448ef64bb63de9cf1b7f1f3e93576a4f4342ed18de44a72"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/attempt_metadata.json",
+      "size_bytes": 1994,
+      "sha256": "5db77eecd06354a60211c9e6ffd948eef506de5980d18131bcef90655d62bc08"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/audit.json",
+      "size_bytes": 323576,
+      "sha256": "c02122bc9606f3044d5091749582d42c119bfb04bc3f5721c9bf78cb04818475"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/cleanup.json",
+      "size_bytes": 93,
+      "sha256": "0ae1ba1673c512b8fca98f0d19e8a68b611a7af981fc8fea3971854cae1323c8"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/command_errors.json",
+      "size_bytes": 278,
+      "sha256": "e901398356c0aaaedf015c2ecb4cd760e8d8ad6c22922f1de920c4d6761f05e1"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/command_log.jsonl",
+      "size_bytes": 219955,
+      "sha256": "c6247d7905e9ead1ce21013b666966d1292f067357f1a7e55fc08ceea5563b7b"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/contract.json",
+      "size_bytes": 2205,
+      "sha256": "709e3a5750e58c06e7221c7ce70041f97cb848e30e5afca66ecf03793fffad04"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/dispatch.json",
+      "size_bytes": 6778,
+      "sha256": "e6fd6a047c6c5a66608b48b880b0d8ad766ba62f39d0fc5df29a0bbdf672b485"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/events.jsonl",
+      "size_bytes": 1524092,
+      "sha256": "322bf3cc639096dad47d118615419dbcaf3f8cc8608f51ce8bba50c769f0f20e"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/evidence_inventory.json",
+      "size_bytes": 33935,
+      "sha256": "9cd138c72a51abcbc329a6704ffe744b06d14586bf79cc7fa10de6913646cc74"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/initial_state_verification.json",
+      "size_bytes": 818,
+      "sha256": "69d93d2a534cd5a73f3fa3f4aa349ad09b02f1511a7ae2140ce0a8fc16b90cde"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/manifest.json",
+      "size_bytes": 909,
+      "sha256": "f606fbb576d78d7b4468a2aee96cfedf49a8143821e43e79dc8d353e9ca044ef"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/00eaf921dd485b8c5da63f04d8f8e2c15905440f64acdead164c9af5975f9c75.jpg",
+      "size_bytes": 82417,
+      "sha256": "00eaf921dd485b8c5da63f04d8f8e2c15905440f64acdead164c9af5975f9c75"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/0e37b5c4b1760289f1cee66f15c22199e17e9d5bcf0fdfd1f0c5626111112bb2.jpg",
+      "size_bytes": 75186,
+      "sha256": "0e37b5c4b1760289f1cee66f15c22199e17e9d5bcf0fdfd1f0c5626111112bb2"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/0eedad9a60e30eb271cd95875dcdaee74181739623ac682364eed5045a7938b2.jpg",
+      "size_bytes": 82461,
+      "sha256": "0eedad9a60e30eb271cd95875dcdaee74181739623ac682364eed5045a7938b2"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/2830308ae95d662887d3f7b874a52650f517c89de0e71e51499aca84a102cafd.jpg",
+      "size_bytes": 79424,
+      "sha256": "2830308ae95d662887d3f7b874a52650f517c89de0e71e51499aca84a102cafd"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/2916e9ea864120042c586451c5f35264f3728c720792644e0d97291d40f33d75.jpg",
+      "size_bytes": 84031,
+      "sha256": "2916e9ea864120042c586451c5f35264f3728c720792644e0d97291d40f33d75"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/299fc2d388fa525996289da9c153796914b60ff756789a877ba760266a5aeb82.jpg",
+      "size_bytes": 82163,
+      "sha256": "299fc2d388fa525996289da9c153796914b60ff756789a877ba760266a5aeb82"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/2a2cb2f384e989c24375a4b729860c02e729ce77f4ce1277f3fe6c88ef3baaae.jpg",
+      "size_bytes": 74260,
+      "sha256": "2a2cb2f384e989c24375a4b729860c02e729ce77f4ce1277f3fe6c88ef3baaae"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/313152634006e406467497133dc6122297a4030ed26b4fa3ced3f537717c85e6.jpg",
+      "size_bytes": 77942,
+      "sha256": "313152634006e406467497133dc6122297a4030ed26b4fa3ced3f537717c85e6"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/32840e42de776eac99290806ff42118760c9e18e337dccb15c8d0eeb9e8461e4.jpg",
+      "size_bytes": 82731,
+      "sha256": "32840e42de776eac99290806ff42118760c9e18e337dccb15c8d0eeb9e8461e4"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/33186eaf4e7fa91e91792fc120e3aa7b6cf66fe8316f6a4729b20ec3bbbdb379.jpg",
+      "size_bytes": 71733,
+      "sha256": "33186eaf4e7fa91e91792fc120e3aa7b6cf66fe8316f6a4729b20ec3bbbdb379"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/4676d01db23d16449d2e7b97c78d7e0b384e7c15244bcb6f055375003411e3e4.jpg",
+      "size_bytes": 75645,
+      "sha256": "4676d01db23d16449d2e7b97c78d7e0b384e7c15244bcb6f055375003411e3e4"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/57418f6c44e31b1f99e94014df6f4f3a4684b13765a6c1c389daae6bcdb54dbb.jpg",
+      "size_bytes": 73941,
+      "sha256": "57418f6c44e31b1f99e94014df6f4f3a4684b13765a6c1c389daae6bcdb54dbb"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/59747322bad31ecb81525336cb1e9aeed59beb39c60d85ffe36b1c25df7efa2e.jpg",
+      "size_bytes": 77833,
+      "sha256": "59747322bad31ecb81525336cb1e9aeed59beb39c60d85ffe36b1c25df7efa2e"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/6417d04a387f5cd5b2bc53362d16030ab24c10d70cd748db35ae269411420012.jpg",
+      "size_bytes": 79864,
+      "sha256": "6417d04a387f5cd5b2bc53362d16030ab24c10d70cd748db35ae269411420012"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/67b7ad0eca628f6b72f8dad613bb4531eb237417dc8baad5c1bd2e76a966a644.jpg",
+      "size_bytes": 77723,
+      "sha256": "67b7ad0eca628f6b72f8dad613bb4531eb237417dc8baad5c1bd2e76a966a644"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/704a92575f71aab564561b5fa92c162bac38d125e2529c7b9a255de79d650df9.jpg",
+      "size_bytes": 67180,
+      "sha256": "704a92575f71aab564561b5fa92c162bac38d125e2529c7b9a255de79d650df9"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/7aae600d192366ad1acc4a691078209dfb173c31e5fb492aff8cf599a267e824.jpg",
+      "size_bytes": 86419,
+      "sha256": "7aae600d192366ad1acc4a691078209dfb173c31e5fb492aff8cf599a267e824"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/a261eb9ccf64b1e2db2f4b435e21afcc25c59e984ec9a4e59c80e462df31322b.jpg",
+      "size_bytes": 80121,
+      "sha256": "a261eb9ccf64b1e2db2f4b435e21afcc25c59e984ec9a4e59c80e462df31322b"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/a72642d2fc951d097d902de45c9e61c2e116b1552eb5feb8e5db5aa3798974a6.jpg",
+      "size_bytes": 80586,
+      "sha256": "a72642d2fc951d097d902de45c9e61c2e116b1552eb5feb8e5db5aa3798974a6"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/a7bbabe0111340ed2538314d68a91163be2d18e4171c7a672769eedc0799ff13.jpg",
+      "size_bytes": 74696,
+      "sha256": "a7bbabe0111340ed2538314d68a91163be2d18e4171c7a672769eedc0799ff13"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/bd66d4e95cd02eacc4a682ade65c369ee6e0ef7968c30ff506102f651b5eee07.jpg",
+      "size_bytes": 78263,
+      "sha256": "bd66d4e95cd02eacc4a682ade65c369ee6e0ef7968c30ff506102f651b5eee07"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/bf7ef31a75bc8d4d6f953aed91b698ecf600ce3f81928a6148ef9202d44720ed.jpg",
+      "size_bytes": 67707,
+      "sha256": "bf7ef31a75bc8d4d6f953aed91b698ecf600ce3f81928a6148ef9202d44720ed"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/c04f235021f325733dd30c110715e16195feb00a94e78c642dc3be898ca2bcf9.jpg",
+      "size_bytes": 72273,
+      "sha256": "c04f235021f325733dd30c110715e16195feb00a94e78c642dc3be898ca2bcf9"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/c538ba17c19a8392d9a2b2b6481265e8185b10c4c4a34d25fd0b2c45ef11eaeb.jpg",
+      "size_bytes": 71105,
+      "sha256": "c538ba17c19a8392d9a2b2b6481265e8185b10c4c4a34d25fd0b2c45ef11eaeb"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/d27ac898e933a5ca2181baf9857dce6be3dbec0284b7bd851a205a1eee95f332.jpg",
+      "size_bytes": 72447,
+      "sha256": "d27ac898e933a5ca2181baf9857dce6be3dbec0284b7bd851a205a1eee95f332"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/d7904b83118980f5e0d7db21c2f0914adb3595d063e0e6e4b95b718c1d03e893.jpg",
+      "size_bytes": 78905,
+      "sha256": "d7904b83118980f5e0d7db21c2f0914adb3595d063e0e6e4b95b718c1d03e893"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/e1ad03f8225445dce2fdce5e247e9e93a80ea03f9e8c54d481446bddfed2500f.jpg",
+      "size_bytes": 73738,
+      "sha256": "e1ad03f8225445dce2fdce5e247e9e93a80ea03f9e8c54d481446bddfed2500f"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/e2512a50e8dfaba08869a71244cd4bb4a0992b9422c78eaa737a86ecf2f02e25.jpg",
+      "size_bytes": 74473,
+      "sha256": "e2512a50e8dfaba08869a71244cd4bb4a0992b9422c78eaa737a86ecf2f02e25"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/e79a7936c79a383215a0ce9d9736e19086f5c84e10126f04def5e1e1861ef4d3.jpg",
+      "size_bytes": 79593,
+      "sha256": "e79a7936c79a383215a0ce9d9736e19086f5c84e10126f04def5e1e1861ef4d3"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/e7ceaf34f06b495288148af8a6c98a0aa5a6e0ebd4c1424522847eab230d88d7.jpg",
+      "size_bytes": 81683,
+      "sha256": "e7ceaf34f06b495288148af8a6c98a0aa5a6e0ebd4c1424522847eab230d88d7"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/eb96224dde0877f8d04a3619392b9ea6c094558f17e194609fdfae3fdfc679a3.jpg",
+      "size_bytes": 81094,
+      "sha256": "eb96224dde0877f8d04a3619392b9ea6c094558f17e194609fdfae3fdfc679a3"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/ecb669ac2a62e453b0cf3f1e3bcf056698a07e4c00369d254fa2a1aed23e5bd2.jpg",
+      "size_bytes": 70551,
+      "sha256": "ecb669ac2a62e453b0cf3f1e3bcf056698a07e4c00369d254fa2a1aed23e5bd2"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/fe2297370506878a392fc9d4d7139319c303162c3ee73f9a43eb49d03395fe5b.jpg",
+      "size_bytes": 77723,
+      "sha256": "fe2297370506878a392fc9d4d7139319c303162c3ee73f9a43eb49d03395fe5b"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_images/ff73d83b9cab18e700539697f10757602cbef2fb5f395769b90fac3a0cfb405c.jpg",
+      "size_bytes": 81826,
+      "sha256": "ff73d83b9cab18e700539697f10757602cbef2fb5f395769b90fac3a0cfb405c"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_result.json",
+      "size_bytes": 3462,
+      "sha256": "0014cf10302a5e8c088e33929a0058b11bf473aeb303ad8c823e1b537a55b4ad"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/model_transcript.jsonl",
+      "size_bytes": 9953137,
+      "sha256": "6dc9513afe8cb93e5e823ca904c6634a78ecdc9cec7c5cef89555d7432eeb22e"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0001/contact_sheet.jpg",
+      "size_bytes": 81094,
+      "sha256": "eb96224dde0877f8d04a3619392b9ea6c094558f17e194609fdfae3fdfc679a3"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0001/front.png",
+      "size_bytes": 344656,
+      "sha256": "61a4240cbdd0b8139b4e4198b5889329ec37919995523073947a3ad92b0493f1"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0001/observation.json",
+      "size_bytes": 2125,
+      "sha256": "1603458e0f89fbfe3429d764faa4ae9fcc0fe61f09e03b7cabf124ca5ea98f8e"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0001/wrist.png",
+      "size_bytes": 291068,
+      "sha256": "3e3c585896fd2adf8d576f1f96c6cf37825e33d2f505958dde1c4f6915aa17d5"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0002/contact_sheet.jpg",
+      "size_bytes": 81094,
+      "sha256": "eb96224dde0877f8d04a3619392b9ea6c094558f17e194609fdfae3fdfc679a3"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0002/front.png",
+      "size_bytes": 344656,
+      "sha256": "61a4240cbdd0b8139b4e4198b5889329ec37919995523073947a3ad92b0493f1"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0002/observation.json",
+      "size_bytes": 2125,
+      "sha256": "3a43d7ac190e7cc02bf086dc6a85a856ef96d0ef6996f2f572b431d388f61121"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0002/wrist.png",
+      "size_bytes": 291068,
+      "sha256": "3e3c585896fd2adf8d576f1f96c6cf37825e33d2f505958dde1c4f6915aa17d5"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0003/contact_sheet.jpg",
+      "size_bytes": 81826,
+      "sha256": "ff73d83b9cab18e700539697f10757602cbef2fb5f395769b90fac3a0cfb405c"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0003/front.png",
+      "size_bytes": 345690,
+      "sha256": "1d2dd6bedbc26404101475cab04ebdd2ff149afa6878dc33f0976b47618410cb"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0003/observation.json",
+      "size_bytes": 2620,
+      "sha256": "16a28eea272fb9b756cab325372ef6e2086f761d3e8cc3c1489acff4962e3aa5"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0003/wrist.png",
+      "size_bytes": 276376,
+      "sha256": "3a2e6d8fa20867b24ad80e5bec1fac86724c77c6f3a690aba505de3a487b5b1d"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0004/contact_sheet.jpg",
+      "size_bytes": 82163,
+      "sha256": "299fc2d388fa525996289da9c153796914b60ff756789a877ba760266a5aeb82"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0004/front.png",
+      "size_bytes": 346654,
+      "sha256": "c11cc77677ab0b7ae7fc7e4133e18b85d0fd79eee63c970f0412555d54a47eb5"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0004/observation.json",
+      "size_bytes": 2619,
+      "sha256": "3f8ad36a0fe667f3663941d7ce7bf7c0faf307602a8429e8cd358c3a2714c6f1"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0004/wrist.png",
+      "size_bytes": 250854,
+      "sha256": "94303b596a0fc40e003107f260e798817dcb91873b5c54109e33060f29fc648c"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0005/contact_sheet.jpg",
+      "size_bytes": 74473,
+      "sha256": "e2512a50e8dfaba08869a71244cd4bb4a0992b9422c78eaa737a86ecf2f02e25"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0005/front.png",
+      "size_bytes": 346557,
+      "sha256": "27f54345276fb7311054ee8fc578b45e57de173bdbdacd0ea48f1af671fda9c5"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0005/observation.json",
+      "size_bytes": 2615,
+      "sha256": "99fdb2680674b64d93f1d32b15b66f4a1a985b5652471c1eab37149fa347174d"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0005/wrist.png",
+      "size_bytes": 199373,
+      "sha256": "8eab4261ccd369b08ea6aa9d32a7cfe422338e5dd6b99d68da2940249439bf89"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0006/contact_sheet.jpg",
+      "size_bytes": 74260,
+      "sha256": "2a2cb2f384e989c24375a4b729860c02e729ce77f4ce1277f3fe6c88ef3baaae"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0006/front.png",
+      "size_bytes": 345407,
+      "sha256": "e40121196fede86970175fa6d632efa8c09b377d6f578365eb85a07d97058799"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0006/observation.json",
+      "size_bytes": 2614,
+      "sha256": "12a28bfa9bda207cc264f8a3b8bd5840125d52d1fd262ee3624e146431ec165d"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0006/wrist.png",
+      "size_bytes": 222714,
+      "sha256": "95876777df4b8664f000e1f5ba43fb34deeb99f3fc0b3ed02ee7d41f7c5ab806"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0007/contact_sheet.jpg",
+      "size_bytes": 77723,
+      "sha256": "67b7ad0eca628f6b72f8dad613bb4531eb237417dc8baad5c1bd2e76a966a644"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0007/front.png",
+      "size_bytes": 345485,
+      "sha256": "fba3abef1d19baf5451aa2a0699b0f3f99caa65d4e08efdf6eaa9183a805d58a"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0007/observation.json",
+      "size_bytes": 2540,
+      "sha256": "d433e76ff3a015fe2843b1ef3df3e002205034d3911a4d0abc48559fd88ea7a7"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0007/wrist.png",
+      "size_bytes": 241891,
+      "sha256": "557e0b0ffed878146df6c2db2cb46aa5a07a945e4448dd1539a2b695b20d8e8d"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0008/contact_sheet.jpg",
+      "size_bytes": 78263,
+      "sha256": "bd66d4e95cd02eacc4a682ade65c369ee6e0ef7968c30ff506102f651b5eee07"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0008/front.png",
+      "size_bytes": 344780,
+      "sha256": "9c5275f742105bf24e23b335e00fa0f1371575a0564d2e3e5ea6348c163ad734"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0008/observation.json",
+      "size_bytes": 2566,
+      "sha256": "b5576f57266460c2b1d022610194c27af0fc504391a85fda25e0b12afbd86b84"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0008/wrist.png",
+      "size_bytes": 250924,
+      "sha256": "4ab233cf287f66b45348ada718cd43518d6df27ac478ff8f958b9f9d548bb79c"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0009/contact_sheet.jpg",
+      "size_bytes": 73941,
+      "sha256": "57418f6c44e31b1f99e94014df6f4f3a4684b13765a6c1c389daae6bcdb54dbb"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0009/front.png",
+      "size_bytes": 341164,
+      "sha256": "bb9e67721c54a9ee31ff9a8cb77abbc9711fea03ce20ee5a4ae8e691567fa8fd"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0009/observation.json",
+      "size_bytes": 2515,
+      "sha256": "57b6310f936de623fc1ab80858d64a5fe0ee4f457b94896adace6a0f6bdd9634"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0009/wrist.png",
+      "size_bytes": 166682,
+      "sha256": "3f3c435ee5d65639a9d79bd8768b34025e7a4caaedf0326e682c7b8349472447"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0010/contact_sheet.jpg",
+      "size_bytes": 79424,
+      "sha256": "2830308ae95d662887d3f7b874a52650f517c89de0e71e51499aca84a102cafd"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0010/front.png",
+      "size_bytes": 342381,
+      "sha256": "eb7019f3164edd1b4940fb197d012f6f572ee5b858ed65cd3be570439f261d2a"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0010/observation.json",
+      "size_bytes": 2452,
+      "sha256": "ffcb25695264bd6ec42c312be097d11db36d5fe87eb7834be7485292fca298b8"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0010/wrist.png",
+      "size_bytes": 207463,
+      "sha256": "754e1728b3f9ccd39a84090ab1ee6f6febd7e29de9c01a219831b7c65e805716"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0011/contact_sheet.jpg",
+      "size_bytes": 82461,
+      "sha256": "0eedad9a60e30eb271cd95875dcdaee74181739623ac682364eed5045a7938b2"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0011/front.png",
+      "size_bytes": 342181,
+      "sha256": "6da4af1898c44fc195138e89a695b6c6bc30be6d060596407cda0f4f1a4cfc5f"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0011/observation.json",
+      "size_bytes": 2469,
+      "sha256": "be7d947f5b56aaea9c0fb23704f892fbba536493fc7e0d8c08a93f9000e75068"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0011/wrist.png",
+      "size_bytes": 212478,
+      "sha256": "ec3e43700a1effe28289df3c51db6893d5eacacf97989bda5c3de0d88e912580"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0012/contact_sheet.jpg",
+      "size_bytes": 80121,
+      "sha256": "a261eb9ccf64b1e2db2f4b435e21afcc25c59e984ec9a4e59c80e462df31322b"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0012/front.png",
+      "size_bytes": 338300,
+      "sha256": "deace974b7995c39a12e1befdddb35e05fcc19a325e6d831f3e08101c33acb6b"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0012/observation.json",
+      "size_bytes": 2470,
+      "sha256": "50b2926770223711cbd67eafbfa84f6a2f56f52ea73b489003b569477bee2e1b"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0012/wrist.png",
+      "size_bytes": 229850,
+      "sha256": "922103e1a1e5c566784ec82d80a251388f29f022753cd7def0a6117d63179837"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0013/contact_sheet.jpg",
+      "size_bytes": 81683,
+      "sha256": "e7ceaf34f06b495288148af8a6c98a0aa5a6e0ebd4c1424522847eab230d88d7"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0013/front.png",
+      "size_bytes": 343875,
+      "sha256": "6e1c2f0d5ec1f11b4a6aa68819d97f463db15d9193ded05ccb3804b4cc98d9bb"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0013/observation.json",
+      "size_bytes": 2508,
+      "sha256": "5a3526aea61251f07ffb68c46ac0d27848c55135bc7a87646aa9c7ebb99bb6ce"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0013/wrist.png",
+      "size_bytes": 221802,
+      "sha256": "b8e6137ea8ecbc5ee5bb92e51dde3b5907cc68b49c3a3f27f9e819b92b13dec0"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0014/contact_sheet.jpg",
+      "size_bytes": 84031,
+      "sha256": "2916e9ea864120042c586451c5f35264f3728c720792644e0d97291d40f33d75"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0014/front.png",
+      "size_bytes": 345696,
+      "sha256": "595fe04a1d193b79b1017d7223cfd318719b4ac3c20d266ee1e74b132a42f27f"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0014/observation.json",
+      "size_bytes": 2522,
+      "sha256": "ceffca089f9278b6756e882c3788c036866cc703b62abe3ddd64f022fdef332e"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0014/wrist.png",
+      "size_bytes": 238249,
+      "sha256": "e503d5ea82f8274924dbc65dce579c2a676294201a3ce047be526bb814383bf3"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0015/contact_sheet.jpg",
+      "size_bytes": 77833,
+      "sha256": "59747322bad31ecb81525336cb1e9aeed59beb39c60d85ffe36b1c25df7efa2e"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0015/front.png",
+      "size_bytes": 347709,
+      "sha256": "5b177e9c4847939d2ab6b71cd126b7334973523a4fb6ba1d4b96abe705446724"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0015/observation.json",
+      "size_bytes": 2582,
+      "sha256": "74b617b97fb348265fe24701fec88ec286226c09955d3516d48dd5a3f5180322"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0015/wrist.png",
+      "size_bytes": 218325,
+      "sha256": "40cf0b91e329f8a51b74bbaf352f5b4534a6d3a74eb042849a7431a70aa16a5c"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0016/contact_sheet.jpg",
+      "size_bytes": 72273,
+      "sha256": "c04f235021f325733dd30c110715e16195feb00a94e78c642dc3be898ca2bcf9"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0016/front.png",
+      "size_bytes": 346842,
+      "sha256": "9b6725f0cb231a0cca380a6e7a6b5d2fed6bff75496b86fbf598f07fe4d797c6"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0016/observation.json",
+      "size_bytes": 2588,
+      "sha256": "335fc8e8edcfbac2f621f39367940ea37d42bb76cfa01d24d0ac2bfc34622f7b"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0016/wrist.png",
+      "size_bytes": 206311,
+      "sha256": "3c293cb3b087d8996364fcf603bff171c966d5880826d62664d44130ae817044"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0017/contact_sheet.jpg",
+      "size_bytes": 72447,
+      "sha256": "d27ac898e933a5ca2181baf9857dce6be3dbec0284b7bd851a205a1eee95f332"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0017/front.png",
+      "size_bytes": 346026,
+      "sha256": "63f2e15854b99de1aecefa1223da7dab4e3cc208d0a39983a5ea2ed6c868799f"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0017/observation.json",
+      "size_bytes": 2482,
+      "sha256": "b7194e12555c094178d71a98de6bd4889b6b32e4a3bdc27593c331c774d2337f"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0017/wrist.png",
+      "size_bytes": 187461,
+      "sha256": "05d1959ac8a5dbd5d3dd546907b8e5b597ddb38f34a78b233edc171779b4147f"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0018/contact_sheet.jpg",
+      "size_bytes": 75186,
+      "sha256": "0e37b5c4b1760289f1cee66f15c22199e17e9d5bcf0fdfd1f0c5626111112bb2"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0018/front.png",
+      "size_bytes": 346533,
+      "sha256": "692dcee805d775cfdca94407bfcf12cffacf468312897bafcb15827f1416af2b"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0018/observation.json",
+      "size_bytes": 2496,
+      "sha256": "edc2968302a566da3270ed90f8802aa826ed38d027eff3f9ede28bc45300b9f6"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0018/wrist.png",
+      "size_bytes": 219508,
+      "sha256": "8d8bcdc9df7baa6a971206c0693091b0051c67327576d5085662a7098366bb73"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0019/contact_sheet.jpg",
+      "size_bytes": 79864,
+      "sha256": "6417d04a387f5cd5b2bc53362d16030ab24c10d70cd748db35ae269411420012"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0019/front.png",
+      "size_bytes": 345008,
+      "sha256": "97fd69d2b0a2d3697e8aacc60ac6a7d0a9207c67314521285d3ccf002a28c724"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0019/observation.json",
+      "size_bytes": 2457,
+      "sha256": "17f7d45052a67ddc82b77b3ae9e4efb5b74dd7052b26ffcc31e18a5d8a7b09eb"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0019/wrist.png",
+      "size_bytes": 279862,
+      "sha256": "5ee1aad65582ef1274f4c7344ca911ee24036761df1a73035691d90f0aef1431"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0020/contact_sheet.jpg",
+      "size_bytes": 78905,
+      "sha256": "d7904b83118980f5e0d7db21c2f0914adb3595d063e0e6e4b95b718c1d03e893"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0020/front.png",
+      "size_bytes": 345091,
+      "sha256": "21505ff5f36fac9eca5b5a1974236468b9d10bebe61b57628bb669cca13a4a38"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0020/observation.json",
+      "size_bytes": 2457,
+      "sha256": "da82b0a98d7b24f0b75ae65eeee8c39a1faa651fe636dab6a65bb8fa98b2bbf0"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0020/wrist.png",
+      "size_bytes": 285512,
+      "sha256": "473a7f487dbb6ab9574bd38042ac97baebfde9feb510a851fbdc08418d45727c"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0021/contact_sheet.jpg",
+      "size_bytes": 82731,
+      "sha256": "32840e42de776eac99290806ff42118760c9e18e337dccb15c8d0eeb9e8461e4"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0021/front.png",
+      "size_bytes": 346153,
+      "sha256": "8804a3cf33bf513423e9f5c0a3a8fab206a874c840254535ac3ec0b02bb32e0e"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0021/observation.json",
+      "size_bytes": 2512,
+      "sha256": "0f4cc32c93be00a6c02e6cf155909262ef9e2e1435e0f3d0d7bf99635263376a"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0021/wrist.png",
+      "size_bytes": 235248,
+      "sha256": "cc1e29dec6bf672e32d87988455550192fbcfc948859e118c048f2090fb14e32"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0022/contact_sheet.jpg",
+      "size_bytes": 77942,
+      "sha256": "313152634006e406467497133dc6122297a4030ed26b4fa3ced3f537717c85e6"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0022/front.png",
+      "size_bytes": 342993,
+      "sha256": "e80df02f77c597576a55192605104e6fffc8de65894069820d784fd1b9713f5d"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0022/observation.json",
+      "size_bytes": 2520,
+      "sha256": "d68759ba4f65f50f606d1aac0f5ccf6789cda783ef334de0f86a61fadacc99bf"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0022/wrist.png",
+      "size_bytes": 221319,
+      "sha256": "eaeb9f7546f94c6beb9194130af540e5c2bcf2e50bbb7cc2115c21036ae0776f"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0023/contact_sheet.jpg",
+      "size_bytes": 71733,
+      "sha256": "33186eaf4e7fa91e91792fc120e3aa7b6cf66fe8316f6a4729b20ec3bbbdb379"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0023/front.png",
+      "size_bytes": 345148,
+      "sha256": "27b8fd2c9b62d4b57119d9747d49c7a7fcf4c6689699d50a1a95b254055b92df"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0023/observation.json",
+      "size_bytes": 2523,
+      "sha256": "b06695c11ed1c540edebc51d7cd34b402ea94c15dd01fa8aa6eb6fb38e25fe96"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0023/wrist.png",
+      "size_bytes": 185346,
+      "sha256": "ec55da4433129b0ee79f02318e597f2a3242325ed5edb5871f9655981a26d5ae"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0024/contact_sheet.jpg",
+      "size_bytes": 71105,
+      "sha256": "c538ba17c19a8392d9a2b2b6481265e8185b10c4c4a34d25fd0b2c45ef11eaeb"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0024/front.png",
+      "size_bytes": 344361,
+      "sha256": "052453aea9d1cdce70e3e256f6e1fac1581ae5e9da942d26cfad763601ce0857"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0024/observation.json",
+      "size_bytes": 2575,
+      "sha256": "f88d1697349cb6621e93049a8b9d54bf5efb6725067e8ed7c97b925957128672"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0024/wrist.png",
+      "size_bytes": 206392,
+      "sha256": "543df923de6d1be59db7fa605a8c96be1e894ca8204186e7bc3301b66a20342a"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0025/contact_sheet.jpg",
+      "size_bytes": 75645,
+      "sha256": "4676d01db23d16449d2e7b97c78d7e0b384e7c15244bcb6f055375003411e3e4"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0025/front.png",
+      "size_bytes": 342508,
+      "sha256": "dc7161e72c02b4d9596b992e41cae4c058697d66f895909902203121f20ff769"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0025/observation.json",
+      "size_bytes": 2546,
+      "sha256": "72c0e8f861d803061d096fa0baa005cbafd33981e4d487a7e5f85b435dd020f9"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0025/wrist.png",
+      "size_bytes": 209327,
+      "sha256": "924db933a5148151e864a1b5ccee0ab279c6b22cd4c233c149c1e2a0d3a1ee5d"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0026/contact_sheet.jpg",
+      "size_bytes": 74696,
+      "sha256": "a7bbabe0111340ed2538314d68a91163be2d18e4171c7a672769eedc0799ff13"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0026/front.png",
+      "size_bytes": 341779,
+      "sha256": "c64e811ca71866757b5d045e423d939b98b71e545df21d610d5cf449cbf06769"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0026/observation.json",
+      "size_bytes": 2518,
+      "sha256": "99904c15100c6de4e87082d792f45dcd7fc3b830335d2bf4e92eb839fd23fb37"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0026/wrist.png",
+      "size_bytes": 222382,
+      "sha256": "6488d21163bf6750bc503c1cbe193ec5d3ced4956463f2a46774e8c5cbc73bc5"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0027/contact_sheet.jpg",
+      "size_bytes": 73738,
+      "sha256": "e1ad03f8225445dce2fdce5e247e9e93a80ea03f9e8c54d481446bddfed2500f"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0027/front.png",
+      "size_bytes": 341347,
+      "sha256": "eafcabba7b348a91d80d9e090fc9f66433d88a40d3778526b648cc4c40345917"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0027/observation.json",
+      "size_bytes": 2515,
+      "sha256": "308e515c333b419f9a45c5454a1a49792c15bc5fb27ba9e4ed93230756bf1824"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0027/wrist.png",
+      "size_bytes": 197219,
+      "sha256": "67100e64f2a8b87a933379935ea7e657ef68bcedf3d3c05694f923605ab09253"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0028/contact_sheet.jpg",
+      "size_bytes": 77723,
+      "sha256": "fe2297370506878a392fc9d4d7139319c303162c3ee73f9a43eb49d03395fe5b"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0028/front.png",
+      "size_bytes": 343184,
+      "sha256": "0d5bf8ec602c8b91a4b8a47c040d4885c96f22f56cf2f264762240fea3b1eef9"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0028/observation.json",
+      "size_bytes": 2510,
+      "sha256": "de8dbf90ce09bc063a51cda5d42516d4e6275bb54bc60731b85a2e9421a78358"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0028/wrist.png",
+      "size_bytes": 199317,
+      "sha256": "4096b3df9017bbd47ff0a2134a34e0caa4c695581410475aff3228c0e1b16762"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0029/contact_sheet.jpg",
+      "size_bytes": 67707,
+      "sha256": "bf7ef31a75bc8d4d6f953aed91b698ecf600ce3f81928a6148ef9202d44720ed"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0029/front.png",
+      "size_bytes": 345833,
+      "sha256": "15949324ef766147e6c762e5b4bfadacf02180210323b8516ed88d49df490bf7"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0029/observation.json",
+      "size_bytes": 2539,
+      "sha256": "d933a005460dc67ffabcfeef4cdc2b2bee82e3fe81f457458c527bc64b26c399"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0029/wrist.png",
+      "size_bytes": 163453,
+      "sha256": "8442029272492e71bece31d08e99f8c6b23e7a1640363c3bb3c9328d9391aee8"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0030/contact_sheet.jpg",
+      "size_bytes": 67180,
+      "sha256": "704a92575f71aab564561b5fa92c162bac38d125e2529c7b9a255de79d650df9"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0030/front.png",
+      "size_bytes": 344656,
+      "sha256": "3bae20111fea25855edd8fa261041683f685f5649f9b152f04826dba1d6e4c43"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0030/observation.json",
+      "size_bytes": 2565,
+      "sha256": "3265732c4e18a90c0d103ae66fd40f64ee9947c655afa481c003b683f1a2c8ad"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0030/wrist.png",
+      "size_bytes": 170862,
+      "sha256": "ad689323a70d9d1b2dd5cfef02dcef94cbeca8632c6afc509268846b4c866541"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0031/contact_sheet.jpg",
+      "size_bytes": 70551,
+      "sha256": "ecb669ac2a62e453b0cf3f1e3bcf056698a07e4c00369d254fa2a1aed23e5bd2"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0031/front.png",
+      "size_bytes": 344262,
+      "sha256": "2499d09dd768a99707a07b88727041c667f0a5128cc7d7626da93f6571c9a8fb"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0031/observation.json",
+      "size_bytes": 2527,
+      "sha256": "733a367134d63d0e5784987b390d21c64495a59d472ff20228aad4c4cacc13e2"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0031/wrist.png",
+      "size_bytes": 154035,
+      "sha256": "56ed31552c29fa4648e0f077685093f5e757cde217d7d243f177bd6c93c0a03f"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0032/contact_sheet.jpg",
+      "size_bytes": 86419,
+      "sha256": "7aae600d192366ad1acc4a691078209dfb173c31e5fb492aff8cf599a267e824"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0032/front.png",
+      "size_bytes": 343762,
+      "sha256": "2e334cb93fa6a8acb310d52ea7873f04faf675f42bdb1ad96e96c6d0a9f2d05c"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0032/observation.json",
+      "size_bytes": 2679,
+      "sha256": "848f94d9adaca6d0d5efe23a5e6b28107ec2fa91d7492ed1ee274e5fa9c496d8"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0032/wrist.png",
+      "size_bytes": 301228,
+      "sha256": "ed195628786fc905486c9266d608c963856b4ced98143abd79cf191ef96a6ef0"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0033/contact_sheet.jpg",
+      "size_bytes": 80586,
+      "sha256": "a72642d2fc951d097d902de45c9e61c2e116b1552eb5feb8e5db5aa3798974a6"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0033/front.png",
+      "size_bytes": 341769,
+      "sha256": "7d8254b38871c7715f96c6d1081d6108fea3582bcf9e39ca83391948ecbdd6ad"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0033/observation.json",
+      "size_bytes": 2487,
+      "sha256": "77353144db05bec278a2a855fed617fd4928bdf8e433b7cbfd6e5347d88bdb42"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0033/wrist.png",
+      "size_bytes": 275414,
+      "sha256": "20a045ae62ceae177a439a1f541d82ac50685dec2a3a06209f9441e9a5b523e4"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0034/contact_sheet.jpg",
+      "size_bytes": 82417,
+      "sha256": "00eaf921dd485b8c5da63f04d8f8e2c15905440f64acdead164c9af5975f9c75"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0034/front.png",
+      "size_bytes": 342987,
+      "sha256": "480f9daed44621953b4aa80fed3f895e04154fcad8d2096ddb8a43aaf3bd6baa"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0034/observation.json",
+      "size_bytes": 2526,
+      "sha256": "f9e76b2df519ecae10ede278a33417c05b47f8319570e377487616a8f4f96e3e"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0034/wrist.png",
+      "size_bytes": 202233,
+      "sha256": "bdf78f5e6f1521491d56b4a39226e7c80f90a60506d2423f69b8ccdf9df30dff"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0035/contact_sheet.jpg",
+      "size_bytes": 79593,
+      "sha256": "e79a7936c79a383215a0ce9d9736e19086f5c84e10126f04def5e1e1861ef4d3"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0035/front.png",
+      "size_bytes": 343938,
+      "sha256": "73d124b1e609af0d50cc1d37c23d9083c75160d58ed204a8b1e60c2e9e2a1578"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0035/observation.json",
+      "size_bytes": 2706,
+      "sha256": "0038bc3122f6ec7f8428afab4b4dc1e27edac784347d0e5d190dfdf25eb5ada9"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0035/wrist.png",
+      "size_bytes": 201628,
+      "sha256": "2d776a770d9483edf0b105246ed5c517f2ea7a470195e3839d8e51791d815d36"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0036/contact_sheet.jpg",
+      "size_bytes": 79057,
+      "sha256": "d7a77d08203ad7f147a5639d40dd4bfd55ec436c3032422a1e5d289b79a20990"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0036/front.png",
+      "size_bytes": 342714,
+      "sha256": "33751eabb0c7720470f6ca90e5d911c67eeef21c9cbe5e6a62773cc0dd32dc37"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0036/observation.json",
+      "size_bytes": 2720,
+      "sha256": "1f2d456d2cafe2dcb687187ee9b29b1934a0e53da7ff70ef1703e7708711cbdf"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/obs-0036/wrist.png",
+      "size_bytes": 202446,
+      "sha256": "1b8e37c023d93cbfb300172cc967093d00458fa472064980896a55ec01bc0f70"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/redaction_manifest.json",
+      "size_bytes": 122,
+      "sha256": "4d6ae0615b94fc34d6ee9412a8f3e01ac46b10f322982240a7cc9c572917fa92"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/runner-log.txt",
+      "size_bytes": 81,
+      "sha256": "7938856d66e1570618bd01014860d8c463ebee6c4ba9f51f349206d2b825afb7"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/source_path_mapping.json",
+      "size_bytes": 181803,
+      "sha256": "5453dfbd9abb2b923dff44ce20795390303716ea5900c77a03a0888fb6586742"
+    },
+    {
+      "path": "episodes/water_plant/trial04-attempt01/summary.json",
+      "size_bytes": 952,
+      "sha256": "2f597c588c74afd9393a63284c572ec2a74a15f654a393e2f7de41af2813b46c"
+    },
+    {
       "path": "recovery/unknown-process-exit-20261014/recovery_continuation.py",
       "size_bytes": 11919,
       "sha256": "331c3c76325ddc984554000c80f026f256f55c909b21b5ce27aef5a26f364651"
@@ -28109,13 +29089,13 @@
     },
     {
       "path": "report.md",
-      "size_bytes": 7931,
-      "sha256": "81bb033d6a507ed460ba6f3a5a6a5d40f1f164dd2bcd6a10062b4cb7354d0335"
+      "size_bytes": 8088,
+      "sha256": "483f0b7bb2347ef8ff162295775d558eda4334145d2522f4cd42d73444365175"
     },
     {
       "path": "task_results.csv",
-      "size_bytes": 1168,
-      "sha256": "1a9ea4855666121c79eedcb7fbf96b7d16117bb00a000b056fba623008172706"
+      "size_bytes": 1172,
+      "sha256": "aac37927feb1d29185ad20c3e6138b33074bda59cf3d13c6d12cc4e64b85bc14"
     }
   ],
   "excluded_from_hashing": [
