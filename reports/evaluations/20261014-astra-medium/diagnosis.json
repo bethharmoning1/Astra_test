@@ -1,0 +1,1753 @@
+{
+  "generated_at": "2026-10-14T11:25:00.178713+00:00",
+  "scored_episodes": 55,
+  "total_attempts": 58,
+  "successes": 5,
+  "reasons": {
+    "official_success": 5,
+    "native_step_limit": 40,
+    "agent_gave_up": 2,
+    "official_failure": 8
+  },
+  "tasks": [
+    {
+      "task": "click_mouse",
+      "scored": 5,
+      "successes": 4,
+      "success_rate": 0.8,
+      "reasons": {
+        "official_success": 4,
+        "native_step_limit": 1
+      },
+      "api_errors": 1,
+      "validation_errors": 0
+    },
+    {
+      "task": "fold_glasses",
+      "scored": 5,
+      "successes": 1,
+      "success_rate": 0.2,
+      "reasons": {
+        "native_step_limit": 4,
+        "official_success": 1
+      },
+      "api_errors": 1,
+      "validation_errors": 2
+    },
+    {
+      "task": "hammer_nail",
+      "scored": 5,
+      "successes": 0,
+      "success_rate": 0.0,
+      "reasons": {
+        "native_step_limit": 5
+      },
+      "api_errors": 3,
+      "validation_errors": 0
+    },
+    {
+      "task": "pick_bucket",
+      "scored": 5,
+      "successes": 0,
+      "success_rate": 0.0,
+      "reasons": {
+        "native_step_limit": 4,
+        "agent_gave_up": 1
+      },
+      "api_errors": 0,
+      "validation_errors": 1
+    },
+    {
+      "task": "pinch_tongs",
+      "scored": 5,
+      "successes": 0,
+      "success_rate": 0.0,
+      "reasons": {
+        "native_step_limit": 5
+      },
+      "api_errors": 1,
+      "validation_errors": 1
+    },
+    {
+      "task": "water_plant",
+      "scored": 5,
+      "successes": 0,
+      "success_rate": 0.0,
+      "reasons": {
+        "native_step_limit": 4,
+        "agent_gave_up": 1
+      },
+      "api_errors": 0,
+      "validation_errors": 0
+    },
+    {
+      "task": "bimanual_assembly",
+      "scored": 5,
+      "successes": 0,
+      "success_rate": 0.0,
+      "reasons": {
+        "native_step_limit": 5
+      },
+      "api_errors": 0,
+      "validation_errors": 0
+    },
+    {
+      "task": "bimanual_hanoi",
+      "scored": 5,
+      "successes": 0,
+      "success_rate": 0.0,
+      "reasons": {
+        "official_failure": 3,
+        "native_step_limit": 2
+      },
+      "api_errors": 0,
+      "validation_errors": 0
+    },
+    {
+      "task": "bimanual_microwave_cook",
+      "scored": 5,
+      "successes": 0,
+      "success_rate": 0.0,
+      "reasons": {
+        "native_step_limit": 5
+      },
+      "api_errors": 0,
+      "validation_errors": 0
+    },
+    {
+      "task": "bimanual_photograph",
+      "scored": 5,
+      "successes": 0,
+      "success_rate": 0.0,
+      "reasons": {
+        "native_step_limit": 5
+      },
+      "api_errors": 1,
+      "validation_errors": 0
+    },
+    {
+      "task": "bimanual_unlock_ipad",
+      "scored": 5,
+      "successes": 0,
+      "success_rate": 0.0,
+      "reasons": {
+        "official_failure": 5
+      },
+      "api_errors": 0,
+      "validation_errors": 0
+    }
+  ],
+  "episodes": [
+    {
+      "task": "click_mouse",
+      "trial_index": 1,
+      "attempt_id": "trial01-attempt01",
+      "succeed": true,
+      "reason": "official_success",
+      "steps": 694,
+      "action_calls": 24,
+      "evidence_path": "episodes/click_mouse/trial01-attempt01",
+      "model_requests": 25,
+      "validation_errors": 0,
+      "api_errors": 1,
+      "accepted_request_steps": {
+        "30": 24
+      },
+      "operations": {
+        "move": 17,
+        "hold": 7
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "hammer_nail",
+      "trial_index": 1,
+      "attempt_id": "trial01-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/hammer_nail/trial01-attempt01",
+      "model_requests": 36,
+      "validation_errors": 0,
+      "api_errors": 2,
+      "accepted_request_steps": {
+        "25": 2,
+        "30": 31,
+        "20": 1
+      },
+      "operations": {
+        "move": 27,
+        "hold": 7
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "fold_glasses",
+      "trial_index": 1,
+      "attempt_id": "trial01-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1200,
+      "action_calls": 41,
+      "evidence_path": "episodes/fold_glasses/trial01-attempt01",
+      "model_requests": 42,
+      "validation_errors": 0,
+      "api_errors": 1,
+      "accepted_request_steps": {
+        "20": 1,
+        "30": 38,
+        "25": 1,
+        "15": 1
+      },
+      "operations": {
+        "move": 32,
+        "hold": 9
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "click_mouse",
+      "trial_index": 2,
+      "attempt_id": "trial02-attempt01",
+      "succeed": true,
+      "reason": "official_success",
+      "steps": 821,
+      "action_calls": 28,
+      "evidence_path": "episodes/click_mouse/trial02-attempt01",
+      "model_requests": 28,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 28
+      },
+      "operations": {
+        "move": 18,
+        "hold": 10
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "hammer_nail",
+      "trial_index": 2,
+      "attempt_id": "trial02-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/hammer_nail/trial02-attempt01",
+      "model_requests": 34,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 33,
+        "10": 1
+      },
+      "operations": {
+        "move": 31,
+        "hold": 3
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "click_mouse",
+      "trial_index": 3,
+      "attempt_id": "trial03-attempt01",
+      "succeed": true,
+      "reason": "official_success",
+      "steps": 746,
+      "action_calls": 25,
+      "evidence_path": "episodes/click_mouse/trial03-attempt01",
+      "model_requests": 25,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 25
+      },
+      "operations": {
+        "move": 16,
+        "hold": 9
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "fold_glasses",
+      "trial_index": 2,
+      "attempt_id": "trial02-attempt01",
+      "succeed": true,
+      "reason": "official_success",
+      "steps": 1146,
+      "action_calls": 39,
+      "evidence_path": "episodes/fold_glasses/trial02-attempt01",
+      "model_requests": 39,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 39
+      },
+      "operations": {
+        "move": 30,
+        "hold": 9
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "hammer_nail",
+      "trial_index": 3,
+      "attempt_id": "trial03-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/hammer_nail/trial03-attempt01",
+      "model_requests": 34,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 33,
+        "10": 1
+      },
+      "operations": {
+        "move": 31,
+        "hold": 3
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "click_mouse",
+      "trial_index": 4,
+      "attempt_id": "trial04-attempt01",
+      "succeed": true,
+      "reason": "official_success",
+      "steps": 850,
+      "action_calls": 29,
+      "evidence_path": "episodes/click_mouse/trial04-attempt01",
+      "model_requests": 29,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 29
+      },
+      "operations": {
+        "move": 18,
+        "hold": 11
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "fold_glasses",
+      "trial_index": 3,
+      "attempt_id": "trial03-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1200,
+      "action_calls": 40,
+      "evidence_path": "episodes/fold_glasses/trial03-attempt01",
+      "model_requests": 40,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 40
+      },
+      "operations": {
+        "move": 40
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "hammer_nail",
+      "trial_index": 4,
+      "attempt_id": "trial04-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/hammer_nail/trial04-attempt01",
+      "model_requests": 34,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 33,
+        "10": 1
+      },
+      "operations": {
+        "move": 30,
+        "hold": 4
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "click_mouse",
+      "trial_index": 5,
+      "attempt_id": "trial05-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1200,
+      "action_calls": 40,
+      "evidence_path": "episodes/click_mouse/trial05-attempt01",
+      "model_requests": 40,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 40
+      },
+      "operations": {
+        "move": 30,
+        "hold": 10
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "fold_glasses",
+      "trial_index": 4,
+      "attempt_id": "trial04-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1200,
+      "action_calls": 40,
+      "evidence_path": "episodes/fold_glasses/trial04-attempt01",
+      "model_requests": 40,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 40
+      },
+      "operations": {
+        "move": 37,
+        "hold": 3
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "hammer_nail",
+      "trial_index": 5,
+      "attempt_id": "trial05-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/hammer_nail/trial05-attempt01",
+      "model_requests": 35,
+      "validation_errors": 0,
+      "api_errors": 1,
+      "accepted_request_steps": {
+        "30": 33,
+        "10": 1
+      },
+      "operations": {
+        "move": 30,
+        "hold": 4
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "pick_bucket",
+      "trial_index": 1,
+      "attempt_id": "trial01-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1200,
+      "action_calls": 40,
+      "evidence_path": "episodes/pick_bucket/trial01-attempt01",
+      "model_requests": 40,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 40
+      },
+      "operations": {
+        "move": 36,
+        "hold": 4
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "fold_glasses",
+      "trial_index": 5,
+      "attempt_id": "trial05-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1200,
+      "action_calls": 41,
+      "evidence_path": "episodes/fold_glasses/trial05-attempt01",
+      "model_requests": 43,
+      "validation_errors": 2,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 38,
+        "20": 3
+      },
+      "operations": {
+        "move": 38,
+        "hold": 3
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        },
+        {
+          "line": 28,
+          "expected_prestart_status": false,
+          "operation": "move"
+        },
+        {
+          "line": 37,
+          "expected_prestart_status": false,
+          "operation": "move"
+        }
+      ]
+    },
+    {
+      "task": "pinch_tongs",
+      "trial_index": 1,
+      "attempt_id": "trial01-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 42,
+      "evidence_path": "episodes/pinch_tongs/trial01-attempt01",
+      "model_requests": 43,
+      "validation_errors": 1,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 22,
+        "20": 8,
+        "15": 12
+      },
+      "operations": {
+        "move": 35,
+        "hold": 7
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        },
+        {
+          "line": 17,
+          "expected_prestart_status": false,
+          "operation": "move"
+        }
+      ]
+    },
+    {
+      "task": "pick_bucket",
+      "trial_index": 2,
+      "attempt_id": "trial02-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1200,
+      "action_calls": 50,
+      "evidence_path": "episodes/pick_bucket/trial02-attempt01",
+      "model_requests": 51,
+      "validation_errors": 1,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "20": 17,
+        "30": 19,
+        "25": 8,
+        "12": 2,
+        "15": 3,
+        "21": 1
+      },
+      "operations": {
+        "move": 50
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        },
+        {
+          "line": 12,
+          "expected_prestart_status": false,
+          "operation": "move"
+        }
+      ]
+    },
+    {
+      "task": "water_plant",
+      "trial_index": 1,
+      "attempt_id": "trial01-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 40,
+      "evidence_path": "episodes/water_plant/trial01-attempt01",
+      "model_requests": 40,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "20": 8,
+        "25": 17,
+        "15": 1,
+        "30": 13,
+        "10": 1
+      },
+      "operations": {
+        "move": 39,
+        "hold": 1
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "pinch_tongs",
+      "trial_index": 2,
+      "attempt_id": "trial02-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 47,
+      "evidence_path": "episodes/pinch_tongs/trial02-attempt01",
+      "model_requests": 48,
+      "validation_errors": 0,
+      "api_errors": 1,
+      "accepted_request_steps": {
+        "25": 14,
+        "20": 15,
+        "15": 11,
+        "30": 6,
+        "5": 1
+      },
+      "operations": {
+        "move": 43,
+        "hold": 4
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "water_plant",
+      "trial_index": 2,
+      "attempt_id": "trial02-attempt02",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/water_plant/trial02-attempt02",
+      "model_requests": 34,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 33,
+        "10": 1
+      },
+      "operations": {
+        "move": 27,
+        "hold": 7
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "pinch_tongs",
+      "trial_index": 3,
+      "attempt_id": "trial03-attempt02",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/pinch_tongs/trial03-attempt02",
+      "model_requests": 34,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "20": 2,
+        "30": 32
+      },
+      "operations": {
+        "move": 30,
+        "hold": 4
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "pick_bucket",
+      "trial_index": 3,
+      "attempt_id": "trial03-attempt02",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1200,
+      "action_calls": 41,
+      "evidence_path": "episodes/pick_bucket/trial03-attempt02",
+      "model_requests": 41,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "20": 1,
+        "30": 39,
+        "10": 1
+      },
+      "operations": {
+        "move": 33,
+        "hold": 8
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "water_plant",
+      "trial_index": 3,
+      "attempt_id": "trial03-attempt01",
+      "succeed": false,
+      "reason": "agent_gave_up",
+      "steps": 810,
+      "action_calls": 27,
+      "evidence_path": "episodes/water_plant/trial03-attempt01",
+      "model_requests": 28,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 27
+      },
+      "operations": {
+        "move": 19,
+        "hold": 8
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "pinch_tongs",
+      "trial_index": 4,
+      "attempt_id": "trial04-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/pinch_tongs/trial04-attempt01",
+      "model_requests": 34,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 30,
+        "25": 4
+      },
+      "operations": {
+        "move": 29,
+        "hold": 5
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "water_plant",
+      "trial_index": 4,
+      "attempt_id": "trial04-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/water_plant/trial04-attempt01",
+      "model_requests": 34,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 33,
+        "10": 1
+      },
+      "operations": {
+        "move": 27,
+        "hold": 7
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "pick_bucket",
+      "trial_index": 4,
+      "attempt_id": "trial04-attempt01",
+      "succeed": false,
+      "reason": "agent_gave_up",
+      "steps": 930,
+      "action_calls": 31,
+      "evidence_path": "episodes/pick_bucket/trial04-attempt01",
+      "model_requests": 32,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 31
+      },
+      "operations": {
+        "move": 22,
+        "hold": 9
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "water_plant",
+      "trial_index": 5,
+      "attempt_id": "trial05-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/water_plant/trial05-attempt01",
+      "model_requests": 34,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 33,
+        "10": 1
+      },
+      "operations": {
+        "move": 30,
+        "hold": 4
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "pinch_tongs",
+      "trial_index": 5,
+      "attempt_id": "trial05-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/pinch_tongs/trial05-attempt01",
+      "model_requests": 34,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 30,
+        "25": 4
+      },
+      "operations": {
+        "move": 31,
+        "hold": 3
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "pick_bucket",
+      "trial_index": 5,
+      "attempt_id": "trial05-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1200,
+      "action_calls": 40,
+      "evidence_path": "episodes/pick_bucket/trial05-attempt01",
+      "model_requests": 40,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 40
+      },
+      "operations": {
+        "move": 30,
+        "hold": 10
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_hanoi",
+      "trial_index": 1,
+      "attempt_id": "trial01-attempt01",
+      "succeed": false,
+      "reason": "official_failure",
+      "steps": 1225,
+      "action_calls": 41,
+      "evidence_path": "episodes/bimanual_hanoi/trial01-attempt01",
+      "model_requests": 41,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 41
+      },
+      "operations": {
+        "move": 29,
+        "hold": 12
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_microwave_cook",
+      "trial_index": 1,
+      "attempt_id": "trial01-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1100,
+      "action_calls": 37,
+      "evidence_path": "episodes/bimanual_microwave_cook/trial01-attempt01",
+      "model_requests": 37,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 36,
+        "20": 1
+      },
+      "operations": {
+        "move": 32,
+        "hold": 5
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_assembly",
+      "trial_index": 1,
+      "attempt_id": "trial01-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1500,
+      "action_calls": 50,
+      "evidence_path": "episodes/bimanual_assembly/trial01-attempt01",
+      "model_requests": 50,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 50
+      },
+      "operations": {
+        "move": 46,
+        "hold": 4
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_microwave_cook",
+      "trial_index": 2,
+      "attempt_id": "trial02-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1100,
+      "action_calls": 37,
+      "evidence_path": "episodes/bimanual_microwave_cook/trial02-attempt01",
+      "model_requests": 37,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 36,
+        "20": 1
+      },
+      "operations": {
+        "move": 30,
+        "hold": 7
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_hanoi",
+      "trial_index": 2,
+      "attempt_id": "trial02-attempt01",
+      "succeed": false,
+      "reason": "official_failure",
+      "steps": 1371,
+      "action_calls": 46,
+      "evidence_path": "episodes/bimanual_hanoi/trial02-attempt01",
+      "model_requests": 46,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 46
+      },
+      "operations": {
+        "move": 33,
+        "hold": 13
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_assembly",
+      "trial_index": 2,
+      "attempt_id": "trial02-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1500,
+      "action_calls": 50,
+      "evidence_path": "episodes/bimanual_assembly/trial02-attempt01",
+      "model_requests": 50,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 50
+      },
+      "operations": {
+        "move": 45,
+        "hold": 5
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_microwave_cook",
+      "trial_index": 3,
+      "attempt_id": "trial03-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1100,
+      "action_calls": 37,
+      "evidence_path": "episodes/bimanual_microwave_cook/trial03-attempt01",
+      "model_requests": 37,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 36,
+        "20": 1
+      },
+      "operations": {
+        "move": 31,
+        "hold": 6
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_hanoi",
+      "trial_index": 3,
+      "attempt_id": "trial03-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1500,
+      "action_calls": 50,
+      "evidence_path": "episodes/bimanual_hanoi/trial03-attempt01",
+      "model_requests": 50,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 50
+      },
+      "operations": {
+        "move": 34,
+        "hold": 16
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_microwave_cook",
+      "trial_index": 4,
+      "attempt_id": "trial04-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1100,
+      "action_calls": 37,
+      "evidence_path": "episodes/bimanual_microwave_cook/trial04-attempt01",
+      "model_requests": 37,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 36,
+        "20": 1
+      },
+      "operations": {
+        "move": 30,
+        "hold": 7
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_hanoi",
+      "trial_index": 4,
+      "attempt_id": "trial04-attempt01",
+      "succeed": false,
+      "reason": "official_failure",
+      "steps": 569,
+      "action_calls": 19,
+      "evidence_path": "episodes/bimanual_hanoi/trial04-attempt01",
+      "model_requests": 19,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 19
+      },
+      "operations": {
+        "move": 13,
+        "hold": 6
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_assembly",
+      "trial_index": 3,
+      "attempt_id": "trial03-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1500,
+      "action_calls": 50,
+      "evidence_path": "episodes/bimanual_assembly/trial03-attempt01",
+      "model_requests": 50,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 50
+      },
+      "operations": {
+        "move": 48,
+        "hold": 2
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_microwave_cook",
+      "trial_index": 5,
+      "attempt_id": "trial05-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1100,
+      "action_calls": 37,
+      "evidence_path": "episodes/bimanual_microwave_cook/trial05-attempt01",
+      "model_requests": 37,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 36,
+        "20": 1
+      },
+      "operations": {
+        "move": 29,
+        "hold": 8
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_hanoi",
+      "trial_index": 5,
+      "attempt_id": "trial05-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1500,
+      "action_calls": 50,
+      "evidence_path": "episodes/bimanual_hanoi/trial05-attempt01",
+      "model_requests": 50,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 50
+      },
+      "operations": {
+        "move": 37,
+        "hold": 13
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_assembly",
+      "trial_index": 4,
+      "attempt_id": "trial04-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1500,
+      "action_calls": 50,
+      "evidence_path": "episodes/bimanual_assembly/trial04-attempt01",
+      "model_requests": 50,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 50
+      },
+      "operations": {
+        "move": 45,
+        "hold": 5
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_unlock_ipad",
+      "trial_index": 1,
+      "attempt_id": "trial01-attempt01",
+      "succeed": false,
+      "reason": "official_failure",
+      "steps": 437,
+      "action_calls": 15,
+      "evidence_path": "episodes/bimanual_unlock_ipad/trial01-attempt01",
+      "model_requests": 15,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 15
+      },
+      "operations": {
+        "move": 12,
+        "hold": 3
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_photograph",
+      "trial_index": 1,
+      "attempt_id": "trial01-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/bimanual_photograph/trial01-attempt01",
+      "model_requests": 34,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 33,
+        "10": 1
+      },
+      "operations": {
+        "move": 29,
+        "hold": 5
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_unlock_ipad",
+      "trial_index": 2,
+      "attempt_id": "trial02-attempt01",
+      "succeed": false,
+      "reason": "official_failure",
+      "steps": 89,
+      "action_calls": 3,
+      "evidence_path": "episodes/bimanual_unlock_ipad/trial02-attempt01",
+      "model_requests": 3,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 3
+      },
+      "operations": {
+        "move": 3
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_unlock_ipad",
+      "trial_index": 3,
+      "attempt_id": "trial03-attempt01",
+      "succeed": false,
+      "reason": "official_failure",
+      "steps": 104,
+      "action_calls": 4,
+      "evidence_path": "episodes/bimanual_unlock_ipad/trial03-attempt01",
+      "model_requests": 4,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 4
+      },
+      "operations": {
+        "move": 4
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_photograph",
+      "trial_index": 2,
+      "attempt_id": "trial02-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/bimanual_photograph/trial02-attempt01",
+      "model_requests": 34,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 33,
+        "10": 1
+      },
+      "operations": {
+        "move": 27,
+        "hold": 7
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_unlock_ipad",
+      "trial_index": 4,
+      "attempt_id": "trial04-attempt01",
+      "succeed": false,
+      "reason": "official_failure",
+      "steps": 797,
+      "action_calls": 27,
+      "evidence_path": "episodes/bimanual_unlock_ipad/trial04-attempt01",
+      "model_requests": 27,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 26,
+        "20": 1
+      },
+      "operations": {
+        "move": 22,
+        "hold": 5
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_assembly",
+      "trial_index": 5,
+      "attempt_id": "trial05-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1500,
+      "action_calls": 50,
+      "evidence_path": "episodes/bimanual_assembly/trial05-attempt01",
+      "model_requests": 50,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 50
+      },
+      "operations": {
+        "move": 45,
+        "hold": 5
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_unlock_ipad",
+      "trial_index": 5,
+      "attempt_id": "trial05-attempt01",
+      "succeed": false,
+      "reason": "official_failure",
+      "steps": 654,
+      "action_calls": 22,
+      "evidence_path": "episodes/bimanual_unlock_ipad/trial05-attempt01",
+      "model_requests": 22,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 22
+      },
+      "operations": {
+        "move": 16,
+        "hold": 6
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_photograph",
+      "trial_index": 3,
+      "attempt_id": "trial03-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/bimanual_photograph/trial03-attempt01",
+      "model_requests": 34,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 33,
+        "10": 1
+      },
+      "operations": {
+        "move": 28,
+        "hold": 6
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_photograph",
+      "trial_index": 4,
+      "attempt_id": "trial04-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/bimanual_photograph/trial04-attempt01",
+      "model_requests": 35,
+      "validation_errors": 0,
+      "api_errors": 1,
+      "accepted_request_steps": {
+        "30": 33,
+        "10": 1
+      },
+      "operations": {
+        "move": 26,
+        "hold": 8
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    },
+    {
+      "task": "bimanual_photograph",
+      "trial_index": 5,
+      "attempt_id": "trial05-attempt01",
+      "succeed": false,
+      "reason": "native_step_limit",
+      "steps": 1000,
+      "action_calls": 34,
+      "evidence_path": "episodes/bimanual_photograph/trial05-attempt01",
+      "model_requests": 34,
+      "validation_errors": 0,
+      "api_errors": 0,
+      "accepted_request_steps": {
+        "30": 33,
+        "10": 1
+      },
+      "operations": {
+        "move": 26,
+        "hold": 8
+      },
+      "command_errors": [
+        {
+          "line": 1,
+          "expected_prestart_status": true,
+          "operation": "status"
+        }
+      ]
+    }
+  ],
+  "api_error_count": 7,
+  "api_errors": {
+    "None:TimeoutError": 3,
+    "429:{\"error\":{\"message\":\"当前分组上游负载已饱和，请稍后再试 (request id: 2026101411294754059482740066185)\",\"type\":\"rate_limit_error\",\"param\":\"\",\"code\":\"gateway_queue_full\"}}": 1,
+    "None:API stream did not complete: {\"type\": \"error\", \"sequence_number\": 0, \"code\": \"upstream_http2_stream_error\", \"message\": \"Upstream HTTP/2 stream failed\", \"param\": null}": 1,
+    "500:": 1,
+    "503:{\"error\":{\"message\":\"openai_error (request id: 2026101419014083798508586062882)\",\"type\":\"bad_response_status_code\",\"param\":\"\",\"code\":\"bad_response_status_code\"}}": 1
+  },
+  "validation_errors": 4,
+  "expected_prestart_status_errors": 55,
+  "other_command_errors": 4,
+  "action_request_step_distribution": {
+    "30": 1803,
+    "25": 50,
+    "20": 62,
+    "15": 28,
+    "10": 14,
+    "12": 2,
+    "21": 1,
+    "5": 1
+  },
+  "operations": {
+    "move": 1626,
+    "hold": 335
+  },
+  "model_requests_by_name": {
+    "gpt-6-astra": 1974
+  },
+  "model_responses_by_name": {
+    "gpt-6-astra": 1967
+  },
+  "model_requests_by_reasoning_effort": {
+    "medium": 1974
+  },
+  "interrupted_attempts": [
+    {
+      "task": "pick_bucket",
+      "trial_index": 3,
+      "attempt_id": "trial03-attempt01",
+      "status": "interrupted",
+      "reason": "unknown_process_exit",
+      "exception_class": "UnknownProcessExit",
+      "evidence_path": "episodes/pick_bucket/trial03-attempt01",
+      "audit_status": "incomplete"
+    },
+    {
+      "task": "pinch_tongs",
+      "trial_index": 3,
+      "attempt_id": "trial03-attempt01",
+      "status": "interrupted",
+      "reason": "unknown_process_exit",
+      "exception_class": "UnknownProcessExit",
+      "evidence_path": "episodes/pinch_tongs/trial03-attempt01",
+      "audit_status": "incomplete"
+    },
+    {
+      "task": "water_plant",
+      "trial_index": 2,
+      "attempt_id": "trial02-attempt01",
+      "status": "interrupted",
+      "reason": "unknown_process_exit",
+      "exception_class": "UnknownProcessExit",
+      "evidence_path": "episodes/water_plant/trial02-attempt01",
+      "audit_status": "incomplete"
+    }
+  ]
+}

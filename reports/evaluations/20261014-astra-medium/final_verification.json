@@ -1,0 +1,66 @@
+{
+  "verified_at": "2026-10-14T11:25:00.240595+00:00",
+  "evaluated_commit": "13a9659135091826e6ff9ef8c4afac1066355b17",
+  "remote_test_commit_at_verification": "13a9659135091826e6ff9ef8c4afac1066355b17",
+  "frozen_configuration_valid": true,
+  "scored_count": 55,
+  "attempt_count": 58,
+  "task_count": 11,
+  "each_task_unique_trials_1_through_5": true,
+  "all_scored_attempt_audits_passed": true,
+  "all_scored_runner_cleanup_records_confirm_exit_and_socket_removal": true,
+  "inventory_before_supplement": {
+    "passed": true,
+    "file_count": 12611,
+    "errors": []
+  },
+  "interrupted_attempts_with_missing_official_summary": [
+    {
+      "task": "pick_bucket",
+      "trial_index": 3,
+      "attempt_id": "trial03-attempt01",
+      "status": "interrupted",
+      "reason": "unknown_process_exit",
+      "exception_class": "UnknownProcessExit",
+      "evidence_path": "episodes/pick_bucket/trial03-attempt01",
+      "audit_status": "incomplete"
+    },
+    {
+      "task": "pinch_tongs",
+      "trial_index": 3,
+      "attempt_id": "trial03-attempt01",
+      "status": "interrupted",
+      "reason": "unknown_process_exit",
+      "exception_class": "UnknownProcessExit",
+      "evidence_path": "episodes/pinch_tongs/trial03-attempt01",
+      "audit_status": "incomplete"
+    },
+    {
+      "task": "water_plant",
+      "trial_index": 2,
+      "attempt_id": "trial02-attempt01",
+      "status": "interrupted",
+      "reason": "unknown_process_exit",
+      "exception_class": "UnknownProcessExit",
+      "evidence_path": "episodes/water_plant/trial02-attempt01",
+      "audit_status": "incomplete"
+    }
+  ],
+  "model_requests_by_name": {
+    "gpt-6-astra": 1974
+  },
+  "model_responses_by_name": {
+    "gpt-6-astra": 1967
+  },
+  "reasoning_effort": {
+    "medium": 1974
+  },
+  "scheduler_lifecycle_evidence": "scheduler/resume-20261014-20261014-080541Z.lifecycle.json",
+  "hidden_reasoning_independently_available": false,
+  "backend_model_version_independently_verified": false,
+  "all_scored_runner_cleanup_returncodes_zero": true,
+  "no_active_evaluation_runner_or_scheduler_found_at_final_check": true,
+  "default_runner_socket_absent": true,
+  "remote_main_commit": "fe16862dc98ca14e5ba02365f0e426ffebf48ecd",
+  "remote_main_unchanged_from_fetched_requirements": true
+}
