@@ -1013,5 +1013,40 @@
       "unique_model_image_references": 34,
       "public_model_error_records": 0
     }
+  },
+  {
+    "batch_id": "20261014-astra-medium",
+    "task": "pick_bucket",
+    "trial_index": 4,
+    "attempt_id": "trial04-attempt01",
+    "seed": 0,
+    "label": "eval-20261014-astra-medium-pick_bucket-t04-a01",
+    "scored": true,
+    "status": "completed",
+    "succeed": false,
+    "terminated": false,
+    "truncated": false,
+    "steps": 930,
+    "action_calls": 31,
+    "reason": "agent_gave_up",
+    "evidence_path": "episodes/pick_bucket/trial04-attempt01",
+    "exception_class": "",
+    "replacement_of": "",
+    "evidence_complete": true,
+    "audit_status": "passed",
+    "audit_counts": {
+      "steps": 930,
+      "action_calls": 31,
+      "reset_count": 1,
+      "observation_events": 33,
+      "official_success_ever_true": false,
+      "observation_directories": 33,
+      "command_count": 39,
+      "command_error_count": 1,
+      "successful_action_command_count": 31,
+      "model_image_references": 528,
+      "unique_model_image_references": 32,
+      "public_model_error_records": 0
+    }
   }
 ]
