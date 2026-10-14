@@ -1,0 +1,61 @@
+{
+  "missing": [
+    {
+      "item": "summary.json",
+      "reason": "File was not generated or could not be collected; no replacement was fabricated.",
+      "stage": "model_execution",
+      "exception_class": "UnknownProcessExit"
+    },
+    {
+      "item": "summary.json:task",
+      "reason": "Identity field is absent.",
+      "stage": "model_execution",
+      "exception_class": "UnknownProcessExit"
+    },
+    {
+      "item": "summary.json:seed",
+      "reason": "Identity field is absent.",
+      "stage": "model_execution",
+      "exception_class": "UnknownProcessExit"
+    },
+    {
+      "item": "summary.json:label",
+      "reason": "Identity field is absent.",
+      "stage": "model_execution",
+      "exception_class": "UnknownProcessExit"
+    },
+    {
+      "item": "summary.json:steps",
+      "reason": "Missing or unsupported field; expected int.",
+      "stage": "model_execution",
+      "exception_class": "UnknownProcessExit"
+    },
+    {
+      "item": "summary.json:action_calls",
+      "reason": "Missing or unsupported field; expected int.",
+      "stage": "model_execution",
+      "exception_class": "UnknownProcessExit"
+    },
+    {
+      "item": "summary.json:succeed",
+      "reason": "Missing or unsupported field; expected bool.",
+      "stage": "model_execution",
+      "exception_class": "UnknownProcessExit"
+    },
+    {
+      "item": "summary.json:terminated",
+      "reason": "Missing or unsupported field; expected bool.",
+      "stage": "model_execution",
+      "exception_class": "UnknownProcessExit"
+    },
+    {
+      "item": "summary.json:truncated",
+      "reason": "Missing or unsupported field; expected bool.",
+      "stage": "model_execution",
+      "exception_class": "UnknownProcessExit"
+    }
+  ],
+  "phase": "model_execution",
+  "exception_class": "UnknownProcessExit",
+  "reason": "unknown_process_exit"
+}
