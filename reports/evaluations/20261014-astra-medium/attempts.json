@@ -348,5 +348,40 @@
       "unique_model_image_references": 40,
       "public_model_error_records": 0
     }
+  },
+  {
+    "batch_id": "20261014-astra-medium",
+    "task": "hammer_nail",
+    "trial_index": 4,
+    "attempt_id": "trial04-attempt01",
+    "seed": 0,
+    "label": "eval-20261014-astra-medium-hammer_nail-t04-a01",
+    "scored": true,
+    "status": "completed",
+    "succeed": false,
+    "terminated": true,
+    "truncated": false,
+    "steps": 1000,
+    "action_calls": 34,
+    "reason": "native_step_limit",
+    "evidence_path": "episodes/hammer_nail/trial04-attempt01",
+    "exception_class": "",
+    "replacement_of": "",
+    "evidence_complete": true,
+    "audit_status": "passed",
+    "audit_counts": {
+      "steps": 1000,
+      "action_calls": 34,
+      "reset_count": 1,
+      "observation_events": 36,
+      "official_success_ever_true": false,
+      "observation_directories": 36,
+      "command_count": 42,
+      "command_error_count": 1,
+      "successful_action_command_count": 34,
+      "model_image_references": 595,
+      "unique_model_image_references": 34,
+      "public_model_error_records": 0
+    }
   }
 ]
