@@ -558,5 +558,40 @@
       "unique_model_image_references": 43,
       "public_model_error_records": 0
     }
+  },
+  {
+    "batch_id": "20261014-astra-medium",
+    "task": "pinch_tongs",
+    "trial_index": 1,
+    "attempt_id": "trial01-attempt01",
+    "seed": 0,
+    "label": "eval-20261014-astra-medium-pinch_tongs-t01-a01",
+    "scored": true,
+    "status": "completed",
+    "succeed": false,
+    "terminated": true,
+    "truncated": false,
+    "steps": 1000,
+    "action_calls": 42,
+    "reason": "native_step_limit",
+    "evidence_path": "episodes/pinch_tongs/trial01-attempt01",
+    "exception_class": "",
+    "replacement_of": "",
+    "evidence_complete": true,
+    "audit_status": "passed",
+    "audit_counts": {
+      "steps": 1000,
+      "action_calls": 42,
+      "reset_count": 1,
+      "observation_events": 46,
+      "official_success_ever_true": false,
+      "observation_directories": 46,
+      "command_count": 53,
+      "command_error_count": 2,
+      "successful_action_command_count": 42,
+      "model_image_references": 946,
+      "unique_model_image_references": 43,
+      "public_model_error_records": 0
+    }
   }
 ]
