@@ -9,8 +9,8 @@
     },
     {
       "path": "attempts.json",
-      "size_bytes": 39022,
-      "sha256": "5a4ad7a309d53928efee6aeafe7dc07fadce91ce4e4d85f9830200136e5b9994"
+      "size_bytes": 40062,
+      "sha256": "05ac5730541bd177010342cb3ef8ec51017159728ea58d18d4b3fe314d15cb03"
     },
     {
       "path": "batch_config.json",
@@ -19,8 +19,8 @@
     },
     {
       "path": "episode_results.csv",
-      "size_bytes": 8541,
-      "sha256": "100aa1f967a988bd1ce65cc0d1f0f906a3ed19246391d44d5d904f0967e3c7d7"
+      "size_bytes": 8774,
+      "sha256": "192c5018fd587ccdfc4c12b45c9bccf9513c5300a96bb5c6a1c3b2ed0691f363"
     },
     {
       "path": "episodes/bimanual_assembly/trial01-attempt01/attempt.json",
@@ -1661,6 +1661,1646 @@
       "path": "episodes/bimanual_assembly/trial01-attempt01/summary.json",
       "size_bytes": 1085,
       "sha256": "0b9e77fed6b439240140e6e6cf56e1ae3638be2a3c2ed40eb129d980dc7e44a3"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/attempt.json",
+      "size_bytes": 2902,
+      "sha256": "a7d47229a97278c10f9ab7ce592c8c4b59767f83c92214d606d50054f448df7f"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/attempt_metadata.json",
+      "size_bytes": 2268,
+      "sha256": "c558c6c400e99383138d4764c24657f582fc63fb8f58d782fb7b5ace9cdf0526"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/audit.json",
+      "size_bytes": 484056,
+      "sha256": "62a2f0d8f55ef48159ecc0931073acadec78cd49f0e7b34ad1335326fca64cee"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/cleanup.json",
+      "size_bytes": 93,
+      "sha256": "d931cbc5663e4dd3069e8906f6fc04a64d1c3367434d9556f4b37f1f87cadd06"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/command_errors.json",
+      "size_bytes": 278,
+      "sha256": "e901398356c0aaaedf015c2ecb4cd760e8d8ad6c22922f1de920c4d6761f05e1"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/command_log.jsonl",
+      "size_bytes": 482549,
+      "sha256": "38b177155362a3999db1a232d7b2710291071acbb4e8e5ec67294918b70ca620"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/contract.json",
+      "size_bytes": 3851,
+      "sha256": "d65a2588e58270390eebbef645be581bdea482e419ca642836807dbeb01ad533"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/dispatch.json",
+      "size_bytes": 6790,
+      "sha256": "b0b9fbe23ad1f995c702510670955e95658ac6d86df8f1c725bd56326c5cbbd5"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/events.jsonl",
+      "size_bytes": 4112147,
+      "sha256": "86a78150d961b53b4cd940dd08b55e2dd67a63e712143fadeafebc71882223e8"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/evidence_inventory.json",
+      "size_bytes": 56793,
+      "sha256": "873f9e5178b837d062e2f6f14f748c546afb6fd1df09b70ebd753bbbeeb050cd"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/initial_state_verification.json",
+      "size_bytes": 1070,
+      "sha256": "fb398b24c204a91d11b84fbfaad29a97526417aa11bc9ca5d448b77c5e693354"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/manifest.json",
+      "size_bytes": 1036,
+      "sha256": "83593692cbafd7e9a49b5d2f50eae2e341931c456bc9286f25df90b43b995fd6"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/0b6952d34f357776f4b20c15288453a0efb96d987d0bba51d5c952d596c10130.jpg",
+      "size_bytes": 108804,
+      "sha256": "0b6952d34f357776f4b20c15288453a0efb96d987d0bba51d5c952d596c10130"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/0d93118d9a885544a59c31482d099c2b058f260c67975ba9435f6b1b1364e9ee.jpg",
+      "size_bytes": 131396,
+      "sha256": "0d93118d9a885544a59c31482d099c2b058f260c67975ba9435f6b1b1364e9ee"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/0da3cc9b24e4885df575af2a244cefb61c73eea368d96c0229f87db235974a57.jpg",
+      "size_bytes": 134541,
+      "sha256": "0da3cc9b24e4885df575af2a244cefb61c73eea368d96c0229f87db235974a57"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/0ffd48c0f1e5633e20a56a44e74c8af0dd646a922200d0fa6811f36ffbba298a.jpg",
+      "size_bytes": 110936,
+      "sha256": "0ffd48c0f1e5633e20a56a44e74c8af0dd646a922200d0fa6811f36ffbba298a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/11dd0d9d1aeabb4a755b37be46bb010a05ec036a888c90068da8d7d39f939279.jpg",
+      "size_bytes": 107403,
+      "sha256": "11dd0d9d1aeabb4a755b37be46bb010a05ec036a888c90068da8d7d39f939279"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/12b8242cedda2ed39a892f466b5a388c7d4d678332b44b3d2b0bdc952eeb2bd1.jpg",
+      "size_bytes": 112628,
+      "sha256": "12b8242cedda2ed39a892f466b5a388c7d4d678332b44b3d2b0bdc952eeb2bd1"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/198545e96d4c5d6fd25ec6ac206ccc53a46527e9bf3a2e993831dd487e65823a.jpg",
+      "size_bytes": 130767,
+      "sha256": "198545e96d4c5d6fd25ec6ac206ccc53a46527e9bf3a2e993831dd487e65823a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/1c43953ffb66444c3dde6a4a53e90b256de104f3746bd58b1cef3f7d2718db77.jpg",
+      "size_bytes": 105475,
+      "sha256": "1c43953ffb66444c3dde6a4a53e90b256de104f3746bd58b1cef3f7d2718db77"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/22718911fb1b994a7182d240a3962a67f0f46a71851fa2f42cb9a654111e58b1.jpg",
+      "size_bytes": 131906,
+      "sha256": "22718911fb1b994a7182d240a3962a67f0f46a71851fa2f42cb9a654111e58b1"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/26d3569518d494ce2c25313b105af7d709a758569f8d257c0c387be662c0d8b5.jpg",
+      "size_bytes": 114431,
+      "sha256": "26d3569518d494ce2c25313b105af7d709a758569f8d257c0c387be662c0d8b5"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/2c4356617ce9020c5affec78c0443ca40bc6c419b18e5b9a39cc442de11737e8.jpg",
+      "size_bytes": 121466,
+      "sha256": "2c4356617ce9020c5affec78c0443ca40bc6c419b18e5b9a39cc442de11737e8"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/2ebac52f4674e0ffc615f66e04c68b1bb2c81d7f7315d35a2fe7f89c9b9f25c5.jpg",
+      "size_bytes": 122768,
+      "sha256": "2ebac52f4674e0ffc615f66e04c68b1bb2c81d7f7315d35a2fe7f89c9b9f25c5"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/306511dea146b5685f124e10027cfc30d7ee7b51ef139e751d8b0985267f805b.jpg",
+      "size_bytes": 112724,
+      "sha256": "306511dea146b5685f124e10027cfc30d7ee7b51ef139e751d8b0985267f805b"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/356eed61eb73f8792d77b13ab62a0a6e523aef65b51abe8af51693b1f3c476fb.jpg",
+      "size_bytes": 107294,
+      "sha256": "356eed61eb73f8792d77b13ab62a0a6e523aef65b51abe8af51693b1f3c476fb"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/3763bb5389381c9bbced0ac6c9f97a71bed517c3baf716cdad472998f593cc72.jpg",
+      "size_bytes": 108585,
+      "sha256": "3763bb5389381c9bbced0ac6c9f97a71bed517c3baf716cdad472998f593cc72"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/50983a4d22a87e7da034dc21a001226a5865b2d9174af923703318c3e7496b82.jpg",
+      "size_bytes": 112707,
+      "sha256": "50983a4d22a87e7da034dc21a001226a5865b2d9174af923703318c3e7496b82"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/547ddb87543ed98ab757f9e190bff10db8d6421a22e89394a1a4d3a14ce1621d.jpg",
+      "size_bytes": 114913,
+      "sha256": "547ddb87543ed98ab757f9e190bff10db8d6421a22e89394a1a4d3a14ce1621d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/5773c0987968993a65720a292d585a3b4bcc778cce951627d2f264db561871cb.jpg",
+      "size_bytes": 124279,
+      "sha256": "5773c0987968993a65720a292d585a3b4bcc778cce951627d2f264db561871cb"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/5c91db0648a8aa83b41e257636a0148299010d2cdd64012ed8b37dccfab42f46.jpg",
+      "size_bytes": 122026,
+      "sha256": "5c91db0648a8aa83b41e257636a0148299010d2cdd64012ed8b37dccfab42f46"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/63712d0a7735f5915ffc0751b32352364a31a7b480cee92ae37cbf6fa28855e0.jpg",
+      "size_bytes": 111571,
+      "sha256": "63712d0a7735f5915ffc0751b32352364a31a7b480cee92ae37cbf6fa28855e0"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/63ee9d4549b1386c5d8498c4915ec6e000e207e518d6fa452becce0f932f4806.jpg",
+      "size_bytes": 104411,
+      "sha256": "63ee9d4549b1386c5d8498c4915ec6e000e207e518d6fa452becce0f932f4806"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/6572c0079ff0b8dbd7a39c98db8a32b5a0c9874f8914b01b2d13e8d25c0390ea.jpg",
+      "size_bytes": 109181,
+      "sha256": "6572c0079ff0b8dbd7a39c98db8a32b5a0c9874f8914b01b2d13e8d25c0390ea"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/6c9b5ee856f402e119a3ddd343b74ba9936195b4016b46f85488efcd8d45c4e5.jpg",
+      "size_bytes": 120829,
+      "sha256": "6c9b5ee856f402e119a3ddd343b74ba9936195b4016b46f85488efcd8d45c4e5"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/7021516e9d00391f90edaa8066c97ce3a59f25e118e60435f3f50e7966a41d13.jpg",
+      "size_bytes": 113479,
+      "sha256": "7021516e9d00391f90edaa8066c97ce3a59f25e118e60435f3f50e7966a41d13"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/789980ec8848640dad3ffc8a073935ecd40658b6018fcdccc1e70a7bc84f17f9.jpg",
+      "size_bytes": 113072,
+      "sha256": "789980ec8848640dad3ffc8a073935ecd40658b6018fcdccc1e70a7bc84f17f9"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/83184c1cea3635899c24c64459d65f038f564f105d5cc93a48bd2345936beaed.jpg",
+      "size_bytes": 121693,
+      "sha256": "83184c1cea3635899c24c64459d65f038f564f105d5cc93a48bd2345936beaed"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/88c683bc3b605f06bb50c6a0e73ae6f75d7ae2a077e4f5da6d2f730b63f1e383.jpg",
+      "size_bytes": 124620,
+      "sha256": "88c683bc3b605f06bb50c6a0e73ae6f75d7ae2a077e4f5da6d2f730b63f1e383"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/8ffb575d0533dbc3a01ad9e38bd8f16f17faf1d83f7a690e5464e907e2a3a856.jpg",
+      "size_bytes": 104349,
+      "sha256": "8ffb575d0533dbc3a01ad9e38bd8f16f17faf1d83f7a690e5464e907e2a3a856"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/92c5e3462cc9dafaa04576af66708cb3c487c092ad8a05e95e767d54a938358b.jpg",
+      "size_bytes": 107829,
+      "sha256": "92c5e3462cc9dafaa04576af66708cb3c487c092ad8a05e95e767d54a938358b"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/93c5888dca05ad6638394fb3a34a576e3234b9c3ed92a9d640e20e23f5712852.jpg",
+      "size_bytes": 102516,
+      "sha256": "93c5888dca05ad6638394fb3a34a576e3234b9c3ed92a9d640e20e23f5712852"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/9500413da823dd8c98a72b5190a4106fe55d273cb9bf835aea0716d194484ae9.jpg",
+      "size_bytes": 120305,
+      "sha256": "9500413da823dd8c98a72b5190a4106fe55d273cb9bf835aea0716d194484ae9"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/9c52849f329cd648d547f5d822cd1a4c15e36d7240a6323737a2af8650c8ee79.jpg",
+      "size_bytes": 120614,
+      "sha256": "9c52849f329cd648d547f5d822cd1a4c15e36d7240a6323737a2af8650c8ee79"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/9cfba45c99fda410db90a00e6dd320acbd92ceae7004212304ae695b4e43bd32.jpg",
+      "size_bytes": 125361,
+      "sha256": "9cfba45c99fda410db90a00e6dd320acbd92ceae7004212304ae695b4e43bd32"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/aa6e8ded08cfbed5306fd3d0b76b9d421da3fd3c7bd0b12b7f8fdfee448d1aac.jpg",
+      "size_bytes": 126802,
+      "sha256": "aa6e8ded08cfbed5306fd3d0b76b9d421da3fd3c7bd0b12b7f8fdfee448d1aac"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/aabfbd24d5efce9fd9a7d16d1d6ec66c075a69cedc53bc7a676e354d2d40cac8.jpg",
+      "size_bytes": 111075,
+      "sha256": "aabfbd24d5efce9fd9a7d16d1d6ec66c075a69cedc53bc7a676e354d2d40cac8"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/baf63b4c0a2768c8c95c52c49304245ad5e78f6a7a56e8dc24276bfac8944716.jpg",
+      "size_bytes": 114795,
+      "sha256": "baf63b4c0a2768c8c95c52c49304245ad5e78f6a7a56e8dc24276bfac8944716"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/bcc61d05bd9f7adeb83e989e57e043d4e6f8b1a2c7590ada629bdaebf9417506.jpg",
+      "size_bytes": 113148,
+      "sha256": "bcc61d05bd9f7adeb83e989e57e043d4e6f8b1a2c7590ada629bdaebf9417506"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/c4484192ea5ca4b1d9e49f24750ae1d3600d61cfa79d42bc65bb487794b5c663.jpg",
+      "size_bytes": 112091,
+      "sha256": "c4484192ea5ca4b1d9e49f24750ae1d3600d61cfa79d42bc65bb487794b5c663"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/c81d68ee31e38b406ed9941857909a63aeaec5d695b9853aa96ef5610b607b3a.jpg",
+      "size_bytes": 129476,
+      "sha256": "c81d68ee31e38b406ed9941857909a63aeaec5d695b9853aa96ef5610b607b3a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/d09b5d21b5051320c04a69f5fa9c510acac11be0c53577bdb6bc0e49a5e3b22e.jpg",
+      "size_bytes": 114005,
+      "sha256": "d09b5d21b5051320c04a69f5fa9c510acac11be0c53577bdb6bc0e49a5e3b22e"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/dc7fde26b6b64a948fdc7af783a10d5969a58cc860be4b1797e66d37b4f4059d.jpg",
+      "size_bytes": 103605,
+      "sha256": "dc7fde26b6b64a948fdc7af783a10d5969a58cc860be4b1797e66d37b4f4059d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/e193ef9ad1aa8cf4b32238696fabe381308afcb7c9047af2cbf9c6452c6d2f08.jpg",
+      "size_bytes": 113958,
+      "sha256": "e193ef9ad1aa8cf4b32238696fabe381308afcb7c9047af2cbf9c6452c6d2f08"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/e32d8c21648aa812dd8b3f7b73c82379f69de1fd5598effedae613ecbd0fda9d.jpg",
+      "size_bytes": 124111,
+      "sha256": "e32d8c21648aa812dd8b3f7b73c82379f69de1fd5598effedae613ecbd0fda9d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/e416d25b74203c881b495692b4126e002e6ebe98a8ff8284dd6a59174fef10a1.jpg",
+      "size_bytes": 121311,
+      "sha256": "e416d25b74203c881b495692b4126e002e6ebe98a8ff8284dd6a59174fef10a1"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/e544ebed0a6c1473a6f64eb8805c2c42c44a2fd423d6f761f1d021409b00ee48.jpg",
+      "size_bytes": 121218,
+      "sha256": "e544ebed0a6c1473a6f64eb8805c2c42c44a2fd423d6f761f1d021409b00ee48"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/e5badfcded990dbd7c6d1dfdf0bfefd676f11bee29f642887fa7d33916da767a.jpg",
+      "size_bytes": 101208,
+      "sha256": "e5badfcded990dbd7c6d1dfdf0bfefd676f11bee29f642887fa7d33916da767a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/eb04cb0b5ff78ac306572f423f8bbd1d71fb786d0e98dff831ef552e3b235a3b.jpg",
+      "size_bytes": 121560,
+      "sha256": "eb04cb0b5ff78ac306572f423f8bbd1d71fb786d0e98dff831ef552e3b235a3b"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/f4819822a563c7e265d9dd9f18161e196262ba9a7a2f08e776e2ba3966c1bd42.jpg",
+      "size_bytes": 130446,
+      "sha256": "f4819822a563c7e265d9dd9f18161e196262ba9a7a2f08e776e2ba3966c1bd42"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/f526c391ba0438050bb21686d158d92afec50b4a96a2a1197a9d415d00a3d18c.jpg",
+      "size_bytes": 100455,
+      "sha256": "f526c391ba0438050bb21686d158d92afec50b4a96a2a1197a9d415d00a3d18c"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_images/f5afefa5f68718b7cee03d247a2f3ce0f29077985d9ca207fd6a05df700332bf.jpg",
+      "size_bytes": 108276,
+      "sha256": "f5afefa5f68718b7cee03d247a2f3ce0f29077985d9ca207fd6a05df700332bf"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_result.json",
+      "size_bytes": 5411,
+      "sha256": "cd37c6bb5f476c1084e5aa685d8e5f9361a715ccd53972e031d2f8210becd221"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/model_transcript.jsonl",
+      "size_bytes": 20676107,
+      "sha256": "90d54c234ff2634ccc59f3fae750ceb6fc87aa2fa5704f767f0f1ac2a0b2e7fc"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0001/contact_sheet.jpg",
+      "size_bytes": 108585,
+      "sha256": "3763bb5389381c9bbced0ac6c9f97a71bed517c3baf716cdad472998f593cc72"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0001/ego.png",
+      "size_bytes": 303276,
+      "sha256": "dc45707aaa41440c3ae005e87a6d3ac7d1d6ce206e284f624f780b822554c8c4"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0001/observation.json",
+      "size_bytes": 3217,
+      "sha256": "dbe8937b9f0adf456588521b8a4ce875b8d06e4a2d65c58f6bf810601a2a17df"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0001/wrist_left.png",
+      "size_bytes": 253267,
+      "sha256": "39a8f3502bb8c354e87685363e0431960fb4253f11fb5ca39c7a985c927fbefb"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0001/wrist_right.png",
+      "size_bytes": 239937,
+      "sha256": "523291ef04184217b8acfe1bbe966785421e3d128b59b46cfea48787c7e7a82e"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0002/contact_sheet.jpg",
+      "size_bytes": 108585,
+      "sha256": "3763bb5389381c9bbced0ac6c9f97a71bed517c3baf716cdad472998f593cc72"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0002/ego.png",
+      "size_bytes": 303276,
+      "sha256": "dc45707aaa41440c3ae005e87a6d3ac7d1d6ce206e284f624f780b822554c8c4"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0002/observation.json",
+      "size_bytes": 3217,
+      "sha256": "ed3ec3c18d431040f6c9f983abceb10e59a41fb03191678a75c1ff1b31e30813"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0002/wrist_left.png",
+      "size_bytes": 253267,
+      "sha256": "39a8f3502bb8c354e87685363e0431960fb4253f11fb5ca39c7a985c927fbefb"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0002/wrist_right.png",
+      "size_bytes": 239937,
+      "sha256": "523291ef04184217b8acfe1bbe966785421e3d128b59b46cfea48787c7e7a82e"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0003/contact_sheet.jpg",
+      "size_bytes": 110936,
+      "sha256": "0ffd48c0f1e5633e20a56a44e74c8af0dd646a922200d0fa6811f36ffbba298a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0003/ego.png",
+      "size_bytes": 319706,
+      "sha256": "6aadb5045f43fec17ff9cf5f19e582cbbdf3824d0d80ce5d74abc41f1e019b70"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0003/observation.json",
+      "size_bytes": 4336,
+      "sha256": "2e8e34b8fdfd7979ba8a6996e7188cad44bd9532cd76f0f89600e00ce4675ba8"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0003/wrist_left.png",
+      "size_bytes": 253629,
+      "sha256": "f0f79488086a090b9f289c0ad467a92cb0a7bdb70d9fbb475d570be0ecdd9569"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0003/wrist_right.png",
+      "size_bytes": 223026,
+      "sha256": "b1c9b996ca5d1219d9668dc1a833c44d5f90678b93a35075b39db879b51b9bdb"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0004/contact_sheet.jpg",
+      "size_bytes": 112091,
+      "sha256": "c4484192ea5ca4b1d9e49f24750ae1d3600d61cfa79d42bc65bb487794b5c663"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0004/ego.png",
+      "size_bytes": 322911,
+      "sha256": "c209145db559fa4e9e7a68b3f4e2ff8df94d870106490974a1860e2959162b4d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0004/observation.json",
+      "size_bytes": 4312,
+      "sha256": "07e38b46ce1dd54f3394c0ef749e6457e48f0414ff76b7eaa52b4772877cc79d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0004/wrist_left.png",
+      "size_bytes": 253689,
+      "sha256": "fc2ad9a90a59beb84e0998678b40d7a04b9d2efd55b79b5ab1733eedae30bbb5"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0004/wrist_right.png",
+      "size_bytes": 205320,
+      "sha256": "bd9dfd136a6486171c320e1dd80b3a13c501f64cf167bc5c91426bedf8c5f1f7"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0005/contact_sheet.jpg",
+      "size_bytes": 113148,
+      "sha256": "bcc61d05bd9f7adeb83e989e57e043d4e6f8b1a2c7590ada629bdaebf9417506"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0005/ego.png",
+      "size_bytes": 328381,
+      "sha256": "db32efb47c0b444ceff7babd0ff25470b94372b0bfa04aca96051a6b9d8ae26a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0005/observation.json",
+      "size_bytes": 4293,
+      "sha256": "1489612d5a7f0af26fdf8509ba1ffc1b130eb0eea8e302d372139ff79c3b700f"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0005/wrist_left.png",
+      "size_bytes": 253673,
+      "sha256": "9848425da003b65c7e2ec07308987fd3c9ebedd60b5f94db4946320bc57dd59c"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0005/wrist_right.png",
+      "size_bytes": 167356,
+      "sha256": "078814664fddba2d23741218e9a35bd8f630eb5e246f5d32b4bc6bd314f466fe"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0006/contact_sheet.jpg",
+      "size_bytes": 114795,
+      "sha256": "baf63b4c0a2768c8c95c52c49304245ad5e78f6a7a56e8dc24276bfac8944716"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0006/ego.png",
+      "size_bytes": 346034,
+      "sha256": "00973326d710726903d786fc83cba8278d617aec22dcb9e61cfb81ec51089a54"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0006/observation.json",
+      "size_bytes": 4268,
+      "sha256": "3427b4bc1b29ef3cd2fbbc05400011f7d79e602fe326824498d5e7dafab65804"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0006/wrist_left.png",
+      "size_bytes": 216147,
+      "sha256": "576b5f727726d63a9510621562c3634bcb541c1561a522f5469380f7a106e41d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0006/wrist_right.png",
+      "size_bytes": 165798,
+      "sha256": "94ca8eee3d39e725d525fdbd8d2f2e931142eb34c52923b515f6c13e996d23f4"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0007/contact_sheet.jpg",
+      "size_bytes": 107294,
+      "sha256": "356eed61eb73f8792d77b13ab62a0a6e523aef65b51abe8af51693b1f3c476fb"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0007/ego.png",
+      "size_bytes": 345845,
+      "sha256": "a8f0189cf7f5d54d9408df5746785c4df1c8f27eb5de2816582ff68a11986075"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0007/observation.json",
+      "size_bytes": 4207,
+      "sha256": "315dad3ccaa8b5aa40ca0ecdef0ba6c02429cf3aff699a60f417294876e6ece8"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0007/wrist_left.png",
+      "size_bytes": 176187,
+      "sha256": "03ce9ae8907e142aff61544ac6dbc375b617fd6080e7b6f9f72a7594a6871dda"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0007/wrist_right.png",
+      "size_bytes": 139568,
+      "sha256": "d9f8c7401c44244012367caa24d8a2a8398bd9c3fecd5406b1743797d4e436da"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0008/contact_sheet.jpg",
+      "size_bytes": 104349,
+      "sha256": "8ffb575d0533dbc3a01ad9e38bd8f16f17faf1d83f7a690e5464e907e2a3a856"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0008/ego.png",
+      "size_bytes": 348983,
+      "sha256": "a36ec40af7161c95958273b40b312a9d7afaa7f062634d3b765035972e872f22"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0008/observation.json",
+      "size_bytes": 4138,
+      "sha256": "744b5f9e50873c1412eebddde9ac2146042ae0d16bbc784409c7109117157425"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0008/wrist_left.png",
+      "size_bytes": 124968,
+      "sha256": "3382aa69568d65d70045ba16c47134d5855dfe0838f2b8a4d770a5d62645c15c"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0008/wrist_right.png",
+      "size_bytes": 116375,
+      "sha256": "5f38cd9d7d770985838da9cd565a976e92cff7bad3c0d41e69c34cbb817b192a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0009/contact_sheet.jpg",
+      "size_bytes": 102516,
+      "sha256": "93c5888dca05ad6638394fb3a34a576e3234b9c3ed92a9d640e20e23f5712852"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0009/ego.png",
+      "size_bytes": 350078,
+      "sha256": "ec4de0fcb90dfbcbd69a367107105dabb110fbd0e6290fdcd7d42f90a8fe25b4"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0009/observation.json",
+      "size_bytes": 4145,
+      "sha256": "0a4ddfce83b320210dbd6cc9803988d5d24859555c83d9a5c4a13c49c8969856"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0009/wrist_left.png",
+      "size_bytes": 86029,
+      "sha256": "3e6778c210a7937c6bf1cbb6824b26442b6e0aa12b17e9011bb81cc6eb419c11"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0009/wrist_right.png",
+      "size_bytes": 157741,
+      "sha256": "4f6382d7c0bc68e6a8b3d62b8bb437c02e85f4f6b2b7a435e8511d518f6e5dcf"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0010/contact_sheet.jpg",
+      "size_bytes": 100455,
+      "sha256": "f526c391ba0438050bb21686d158d92afec50b4a96a2a1197a9d415d00a3d18c"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0010/ego.png",
+      "size_bytes": 354012,
+      "sha256": "7be324fe07cbb5204662517795287dbd6a20853a61aef10eea1d63831dcb183a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0010/observation.json",
+      "size_bytes": 4180,
+      "sha256": "6dff0de1437873789cd45ac06f7e51240b0ce229d6187f6ffd99ce9ce5cb48be"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0010/wrist_left.png",
+      "size_bytes": 46010,
+      "sha256": "644160e40d059d050624cee7a9738b5b649bdb1e9bd0aa7d6ee0274a830891ae"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0010/wrist_right.png",
+      "size_bytes": 169347,
+      "sha256": "a55e516fa949b8125791518e93d0a8aecdeccd98ce3382b8d62054c0f25cb0b9"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0011/contact_sheet.jpg",
+      "size_bytes": 108804,
+      "sha256": "0b6952d34f357776f4b20c15288453a0efb96d987d0bba51d5c952d596c10130"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0011/ego.png",
+      "size_bytes": 354688,
+      "sha256": "035672f84db2b9c12c94476a68c733d25e459ef78ef288d16f2361f94ab401c1"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0011/observation.json",
+      "size_bytes": 4221,
+      "sha256": "d4335d61db87e3cdb7f126cfae0f1ae383bc8bb2261970f283a6fda484e76463"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0011/wrist_left.png",
+      "size_bytes": 67666,
+      "sha256": "3d8d9476b4449a04c7f29a4c5ce60ce3d95280670156878b89ce0b134b3ca0d1"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0011/wrist_right.png",
+      "size_bytes": 159029,
+      "sha256": "828765c72884bb7a9972ba39cacb10273af4cb3bacd1cf6044835694b1e4acf8"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0012/contact_sheet.jpg",
+      "size_bytes": 107829,
+      "sha256": "92c5e3462cc9dafaa04576af66708cb3c487c092ad8a05e95e767d54a938358b"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0012/ego.png",
+      "size_bytes": 355750,
+      "sha256": "834bcd9ea4e9e596d3aa1a942883bd65461b81a9d0f29bf57c6cda01ef7f3c18"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0012/observation.json",
+      "size_bytes": 4176,
+      "sha256": "4432164c266b07e69d47a1e1c39d40b152a488aa8acee5253aa839970a3addb9"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0012/wrist_left.png",
+      "size_bytes": 60507,
+      "sha256": "c4522e7ec2a23f46d8d6953a960708ca0d54de1aefcf11dec04ec906e3e2550f"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0012/wrist_right.png",
+      "size_bytes": 144298,
+      "sha256": "e86ce5715793594355be6e9333b3cc70e1615fa7ea79880ae169f8ba216f6578"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0013/contact_sheet.jpg",
+      "size_bytes": 104411,
+      "sha256": "63ee9d4549b1386c5d8498c4915ec6e000e207e518d6fa452becce0f932f4806"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0013/ego.png",
+      "size_bytes": 353879,
+      "sha256": "68cbf8526cb92887d02506a0b099b80889ac1d6e6d913f23c419e21abb7a1960"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0013/observation.json",
+      "size_bytes": 4172,
+      "sha256": "59202dfef0a8e22d905777f68a35973a76ee2d45ab7a178f5858b80a9c7f5760"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0013/wrist_left.png",
+      "size_bytes": 59094,
+      "sha256": "f79e742dd4b58b1e0348db3c4ff43a66cc5dfe56fc2dcea7a48cfb26ba1092aa"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0013/wrist_right.png",
+      "size_bytes": 153105,
+      "sha256": "06ebaa5a5f00a75038ab74e8314ebf440967134b60b220e1c748710c9c642870"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0014/contact_sheet.jpg",
+      "size_bytes": 111571,
+      "sha256": "63712d0a7735f5915ffc0751b32352364a31a7b480cee92ae37cbf6fa28855e0"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0014/ego.png",
+      "size_bytes": 355327,
+      "sha256": "ad2ea1c5709ac2a1683fc9d0bc70b3b4c1197c4d496b0be7f608b0410069b76e"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0014/observation.json",
+      "size_bytes": 4227,
+      "sha256": "b0d1bc7d9ee6e28b1ea05b2a274491a3172d819472550f4a3d2560afff9ee0b9"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0014/wrist_left.png",
+      "size_bytes": 57225,
+      "sha256": "16c7859d9b617e490e53255e46554e3703696bab310bb3199fa4d4d0850abfa1"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0014/wrist_right.png",
+      "size_bytes": 176518,
+      "sha256": "8e8d2b875512c40cc3e57091936f6a5da1ec7edba8f4966f24b412ee35cab99d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0015/contact_sheet.jpg",
+      "size_bytes": 103605,
+      "sha256": "dc7fde26b6b64a948fdc7af783a10d5969a58cc860be4b1797e66d37b4f4059d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0015/ego.png",
+      "size_bytes": 355571,
+      "sha256": "782079ab0f20424c601c4834b1a01fbd3d1a117e2ff69182f20dc58d85ede36a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0015/observation.json",
+      "size_bytes": 4152,
+      "sha256": "924577f0cd6f197e5b5687ac8fef094ca966f902bcaa37086b939915e7b90da0"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0015/wrist_left.png",
+      "size_bytes": 56955,
+      "sha256": "efacbb3ae03d92cc7a82214e70f9c30129e21fe354cfb50114bb5be092afbe4e"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0015/wrist_right.png",
+      "size_bytes": 138139,
+      "sha256": "0cb1d550dbfbdcaeb2f8e3cf60284b49800753e2844cff683e73b341e30cc4b4"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0016/contact_sheet.jpg",
+      "size_bytes": 101208,
+      "sha256": "e5badfcded990dbd7c6d1dfdf0bfefd676f11bee29f642887fa7d33916da767a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0016/ego.png",
+      "size_bytes": 357094,
+      "sha256": "f70f9945f24a817e85fc4a46c814c46d55224edf902ddf922c0b042fa7661cc8"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0016/observation.json",
+      "size_bytes": 4118,
+      "sha256": "5f8e6f1e55fa1d361d39bed6cad1e98eb81530d1f62db1ce3ffc38518e576ec8"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0016/wrist_left.png",
+      "size_bytes": 56959,
+      "sha256": "c0f82d40ff09fbd38b793843b2fb8851ca5c591fc84c75337cc9cb6e838cc7c0"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0016/wrist_right.png",
+      "size_bytes": 131344,
+      "sha256": "5fe0b5d3c375586ca0ce01adef8e1497332d2c9cd14ac0ed79b73f024dfcbd16"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0017/contact_sheet.jpg",
+      "size_bytes": 105475,
+      "sha256": "1c43953ffb66444c3dde6a4a53e90b256de104f3746bd58b1cef3f7d2718db77"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0017/ego.png",
+      "size_bytes": 355846,
+      "sha256": "ace2bb126edc7860bff033a2576fcea37b1a49908c1785abdec3e7f54eb515f3"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0017/observation.json",
+      "size_bytes": 4165,
+      "sha256": "dcb568d0df33ec9755d88b6ff15768a445b450b82c43825f153cdaeda51b5c22"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0017/wrist_left.png",
+      "size_bytes": 57062,
+      "sha256": "867749afaea3f25bb81eb3c390fc7ed8f9819da71c21be728bbc5186cfb4516d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0017/wrist_right.png",
+      "size_bytes": 164873,
+      "sha256": "618ee267b18d1c086cc4a74735539d0007c77af06ffa22a0004ad8ef6b2df104"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0018/contact_sheet.jpg",
+      "size_bytes": 111075,
+      "sha256": "aabfbd24d5efce9fd9a7d16d1d6ec66c075a69cedc53bc7a676e354d2d40cac8"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0018/ego.png",
+      "size_bytes": 357813,
+      "sha256": "a364ca163ad7226608b400eac02039d4e4c0ac11a85057c6b7866d95a25f1c38"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0018/observation.json",
+      "size_bytes": 4196,
+      "sha256": "7c3f20b896db617293d9c11e114f7bf2d392b0dcb276fe21c3d1f4144b43904e"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0018/wrist_left.png",
+      "size_bytes": 57351,
+      "sha256": "7831f50f799f6bd66d2b67bc37c605949811171405162e65bc52b1c7e0f4279d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0018/wrist_right.png",
+      "size_bytes": 182666,
+      "sha256": "d751dbf4b151749bde99713bea30c2f06b44b15d6ed01e943bd7efd177c184d9"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0019/contact_sheet.jpg",
+      "size_bytes": 113479,
+      "sha256": "7021516e9d00391f90edaa8066c97ce3a59f25e118e60435f3f50e7966a41d13"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0019/ego.png",
+      "size_bytes": 358154,
+      "sha256": "d88a2e665187c994375eb8477badbf987b49064ff9d832e1dcac827cd1730b47"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0019/observation.json",
+      "size_bytes": 4224,
+      "sha256": "b632447e808387439a04d0838a15149c5320ce936f29d354d66fbe711fadf8a6"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0019/wrist_left.png",
+      "size_bytes": 56779,
+      "sha256": "e7fa92e54dc79e17bf09c9b1cef94f74543ab9625cd5e75f7040a65b7168627c"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0019/wrist_right.png",
+      "size_bytes": 222331,
+      "sha256": "86c89634dfe7d0dd7b10d7695975850b22314978b4efed339f79f9ce52c47500"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0020/contact_sheet.jpg",
+      "size_bytes": 109181,
+      "sha256": "6572c0079ff0b8dbd7a39c98db8a32b5a0c9874f8914b01b2d13e8d25c0390ea"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0020/ego.png",
+      "size_bytes": 352204,
+      "sha256": "f0308c3a72813f4956e4ee8ebb276605c111e58b3f52aab64ea667d17609fd31"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0020/observation.json",
+      "size_bytes": 4216,
+      "sha256": "5b5a3e53b04ed72883bb57f84f6bc2518ec61d582727acb6a88a0bd0fd603f18"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0020/wrist_left.png",
+      "size_bytes": 56783,
+      "sha256": "473ad757bdf6f7857612487278b811318c3cab6b13dcdcb31e608e19251b3137"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0020/wrist_right.png",
+      "size_bytes": 192352,
+      "sha256": "c0f1f53a42d9430c7d4e95e9252a60c963917d533a5ffd5b79a2983a3b4eff11"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0021/contact_sheet.jpg",
+      "size_bytes": 107403,
+      "sha256": "11dd0d9d1aeabb4a755b37be46bb010a05ec036a888c90068da8d7d39f939279"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0021/ego.png",
+      "size_bytes": 350538,
+      "sha256": "bb593bd9baeddc868ee5ecd8b6bf0c2513650620b5fe4ae6ae2a6dfeb70f88fe"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0021/observation.json",
+      "size_bytes": 4162,
+      "sha256": "f62b631bceed0a1c9cee0d5bddb441afe76d5862d0309c69290c2d1cff20b73c"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0021/wrist_left.png",
+      "size_bytes": 56342,
+      "sha256": "b285546def7373deff2819ecec0100cfbbe4f7ac8ab8365fbc5f277938ca677a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0021/wrist_right.png",
+      "size_bytes": 188808,
+      "sha256": "1e89652269d43f46fd1974af2082b8af193b5f8e77066dcdb88b22b7459035d9"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0022/contact_sheet.jpg",
+      "size_bytes": 108276,
+      "sha256": "f5afefa5f68718b7cee03d247a2f3ce0f29077985d9ca207fd6a05df700332bf"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0022/ego.png",
+      "size_bytes": 350288,
+      "sha256": "b87a9f11217edf2ca6d18f436c3ddee1a8163d01c5ff31b5a71591bfa95ac57d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0022/observation.json",
+      "size_bytes": 4169,
+      "sha256": "9eef8ef41630d53756fd376b8b761afcfd5eb5c5ee7a67b3c01c74000e2a52b7"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0022/wrist_left.png",
+      "size_bytes": 56543,
+      "sha256": "e9a51f15d27fab54395934e751796a0a55f5560c76747c19642082b1bdbf92ef"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0022/wrist_right.png",
+      "size_bytes": 183079,
+      "sha256": "778d0c7174129ce554689bec42244ef663d0be71e4f5c38808681bd09f8ce6da"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0023/contact_sheet.jpg",
+      "size_bytes": 114005,
+      "sha256": "d09b5d21b5051320c04a69f5fa9c510acac11be0c53577bdb6bc0e49a5e3b22e"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0023/ego.png",
+      "size_bytes": 346263,
+      "sha256": "bccebf37454e381642909b8b094133b39e9276a55dfc18531fb08ae610780648"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0023/observation.json",
+      "size_bytes": 4150,
+      "sha256": "af5f2c49c9f7f6fa7d7af4cba403e3d7be7fb67c957ff2cc8b0f3a187383ed21"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0023/wrist_left.png",
+      "size_bytes": 141572,
+      "sha256": "bb84ef981b34c775824f870f62e36a9d9cac362e213dd16a108ae334ba119a81"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0023/wrist_right.png",
+      "size_bytes": 169107,
+      "sha256": "a2d0f34786c85fed4a024faf68b1b0920351b0de282cdaf77c47b62aea5d0412"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0024/contact_sheet.jpg",
+      "size_bytes": 112628,
+      "sha256": "12b8242cedda2ed39a892f466b5a388c7d4d678332b44b3d2b0bdc952eeb2bd1"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0024/ego.png",
+      "size_bytes": 344893,
+      "sha256": "b6b6740968efdde92d67b44b840708b7def43ed40cb46b523489bae59b68658b"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0024/observation.json",
+      "size_bytes": 4132,
+      "sha256": "fd944e87b8aa8c7a388be3644245dd3e9dcd93bd90d5b3be5de1efa85427f788"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0024/wrist_left.png",
+      "size_bytes": 177018,
+      "sha256": "8f810220e4ccc5ccee69e4a3c34406f789b0d384ff9e195ae836b9b664d1166b"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0024/wrist_right.png",
+      "size_bytes": 161520,
+      "sha256": "5f459f8e244ed51a28915c379d6cf533554d01f207b40e1f64aa1011a9eff143"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0025/contact_sheet.jpg",
+      "size_bytes": 113072,
+      "sha256": "789980ec8848640dad3ffc8a073935ecd40658b6018fcdccc1e70a7bc84f17f9"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0025/ego.png",
+      "size_bytes": 345838,
+      "sha256": "65d8622121b55c33cea6e89cc939a1dfff8bb66ed682b34b343a15f62294f35e"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0025/observation.json",
+      "size_bytes": 4127,
+      "sha256": "83b4bf63748e81909ee70d6d87de735882dd892f844ed41b7e0a5e413ba5edfa"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0025/wrist_left.png",
+      "size_bytes": 157361,
+      "sha256": "bf6c96c2bb9c6c9b05b0598440376ecb3561fb492e31bfc2382d4b4723abf71c"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0025/wrist_right.png",
+      "size_bytes": 160631,
+      "sha256": "b9c74827e9c7bac217603f50cb4cd2d4669ddd27039c0c9dc546e11c554cfa0e"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0026/contact_sheet.jpg",
+      "size_bytes": 112707,
+      "sha256": "50983a4d22a87e7da034dc21a001226a5865b2d9174af923703318c3e7496b82"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0026/ego.png",
+      "size_bytes": 344334,
+      "sha256": "0ddb7fd39eb905a40723e280505dfda110e6ffd4c02d7dc75c7ae1f8be530ce3"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0026/observation.json",
+      "size_bytes": 4126,
+      "sha256": "b40335486eb170f3d98ca4067f31b365d351a2b5ee070e87985a1b92da8919e9"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0026/wrist_left.png",
+      "size_bytes": 105021,
+      "sha256": "15f5a5880b7ea619c0dce5883f35c01a036963d85fcd2e08cb83eaa44a1955cb"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0026/wrist_right.png",
+      "size_bytes": 161633,
+      "sha256": "e5a37277ad1cdb129a9ada1ae8db8d2c2a37672bef8d94a638bb62b04ef8456f"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0027/contact_sheet.jpg",
+      "size_bytes": 112724,
+      "sha256": "306511dea146b5685f124e10027cfc30d7ee7b51ef139e751d8b0985267f805b"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0027/ego.png",
+      "size_bytes": 345871,
+      "sha256": "b5bff5e17dde280d5025ce66bf18a5ee993ba84d4766a7a0ce06eebda1a87ff5"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0027/observation.json",
+      "size_bytes": 4133,
+      "sha256": "cb48e3c8cbd6bc7d7fffce5f74aff35abadd8e99e6d1a252ab6518652ad160ae"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0027/wrist_left.png",
+      "size_bytes": 103346,
+      "sha256": "9d523badb39e54fc3c880b2be11591c64ca2ec389421031c0cca37c292220806"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0027/wrist_right.png",
+      "size_bytes": 164436,
+      "sha256": "bb31f1ac54de32f57e07a992000186f0b475638dd96e5efb492ec9367755fd67"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0028/contact_sheet.jpg",
+      "size_bytes": 114431,
+      "sha256": "26d3569518d494ce2c25313b105af7d709a758569f8d257c0c387be662c0d8b5"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0028/ego.png",
+      "size_bytes": 344328,
+      "sha256": "2bb62e14af4605f3d6d164422fbe0898254db6adabfb05a58d181349fcd58a1e"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0028/observation.json",
+      "size_bytes": 4127,
+      "sha256": "11060948c67235642e68006fed16a86773115f9c3238ae835404811af42e5873"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0028/wrist_left.png",
+      "size_bytes": 118870,
+      "sha256": "354fcea48ed991d17dd220f3cb2d545033e9d5a44ba03d420cc7759b8b7c4592"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0028/wrist_right.png",
+      "size_bytes": 162895,
+      "sha256": "bb094ed4a51bd7c6e495410915c9b1b7bf73117202f8d0ba326e4edf4af90e40"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0029/contact_sheet.jpg",
+      "size_bytes": 124620,
+      "sha256": "88c683bc3b605f06bb50c6a0e73ae6f75d7ae2a077e4f5da6d2f730b63f1e383"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0029/ego.png",
+      "size_bytes": 341959,
+      "sha256": "87d7ef4f5fd28a3bd7f4e61ddda7bb5ffc42f3aeebfe33b9146233d9e97efd91"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0029/observation.json",
+      "size_bytes": 4122,
+      "sha256": "05e328ad0392c65abee843dfc869b7f7737da227c8b9683e83956b200e36d2e2"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0029/wrist_left.png",
+      "size_bytes": 156843,
+      "sha256": "31568f4749397392df43cebeb91b6d52981cc8aef41fb2feab38285042fa0a10"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0029/wrist_right.png",
+      "size_bytes": 221266,
+      "sha256": "2153c618066ccc7c90022f3ae73714e3e4f36fb288c82953d1e1478657112988"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0030/contact_sheet.jpg",
+      "size_bytes": 113958,
+      "sha256": "e193ef9ad1aa8cf4b32238696fabe381308afcb7c9047af2cbf9c6452c6d2f08"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0030/ego.png",
+      "size_bytes": 328855,
+      "sha256": "c562e08d171829a5888ff78653df76a9212acd706a78a4939f026e59bc9ad12e"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0030/observation.json",
+      "size_bytes": 4070,
+      "sha256": "4dba6942bd41e612316efec443528a68316f4b4cdf00b2458b0b1051a54e6980"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0030/wrist_left.png",
+      "size_bytes": 112655,
+      "sha256": "d3c9aee98fabd843ce31ef67deaddbdd7aa109e3abddc2cc0e493ad5f556ccc9"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0030/wrist_right.png",
+      "size_bytes": 192676,
+      "sha256": "67188bed024bac1b6a9f8b3727034f3ded7c9520bab0624526015d2066d9fdf9"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0031/contact_sheet.jpg",
+      "size_bytes": 114913,
+      "sha256": "547ddb87543ed98ab757f9e190bff10db8d6421a22e89394a1a4d3a14ce1621d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0031/ego.png",
+      "size_bytes": 335575,
+      "sha256": "ec96c043a55670990092b3d0824fe7ac61d28599106e36fd733b7061dc5eff2c"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0031/observation.json",
+      "size_bytes": 4075,
+      "sha256": "a0a15c514a21953341fb55b419b783c07efff113525258c06bd9cc6ff0a5a1cd"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0031/wrist_left.png",
+      "size_bytes": 99988,
+      "sha256": "e9c523e56656fc8b7c295a19af894de398a9423a8cf0da245b6dd7ac61a74c28"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0031/wrist_right.png",
+      "size_bytes": 235462,
+      "sha256": "45d5333074d7e7c43a9d3c2725bec5f10be5e1876715650b44b3ff774a3cd972"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0032/contact_sheet.jpg",
+      "size_bytes": 121218,
+      "sha256": "e544ebed0a6c1473a6f64eb8805c2c42c44a2fd423d6f761f1d021409b00ee48"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0032/ego.png",
+      "size_bytes": 345450,
+      "sha256": "f8047387bd81c8f9564a2c54d83bf562c7b3ce664d82e4985247a54a2a92ad2c"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0032/observation.json",
+      "size_bytes": 4059,
+      "sha256": "08901e6da4d6b198df71c99c55053fbfe7bcd7d6f6bf957adf21811a82d1989e"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0032/wrist_left.png",
+      "size_bytes": 96509,
+      "sha256": "9f8295350343749d8c3a0135ec8102361338317a91be1ef9c3671d2edec8a4b3"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0032/wrist_right.png",
+      "size_bytes": 247721,
+      "sha256": "a8823d287e38cbb4a8f3d5a4a1a44ab22ffb18254734a6ab59f17921fc4c1e3c"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0033/contact_sheet.jpg",
+      "size_bytes": 122768,
+      "sha256": "2ebac52f4674e0ffc615f66e04c68b1bb2c81d7f7315d35a2fe7f89c9b9f25c5"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0033/ego.png",
+      "size_bytes": 352693,
+      "sha256": "148d156325af3925c5087bc48fe3502ddebd9409762e7e365d04698eb2d10a37"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0033/observation.json",
+      "size_bytes": 4089,
+      "sha256": "4399333937e92a08c185221689e570adc611816d6fac33ba31160ba79fd29b4d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0033/wrist_left.png",
+      "size_bytes": 95167,
+      "sha256": "515cdf5949c539c1e44649cc78e932c2588d990257e12677cb7cc7fbdcf68452"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0033/wrist_right.png",
+      "size_bytes": 261728,
+      "sha256": "49a609ee311d6ff8b363e007490bd1041ef4d8191f89a94e3cc9ced3161039f1"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0034/contact_sheet.jpg",
+      "size_bytes": 121311,
+      "sha256": "e416d25b74203c881b495692b4126e002e6ebe98a8ff8284dd6a59174fef10a1"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0034/ego.png",
+      "size_bytes": 353189,
+      "sha256": "d888e84ecc9fc24b10ac0658db439936d2d0a36bbbe62a92ff26138e40336d15"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0034/observation.json",
+      "size_bytes": 4067,
+      "sha256": "8e34c478a52d8068809bc480543712955cc0f594418a252406520a9ea8977ba2"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0034/wrist_left.png",
+      "size_bytes": 95784,
+      "sha256": "8e405f62cdb0e3dea192ca158c4b5216cfe22760bf17607335217f8ca432143a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0034/wrist_right.png",
+      "size_bytes": 249370,
+      "sha256": "fb9eae0c0af0c842806dfdf30d69887b2ab9b2c602fd8c40188efff2c5044cd9"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0035/contact_sheet.jpg",
+      "size_bytes": 120829,
+      "sha256": "6c9b5ee856f402e119a3ddd343b74ba9936195b4016b46f85488efcd8d45c4e5"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0035/ego.png",
+      "size_bytes": 352403,
+      "sha256": "4d49a1797be0364df7bd70d012db084b2230df71f50b56a6f39392cc612005e4"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0035/observation.json",
+      "size_bytes": 4038,
+      "sha256": "0c555f926635fa12388577489a389f663f8cd72013d8c2f4566f507688d94ac4"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0035/wrist_left.png",
+      "size_bytes": 95658,
+      "sha256": "91e9c322ca5533b32a08b7e5b7b27ff21475d331f413fa99233c24e9b793d5c5"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0035/wrist_right.png",
+      "size_bytes": 238110,
+      "sha256": "e04854e7931125dee1f937afe504396c9dedfc0ebd2c2fc61d58c2cf3a3d4e9f"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0036/contact_sheet.jpg",
+      "size_bytes": 121560,
+      "sha256": "eb04cb0b5ff78ac306572f423f8bbd1d71fb786d0e98dff831ef552e3b235a3b"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0036/ego.png",
+      "size_bytes": 347846,
+      "sha256": "9413cf583a1f66af4320f0cec5da1b3eceedb7d26ad12bdaa658b0087f5044c5"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0036/observation.json",
+      "size_bytes": 4045,
+      "sha256": "4dd2465f93957387f9cf26c069a2da4b1eebe89b216a4eeca8d6d50e3c05b056"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0036/wrist_left.png",
+      "size_bytes": 92484,
+      "sha256": "1912c0c1f672bba418d74addf7d322781888010d64b8a0d594f3f741fe0f548f"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0036/wrist_right.png",
+      "size_bytes": 237268,
+      "sha256": "048c0685f126118b93097b28abc709d1cbea9a4855c66b156ec49298acdb979e"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0037/contact_sheet.jpg",
+      "size_bytes": 121693,
+      "sha256": "83184c1cea3635899c24c64459d65f038f564f105d5cc93a48bd2345936beaed"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0037/ego.png",
+      "size_bytes": 343953,
+      "sha256": "44c4ea7ed74b3f6c48aefe467e103cbbb6d695ba73efd96b998d16d89f08ec94"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0037/observation.json",
+      "size_bytes": 4056,
+      "sha256": "6d0c71d1695c062108f4d54c8449249ab48e2cd45230db2cb9d98c9d531cebdf"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0037/wrist_left.png",
+      "size_bytes": 109166,
+      "sha256": "2043965e1271f25fa8be4dd9ca8d3a92077404510ca6482e47fe4d97fe3c8c83"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0037/wrist_right.png",
+      "size_bytes": 241049,
+      "sha256": "40abd23bdfe5378451b4ede164d686eafdf00e75af6405b32322df8fefcc6451"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0038/contact_sheet.jpg",
+      "size_bytes": 121466,
+      "sha256": "2c4356617ce9020c5affec78c0443ca40bc6c419b18e5b9a39cc442de11737e8"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0038/ego.png",
+      "size_bytes": 343517,
+      "sha256": "5756759788fda88883e725f923cab05b4ead38c0153d27c5c8b1bf73fa99fbf7"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0038/observation.json",
+      "size_bytes": 4081,
+      "sha256": "8400f4b5c56b6bbc208b2e1e306ad72d7eefe29febb26d27f4ad8f6a9022a6d7"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0038/wrist_left.png",
+      "size_bytes": 118967,
+      "sha256": "b1dfbfe6c7fd279b562a3508c5dadf7323113d2148cb130eb5f7b3e368d2aeb7"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0038/wrist_right.png",
+      "size_bytes": 233081,
+      "sha256": "b54962cd8a14e3c73bc2cedac032a99c97eaf3f4500890f3bf18ef191b055228"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0039/contact_sheet.jpg",
+      "size_bytes": 122026,
+      "sha256": "5c91db0648a8aa83b41e257636a0148299010d2cdd64012ed8b37dccfab42f46"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0039/ego.png",
+      "size_bytes": 343888,
+      "sha256": "17cddf9aaa210feb907d7735d31fbbfc0543e420280b76ee0fc4bcfe61752712"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0039/observation.json",
+      "size_bytes": 4079,
+      "sha256": "5e044be10d3d2303a9535138bbe7e5325c52114bc98fd8aad65ae77bc7c1e1dd"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0039/wrist_left.png",
+      "size_bytes": 150535,
+      "sha256": "26fc8ab30210fb79dcbbe94e808c63eb8f87b4461a1df04e551ef1c2c3f0a3a9"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0039/wrist_right.png",
+      "size_bytes": 229397,
+      "sha256": "0b0187a725b8c099b1a9a3fc1f1e96e699a125f14fa5e8c19312ecc7758d39ea"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0040/contact_sheet.jpg",
+      "size_bytes": 130767,
+      "sha256": "198545e96d4c5d6fd25ec6ac206ccc53a46527e9bf3a2e993831dd487e65823a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0040/ego.png",
+      "size_bytes": 353200,
+      "sha256": "2a324631873506ecf01ae28f1199abcf17b0d388200571b5fcf25fe0020107f2"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0040/observation.json",
+      "size_bytes": 4089,
+      "sha256": "1789a7852f20ca5238335d499390976e0571481e3a5edca30740043ef064ec37"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0040/wrist_left.png",
+      "size_bytes": 161771,
+      "sha256": "a87df37e1e374d191313b730d81b7b06b67c43406ed9302c4f5f97b3ea063fd6"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0040/wrist_right.png",
+      "size_bytes": 268823,
+      "sha256": "e3b087c8c058748cd6e2ac9ba24673c1624dc8f9ca39b67bd17c0ae27be36108"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0041/contact_sheet.jpg",
+      "size_bytes": 130446,
+      "sha256": "f4819822a563c7e265d9dd9f18161e196262ba9a7a2f08e776e2ba3966c1bd42"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0041/ego.png",
+      "size_bytes": 351015,
+      "sha256": "b7d5f4fe73847fd1fe421b6b27e870f2a52622c8a62103470a7eec0fbea18a58"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0041/observation.json",
+      "size_bytes": 4096,
+      "sha256": "1ccad2346cf84b760424648f1d1f957dff4d6f706808f1a6b99fa0a5c29ec6d8"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0041/wrist_left.png",
+      "size_bytes": 159334,
+      "sha256": "e3f0e07f3dd33d8775d6d76152a74ccfab9b47d1f85886bb0d73873bddef979c"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0041/wrist_right.png",
+      "size_bytes": 219810,
+      "sha256": "495481f26e6bcd88f80b8e240fd71d48b5f9efa9fab2be86cc2e548a3d73cafa"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0042/contact_sheet.jpg",
+      "size_bytes": 126802,
+      "sha256": "aa6e8ded08cfbed5306fd3d0b76b9d421da3fd3c7bd0b12b7f8fdfee448d1aac"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0042/ego.png",
+      "size_bytes": 350435,
+      "sha256": "a848a1a0f9f9f9793cbc00dcfcd144d4381706deddb90209722ebe97ee9dc394"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0042/observation.json",
+      "size_bytes": 4099,
+      "sha256": "714c09e0fe150132dbabcc1d72abe9ffcc35b230b485c67348791afd27605f10"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0042/wrist_left.png",
+      "size_bytes": 145132,
+      "sha256": "8bc7b25b60cf6035f32387d08fa889a18a17a13b2110ffb3ed526b24d4bffbf7"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0042/wrist_right.png",
+      "size_bytes": 227414,
+      "sha256": "909767e840a106970b5fe20bb79d734e42925a742b699d44727d9944e3dfc441"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0043/contact_sheet.jpg",
+      "size_bytes": 124279,
+      "sha256": "5773c0987968993a65720a292d585a3b4bcc778cce951627d2f264db561871cb"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0043/ego.png",
+      "size_bytes": 344065,
+      "sha256": "c4754e238152f8466baf6fdafeb072c2eb4d90af8758867f71565ff08917be3d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0043/observation.json",
+      "size_bytes": 4086,
+      "sha256": "af72920579361c33c98f996f3de5fc245e59fadefe0c5e50ef618dfaf2ae94ef"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0043/wrist_left.png",
+      "size_bytes": 138489,
+      "sha256": "5f28c02feda22bb5e5e2a4cd37bd1c953ce99f0830bff68818b37837cdea69a8"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0043/wrist_right.png",
+      "size_bytes": 168697,
+      "sha256": "aa020a8ae0664a802c42d21701161e78ad8ebb682fd95eafff829f39f3c6ba01"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0044/contact_sheet.jpg",
+      "size_bytes": 120614,
+      "sha256": "9c52849f329cd648d547f5d822cd1a4c15e36d7240a6323737a2af8650c8ee79"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0044/ego.png",
+      "size_bytes": 340901,
+      "sha256": "08e9ed92338be08ad7ae8e9e75aa662b55423b1a4b85ec9febd4c4ef4cb90a26"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0044/observation.json",
+      "size_bytes": 4080,
+      "sha256": "191c29fd0a25ba0da5c5ec8f9ea33b8235a191b4e62a120829d1a2da751e4947"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0044/wrist_left.png",
+      "size_bytes": 145859,
+      "sha256": "1faedbe5615c789cc69a4f304433c051f8859fb84cba590205603f43e78a61ed"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0044/wrist_right.png",
+      "size_bytes": 115503,
+      "sha256": "da01c311f5820136c357c352fe8ab4dffdd3d0e883b3b7caf42901d3e2031189"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0045/contact_sheet.jpg",
+      "size_bytes": 120305,
+      "sha256": "9500413da823dd8c98a72b5190a4106fe55d273cb9bf835aea0716d194484ae9"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0045/ego.png",
+      "size_bytes": 339364,
+      "sha256": "151af955ded306943241592ea9a93c22d541877bb39bcd5efdae74e4ddcb87a9"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0045/observation.json",
+      "size_bytes": 4083,
+      "sha256": "5f51ec6bfc5d8a0458407b8034ac6e48c143a01a15de8156b1923913950d7c9a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0045/wrist_left.png",
+      "size_bytes": 145982,
+      "sha256": "d977ed352d8655ace079b754933345b5feb200bfde70c216ad3eb0c3cd848709"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0045/wrist_right.png",
+      "size_bytes": 114818,
+      "sha256": "83abc2af5727115e93487a247f3eb87d59ffa60f2f02e19554919305df8f3c68"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0046/contact_sheet.jpg",
+      "size_bytes": 131906,
+      "sha256": "22718911fb1b994a7182d240a3962a67f0f46a71851fa2f42cb9a654111e58b1"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0046/ego.png",
+      "size_bytes": 336806,
+      "sha256": "0f9275694631cb98fca293fa0e575eac7d24de70953340d04485b50396da06d1"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0046/observation.json",
+      "size_bytes": 4212,
+      "sha256": "6e405215910a121ea9cdf22eeb66f83f6b6dc2e5e117794f7f960bee6dc071d7"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0046/wrist_left.png",
+      "size_bytes": 198418,
+      "sha256": "f87ba95e0f8e8742ee83b1254e724f78a3e0f7eeafd2c4e4244cad956bc03f1d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0046/wrist_right.png",
+      "size_bytes": 213321,
+      "sha256": "287370b4f0ac985d8335d7447b5fd7411838efc26b01062037e75a379ba6a6cd"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0047/contact_sheet.jpg",
+      "size_bytes": 134541,
+      "sha256": "0da3cc9b24e4885df575af2a244cefb61c73eea368d96c0229f87db235974a57"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0047/ego.png",
+      "size_bytes": 338507,
+      "sha256": "54c2908dd669cf013512f57223ea867281f2da0ef38642d33a06b4110b41a9af"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0047/observation.json",
+      "size_bytes": 4203,
+      "sha256": "9a089a2717f04c6e5836ca0f0ba6b288a0f8fc74c2fc31dc50c9468e159b83ce"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0047/wrist_left.png",
+      "size_bytes": 204651,
+      "sha256": "1c9558b6dc5a4577e96e448d47cf84b266b3b6bcac4d806d0a045802e009a42f"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0047/wrist_right.png",
+      "size_bytes": 249246,
+      "sha256": "28c725f9559243bc02b94df17a556eaa1f13c96c229ed67cd568e4188f04298f"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0048/contact_sheet.jpg",
+      "size_bytes": 131396,
+      "sha256": "0d93118d9a885544a59c31482d099c2b058f260c67975ba9435f6b1b1364e9ee"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0048/ego.png",
+      "size_bytes": 334846,
+      "sha256": "fc28f19fc3f07b2b202c7cbb32adf1b5ee014817944ee5a2265ee9e6d02cfb4f"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0048/observation.json",
+      "size_bytes": 4224,
+      "sha256": "e8fa23b7b24496f78f86712c83ddd04d14526960d2529f80d2d2b8e18aefbca8"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0048/wrist_left.png",
+      "size_bytes": 194609,
+      "sha256": "51dbeacb1dd172c9e1b4e99006bebc21c753622d3edf15d2f729fb9f6e8b5bba"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0048/wrist_right.png",
+      "size_bytes": 227986,
+      "sha256": "c443855c8a0ac4e53f953e67966a106246ba1faf995dd1371745a43f43bbaed3"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0049/contact_sheet.jpg",
+      "size_bytes": 129476,
+      "sha256": "c81d68ee31e38b406ed9941857909a63aeaec5d695b9853aa96ef5610b607b3a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0049/ego.png",
+      "size_bytes": 331679,
+      "sha256": "0221e0c51a6cc3b0f649f6526fe93690ed4a79e5cc049f80463e50bde7d3c40d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0049/observation.json",
+      "size_bytes": 4311,
+      "sha256": "a5d66fb0e2d1d2a352df700f2b16885b5a487d06dd1988f97645bc838a58f1e5"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0049/wrist_left.png",
+      "size_bytes": 199326,
+      "sha256": "575761a05cdfa0c96ccab40c0f7f1db72c00d98143ec3c9e634d2a2c8d1f2534"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0049/wrist_right.png",
+      "size_bytes": 267792,
+      "sha256": "420062f022b24c2ad26f93a33c555c315bc864ddc407ce3c970e13961e7c865b"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0050/contact_sheet.jpg",
+      "size_bytes": 125361,
+      "sha256": "9cfba45c99fda410db90a00e6dd320acbd92ceae7004212304ae695b4e43bd32"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0050/ego.png",
+      "size_bytes": 324722,
+      "sha256": "e1e18d956b2f7d7cacbe51723d2289e8c03c7fa9619c0ae43c51d0ea6219f166"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0050/observation.json",
+      "size_bytes": 4214,
+      "sha256": "44d2134553e44f959cd6f12dd1e8bfc9024a4e69130fb7799eeaaf9380a0f627"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0050/wrist_left.png",
+      "size_bytes": 203761,
+      "sha256": "54f9826d7597288924fa175f28338dbe32677a74bd61e956191ea5fea2e34ccc"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0050/wrist_right.png",
+      "size_bytes": 249011,
+      "sha256": "3326d077dd7ef044f126dfce7ba499406e4fbdbe3d1da207482482a90e36c57d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0051/contact_sheet.jpg",
+      "size_bytes": 124111,
+      "sha256": "e32d8c21648aa812dd8b3f7b73c82379f69de1fd5598effedae613ecbd0fda9d"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0051/ego.png",
+      "size_bytes": 322796,
+      "sha256": "6cc808a56cdd417eca3a8fc65a8d917ba718cf2171af835823d95f687e4416ff"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0051/observation.json",
+      "size_bytes": 4201,
+      "sha256": "d4633f94279e72af2d1c9e246d1b54bd008be03de67a4c677d815acdf1256d95"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0051/wrist_left.png",
+      "size_bytes": 198603,
+      "sha256": "a2a35141b723ec58449b54c8186ca98623089ea67137ff53ae064087c80db222"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0051/wrist_right.png",
+      "size_bytes": 231683,
+      "sha256": "1fc1d230e6c5e452e11bf0d6a49229f3b8f17d14e6b66fcaf8683d02833565f0"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0052/contact_sheet.jpg",
+      "size_bytes": 125048,
+      "sha256": "7a637b60d34c01770d514210ba7fe9e55665cbd1ac5ae015cbc4c0f28e9e5412"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0052/ego.png",
+      "size_bytes": 323372,
+      "sha256": "7ec5cbb316e60b9f7233ed85f2fce3d412fc2b8b938e0bfaa8e92a2926e4d062"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0052/observation.json",
+      "size_bytes": 4217,
+      "sha256": "5564bcdb1cbcfc4ad2139141cef9abfee5b2701e1f931cdb38f9533cb3f14f3f"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0052/wrist_left.png",
+      "size_bytes": 204698,
+      "sha256": "d7282d5a7caeec9c861ce7b6cf00b7f25cd7073a197b42126df86c4850e4f98a"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/obs-0052/wrist_right.png",
+      "size_bytes": 244407,
+      "sha256": "87fac472caa17c0ff6bb0a8b63df24a632f68b7d07451c4d30b0c4de4131fc01"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/redaction_manifest.json",
+      "size_bytes": 122,
+      "sha256": "4d6ae0615b94fc34d6ee9412a8f3e01ac46b10f322982240a7cc9c572917fa92"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/runner-log.txt",
+      "size_bytes": 81,
+      "sha256": "842afde3ee26d1999aba1ddc0b8cd89ca4dde1d27624bdfdf3493488884c971b"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/source_path_mapping.json",
+      "size_bytes": 315367,
+      "sha256": "652ed014d3c9cc5e4b7df1f0c73d90e8687828c3e82ba3acb7444caa35e64c13"
+    },
+    {
+      "path": "episodes/bimanual_assembly/trial02-attempt01/summary.json",
+      "size_bytes": 1080,
+      "sha256": "ce01734574fd823844a7d36abcc473153648eef885809d24b2546e05a0cd7ef4"
     },
     {
       "path": "episodes/bimanual_hanoi/trial01-attempt01/attempt.json",
@@ -40119,13 +41759,13 @@
     },
     {
       "path": "report.md",
-      "size_bytes": 9460,
-      "sha256": "9440a63e5e26c60c2b97bc1163f54fa034c491da1664169cbe4dff5f343f4d06"
+      "size_bytes": 9625,
+      "sha256": "b632f0d8a1649ef66b76beb90ff2cfaa1d7a8993d1f555a6138d5ae9aec07d4a"
     },
     {
       "path": "task_results.csv",
       "size_bytes": 1102,
-      "sha256": "a9bff2c29de346798da1686141d9d4ccbc7983c036acad4f660075e22cb7449d"
+      "sha256": "9c02af44f32e3f4e80545e4d77163813c8ce08f1b3344f7b9733859b522effd9"
     }
   ],
   "excluded_from_hashing": [
