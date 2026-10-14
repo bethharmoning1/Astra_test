@@ -313,5 +313,40 @@
       "unique_model_image_references": 29,
       "public_model_error_records": 0
     }
+  },
+  {
+    "batch_id": "20261014-astra-medium",
+    "task": "fold_glasses",
+    "trial_index": 3,
+    "attempt_id": "trial03-attempt01",
+    "seed": 0,
+    "label": "eval-20261014-astra-medium-fold_glasses-t03-a01",
+    "scored": true,
+    "status": "completed",
+    "succeed": false,
+    "terminated": true,
+    "truncated": false,
+    "steps": 1200,
+    "action_calls": 40,
+    "reason": "native_step_limit",
+    "evidence_path": "episodes/fold_glasses/trial03-attempt01",
+    "exception_class": "",
+    "replacement_of": "",
+    "evidence_complete": true,
+    "audit_status": "passed",
+    "audit_counts": {
+      "steps": 1200,
+      "action_calls": 40,
+      "reset_count": 1,
+      "observation_events": 42,
+      "official_success_ever_true": false,
+      "observation_directories": 42,
+      "command_count": 48,
+      "command_error_count": 1,
+      "successful_action_command_count": 40,
+      "model_image_references": 820,
+      "unique_model_image_references": 40,
+      "public_model_error_records": 0
+    }
   }
 ]
