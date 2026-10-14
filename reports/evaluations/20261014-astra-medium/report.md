@@ -2,7 +2,7 @@
 
 固定初始场景、环境 seed=0、每任务五轮、跨轮上下文隔离。五轮为小样本稳定性观察，不代表跨场景泛化或官方 benchmark 成绩。
 
-计分进度：30/55；成功 5 轮；实际尝试 33 次。
+计分进度：31/55；成功 5 轮；实际尝试 34 次。
 评测状态：未完成正式评测。证据状态：未全部通过完整证据核验。
 
 不足五轮的任务不发布正式任务成功率；全部 11 个任务完成前不发布正式总体成功率。
@@ -16,7 +16,7 @@
 | pinch_tongs | 5 | 5 | 0 | 5 | 1 | 0 | 0% | complete | [pinch_tongs](episodes/pinch_tongs) |
 | water_plant | 5 | 5 | 0 | 5 | 1 | 0 | 0% | complete | [water_plant](episodes/water_plant) |
 | bimanual_assembly | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
-| bimanual_hanoi | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
+| bimanual_hanoi | 5 | 1 | 0 | 1 | 0 | 4 | 未完成 | 未完成正式评测 | [bimanual_hanoi](episodes/bimanual_hanoi) |
 | bimanual_microwave_cook | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
 | bimanual_photograph | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
 | bimanual_unlock_ipad | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
@@ -58,11 +58,12 @@
 | water_plant / 5 | [trial05-attempt01](episodes/water_plant/trial05-attempt01) | true | completed | False | 1000 | 34 | native_step_limit |  | passed |
 | pinch_tongs / 5 | [trial05-attempt01](episodes/pinch_tongs/trial05-attempt01) | true | completed | False | 1000 | 34 | native_step_limit |  | passed |
 | pick_bucket / 5 | [trial05-attempt01](episodes/pick_bucket/trial05-attempt01) | true | completed | False | 1200 | 40 | native_step_limit |  | passed |
+| bimanual_hanoi / 1 | [trial01-attempt01](episodes/bimanual_hanoi/trial01-attempt01) | true | completed | False | 1225 | 41 | official_failure |  | passed |
 
 未完成任务及原因：
 
 - bimanual_assembly：缺少 5 轮；not started。
-- bimanual_hanoi：缺少 5 轮；not started。
+- bimanual_hanoi：缺少 4 轮；official_failure。
 - bimanual_microwave_cook：缺少 5 轮；not started。
 - bimanual_photograph：缺少 5 轮；not started。
 - bimanual_unlock_ipad：缺少 5 轮；not started。
