@@ -9,8 +9,8 @@
     },
     {
       "path": "attempts.json",
-      "size_bytes": 6117,
-      "sha256": "3ad1e714ec62e82be01763f38d03492183c331b53066d301a8a13b1c3729aee9"
+      "size_bytes": 7138,
+      "sha256": "fcd8c57b1122354313384ee591c3ed73ec115114dc03a11c407418f85ee40a20"
     },
     {
       "path": "batch_config.json",
@@ -19,8 +19,8 @@
     },
     {
       "path": "episode_results.csv",
-      "size_bytes": 1478,
-      "sha256": "83d3a5d1ff7cbbcb30eb62c2d2b0d46c953d7e0580c83c118511198a1f6525d8"
+      "size_bytes": 1694,
+      "sha256": "3c274eae349f66961e1ac86ff53c5ba64b056656265cf60248ff9e7a9662e7c3"
     },
     {
       "path": "episodes/click_mouse/trial01-attempt01/attempt.json",
@@ -3493,6 +3493,1111 @@
       "sha256": "8ff6d14ff752aadf0b33599ef91d5fc13b61438d0e1f8598923d367d47c0fa16"
     },
     {
+      "path": "episodes/fold_glasses/trial02-attempt01/attempt.json",
+      "size_bytes": 2621,
+      "sha256": "00cf5156adcc1337d881074155015038b7f2d453448c7ee595e6ce2d3da617be"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/attempt_metadata.json",
+      "size_bytes": 1995,
+      "sha256": "58e5d5e2730f898250dcb4078e1594eeab568535a5bd35113a9747137e59fd7d"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/audit.json",
+      "size_bytes": 370422,
+      "sha256": "7a2bf71deb01046f1c5e6290a9670b92b13fe3b755b477edee32808584bfbf10"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/cleanup.json",
+      "size_bytes": 93,
+      "sha256": "5ffa3e27e92694ee4a0a8620264bda144da5942e65168362be0fd203b77bf3c3"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/command_errors.json",
+      "size_bytes": 278,
+      "sha256": "e901398356c0aaaedf015c2ecb4cd760e8d8ad6c22922f1de920c4d6761f05e1"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/command_log.jsonl",
+      "size_bytes": 247325,
+      "sha256": "62050555cc9526f7f2d0ecd6745fbc7f38b0eabcb58d002a4344a179f7217252"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/contract.json",
+      "size_bytes": 2202,
+      "sha256": "d778513d99f07ef545ffd1211ee38eba62411e17f220467cb1a3fb1ff7df2d1a"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/dispatch.json",
+      "size_bytes": 6780,
+      "sha256": "21abdcfb9f8bb0b7963683fba6f1de4de4e18cf8bd30579df53d744277b60e1d"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/events.jsonl",
+      "size_bytes": 1715003,
+      "sha256": "3749700b3233083807ea7beb2f203444d742cb34c8cc0fc8d3d1265f7f2b487d"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/evidence_inventory.json",
+      "size_bytes": 38300,
+      "sha256": "216572b4d83c5ec52071191ac84a814b2dc1106e0d54248e0966db7875aca653"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/initial_state_verification.json",
+      "size_bytes": 818,
+      "sha256": "6a045c5a7bee31d4b4ab3bb96d4ba9ce044e5924dcdde6037cdbf7801167d4d9"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/manifest.json",
+      "size_bytes": 907,
+      "sha256": "63bc19623153a554e46adc20835e3496a1b26bae5133f450f580051c1d91283f"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/004b7923b496dea34d43ae186446b25e5011321bb7f5401871398f3d99674755.jpg",
+      "size_bytes": 77417,
+      "sha256": "004b7923b496dea34d43ae186446b25e5011321bb7f5401871398f3d99674755"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/030b9b103c9cee44e5923d37ac63a1376917ed9ec736e900381cd08e51430b10.jpg",
+      "size_bytes": 80256,
+      "sha256": "030b9b103c9cee44e5923d37ac63a1376917ed9ec736e900381cd08e51430b10"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/0b6d410c65a7c256aea26658b412c670a827e3c8f34ba2b2ffd3376b33188c7a.jpg",
+      "size_bytes": 72999,
+      "sha256": "0b6d410c65a7c256aea26658b412c670a827e3c8f34ba2b2ffd3376b33188c7a"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/1d590be2c76c6df85a47b89412304b0498cb7f311881c94cba39866c784996c4.jpg",
+      "size_bytes": 78463,
+      "sha256": "1d590be2c76c6df85a47b89412304b0498cb7f311881c94cba39866c784996c4"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/1f28e54545b2be345e12aa76faebc12ed2a843fd6c79dea295d2f53659df9a67.jpg",
+      "size_bytes": 83726,
+      "sha256": "1f28e54545b2be345e12aa76faebc12ed2a843fd6c79dea295d2f53659df9a67"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/21c1a20c1bee454bc7b303b2e02c0c7e786d3a2b708006b65a1b02bbba1a5777.jpg",
+      "size_bytes": 90415,
+      "sha256": "21c1a20c1bee454bc7b303b2e02c0c7e786d3a2b708006b65a1b02bbba1a5777"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/238d16403a0885f6d506bbb1ced650629db04935e66cf83ee9cbd615d72bf4cb.jpg",
+      "size_bytes": 83779,
+      "sha256": "238d16403a0885f6d506bbb1ced650629db04935e66cf83ee9cbd615d72bf4cb"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/26a503000c255ff99f9338791ba5aee2cd2e55bbc600377342e821e967220e98.jpg",
+      "size_bytes": 69805,
+      "sha256": "26a503000c255ff99f9338791ba5aee2cd2e55bbc600377342e821e967220e98"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/2e55652ede9a2bf622990253f2941ca3d0ad037ddb6b675a5668531db3be8424.jpg",
+      "size_bytes": 72940,
+      "sha256": "2e55652ede9a2bf622990253f2941ca3d0ad037ddb6b675a5668531db3be8424"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/4cab7f29f66620a0a060ef48163c593acda64d8ec0988e8aeb6881e45b042626.jpg",
+      "size_bytes": 78547,
+      "sha256": "4cab7f29f66620a0a060ef48163c593acda64d8ec0988e8aeb6881e45b042626"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/581a30b10f5cd7ffded8ab8d96339cb87f9449fd8ff93dc68b7f3242825065ba.jpg",
+      "size_bytes": 84875,
+      "sha256": "581a30b10f5cd7ffded8ab8d96339cb87f9449fd8ff93dc68b7f3242825065ba"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/5cd5498712652642b6721e7bff6487abca1324559d9f6a51b920816476eacf18.jpg",
+      "size_bytes": 75840,
+      "sha256": "5cd5498712652642b6721e7bff6487abca1324559d9f6a51b920816476eacf18"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/6405626e17da3bd0d90725655b9074eeff8f473afbe4d8dfab542b3091863f2c.jpg",
+      "size_bytes": 77345,
+      "sha256": "6405626e17da3bd0d90725655b9074eeff8f473afbe4d8dfab542b3091863f2c"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/68386f5e2b1c17b8d78b8551573235c4ca206f5258658ffd34628e3b291207d4.jpg",
+      "size_bytes": 71471,
+      "sha256": "68386f5e2b1c17b8d78b8551573235c4ca206f5258658ffd34628e3b291207d4"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/713924835a23a1e1afa6de06fd2b768ee12cff913ba319f03ee437980039fe60.jpg",
+      "size_bytes": 84409,
+      "sha256": "713924835a23a1e1afa6de06fd2b768ee12cff913ba319f03ee437980039fe60"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/805e62b84c302722ef6f98dc5ebdcb74af43587231ad82ef727fcb048f02938e.jpg",
+      "size_bytes": 65725,
+      "sha256": "805e62b84c302722ef6f98dc5ebdcb74af43587231ad82ef727fcb048f02938e"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/850e1749ea559ce062bdf47a6d0a85d30bd3c7cba63cc5e5a1747b1bd6f90880.jpg",
+      "size_bytes": 74883,
+      "sha256": "850e1749ea559ce062bdf47a6d0a85d30bd3c7cba63cc5e5a1747b1bd6f90880"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/89d77d9f2cce541793db611ca6754a6058de008e38e361dcc856f7024fad6998.jpg",
+      "size_bytes": 71740,
+      "sha256": "89d77d9f2cce541793db611ca6754a6058de008e38e361dcc856f7024fad6998"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/903f24ea2fdd6830a2706907db5becee35bfe181827ebd39489cfa9abd6a9e42.jpg",
+      "size_bytes": 73107,
+      "sha256": "903f24ea2fdd6830a2706907db5becee35bfe181827ebd39489cfa9abd6a9e42"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/924c0b25abed7b19ff26b4ec9622d76b8c2c24199d787218287bdbed7677b771.jpg",
+      "size_bytes": 64706,
+      "sha256": "924c0b25abed7b19ff26b4ec9622d76b8c2c24199d787218287bdbed7677b771"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/95c333b9634742f915ddbe8000be566fce2f0ec5c656d523fa49f4cd064825c9.jpg",
+      "size_bytes": 84200,
+      "sha256": "95c333b9634742f915ddbe8000be566fce2f0ec5c656d523fa49f4cd064825c9"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/aa5dd7aeb9eb93c574e4acdf3c81ab6fea87d2c543dda8eb2b92e46acbe31ca4.jpg",
+      "size_bytes": 81403,
+      "sha256": "aa5dd7aeb9eb93c574e4acdf3c81ab6fea87d2c543dda8eb2b92e46acbe31ca4"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/ad4987f684d8663158be728fe076192beb4be64398b4495b70666037b1d51f92.jpg",
+      "size_bytes": 73932,
+      "sha256": "ad4987f684d8663158be728fe076192beb4be64398b4495b70666037b1d51f92"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/aeb292d78f6478b85cceb2612e53c0f8512f7c598e380ef986f39f3bfde620c7.jpg",
+      "size_bytes": 57288,
+      "sha256": "aeb292d78f6478b85cceb2612e53c0f8512f7c598e380ef986f39f3bfde620c7"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/af2d5c51d7e8888a1b3331dc4ad6c460ee223c2e83717ee5daaf0f9b5847a592.jpg",
+      "size_bytes": 63955,
+      "sha256": "af2d5c51d7e8888a1b3331dc4ad6c460ee223c2e83717ee5daaf0f9b5847a592"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/b293f5500510c003663532d3e7b994b20c1e3890088eeafbfb529d444e166e04.jpg",
+      "size_bytes": 84935,
+      "sha256": "b293f5500510c003663532d3e7b994b20c1e3890088eeafbfb529d444e166e04"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/b7f3c5d0eebc43b913f0a057b48a730f0773ab2a102e49c6f44c0cca4d6e6dcb.jpg",
+      "size_bytes": 87766,
+      "sha256": "b7f3c5d0eebc43b913f0a057b48a730f0773ab2a102e49c6f44c0cca4d6e6dcb"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/bcc2ee28a0165993c21a62ed620a04912a74a52ca4dfb026d5488fc25289ca77.jpg",
+      "size_bytes": 83638,
+      "sha256": "bcc2ee28a0165993c21a62ed620a04912a74a52ca4dfb026d5488fc25289ca77"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/c12375b68efa274aee0adefb412fe06ba2ccf95e9e3fb32cec2cf1db28962d10.jpg",
+      "size_bytes": 82319,
+      "sha256": "c12375b68efa274aee0adefb412fe06ba2ccf95e9e3fb32cec2cf1db28962d10"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/c2d82eae1d5de3867839f40b0c14a2dfcc370940fcf2d4fa78a2b74eda24e513.jpg",
+      "size_bytes": 81146,
+      "sha256": "c2d82eae1d5de3867839f40b0c14a2dfcc370940fcf2d4fa78a2b74eda24e513"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/c852c8dc13744495657e74ade5507b77538d289a372de8b84de6dbb64648a24f.jpg",
+      "size_bytes": 75528,
+      "sha256": "c852c8dc13744495657e74ade5507b77538d289a372de8b84de6dbb64648a24f"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/cd38c2d46c0dfb61b35d26e8b6fdacb06bf08608648432dfcf8ac32b985ca4a2.jpg",
+      "size_bytes": 89471,
+      "sha256": "cd38c2d46c0dfb61b35d26e8b6fdacb06bf08608648432dfcf8ac32b985ca4a2"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/dcf80c30a6ef9ec3dd34bbae0fe52d95e54cf6ee8685177e0531a6b119b9596c.jpg",
+      "size_bytes": 73418,
+      "sha256": "dcf80c30a6ef9ec3dd34bbae0fe52d95e54cf6ee8685177e0531a6b119b9596c"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/e0210ea4cb6235112d5a4d1050a84bdf118ef910dc85992b6e5cafd2b06ec980.jpg",
+      "size_bytes": 76416,
+      "sha256": "e0210ea4cb6235112d5a4d1050a84bdf118ef910dc85992b6e5cafd2b06ec980"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/efe6402a854939285934b0b554a5eb2765455248c3926db069a53750e747b0e3.jpg",
+      "size_bytes": 75333,
+      "sha256": "efe6402a854939285934b0b554a5eb2765455248c3926db069a53750e747b0e3"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/f1ce1d050cc59c84091de48de3887fb42f54fac2febc2688bbe1026101f0f53e.jpg",
+      "size_bytes": 84463,
+      "sha256": "f1ce1d050cc59c84091de48de3887fb42f54fac2febc2688bbe1026101f0f53e"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/f29f3d667fcd8dc08dd905d16d12b504ff2a7163675a2e5bd3f66998956112ce.jpg",
+      "size_bytes": 80159,
+      "sha256": "f29f3d667fcd8dc08dd905d16d12b504ff2a7163675a2e5bd3f66998956112ce"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/f8f5f63814b4090b09472dc15ead90946003d5cd7454f7f587c5fd1d9c0f24b4.jpg",
+      "size_bytes": 78069,
+      "sha256": "f8f5f63814b4090b09472dc15ead90946003d5cd7454f7f587c5fd1d9c0f24b4"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_images/ffe66e8cffb94bdec235e5db103a625d1ddf40b16b6ea455f6ddf29274eeff58.jpg",
+      "size_bytes": 83036,
+      "sha256": "ffe66e8cffb94bdec235e5db103a625d1ddf40b16b6ea455f6ddf29274eeff58"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_result.json",
+      "size_bytes": 3307,
+      "sha256": "e051b748d4d3884774a5734b00168aff0ade3a38e41037f608f31fc97cc38e20"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/model_transcript.jsonl",
+      "size_bytes": 11852708,
+      "sha256": "90b87439411e4cc22f71079d246a085368f7d4226eecb79af5739d02871a2be2"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0001/contact_sheet.jpg",
+      "size_bytes": 72940,
+      "sha256": "2e55652ede9a2bf622990253f2941ca3d0ad037ddb6b675a5668531db3be8424"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0001/front.png",
+      "size_bytes": 345246,
+      "sha256": "c44ab2e8a97440ee61831a29cbf202e18eb98ee641f63f8ce9b903fedd9cfc45"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0001/observation.json",
+      "size_bytes": 2129,
+      "sha256": "1c34184d0b4b7fb23dac0ca36a75e33fdf562a2a831b90107cd5f21e51a3fd4d"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0001/wrist.png",
+      "size_bytes": 252292,
+      "sha256": "3dc12bdce5686082895539ccb372e5283ef3066d2307a95e4beebccc40c35dac"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0002/contact_sheet.jpg",
+      "size_bytes": 72940,
+      "sha256": "2e55652ede9a2bf622990253f2941ca3d0ad037ddb6b675a5668531db3be8424"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0002/front.png",
+      "size_bytes": 345246,
+      "sha256": "c44ab2e8a97440ee61831a29cbf202e18eb98ee641f63f8ce9b903fedd9cfc45"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0002/observation.json",
+      "size_bytes": 2129,
+      "sha256": "8947bf9f772b411c04ee8169501a4e89b4c184b7d59874f588db30ce097e5133"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0002/wrist.png",
+      "size_bytes": 252292,
+      "sha256": "3dc12bdce5686082895539ccb372e5283ef3066d2307a95e4beebccc40c35dac"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0003/contact_sheet.jpg",
+      "size_bytes": 71740,
+      "sha256": "89d77d9f2cce541793db611ca6754a6058de008e38e361dcc856f7024fad6998"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0003/front.png",
+      "size_bytes": 348537,
+      "sha256": "0064d9d4009377ef346e8d26593924cacb1cc8886c9d620b2e56b20a20edbed3"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0003/observation.json",
+      "size_bytes": 2628,
+      "sha256": "2562b3cea9eb34af7270b8cdfae2c0ba225cf4620600b1eb40dbd679b294ed0b"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0003/wrist.png",
+      "size_bytes": 206277,
+      "sha256": "b3370d022eda6e887fc7a1d891d99dcfa122c87dc21c0d42733c43a713ee7111"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0004/contact_sheet.jpg",
+      "size_bytes": 71471,
+      "sha256": "68386f5e2b1c17b8d78b8551573235c4ca206f5258658ffd34628e3b291207d4"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0004/front.png",
+      "size_bytes": 349443,
+      "sha256": "76059658e53c3c8469c7b27c842f32d947a0a62ba17c47da3ab322daaca1128b"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0004/observation.json",
+      "size_bytes": 2616,
+      "sha256": "992e04059735f26ecc57aa3754e299e55f73b572880e46a0e17681637a4fa528"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0004/wrist.png",
+      "size_bytes": 165029,
+      "sha256": "0fc68fad42044c5ce8bfb20dc108972a7478c27516fd113dc6ca571976df1d0e"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0005/contact_sheet.jpg",
+      "size_bytes": 72999,
+      "sha256": "0b6d410c65a7c256aea26658b412c670a827e3c8f34ba2b2ffd3376b33188c7a"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0005/front.png",
+      "size_bytes": 348138,
+      "sha256": "8258248f927501d585a070bb10ea52d91599d60fb89405f67dac5e4ca1546904"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0005/observation.json",
+      "size_bytes": 2611,
+      "sha256": "f3c35eeaf5578a6c8c7c04e2f2743fe3e2a36ecd2901cff82d8a092dd914c2a1"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0005/wrist.png",
+      "size_bytes": 153232,
+      "sha256": "4594a027641196fb59d47785642607ca37451cef444c80b6257ecb890dcd6151"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0006/contact_sheet.jpg",
+      "size_bytes": 74883,
+      "sha256": "850e1749ea559ce062bdf47a6d0a85d30bd3c7cba63cc5e5a1747b1bd6f90880"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0006/front.png",
+      "size_bytes": 347992,
+      "sha256": "19bc4468d22e7437a6ade5fbcd3c58ed0fcbfb6b4750b505d1906cc22c7dd18c"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0006/observation.json",
+      "size_bytes": 2620,
+      "sha256": "1153effd255a4aebbbe9cd0de0af08635c033a4437c44aec025e759d2311e039"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0006/wrist.png",
+      "size_bytes": 165083,
+      "sha256": "46555157c29b87257ff4cd8f246a4f53cd190ee1b7f5b69c57b353df21a3be35"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0007/contact_sheet.jpg",
+      "size_bytes": 78069,
+      "sha256": "f8f5f63814b4090b09472dc15ead90946003d5cd7454f7f587c5fd1d9c0f24b4"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0007/front.png",
+      "size_bytes": 347500,
+      "sha256": "5f516a3904a7cf4a926f3f07b4099f6d5701b4c84a0bfce936f957f27beef03c"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0007/observation.json",
+      "size_bytes": 2553,
+      "sha256": "ae79291e3cd51317ede06288aa24132f4ff06eddcf175df3e41fb96151c551ad"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0007/wrist.png",
+      "size_bytes": 165299,
+      "sha256": "6c8243cc2726e16289707f8a17f1c8ab8bc05471056bc2f32ac1a5968a3db842"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0008/contact_sheet.jpg",
+      "size_bytes": 75333,
+      "sha256": "efe6402a854939285934b0b554a5eb2765455248c3926db069a53750e747b0e3"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0008/front.png",
+      "size_bytes": 346681,
+      "sha256": "7b0d601ceca9b7506b9c70f50ec8101006a874a94b257def9f66c7ad3742cc7f"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0008/observation.json",
+      "size_bytes": 2525,
+      "sha256": "b62a24455818f04e5ead26a55b1a059c9cdd0cab58bc5725eeb961a2e113a555"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0008/wrist.png",
+      "size_bytes": 146233,
+      "sha256": "ce7bf00d7a04a80637babb54720d76cc2199d9b6f789e68f98c6644c3fdc31c7"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0009/contact_sheet.jpg",
+      "size_bytes": 75840,
+      "sha256": "5cd5498712652642b6721e7bff6487abca1324559d9f6a51b920816476eacf18"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0009/front.png",
+      "size_bytes": 346253,
+      "sha256": "8264d41caecda8df60d39361429fa11007f4cefb7241606c364d8827a4843c15"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0009/observation.json",
+      "size_bytes": 2457,
+      "sha256": "8d8bae037df280e0d93c49a20f935ea498b9e79619d7bd84aa310862e11f87eb"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0009/wrist.png",
+      "size_bytes": 152192,
+      "sha256": "98dda8f08ae7e8e6e618316acb0033e3d70c2bed2fc598115e4fad2d40475d82"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0010/contact_sheet.jpg",
+      "size_bytes": 73107,
+      "sha256": "903f24ea2fdd6830a2706907db5becee35bfe181827ebd39489cfa9abd6a9e42"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0010/front.png",
+      "size_bytes": 345102,
+      "sha256": "d511d6ff5d7ddb7650d4d57f82a65d3ebb90c1808db0896cfc24c47b33e2390a"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0010/observation.json",
+      "size_bytes": 2446,
+      "sha256": "05c92c7324425d15dddc480f9a1b05994da6390f3ab1b20bced68fed174fc0d1"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0010/wrist.png",
+      "size_bytes": 124118,
+      "sha256": "0980b9448cf600ea09deb216341d4ea8009e771c8db4a281023d3175711f85d9"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0011/contact_sheet.jpg",
+      "size_bytes": 73932,
+      "sha256": "ad4987f684d8663158be728fe076192beb4be64398b4495b70666037b1d51f92"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0011/front.png",
+      "size_bytes": 347898,
+      "sha256": "7ffb25b961fb137b8293f145208de1270d1ef31f7b16aab4b598b760c5bf59d5"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0011/observation.json",
+      "size_bytes": 2474,
+      "sha256": "b07b0fbb19ac0f826951cb23b7ff16ba566160e5f9e10a84a05f18287d058dcd"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0011/wrist.png",
+      "size_bytes": 125541,
+      "sha256": "94b4d8c640485e20bfd83d3da1b92af7f73c69df77a0ed2a050c0a75d1422ba5"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0012/contact_sheet.jpg",
+      "size_bytes": 77345,
+      "sha256": "6405626e17da3bd0d90725655b9074eeff8f473afbe4d8dfab542b3091863f2c"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0012/front.png",
+      "size_bytes": 345551,
+      "sha256": "294b867bed8a55ec83569663b541caf94a84f5d855b1620c1a1fea6cddd8cfb3"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0012/observation.json",
+      "size_bytes": 2481,
+      "sha256": "40f22a590b70fee6fdd036ad739155e3d4e652e54948b9721213d4610b46333b"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0012/wrist.png",
+      "size_bytes": 138305,
+      "sha256": "066dc570be741d8a18823139e83f1635a284954712f9078218ac68e192a5258a"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0013/contact_sheet.jpg",
+      "size_bytes": 77417,
+      "sha256": "004b7923b496dea34d43ae186446b25e5011321bb7f5401871398f3d99674755"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0013/front.png",
+      "size_bytes": 345624,
+      "sha256": "921a94143a67fd91d756970410489c1404607d66689a137266594908fe4de8ab"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0013/observation.json",
+      "size_bytes": 2487,
+      "sha256": "d3cd939fa678c8111ab27dd3b8a0163da1216096b497e04a703d8328b57798c1"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0013/wrist.png",
+      "size_bytes": 139910,
+      "sha256": "f959471511d694a824f64252c731cebbed7538ab27a1716d82fd7c6271ca6aff"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0014/contact_sheet.jpg",
+      "size_bytes": 75528,
+      "sha256": "c852c8dc13744495657e74ade5507b77538d289a372de8b84de6dbb64648a24f"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0014/front.png",
+      "size_bytes": 345951,
+      "sha256": "e293c59bf9c2cda825d07f9709510cf35b05ae4bdce4c25d29b84402a303c009"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0014/observation.json",
+      "size_bytes": 2495,
+      "sha256": "56c1482737e6ab41c9012c2a0fafd691e7ce44ac76316a2d033161774d24d262"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0014/wrist.png",
+      "size_bytes": 139027,
+      "sha256": "03ff16696ae98ffc961a6c52196549111c7ce995fda184bfcaca769aed0ae05b"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0015/contact_sheet.jpg",
+      "size_bytes": 73418,
+      "sha256": "dcf80c30a6ef9ec3dd34bbae0fe52d95e54cf6ee8685177e0531a6b119b9596c"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0015/front.png",
+      "size_bytes": 343974,
+      "sha256": "f7e25e14a03c9c8202423aab8ce63baee6914316d21fa25ed14f4ead437f0637"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0015/observation.json",
+      "size_bytes": 2495,
+      "sha256": "174ffe36ff31fc389a93f752b8620bca73daad1c0ffde2613d938323b2dda7c0"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0015/wrist.png",
+      "size_bytes": 116257,
+      "sha256": "ce7281deb126f3155b8978f43ca42512819f395012e67540a1aa6e806703c9d9"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0016/contact_sheet.jpg",
+      "size_bytes": 83036,
+      "sha256": "ffe66e8cffb94bdec235e5db103a625d1ddf40b16b6ea455f6ddf29274eeff58"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0016/front.png",
+      "size_bytes": 343516,
+      "sha256": "9e48220250236d64b84bab5b78ce4da4e65fde900ea057a5160aa9c2a68a0949"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0016/observation.json",
+      "size_bytes": 2499,
+      "sha256": "cba8954a404237b78c4663fe205d466e940a58bff138be06b9e684d863577275"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0016/wrist.png",
+      "size_bytes": 188253,
+      "sha256": "eb1fc6568271930715b505578bc8d5d4b28a4665bcb7885532488fed77a3a795"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0017/contact_sheet.jpg",
+      "size_bytes": 76416,
+      "sha256": "e0210ea4cb6235112d5a4d1050a84bdf118ef910dc85992b6e5cafd2b06ec980"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0017/front.png",
+      "size_bytes": 344964,
+      "sha256": "6b05b8dc8eaeebda79ddcc94b3742067446e53a8589bdc00a256dde2070c2e72"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0017/observation.json",
+      "size_bytes": 2467,
+      "sha256": "3c5d5d6ff05fd86ba4518d842907a4b85a020d352eae2508846c196c7d848631"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0017/wrist.png",
+      "size_bytes": 144711,
+      "sha256": "8ae8dd12002133b77505fc23b2f505ef44ce35f7421499f6ef0b614a7850fdff"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0018/contact_sheet.jpg",
+      "size_bytes": 78463,
+      "sha256": "1d590be2c76c6df85a47b89412304b0498cb7f311881c94cba39866c784996c4"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0018/front.png",
+      "size_bytes": 346691,
+      "sha256": "b70c9332cb32ffcace16084a8b958b6b7b63bf52376e291b3315003c9bf577c1"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0018/observation.json",
+      "size_bytes": 2457,
+      "sha256": "503c6d9e10503ad768ae75b4761420633fd534fb62d19b1538d30a1af1453290"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0018/wrist.png",
+      "size_bytes": 147899,
+      "sha256": "d5454586eb3e0c74ac631bcf581d9151543f797f6f6cfb1f8d99a7d250108d7a"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0019/contact_sheet.jpg",
+      "size_bytes": 80256,
+      "sha256": "030b9b103c9cee44e5923d37ac63a1376917ed9ec736e900381cd08e51430b10"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0019/front.png",
+      "size_bytes": 347578,
+      "sha256": "9b7e53b9976ae77e1d3473ee7266b5ddba07865b69078d27f420c6c8f297cd75"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0019/observation.json",
+      "size_bytes": 2463,
+      "sha256": "8843ff70602cd6c982e9cd4c7ab6e5e86b073e2419fdab3b289b93f83adbbcee"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0019/wrist.png",
+      "size_bytes": 145517,
+      "sha256": "b4a76a2e9f4ec34d78d13849e0330ac811a7e34d5255d444dacc25c6465e4fa7"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0020/contact_sheet.jpg",
+      "size_bytes": 83726,
+      "sha256": "1f28e54545b2be345e12aa76faebc12ed2a843fd6c79dea295d2f53659df9a67"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0020/front.png",
+      "size_bytes": 346158,
+      "sha256": "9f4bd054bda53738784939f4c1593a9df7ffaf7fb9e61dcf52cc3317803e6b4f"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0020/observation.json",
+      "size_bytes": 2471,
+      "sha256": "53e8c295708c05697a3d3d70df1e379e7e8fb556077be1e5c261bd2914670c7a"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0020/wrist.png",
+      "size_bytes": 158235,
+      "sha256": "ffd4ba8227a4e37b46fc81c502dbd58578ea89003a91125cf22903cdfcdc0678"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0021/contact_sheet.jpg",
+      "size_bytes": 80159,
+      "sha256": "f29f3d667fcd8dc08dd905d16d12b504ff2a7163675a2e5bd3f66998956112ce"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0021/front.png",
+      "size_bytes": 347725,
+      "sha256": "7b52b62bb9f68a995c646b563cef598ba1fb38d7391ca4409ee047c818be9258"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0021/observation.json",
+      "size_bytes": 2504,
+      "sha256": "2dab2c2a6b40c46438008f6d0f9c18d8b9e6dc2e963aa65f6c80a7b59d9970c4"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0021/wrist.png",
+      "size_bytes": 127175,
+      "sha256": "ea49d99003c9478d60904aa7a533a1d07967080b7b1feaaf41bb77d0883fa6f7"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0022/contact_sheet.jpg",
+      "size_bytes": 65725,
+      "sha256": "805e62b84c302722ef6f98dc5ebdcb74af43587231ad82ef727fcb048f02938e"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0022/front.png",
+      "size_bytes": 348227,
+      "sha256": "ac4d886fe86916cbc3e24fe43209917cc303a498b81112bc60d20e02906d26b0"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0022/observation.json",
+      "size_bytes": 2514,
+      "sha256": "1103089927e6c144132ea7ae86a4de0ca8be2cd307220860ac27f3a09bf5fe39"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0022/wrist.png",
+      "size_bytes": 60865,
+      "sha256": "f572b62e70231038cf1caabea5e57bf9a090522efee475856494303c05f028fb"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0023/contact_sheet.jpg",
+      "size_bytes": 69805,
+      "sha256": "26a503000c255ff99f9338791ba5aee2cd2e55bbc600377342e821e967220e98"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0023/front.png",
+      "size_bytes": 348244,
+      "sha256": "af7e70766e40ebc904a4c6d8791f8ab0b0c50fb4d6663331417d7c8271978c47"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0023/observation.json",
+      "size_bytes": 2529,
+      "sha256": "371ad455105d5ee37f86631ad0e4f9a8b09231c3344b8e941ae52c12ead40972"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0023/wrist.png",
+      "size_bytes": 64006,
+      "sha256": "0312b3e1d52dd3fb7e3f43954378d1e790f86cc7bb6ff40b9b9ab77a00df71ef"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0024/contact_sheet.jpg",
+      "size_bytes": 89471,
+      "sha256": "cd38c2d46c0dfb61b35d26e8b6fdacb06bf08608648432dfcf8ac32b985ca4a2"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0024/front.png",
+      "size_bytes": 348096,
+      "sha256": "6cd8c771fc6dbc1fe32225dd9c32ec89f76ac18c842e84006b37cc08a9a0c11d"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0024/observation.json",
+      "size_bytes": 2559,
+      "sha256": "636cba2f727c869831a5b607f327c8ff0ebb04815c290e07ae1ff7706323bd6e"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0024/wrist.png",
+      "size_bytes": 192384,
+      "sha256": "5aa9f221d264f9ef994d7273600538e67af8a4aedefbddc049ed08ed474d3a05"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0025/contact_sheet.jpg",
+      "size_bytes": 84935,
+      "sha256": "b293f5500510c003663532d3e7b994b20c1e3890088eeafbfb529d444e166e04"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0025/front.png",
+      "size_bytes": 349045,
+      "sha256": "dc6e54e0c8aeb0988839a89cfb043170cc7c04e9124d4164e86a65b6224c4a62"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0025/observation.json",
+      "size_bytes": 2593,
+      "sha256": "3f6318b49fc3a00cc21335aceabbfb05a9f927d2363589e28fa8ec1867416951"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0025/wrist.png",
+      "size_bytes": 202804,
+      "sha256": "e5e9b6022f65cb51fdf2437a84123a57a0164002e837c531bc51df99e46c3818"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0026/contact_sheet.jpg",
+      "size_bytes": 90415,
+      "sha256": "21c1a20c1bee454bc7b303b2e02c0c7e786d3a2b708006b65a1b02bbba1a5777"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0026/front.png",
+      "size_bytes": 349348,
+      "sha256": "7f2a59536d7f199661e07a1e69f12c61b6f8ac075955172fc43ee56d4d049a6d"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0026/observation.json",
+      "size_bytes": 2554,
+      "sha256": "522e45eb3f45e25d1328ae0810363b37cdbca8640c12c7ede60aefa0a3a733b8"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0026/wrist.png",
+      "size_bytes": 177447,
+      "sha256": "706bdebb4ccf0de2c7bb5fd47562cd3a6ac95918d609d430b40888b9d4800520"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0027/contact_sheet.jpg",
+      "size_bytes": 84875,
+      "sha256": "581a30b10f5cd7ffded8ab8d96339cb87f9449fd8ff93dc68b7f3242825065ba"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0027/front.png",
+      "size_bytes": 348659,
+      "sha256": "08324a274f1aa2600f186218cd22901d1f1c94290718d35b70e70ca672652a81"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0027/observation.json",
+      "size_bytes": 2517,
+      "sha256": "1755b085a27df38149175603829a1d46b1f706bf9af87f888cd28afcbadf6888"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0027/wrist.png",
+      "size_bytes": 159002,
+      "sha256": "d3807ebfa3113634edbdd1d96cc736029d000ca20ba3d168f95fac24377fb5f4"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0028/contact_sheet.jpg",
+      "size_bytes": 84200,
+      "sha256": "95c333b9634742f915ddbe8000be566fce2f0ec5c656d523fa49f4cd064825c9"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0028/front.png",
+      "size_bytes": 348061,
+      "sha256": "bce062681bbd10d25078f503b0dc21e1cf66a173775d207c27ccb72ac2ce2dcf"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0028/observation.json",
+      "size_bytes": 2497,
+      "sha256": "b1a295777eec143cbcc17026afe943d19f66e9e7c54d9a6efa2a310c18a6a803"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0028/wrist.png",
+      "size_bytes": 154723,
+      "sha256": "9d90bd14c198ed09c92cb557e1e88caa0aee5196e6c9b66cb2cf35c1b35ffa50"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0029/contact_sheet.jpg",
+      "size_bytes": 83638,
+      "sha256": "bcc2ee28a0165993c21a62ed620a04912a74a52ca4dfb026d5488fc25289ca77"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0029/front.png",
+      "size_bytes": 347447,
+      "sha256": "853c5ae75706a4b9b0b1dfbda71fe90af0e3e2e6fc82526e1bd25d4b04f2a8a7"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0029/observation.json",
+      "size_bytes": 2502,
+      "sha256": "617bd6bcf2bb2f3b21f2ee98dd01c458045d65c1e803573048d499cee68de045"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0029/wrist.png",
+      "size_bytes": 159298,
+      "sha256": "2f5d79d11b0d2ccc0308afff27850d4439076b6bef03e8c4a03c642824f4fdba"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0030/contact_sheet.jpg",
+      "size_bytes": 84463,
+      "sha256": "f1ce1d050cc59c84091de48de3887fb42f54fac2febc2688bbe1026101f0f53e"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0030/front.png",
+      "size_bytes": 346467,
+      "sha256": "992f633aec8f58686f4744cd49aea48b1a930dccf6466d57b6a8411cd668075e"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0030/observation.json",
+      "size_bytes": 2565,
+      "sha256": "b9e71878303bd4cf94cab43891f4d9390621cb5456d6ec301ce139ff7eebf5be"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0030/wrist.png",
+      "size_bytes": 217646,
+      "sha256": "4a1f62ba03c0f0b263d56b02eddbfd4054106ca5a526d61f3b87a2c16209c7ea"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0031/contact_sheet.jpg",
+      "size_bytes": 84409,
+      "sha256": "713924835a23a1e1afa6de06fd2b768ee12cff913ba319f03ee437980039fe60"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0031/front.png",
+      "size_bytes": 347406,
+      "sha256": "5b749422201551866258d81f631faf008bf592a741e2bc74a6bcef2f22231f7e"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0031/observation.json",
+      "size_bytes": 2586,
+      "sha256": "bcb438e1151c8d3ac4250aa09c58440a6e0579f5895ff1807cdf0788aea38ece"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0031/wrist.png",
+      "size_bytes": 224391,
+      "sha256": "8354304e6acf35b469907599b6f6d9def6ff0991691ad69d084f820f95b575f5"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0032/contact_sheet.jpg",
+      "size_bytes": 81403,
+      "sha256": "aa5dd7aeb9eb93c574e4acdf3c81ab6fea87d2c543dda8eb2b92e46acbe31ca4"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0032/front.png",
+      "size_bytes": 348172,
+      "sha256": "f912240099f1e9da034038aa9354f2e402b40d86e68d353372983aa27d7d42ad"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0032/observation.json",
+      "size_bytes": 2578,
+      "sha256": "d7a844bae2bca4aac98f2016b0f1acd230288637763b40ea37e66ff27a7c0a48"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0032/wrist.png",
+      "size_bytes": 197374,
+      "sha256": "ac6bb5bdb9eadfe084ca655ab55e1c0fedf687ef31d940ee0c82371a0921f872"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0033/contact_sheet.jpg",
+      "size_bytes": 87766,
+      "sha256": "b7f3c5d0eebc43b913f0a057b48a730f0773ab2a102e49c6f44c0cca4d6e6dcb"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0033/front.png",
+      "size_bytes": 349378,
+      "sha256": "b8249694d2f3e3d598b8cef2577d806f893c696ce9cf2b6c80f80c5ec094bf82"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0033/observation.json",
+      "size_bytes": 2530,
+      "sha256": "fe7c4a263776c466afeecb60b8d16c317227b01bb2d2c88754b59f261956dc87"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0033/wrist.png",
+      "size_bytes": 136693,
+      "sha256": "59909749667516520270b6f802358322948871827411870dac89413d3b925575"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0034/contact_sheet.jpg",
+      "size_bytes": 81146,
+      "sha256": "c2d82eae1d5de3867839f40b0c14a2dfcc370940fcf2d4fa78a2b74eda24e513"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0034/front.png",
+      "size_bytes": 348535,
+      "sha256": "1a68d3b8e7b75bd2283dd9ef7890221dc4b29393a64292f476c358b3457ad61a"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0034/observation.json",
+      "size_bytes": 2526,
+      "sha256": "da0469f0b525af23518c87cafe41bbf929ccc95e5225ff1bb89e641078185d67"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0034/wrist.png",
+      "size_bytes": 131741,
+      "sha256": "d910516354f926d7c9e8794b92357e4966d26788fd5a79bbc554fbb5b665f420"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0035/contact_sheet.jpg",
+      "size_bytes": 78547,
+      "sha256": "4cab7f29f66620a0a060ef48163c593acda64d8ec0988e8aeb6881e45b042626"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0035/front.png",
+      "size_bytes": 347943,
+      "sha256": "677f0404664289ae02a35b27c6c6d8d12a12bf7e17b044473f9f446700576c3d"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0035/observation.json",
+      "size_bytes": 2517,
+      "sha256": "a3c404bd55e5784ba835aff682b6222ae03bc741f829f129b5d5ee58857231a8"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0035/wrist.png",
+      "size_bytes": 107399,
+      "sha256": "e1ae163da3298d539be0f797996b3aad8d9b06c6c53d69276bcf7bec6f2896e9"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0036/contact_sheet.jpg",
+      "size_bytes": 63955,
+      "sha256": "af2d5c51d7e8888a1b3331dc4ad6c460ee223c2e83717ee5daaf0f9b5847a592"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0036/front.png",
+      "size_bytes": 347694,
+      "sha256": "71397da1713284557ceb68ba329d59cc151da8eb6ad09ecc1815e8fd9a0819f4"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0036/observation.json",
+      "size_bytes": 2525,
+      "sha256": "080c3b388844a2e86a07525c641adfa19487dbf76b8a0da61e5182a8916d1f66"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0036/wrist.png",
+      "size_bytes": 59821,
+      "sha256": "00e5d5a542c2886deccbaf69ce21d704e06aa303637878aa162d7908646566bb"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0037/contact_sheet.jpg",
+      "size_bytes": 82319,
+      "sha256": "c12375b68efa274aee0adefb412fe06ba2ccf95e9e3fb32cec2cf1db28962d10"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0037/front.png",
+      "size_bytes": 348016,
+      "sha256": "2d49ee6fad8db2e289f74312a4a85be463c7279ac358f75f2cfcb679778ee4be"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0037/observation.json",
+      "size_bytes": 2549,
+      "sha256": "24e9101af979b3e94b13f7d1bd70ceca78da788ea7106c8278777ed400fae326"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0037/wrist.png",
+      "size_bytes": 167297,
+      "sha256": "f8627572f64d0e2e0925ce5cf0fa4bc66632144c7d53b6bf88c9aa0f5fd7d88f"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0038/contact_sheet.jpg",
+      "size_bytes": 83779,
+      "sha256": "238d16403a0885f6d506bbb1ced650629db04935e66cf83ee9cbd615d72bf4cb"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0038/front.png",
+      "size_bytes": 347726,
+      "sha256": "6177d8d4486e46186d2af7039cf28f92c05821625978604651654d0a9e979382"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0038/observation.json",
+      "size_bytes": 2521,
+      "sha256": "4128a0b4028698beef5dd5bdef257b22d8fa10b1785f640286b8384d6bdf2704"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0038/wrist.png",
+      "size_bytes": 138657,
+      "sha256": "b938aa2136cee6578bc23d675cb8fce6bf3bc2ec75c4e4fcefa8568d981da246"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0039/contact_sheet.jpg",
+      "size_bytes": 64706,
+      "sha256": "924c0b25abed7b19ff26b4ec9622d76b8c2c24199d787218287bdbed7677b771"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0039/front.png",
+      "size_bytes": 347225,
+      "sha256": "938a8276048da0dcf5d9cd1720e831458825c8c6cbf934601af774c8844c64b5"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0039/observation.json",
+      "size_bytes": 2508,
+      "sha256": "a7a949cef2b612464f7db0ccb296a4d3b6d23b8b90df23fd539e84bdc56bc973"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0039/wrist.png",
+      "size_bytes": 66896,
+      "sha256": "aead6861033db76ef46362d1f3bca417ab74f9ad21267265c70a0d004d11b13a"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0040/contact_sheet.jpg",
+      "size_bytes": 57288,
+      "sha256": "aeb292d78f6478b85cceb2612e53c0f8512f7c598e380ef986f39f3bfde620c7"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0040/front.png",
+      "size_bytes": 346793,
+      "sha256": "759f3d189dd956aef6e53ea5f4762db833c665bc558e9e1bc12f220f69b43ad7"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0040/observation.json",
+      "size_bytes": 2502,
+      "sha256": "6d3a0a5848992098670c3cf3909afeaf8ac9d6fe8b788e5e8a2022dd02435684"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0040/wrist.png",
+      "size_bytes": 46973,
+      "sha256": "42b903978bdfc34d45f555b5821a686542fc372c4c047a3d8ab39f8b41d12726"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0041/contact_sheet.jpg",
+      "size_bytes": 59427,
+      "sha256": "c558207aa51f1dab4188a26adb84368a190dfd5508d94a22819e1b1175934af2"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0041/front.png",
+      "size_bytes": 346713,
+      "sha256": "442eee3e83611cee974b35c85dd20751916f1f6a077cdc2104752e1bb9204cbd"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0041/observation.json",
+      "size_bytes": 2566,
+      "sha256": "1686ac05bbb0c173247037087f3b154162399a74f5b31ddd6c5050cb5387bd8d"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/obs-0041/wrist.png",
+      "size_bytes": 60450,
+      "sha256": "a99243c0e3378109d7894032b3ae0a9ab313aa44dd99186a135b7d362ca413c2"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/redaction_manifest.json",
+      "size_bytes": 122,
+      "sha256": "4d6ae0615b94fc34d6ee9412a8f3e01ac46b10f322982240a7cc9c572917fa92"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/runner-log.txt",
+      "size_bytes": 81,
+      "sha256": "7214e0733d0a69fe8af4d6262cbfa5779ecdd29acc84104230e00c659af5c24e"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/source_path_mapping.json",
+      "size_bytes": 207251,
+      "sha256": "8a889bf6b604118c353c34b71a0de017ba7594202cb239f1c42311ae09f20bd3"
+    },
+    {
+      "path": "episodes/fold_glasses/trial02-attempt01/summary.json",
+      "size_bytes": 949,
+      "sha256": "16a43abcb79a28aff51a911f938a7a3fc6f67acdfd9e420e5dad1a619e887eb9"
+    },
+    {
       "path": "episodes/hammer_nail/trial01-attempt01/attempt.json",
       "size_bytes": 2620,
       "sha256": "ec12ec5c45ff2d6d570b0e6cbacf86d16fbd8adf7a09274402d3367fced2afb3"
@@ -5454,13 +6559,13 @@
     },
     {
       "path": "report.md",
-      "size_bytes": 4189,
-      "sha256": "003ea7b85fe5c33e2e1048939248ae7853b340d9807b7c5e9830ce85119494e8"
+      "size_bytes": 4341,
+      "sha256": "e1d9d6369423d254024901b68469b48e21a2b489ffd2121cc1ee489d2e7d39ba"
     },
     {
       "path": "task_results.csv",
-      "size_bytes": 1235,
-      "sha256": "c8f02a6ce344c6028ca2efe49991d3dd2cf11ccd8e7aa988a0442f51e03eaf96"
+      "size_bytes": 1234,
+      "sha256": "39eabc5dad4276826df41b1fa924811a575c1047eed26c349a844cb1e6f8efa0"
     }
   ],
   "excluded_from_hashing": [

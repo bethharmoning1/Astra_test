@@ -2,7 +2,7 @@
 
 固定初始场景、环境 seed=0、每任务五轮、跨轮上下文隔离。五轮为小样本稳定性观察，不代表跨场景泛化或官方 benchmark 成绩。
 
-计分进度：6/55；成功 3 轮；实际尝试 6 次。
+计分进度：7/55；成功 4 轮；实际尝试 7 次。
 评测状态：未完成正式评测。证据状态：已归档并通过核验。
 
 不足五轮的任务不发布正式任务成功率；全部 11 个任务完成前不发布正式总体成功率。
@@ -10,7 +10,7 @@
 | task | 计划 | 有效完成 | 成功 | 失败 | 中断 | 缺少 | 任务成功率 | 状态 | 证据 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- | --- |
 | click_mouse | 5 | 3 | 3 | 0 | 0 | 2 | 未完成 | 未完成正式评测 | [click_mouse](episodes/click_mouse) |
-| fold_glasses | 5 | 1 | 0 | 1 | 0 | 4 | 未完成 | 未完成正式评测 | [fold_glasses](episodes/fold_glasses) |
+| fold_glasses | 5 | 2 | 1 | 1 | 0 | 3 | 未完成 | 未完成正式评测 | [fold_glasses](episodes/fold_glasses) |
 | hammer_nail | 5 | 2 | 0 | 2 | 0 | 3 | 未完成 | 未完成正式评测 | [hammer_nail](episodes/hammer_nail) |
 | pick_bucket | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
 | pinch_tongs | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
@@ -31,11 +31,12 @@
 | click_mouse / 2 | [trial02-attempt01](episodes/click_mouse/trial02-attempt01) | true | completed | True | 821 | 28 | official_success |  | passed |
 | hammer_nail / 2 | [trial02-attempt01](episodes/hammer_nail/trial02-attempt01) | true | completed | False | 1000 | 34 | native_step_limit |  | passed |
 | click_mouse / 3 | [trial03-attempt01](episodes/click_mouse/trial03-attempt01) | true | completed | True | 746 | 25 | official_success |  | passed |
+| fold_glasses / 2 | [trial02-attempt01](episodes/fold_glasses/trial02-attempt01) | true | completed | True | 1146 | 39 | official_success |  | passed |
 
 未完成任务及原因：
 
 - click_mouse：缺少 2 轮；official_success。
-- fold_glasses：缺少 4 轮；native_step_limit。
+- fold_glasses：缺少 3 轮；official_success。
 - hammer_nail：缺少 3 轮；native_step_limit。
 - pick_bucket：缺少 5 轮；not started。
 - pinch_tongs：缺少 5 轮；not started。
