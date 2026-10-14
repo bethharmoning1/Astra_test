@@ -1,0 +1,218 @@
+{
+  "task": "bimanual_microwave_cook",
+  "prompt": "Open the microwave door, place the food inside the microwave, close the door, and press the start button.",
+  "prompt_source": "configs/rand_obj/bimanual_microwave_cook.yaml",
+  "robot_type": "dual_arm",
+  "native_action_dim": 46,
+  "rotvec_action_dim": 44,
+  "native_action": "absolute world [right_pose7, left_pose7, right_hand16, left_hand16]; pose7=xyz3+wxyz4",
+  "rotvec_action": "[right_xyz3, right_rotvec3, right_hand16, left_xyz3, left_rotvec3, left_hand16]",
+  "hand_order": {
+    "right": [
+      "ffj0_right",
+      "ffj1_right",
+      "ffj2_right",
+      "ffj3_right",
+      "mfj0_right",
+      "mfj1_right",
+      "mfj2_right",
+      "mfj3_right",
+      "rfj0_right",
+      "rfj1_right",
+      "rfj2_right",
+      "rfj3_right",
+      "thj0_right",
+      "thj1_right",
+      "thj2_right",
+      "thj3_right"
+    ],
+    "left": [
+      "rfj0_left",
+      "rfj1_left",
+      "rfj2_left",
+      "rfj3_left",
+      "mfj0_left",
+      "mfj1_left",
+      "mfj2_left",
+      "mfj3_left",
+      "ffj0_left",
+      "ffj1_left",
+      "ffj2_left",
+      "ffj3_left",
+      "thj0_left",
+      "thj1_left",
+      "thj2_left",
+      "thj3_left"
+    ]
+  },
+  "hand_joint_limits_rad": {
+    "right": [
+      [
+        -0.47,
+        0.47
+      ],
+      [
+        -0.196,
+        1.61
+      ],
+      [
+        -0.174,
+        1.709
+      ],
+      [
+        -0.227,
+        1.618
+      ],
+      [
+        -0.47,
+        0.47
+      ],
+      [
+        -0.196,
+        1.61
+      ],
+      [
+        -0.174,
+        1.709
+      ],
+      [
+        -0.227,
+        1.618
+      ],
+      [
+        -0.47,
+        0.47
+      ],
+      [
+        -0.196,
+        1.61
+      ],
+      [
+        -0.174,
+        1.709
+      ],
+      [
+        -0.227,
+        1.618
+      ],
+      [
+        0.263,
+        1.396
+      ],
+      [
+        -0.105,
+        1.163
+      ],
+      [
+        -0.189,
+        1.644
+      ],
+      [
+        -0.162,
+        1.719
+      ]
+    ],
+    "left": [
+      [
+        -0.47,
+        0.47
+      ],
+      [
+        -0.196,
+        1.61
+      ],
+      [
+        -0.174,
+        1.709
+      ],
+      [
+        -0.227,
+        1.618
+      ],
+      [
+        -0.47,
+        0.47
+      ],
+      [
+        -0.196,
+        1.61
+      ],
+      [
+        -0.174,
+        1.709
+      ],
+      [
+        -0.227,
+        1.618
+      ],
+      [
+        -0.47,
+        0.47
+      ],
+      [
+        -0.196,
+        1.61
+      ],
+      [
+        -0.174,
+        1.709
+      ],
+      [
+        -0.227,
+        1.618
+      ],
+      [
+        0.263,
+        1.396
+      ],
+      [
+        -0.105,
+        1.163
+      ],
+      [
+        -0.189,
+        1.644
+      ],
+      [
+        -0.162,
+        1.719
+      ]
+    ]
+  },
+  "position_bounds_m": [
+    [
+      -0.75,
+      0.55
+    ],
+    [
+      -0.85,
+      0.6
+    ],
+    [
+      0.88,
+      1.85
+    ]
+  ],
+  "position_bounds_source": "bridge validation, not an upstream universal limit",
+  "move_arm_selection": "required: right|left; unselected arm retains last target; act controls both synchronously",
+  "control_dt_seconds": 0.02,
+  "max_steps_per_request": 30,
+  "episode_step_limit": null,
+  "recommended_agent_step_budget": 1200,
+  "observations": "3 official per-task selected RGB views and 46D robot proprioception only",
+  "camera_keys": [
+    "ego",
+    "wrist_left",
+    "wrist_right"
+  ],
+  "camera_profile": "rand_obj",
+  "camera_mapping_source": "configs/rand_obj/bimanual_microwave_cook.yaml",
+  "camera_mapping": {
+    "base": "ego",
+    "wrist_left": "wrist_left",
+    "wrist_right": "wrist_right"
+  },
+  "camera_config_sha256": "a90e469f3c8f0a7900249689b2bb35b67cbf574be42e25cc6abd671df2268c1d",
+  "success": "upstream info.succeed; termination is NOT sufficient for success",
+  "clock": "simulator paused while agent reasons; hold explicitly to advance"
+}
