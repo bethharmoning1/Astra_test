@@ -1888,5 +1888,40 @@
       "unique_model_image_references": 50,
       "public_model_error_records": 0
     }
+  },
+  {
+    "batch_id": "20261014-astra-medium",
+    "task": "bimanual_unlock_ipad",
+    "trial_index": 5,
+    "attempt_id": "trial05-attempt01",
+    "seed": 0,
+    "label": "eval-20261014-astra-medium-bimanual_unlock_ipad-t05-a01",
+    "scored": true,
+    "status": "completed",
+    "succeed": false,
+    "terminated": true,
+    "truncated": false,
+    "steps": 654,
+    "action_calls": 22,
+    "reason": "official_failure",
+    "evidence_path": "episodes/bimanual_unlock_ipad/trial05-attempt01",
+    "exception_class": "",
+    "replacement_of": "",
+    "evidence_complete": true,
+    "audit_status": "passed",
+    "audit_counts": {
+      "steps": 654,
+      "action_calls": 22,
+      "reset_count": 1,
+      "observation_events": 24,
+      "official_success_ever_true": false,
+      "observation_directories": 24,
+      "command_count": 30,
+      "command_error_count": 1,
+      "successful_action_command_count": 22,
+      "model_image_references": 253,
+      "unique_model_image_references": 22,
+      "public_model_error_records": 0
+    }
   }
 ]
