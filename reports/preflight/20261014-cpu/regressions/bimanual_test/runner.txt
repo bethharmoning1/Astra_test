@@ -1,0 +1,370 @@
+{"ready": true, "pid": 772705, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 236, in execute
+    sequence = self.robot.move_sequence(self.obs["state"], self.target, msg, steps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 115, in move_sequence
+    raise ValueError("Bimanual move requires --arm right or --arm left; use native46 act for synchronous motion")
+ValueError: Bimanual move requires --arm right or --arm left; use native46 act for synchronous motion
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 329, in serve
+    raise ValueError(f"Active task is {runner.task}; reset cannot switch tasks. Confirm ownership, stop, then start --task {msg['task']}")
+ValueError: Active task is bimanual_assembly; reset cannot switch tasks. Confirm ownership, stop, then start --task click_mouse
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in native_sequence
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in <listcomp>
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+            ^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 60, in validate
+    raise ValueError(f"{arm} position outside configured bridge workspace")
+ValueError: left position outside configured bridge workspace
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in native_sequence
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in <listcomp>
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+            ^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 67, in validate
+    raise ValueError(f"{arm} hand targets outside physical joint limits; see contract")
+ValueError: left hand targets outside physical joint limits; see contract
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in native_sequence
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in <listcomp>
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+            ^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 63, in validate
+    raise ValueError(f"{arm}: zero quaternion is not valid")
+ValueError: left: zero quaternion is not valid
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 105, in native_sequence
+    raise ValueError(f"Only {self.rotvec_dim}D rotvec or {self.dim}D wxyz actions accepted")
+ValueError: Only 44D rotvec or 46D wxyz actions accepted
+{"ready": true, "pid": 773422, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}
+{"ready": true, "pid": 774123, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 236, in execute
+    sequence = self.robot.move_sequence(self.obs["state"], self.target, msg, steps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 115, in move_sequence
+    raise ValueError("Bimanual move requires --arm right or --arm left; use native46 act for synchronous motion")
+ValueError: Bimanual move requires --arm right or --arm left; use native46 act for synchronous motion
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 329, in serve
+    raise ValueError(f"Active task is {runner.task}; reset cannot switch tasks. Confirm ownership, stop, then start --task {msg['task']}")
+ValueError: Active task is bimanual_hanoi; reset cannot switch tasks. Confirm ownership, stop, then start --task click_mouse
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in native_sequence
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in <listcomp>
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+            ^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 60, in validate
+    raise ValueError(f"{arm} position outside configured bridge workspace")
+ValueError: left position outside configured bridge workspace
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in native_sequence
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in <listcomp>
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+            ^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 67, in validate
+    raise ValueError(f"{arm} hand targets outside physical joint limits; see contract")
+ValueError: left hand targets outside physical joint limits; see contract
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in native_sequence
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in <listcomp>
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+            ^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 63, in validate
+    raise ValueError(f"{arm}: zero quaternion is not valid")
+ValueError: left: zero quaternion is not valid
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 105, in native_sequence
+    raise ValueError(f"Only {self.rotvec_dim}D rotvec or {self.dim}D wxyz actions accepted")
+ValueError: Only 44D rotvec or 46D wxyz actions accepted
+{"ready": true, "pid": 775239, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}
+{"ready": true, "pid": 775649, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 236, in execute
+    sequence = self.robot.move_sequence(self.obs["state"], self.target, msg, steps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 115, in move_sequence
+    raise ValueError("Bimanual move requires --arm right or --arm left; use native46 act for synchronous motion")
+ValueError: Bimanual move requires --arm right or --arm left; use native46 act for synchronous motion
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 329, in serve
+    raise ValueError(f"Active task is {runner.task}; reset cannot switch tasks. Confirm ownership, stop, then start --task {msg['task']}")
+ValueError: Active task is bimanual_microwave_cook; reset cannot switch tasks. Confirm ownership, stop, then start --task click_mouse
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in native_sequence
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in <listcomp>
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+            ^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 60, in validate
+    raise ValueError(f"{arm} position outside configured bridge workspace")
+ValueError: left position outside configured bridge workspace
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in native_sequence
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in <listcomp>
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+            ^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 67, in validate
+    raise ValueError(f"{arm} hand targets outside physical joint limits; see contract")
+ValueError: left hand targets outside physical joint limits; see contract
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in native_sequence
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in <listcomp>
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+            ^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 63, in validate
+    raise ValueError(f"{arm}: zero quaternion is not valid")
+ValueError: left: zero quaternion is not valid
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 105, in native_sequence
+    raise ValueError(f"Only {self.rotvec_dim}D rotvec or {self.dim}D wxyz actions accepted")
+ValueError: Only 44D rotvec or 46D wxyz actions accepted
+{"ready": true, "pid": 776492, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}
+{"ready": true, "pid": 777025, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 236, in execute
+    sequence = self.robot.move_sequence(self.obs["state"], self.target, msg, steps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 115, in move_sequence
+    raise ValueError("Bimanual move requires --arm right or --arm left; use native46 act for synchronous motion")
+ValueError: Bimanual move requires --arm right or --arm left; use native46 act for synchronous motion
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 329, in serve
+    raise ValueError(f"Active task is {runner.task}; reset cannot switch tasks. Confirm ownership, stop, then start --task {msg['task']}")
+ValueError: Active task is bimanual_photograph; reset cannot switch tasks. Confirm ownership, stop, then start --task click_mouse
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in native_sequence
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in <listcomp>
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+            ^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 60, in validate
+    raise ValueError(f"{arm} position outside configured bridge workspace")
+ValueError: left position outside configured bridge workspace
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in native_sequence
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in <listcomp>
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+            ^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 67, in validate
+    raise ValueError(f"{arm} hand targets outside physical joint limits; see contract")
+ValueError: left hand targets outside physical joint limits; see contract
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in native_sequence
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in <listcomp>
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+            ^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 63, in validate
+    raise ValueError(f"{arm}: zero quaternion is not valid")
+ValueError: left: zero quaternion is not valid
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 105, in native_sequence
+    raise ValueError(f"Only {self.rotvec_dim}D rotvec or {self.dim}D wxyz actions accepted")
+ValueError: Only 44D rotvec or 46D wxyz actions accepted
+{"ready": true, "pid": 778089, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}
+{"ready": true, "pid": 778426, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 236, in execute
+    sequence = self.robot.move_sequence(self.obs["state"], self.target, msg, steps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 115, in move_sequence
+    raise ValueError("Bimanual move requires --arm right or --arm left; use native46 act for synchronous motion")
+ValueError: Bimanual move requires --arm right or --arm left; use native46 act for synchronous motion
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 329, in serve
+    raise ValueError(f"Active task is {runner.task}; reset cannot switch tasks. Confirm ownership, stop, then start --task {msg['task']}")
+ValueError: Active task is bimanual_unlock_ipad; reset cannot switch tasks. Confirm ownership, stop, then start --task click_mouse
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in native_sequence
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in <listcomp>
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+            ^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 60, in validate
+    raise ValueError(f"{arm} position outside configured bridge workspace")
+ValueError: left position outside configured bridge workspace
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in native_sequence
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in <listcomp>
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+            ^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 67, in validate
+    raise ValueError(f"{arm} hand targets outside physical joint limits; see contract")
+ValueError: left hand targets outside physical joint limits; see contract
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in native_sequence
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 106, in <listcomp>
+    return [self.validate(a) for a in actions]  # Entire request before any step.
+            ^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 63, in validate
+    raise ValueError(f"{arm}: zero quaternion is not valid")
+ValueError: left: zero quaternion is not valid
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 238, in execute
+    sequence = self.robot.native_sequence(msg["actions"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 105, in native_sequence
+    raise ValueError(f"Only {self.rotvec_dim}D rotvec or {self.dim}D wxyz actions accepted")
+ValueError: Only 44D rotvec or 46D wxyz actions accepted
+{"ready": true, "pid": 779417, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}

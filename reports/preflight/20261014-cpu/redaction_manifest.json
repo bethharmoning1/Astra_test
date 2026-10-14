@@ -1,0 +1,12 @@
+{
+  "redactor": "tools.evaluation.evidence._Redactor",
+  "replacement": "<redacted>",
+  "discovered_secret_count": 0,
+  "secret_sha256": [],
+  "changed_files": [],
+  "replacement_count": 0,
+  "preexisting_redactions": "The recorder already replaced preview tokens in CLI logs with preview-token-redacted-<SHA256 prefix>; per-test execution.json files preserve their SHA256-to-placeholder mapping.",
+  "credentials_read": false,
+  "formal_results_read": false,
+  "original_values_stored": false
+}

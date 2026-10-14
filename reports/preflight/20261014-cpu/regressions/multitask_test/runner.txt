@@ -1,0 +1,150 @@
+{"ready": true, "pid": 760501, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 329, in serve
+    raise ValueError(f"Active task is {runner.task}; reset cannot switch tasks. Confirm ownership, stop, then start --task {msg['task']}")
+ValueError: Active task is click_mouse; reset cannot switch tasks. Confirm ownership, stop, then start --task fold_glasses
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 236, in execute
+    sequence = self.robot.move_sequence(self.obs["state"], self.target, msg, steps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 145, in move_sequence
+    end = self.validate(end)
+          ^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 60, in validate
+    raise ValueError(f"{arm} position outside configured bridge workspace")
+ValueError: single position outside configured bridge workspace
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 225, in execute
+    raise ValueError("Episode is finished; reset before sending new actions")
+ValueError: Episode is finished; reset before sending new actions
+{"ready": true, "pid": 762409, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 329, in serve
+    raise ValueError(f"Active task is {runner.task}; reset cannot switch tasks. Confirm ownership, stop, then start --task {msg['task']}")
+ValueError: Active task is fold_glasses; reset cannot switch tasks. Confirm ownership, stop, then start --task click_mouse
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 236, in execute
+    sequence = self.robot.move_sequence(self.obs["state"], self.target, msg, steps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 145, in move_sequence
+    end = self.validate(end)
+          ^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 60, in validate
+    raise ValueError(f"{arm} position outside configured bridge workspace")
+ValueError: single position outside configured bridge workspace
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 225, in execute
+    raise ValueError("Episode is finished; reset before sending new actions")
+ValueError: Episode is finished; reset before sending new actions
+{"ready": true, "pid": 764160, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 329, in serve
+    raise ValueError(f"Active task is {runner.task}; reset cannot switch tasks. Confirm ownership, stop, then start --task {msg['task']}")
+ValueError: Active task is hammer_nail; reset cannot switch tasks. Confirm ownership, stop, then start --task click_mouse
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 236, in execute
+    sequence = self.robot.move_sequence(self.obs["state"], self.target, msg, steps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 145, in move_sequence
+    end = self.validate(end)
+          ^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 60, in validate
+    raise ValueError(f"{arm} position outside configured bridge workspace")
+ValueError: single position outside configured bridge workspace
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 225, in execute
+    raise ValueError("Episode is finished; reset before sending new actions")
+ValueError: Episode is finished; reset before sending new actions
+{"ready": true, "pid": 766108, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 329, in serve
+    raise ValueError(f"Active task is {runner.task}; reset cannot switch tasks. Confirm ownership, stop, then start --task {msg['task']}")
+ValueError: Active task is pick_bucket; reset cannot switch tasks. Confirm ownership, stop, then start --task click_mouse
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 236, in execute
+    sequence = self.robot.move_sequence(self.obs["state"], self.target, msg, steps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 145, in move_sequence
+    end = self.validate(end)
+          ^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 60, in validate
+    raise ValueError(f"{arm} position outside configured bridge workspace")
+ValueError: single position outside configured bridge workspace
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 225, in execute
+    raise ValueError("Episode is finished; reset before sending new actions")
+ValueError: Episode is finished; reset before sending new actions
+{"ready": true, "pid": 768172, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 329, in serve
+    raise ValueError(f"Active task is {runner.task}; reset cannot switch tasks. Confirm ownership, stop, then start --task {msg['task']}")
+ValueError: Active task is pinch_tongs; reset cannot switch tasks. Confirm ownership, stop, then start --task click_mouse
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 236, in execute
+    sequence = self.robot.move_sequence(self.obs["state"], self.target, msg, steps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 145, in move_sequence
+    end = self.validate(end)
+          ^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 60, in validate
+    raise ValueError(f"{arm} position outside configured bridge workspace")
+ValueError: single position outside configured bridge workspace
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 225, in execute
+    raise ValueError("Episode is finished; reset before sending new actions")
+ValueError: Episode is finished; reset before sending new actions
+{"ready": true, "pid": 770006, "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock"}
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 329, in serve
+    raise ValueError(f"Active task is {runner.task}; reset cannot switch tasks. Confirm ownership, stop, then start --task {msg['task']}")
+ValueError: Active task is water_plant; reset cannot switch tasks. Confirm ownership, stop, then start --task click_mouse
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 236, in execute
+    sequence = self.robot.move_sequence(self.obs["state"], self.target, msg, steps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 145, in move_sequence
+    end = self.validate(end)
+          ^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 60, in validate
+    raise ValueError(f"{arm} position outside configured bridge workspace")
+ValueError: single position outside configured bridge workspace
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 225, in execute
+    raise ValueError("Episode is finished; reset before sending new actions")
+ValueError: Episode is finished; reset before sending new actions

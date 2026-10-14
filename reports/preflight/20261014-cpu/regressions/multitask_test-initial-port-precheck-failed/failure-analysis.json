@@ -1,0 +1,10 @@
+{
+  "stage": "wrapper_precheck_before_original_test_import",
+  "returncode": 1,
+  "error": "OSError: [Errno 98] Address already in use",
+  "cause": "The shim bind check lacked SO_REUSEADDR while previous preview connections were in TIME_WAIT. ss showed no 18766 listener and no bridge process, with many 18766 TIME-WAIT connections.",
+  "original_test_executed": false,
+  "runner_created": false,
+  "resolution": "The shim precheck now enables SO_REUSEADDR, matching HTTPServer.allow_reuse_address. Test source and dynamics were not changed.",
+  "retained_original_shim": "../port_shim-initial.py"
+}

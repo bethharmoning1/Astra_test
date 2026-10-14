@@ -1,0 +1,40 @@
+{
+  "kind": "infrastructure_regression_not_agent_evaluation",
+  "test": "cli_regression",
+  "started_utc": "2026-10-14T02:57:53.780019+00:00",
+  "elapsed_seconds": 17.052647675853223,
+  "returncode": 0,
+  "error": null,
+  "preview_port": 18766,
+  "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock",
+  "socket_absent_after_test": true,
+  "all_passed": true,
+  "environment": {
+    "MUJOCO_GL": "osmesa",
+    "PYOPENGL_PLATFORM": "osmesa",
+    "LIBGL_ALWAYS_SOFTWARE": "1",
+    "JAX_PLATFORMS": "cpu",
+    "CUDA_VISIBLE_DEVICES": ""
+  },
+  "source_hash_before": {
+    "agent_bridge/bridge.py": "fa4458a896f4e5ecf8718484187cbeb81dbae3fb36e91a1c7afc4ed74065c75b",
+    "agent_bridge/cli_regression.py": "b57881418006613b1cf8162381060f394cf8b77121712a57a1b2dd180d203803",
+    "agent_bridge/preview.py": "87cb95e8ca4e6a2f4039d92c016de202cb6862a74ce24940c1cb6b45065c8255",
+    "agent_bridge/robot_actions.py": "10309a941f092a9d2433d222ca0ba4fbf9e3eb99d8163e0a3fdb5101ee7faeac",
+    "agent_bridge/task_registry.py": "21c820bad0a6b2867094f185fe94afc7e545a9646e191ba2700bc37e3400eada"
+  },
+  "source_hash_after": {
+    "agent_bridge/bridge.py": "fa4458a896f4e5ecf8718484187cbeb81dbae3fb36e91a1c7afc4ed74065c75b",
+    "agent_bridge/cli_regression.py": "b57881418006613b1cf8162381060f394cf8b77121712a57a1b2dd180d203803",
+    "agent_bridge/preview.py": "87cb95e8ca4e6a2f4039d92c016de202cb6862a74ce24940c1cb6b45065c8255",
+    "agent_bridge/robot_actions.py": "10309a941f092a9d2433d222ca0ba4fbf9e3eb99d8163e0a3fdb5101ee7faeac",
+    "agent_bridge/task_registry.py": "21c820bad0a6b2867094f185fe94afc7e545a9646e191ba2700bc37e3400eada"
+  },
+  "source_unchanged": true,
+  "redaction": {
+    "kind": "preview URL token",
+    "sha256_to_placeholder": {
+      "5e8d9b4651ba5d57abc73347847b81c3c154375dd3402a4a8b6dea7b20b2e039": "preview-token-redacted-5e8d9b4651ba"
+    }
+  }
+}

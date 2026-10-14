@@ -1,0 +1,46 @@
+{
+  "kind": "infrastructure_regression_not_agent_evaluation",
+  "test": "multitask_test",
+  "shim_sha256": "b3a3148dfb695b791e93e2d90ac9b5c0aeafabb56a1e1e7a5bb873afc5c546ea",
+  "started_utc": "2026-10-14T03:00:58.580320+00:00",
+  "elapsed_seconds": 97.61351816216484,
+  "returncode": 0,
+  "error": null,
+  "preview_port": 18766,
+  "socket": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/runner.sock",
+  "socket_absent_after_test": true,
+  "all_passed": true,
+  "environment": {
+    "MUJOCO_GL": "osmesa",
+    "PYOPENGL_PLATFORM": "osmesa",
+    "LIBGL_ALWAYS_SOFTWARE": "1",
+    "JAX_PLATFORMS": "cpu",
+    "CUDA_VISIBLE_DEVICES": ""
+  },
+  "source_hash_before": {
+    "agent_bridge/bridge.py": "fa4458a896f4e5ecf8718484187cbeb81dbae3fb36e91a1c7afc4ed74065c75b",
+    "agent_bridge/multitask_test.py": "fc27456e55b44d1195625f18477687067e74eddcc3b7c4c5addef43c558b5eda",
+    "agent_bridge/preview.py": "87cb95e8ca4e6a2f4039d92c016de202cb6862a74ce24940c1cb6b45065c8255",
+    "agent_bridge/robot_actions.py": "10309a941f092a9d2433d222ca0ba4fbf9e3eb99d8163e0a3fdb5101ee7faeac",
+    "agent_bridge/task_registry.py": "21c820bad0a6b2867094f185fe94afc7e545a9646e191ba2700bc37e3400eada"
+  },
+  "source_hash_after": {
+    "agent_bridge/bridge.py": "fa4458a896f4e5ecf8718484187cbeb81dbae3fb36e91a1c7afc4ed74065c75b",
+    "agent_bridge/multitask_test.py": "fc27456e55b44d1195625f18477687067e74eddcc3b7c4c5addef43c558b5eda",
+    "agent_bridge/preview.py": "87cb95e8ca4e6a2f4039d92c016de202cb6862a74ce24940c1cb6b45065c8255",
+    "agent_bridge/robot_actions.py": "10309a941f092a9d2433d222ca0ba4fbf9e3eb99d8163e0a3fdb5101ee7faeac",
+    "agent_bridge/task_registry.py": "21c820bad0a6b2867094f185fe94afc7e545a9646e191ba2700bc37e3400eada"
+  },
+  "source_unchanged": true,
+  "redaction": {
+    "kind": "preview URL token",
+    "sha256_to_placeholder": {
+      "a53178b4e7162b48110ec3e021b0493c2354e05a1e6152be9a6fc039108007bb": "preview-token-redacted-a53178b4e716",
+      "8c71f55d44e9fcef571776e0f029a90556013703601e840364d551a8797a9d43": "preview-token-redacted-8c71f55d44e9",
+      "c00a9c837a32a853049f8a462816f1cb8d466b1661241650bcfee7061c7cffea": "preview-token-redacted-c00a9c837a32",
+      "2637656027d11ddc5a8af4b59d70290658493fd7ee0eabf261b1bb5db1d65e03": "preview-token-redacted-2637656027d1",
+      "a9b36a285721184c2eb35f257cbf015fd041d67969d3a47f08ddd9452e55fdc3": "preview-token-redacted-a9b36a285721",
+      "2f81f1533b6b6834bca3c9288cb05ee144fac63f3ea0373207d78d49ba7c0dc7": "preview-token-redacted-2f81f1533b6b"
+    }
+  }
+}

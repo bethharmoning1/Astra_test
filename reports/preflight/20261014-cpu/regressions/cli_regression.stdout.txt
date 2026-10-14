@@ -1,0 +1,2 @@
+{"kind": "bridge_cli_regression_not_agent_evaluation", "checks": {"start": {"passed": true}, "contract": {"passed": true}, "pause_between_requests": {"passed": true}, "move_hold": {"passed": true}, "invalid_action_without_advance": {"passed": true}, "reject_actions_after_finish": {"passed": true}, "finish_stop_idempotent": {"passed": true}, "socket_cleanup": {"passed": true}}, "all_passed": true}
+{"test": "cli_regression", "returncode": 0, "all_passed": true, "elapsed_seconds": 17.052647675853223, "socket_absent": true}

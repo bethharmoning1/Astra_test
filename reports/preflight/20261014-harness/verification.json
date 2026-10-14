@@ -1,0 +1,36 @@
+{
+  "started_at": "2026-10-14T03:21:25.072190+00:00",
+  "ended_at": "2026-10-14T03:21:25.944682+00:00",
+  "command": [
+    "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/.venv/bin/python",
+    "-W",
+    "error::ResourceWarning",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tools/evaluation",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "returncode": 0,
+  "unittest_summary": [
+    "----------------------------------------------------------------------\nRan 44 tests in 0.638s",
+    "OK\n"
+  ],
+  "preflight_inventories": {
+    "20261014-cpu": {
+      "passed": true,
+      "file_count": 686,
+      "errors": []
+    },
+    "20261014-api": {
+      "passed": true,
+      "file_count": 17,
+      "errors": []
+    }
+  },
+  "actual_credential_matches": [],
+  "formal_robot_episodes_started": false
+}

@@ -1,0 +1,586 @@
+{
+  "kind": "five_bimanual_tasks_infrastructure_only_not_agent_score",
+  "tasks": {
+    "bimanual_assembly": {
+      "checks": {
+        "identity": {
+          "passed": true
+        },
+        "native46_robot_only": {
+          "passed": true
+        },
+        "official_action_layout": {
+          "passed": true
+        },
+        "left_right_hand_order": {
+          "passed": true
+        },
+        "three_native_cameras": {
+          "passed": true
+        },
+        "rgb_ego": {
+          "passed": true
+        },
+        "rgb_wrist_left": {
+          "passed": true
+        },
+        "rgb_wrist_right": {
+          "passed": true
+        },
+        "dynamic_viewer_buttons": {
+          "passed": true
+        },
+        "preview_goal_and_robot_only": {
+          "passed": true
+        },
+        "preview_ego": {
+          "passed": true
+        },
+        "preview_wrist_left": {
+          "passed": true
+        },
+        "preview_wrist_right": {
+          "passed": true
+        },
+        "preview_grid": {
+          "passed": true
+        },
+        "preview_auth": {
+          "passed": true
+        },
+        "preview_read_only": {
+          "passed": true
+        },
+        "paused_clock": {
+          "passed": true
+        },
+        "move_requires_arm": {
+          "passed": true
+        },
+        "reset_cannot_switch": {
+          "passed": true
+        },
+        "both_arms_hold": {
+          "passed": true
+        },
+        "right_move_left_target_unchanged": {
+          "passed": true
+        },
+        "right_moves_measured": {
+          "passed": true
+        },
+        "left_move_right_target_unchanged": {
+          "passed": true
+        },
+        "left_moves_measured": {
+          "passed": true
+        },
+        "left_hand_target": {
+          "passed": true
+        },
+        "native46_sync_act": {
+          "passed": true
+        },
+        "rotvec44_right22_left22": {
+          "passed": true
+        },
+        "entire_sequence_invalid_left_workspace_no_step": {
+          "passed": true
+        },
+        "invalid_left_joint_no_step": {
+          "passed": true
+        },
+        "invalid_left_quaternion_no_step": {
+          "passed": true
+        },
+        "single23_rejected_no_step": {
+          "passed": true
+        },
+        "official_success_boolean": {
+          "passed": true
+        },
+        "summary_manifest": {
+          "passed": true
+        },
+        "reset_reproducible": {
+          "passed": true
+        },
+        "preview_does_not_change_motion": {
+          "passed": true,
+          "max_robot_state_diff": 0.0
+        },
+        "socket_cleanup": {
+          "passed": true
+        }
+      },
+      "agent_attempted": false,
+      "episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/bimanual_assembly-bimanual-smoke-seed0-20261014-110310-543372",
+      "all_passed": true
+    },
+    "bimanual_hanoi": {
+      "checks": {
+        "identity": {
+          "passed": true
+        },
+        "native46_robot_only": {
+          "passed": true
+        },
+        "official_action_layout": {
+          "passed": true
+        },
+        "left_right_hand_order": {
+          "passed": true
+        },
+        "three_native_cameras": {
+          "passed": true
+        },
+        "rgb_ego": {
+          "passed": true
+        },
+        "rgb_wrist_left": {
+          "passed": true
+        },
+        "rgb_wrist_right": {
+          "passed": true
+        },
+        "dynamic_viewer_buttons": {
+          "passed": true
+        },
+        "preview_goal_and_robot_only": {
+          "passed": true
+        },
+        "preview_ego": {
+          "passed": true
+        },
+        "preview_wrist_left": {
+          "passed": true
+        },
+        "preview_wrist_right": {
+          "passed": true
+        },
+        "preview_grid": {
+          "passed": true
+        },
+        "preview_auth": {
+          "passed": true
+        },
+        "preview_read_only": {
+          "passed": true
+        },
+        "paused_clock": {
+          "passed": true
+        },
+        "move_requires_arm": {
+          "passed": true
+        },
+        "reset_cannot_switch": {
+          "passed": true
+        },
+        "both_arms_hold": {
+          "passed": true
+        },
+        "right_move_left_target_unchanged": {
+          "passed": true
+        },
+        "right_moves_measured": {
+          "passed": true
+        },
+        "left_move_right_target_unchanged": {
+          "passed": true
+        },
+        "left_moves_measured": {
+          "passed": true
+        },
+        "left_hand_target": {
+          "passed": true
+        },
+        "native46_sync_act": {
+          "passed": true
+        },
+        "rotvec44_right22_left22": {
+          "passed": true
+        },
+        "entire_sequence_invalid_left_workspace_no_step": {
+          "passed": true
+        },
+        "invalid_left_joint_no_step": {
+          "passed": true
+        },
+        "invalid_left_quaternion_no_step": {
+          "passed": true
+        },
+        "single23_rejected_no_step": {
+          "passed": true
+        },
+        "official_success_boolean": {
+          "passed": true
+        },
+        "summary_manifest": {
+          "passed": true
+        },
+        "reset_reproducible": {
+          "passed": true
+        },
+        "preview_does_not_change_motion": {
+          "passed": true,
+          "max_robot_state_diff": 0.0
+        },
+        "socket_cleanup": {
+          "passed": true
+        }
+      },
+      "agent_attempted": false,
+      "episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/bimanual_hanoi-bimanual-smoke-seed0-20261014-110347-205496",
+      "all_passed": true
+    },
+    "bimanual_microwave_cook": {
+      "checks": {
+        "identity": {
+          "passed": true
+        },
+        "native46_robot_only": {
+          "passed": true
+        },
+        "official_action_layout": {
+          "passed": true
+        },
+        "left_right_hand_order": {
+          "passed": true
+        },
+        "three_native_cameras": {
+          "passed": true
+        },
+        "rgb_ego": {
+          "passed": true
+        },
+        "rgb_wrist_left": {
+          "passed": true
+        },
+        "rgb_wrist_right": {
+          "passed": true
+        },
+        "dynamic_viewer_buttons": {
+          "passed": true
+        },
+        "preview_goal_and_robot_only": {
+          "passed": true
+        },
+        "preview_ego": {
+          "passed": true
+        },
+        "preview_wrist_left": {
+          "passed": true
+        },
+        "preview_wrist_right": {
+          "passed": true
+        },
+        "preview_grid": {
+          "passed": true
+        },
+        "preview_auth": {
+          "passed": true
+        },
+        "preview_read_only": {
+          "passed": true
+        },
+        "paused_clock": {
+          "passed": true
+        },
+        "move_requires_arm": {
+          "passed": true
+        },
+        "reset_cannot_switch": {
+          "passed": true
+        },
+        "both_arms_hold": {
+          "passed": true
+        },
+        "right_move_left_target_unchanged": {
+          "passed": true
+        },
+        "right_moves_measured": {
+          "passed": true
+        },
+        "left_move_right_target_unchanged": {
+          "passed": true
+        },
+        "left_moves_measured": {
+          "passed": true
+        },
+        "left_hand_target": {
+          "passed": true
+        },
+        "native46_sync_act": {
+          "passed": true
+        },
+        "rotvec44_right22_left22": {
+          "passed": true
+        },
+        "entire_sequence_invalid_left_workspace_no_step": {
+          "passed": true
+        },
+        "invalid_left_joint_no_step": {
+          "passed": true
+        },
+        "invalid_left_quaternion_no_step": {
+          "passed": true
+        },
+        "single23_rejected_no_step": {
+          "passed": true
+        },
+        "official_success_boolean": {
+          "passed": true
+        },
+        "summary_manifest": {
+          "passed": true
+        },
+        "reset_reproducible": {
+          "passed": true
+        },
+        "preview_does_not_change_motion": {
+          "passed": true,
+          "max_robot_state_diff": 0.0
+        },
+        "socket_cleanup": {
+          "passed": true
+        }
+      },
+      "agent_attempted": false,
+      "episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/bimanual_microwave_cook-bimanual-smoke-seed0-20261014-110421-345204",
+      "all_passed": true
+    },
+    "bimanual_photograph": {
+      "checks": {
+        "identity": {
+          "passed": true
+        },
+        "native46_robot_only": {
+          "passed": true
+        },
+        "official_action_layout": {
+          "passed": true
+        },
+        "left_right_hand_order": {
+          "passed": true
+        },
+        "three_native_cameras": {
+          "passed": true
+        },
+        "rgb_ego": {
+          "passed": true
+        },
+        "rgb_wrist_left": {
+          "passed": true
+        },
+        "rgb_wrist_right": {
+          "passed": true
+        },
+        "dynamic_viewer_buttons": {
+          "passed": true
+        },
+        "preview_goal_and_robot_only": {
+          "passed": true
+        },
+        "preview_ego": {
+          "passed": true
+        },
+        "preview_wrist_left": {
+          "passed": true
+        },
+        "preview_wrist_right": {
+          "passed": true
+        },
+        "preview_grid": {
+          "passed": true
+        },
+        "preview_auth": {
+          "passed": true
+        },
+        "preview_read_only": {
+          "passed": true
+        },
+        "paused_clock": {
+          "passed": true
+        },
+        "move_requires_arm": {
+          "passed": true
+        },
+        "reset_cannot_switch": {
+          "passed": true
+        },
+        "both_arms_hold": {
+          "passed": true
+        },
+        "right_move_left_target_unchanged": {
+          "passed": true
+        },
+        "right_moves_measured": {
+          "passed": true
+        },
+        "left_move_right_target_unchanged": {
+          "passed": true
+        },
+        "left_moves_measured": {
+          "passed": true
+        },
+        "left_hand_target": {
+          "passed": true
+        },
+        "native46_sync_act": {
+          "passed": true
+        },
+        "rotvec44_right22_left22": {
+          "passed": true
+        },
+        "entire_sequence_invalid_left_workspace_no_step": {
+          "passed": true
+        },
+        "invalid_left_joint_no_step": {
+          "passed": true
+        },
+        "invalid_left_quaternion_no_step": {
+          "passed": true
+        },
+        "single23_rejected_no_step": {
+          "passed": true
+        },
+        "official_success_boolean": {
+          "passed": true
+        },
+        "summary_manifest": {
+          "passed": true
+        },
+        "reset_reproducible": {
+          "passed": true
+        },
+        "preview_does_not_change_motion": {
+          "passed": true,
+          "max_robot_state_diff": 0.0
+        },
+        "socket_cleanup": {
+          "passed": true
+        }
+      },
+      "agent_attempted": false,
+      "episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/bimanual_photograph-bimanual-smoke-seed0-20261014-110454-041710",
+      "all_passed": true
+    },
+    "bimanual_unlock_ipad": {
+      "checks": {
+        "identity": {
+          "passed": true
+        },
+        "native46_robot_only": {
+          "passed": true
+        },
+        "official_action_layout": {
+          "passed": true
+        },
+        "left_right_hand_order": {
+          "passed": true
+        },
+        "three_native_cameras": {
+          "passed": true
+        },
+        "rgb_ego": {
+          "passed": true
+        },
+        "rgb_wrist_left": {
+          "passed": true
+        },
+        "rgb_wrist_right": {
+          "passed": true
+        },
+        "dynamic_viewer_buttons": {
+          "passed": true
+        },
+        "preview_goal_and_robot_only": {
+          "passed": true
+        },
+        "preview_ego": {
+          "passed": true
+        },
+        "preview_wrist_left": {
+          "passed": true
+        },
+        "preview_wrist_right": {
+          "passed": true
+        },
+        "preview_grid": {
+          "passed": true
+        },
+        "preview_auth": {
+          "passed": true
+        },
+        "preview_read_only": {
+          "passed": true
+        },
+        "paused_clock": {
+          "passed": true
+        },
+        "move_requires_arm": {
+          "passed": true
+        },
+        "reset_cannot_switch": {
+          "passed": true
+        },
+        "both_arms_hold": {
+          "passed": true
+        },
+        "right_move_left_target_unchanged": {
+          "passed": true
+        },
+        "right_moves_measured": {
+          "passed": true
+        },
+        "left_move_right_target_unchanged": {
+          "passed": true
+        },
+        "left_moves_measured": {
+          "passed": true
+        },
+        "left_hand_target": {
+          "passed": true
+        },
+        "native46_sync_act": {
+          "passed": true
+        },
+        "rotvec44_right22_left22": {
+          "passed": true
+        },
+        "entire_sequence_invalid_left_workspace_no_step": {
+          "passed": true
+        },
+        "invalid_left_joint_no_step": {
+          "passed": true
+        },
+        "invalid_left_quaternion_no_step": {
+          "passed": true
+        },
+        "single23_rejected_no_step": {
+          "passed": true
+        },
+        "official_success_boolean": {
+          "passed": true
+        },
+        "summary_manifest": {
+          "passed": true
+        },
+        "reset_reproducible": {
+          "passed": true
+        },
+        "preview_does_not_change_motion": {
+          "passed": true,
+          "max_robot_state_diff": 0.0
+        },
+        "socket_cleanup": {
+          "passed": true
+        }
+      },
+      "agent_attempted": false,
+      "episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/bimanual_unlock_ipad-bimanual-smoke-seed0-20261014-110530-342735",
+      "all_passed": true
+    }
+  },
+  "all_passed": true
+}

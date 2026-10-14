@@ -1,0 +1,21 @@
+{
+  "checks_done_before_first_test": true,
+  "default_socket_present": false,
+  "initial_pid_file_value": 3653336,
+  "initial_pid_exited": true,
+  "bridge_processes": [],
+  "status_returncode": 1,
+  "status_error": "FileNotFoundError: [Errno 2] No such file or directory",
+  "occupied_port": {
+    "port": 8766,
+    "pid": 3597705,
+    "command": ".venv/bin/python scripts/run_dashboard.py",
+    "untouched": true
+  },
+  "selected_preview_port": 18766,
+  "selected_port_was_available": true,
+  "socket_path_bytes": 93,
+  "scope": "four optional infrastructure regressions, not model performance evaluation",
+  "recorded_utc": "2026-10-14T02:58:29.922744+00:00",
+  "evidence_source": "Recorded from initial terminal checks performed before the first test."
+}

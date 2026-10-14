@@ -1,0 +1,239 @@
+{
+  "model": "gpt-6-astra",
+  "reasoning": {
+    "effort": "medium"
+  },
+  "input": [
+    {
+      "role": "developer",
+      "content": [
+        {
+          "type": "input_text",
+          "text": "This is a synthetic API protocol test, not a robot episode. Always call observe once when asked."
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "input_text",
+          "text": "Validate the production tool schema by calling observe once. The attached image is synthetic."
+        },
+        {
+          "type": "input_image",
+          "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAb0lEQVR4nO3PAQkAAAyEwO9feoshgnABdLep8QUNyPEFDcjxBQ3I8QUNyPEFDcjxBQ3I8QUNyPEFDcjxBQ3I8QUNyPEFDcjxBQ3I8QUNyPEFDcjxBQ3I8QUNyPEFDcjxBQ3I8QUNyPEFDcjxBQ3IPanc8OLDQitxAAAAAElFTkSuQmCC"
+        }
+      ]
+    },
+    {
+      "type": "function_call",
+      "id": "fc_010376bb356531c3016acef2da9ec08199a58b90bfb61e67bd",
+      "call_id": "call_3724a973cdf44473af98591bfb9727e4",
+      "name": "observe",
+      "arguments": "{}",
+      "status": "completed"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_3724a973cdf44473af98591bfb9727e4",
+      "output": "{\"ok\": true, \"synthetic\": true, \"simulation_started\": false}"
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "input_text",
+          "text": "Validate full current-probe history round trip with a new synthetic image input. Call observe once again."
+        },
+        {
+          "type": "input_image",
+          "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAAb0lEQVR4nO3PAQkAAAyEwO9feoshgnABdLep8QUNyPEFDcjxBQ3I8QUNyPEFDcjxBQ3I8QUNyPEFDcjxBQ3I8QUNyPEFDcjxBQ3I8QUNyPEFDcjxBQ3I8QUNyPEFDcjxBQ3I8QUNyPEFDcjxBQ3IPanc8OLDQitxAAAAAElFTkSuQmCC"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "name": "observe",
+      "description": "Get a fresh image and robot state without advancing time.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    {
+      "type": "function",
+      "name": "move",
+      "description": "Interpolate one arm's target over 1 to 30 steps. Positions are absolute world coordinates unless delta=true; quaternion order is wxyz. Use at most one of quat and rotvec. Null leaves that target unchanged. For a dual-arm robot arm is required; the other arm keeps its last target.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "xyz": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "quat": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 4,
+                "maxItems": 4
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "rotvec": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "hand": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 16,
+                "maxItems": 16
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "arm": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "right",
+                  "left"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "delta": {
+            "type": "boolean"
+          },
+          "steps": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "xyz",
+          "quat",
+          "rotvec",
+          "hand",
+          "arm",
+          "delta",
+          "steps",
+          "note"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    {
+      "type": "function",
+      "name": "hold",
+      "description": "Hold current legal targets for 1 to 30 environment steps.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "steps": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "steps",
+          "note"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    {
+      "type": "function",
+      "name": "act",
+      "description": "Execute one 1 to 30 row action array using the current contract's native or rotvec ordering. This is one short action before a fresh image.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "actions": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 30,
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "actions",
+          "note"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    }
+  ],
+  "tool_choice": {
+    "type": "function",
+    "name": "observe"
+  },
+  "parallel_tool_calls": false,
+  "max_output_tokens": 16384,
+  "store": false,
+  "stream": true
+}

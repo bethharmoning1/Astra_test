@@ -1,0 +1,554 @@
+{
+  "kind": "six_single_arm_tasks_infrastructure_only_not_agent_score",
+  "tasks": {
+    "click_mouse": {
+      "checks": {
+        "start_task_identity": {
+          "passed": true
+        },
+        "23d_contract_and_prompt": {
+          "passed": true
+        },
+        "finite_robot_state_only": {
+          "passed": true
+        },
+        "camera_ego_right": {
+          "passed": true
+        },
+        "camera_wrist": {
+          "passed": true
+        },
+        "official_selected_camera_layout": {
+          "passed": true
+        },
+        "dynamic_read_only_viewer": {
+          "passed": true
+        },
+        "preview_task_goal": {
+          "passed": true
+        },
+        "preview_grid": {
+          "passed": true
+        },
+        "paused_clock": {
+          "passed": true
+        },
+        "start_reuses_without_reset": {
+          "passed": true
+        },
+        "reject_mismatched_task_no_reset": {
+          "passed": true
+        },
+        "hold_pose": {
+          "passed": true
+        },
+        "small_motion_executes": {
+          "passed": true
+        },
+        "22d_action_conversion": {
+          "passed": true
+        },
+        "upstream_success_flag_bool": {
+          "passed": true
+        },
+        "invalid_action_no_advance": {
+          "passed": true
+        },
+        "preview_success_propagation": {
+          "passed": true
+        },
+        "summary_and_manifest": {
+          "passed": true
+        },
+        "same_task_reset_reproducible": {
+          "passed": true
+        },
+        "socket_cleanup": {
+          "passed": true
+        }
+      },
+      "agent_attempted": false,
+      "episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/click_mouse-multitask-smoke-seed0-20261014-110101-134146",
+      "camera_shapes": {
+        "ego_right": [
+          640,
+          640,
+          3
+        ],
+        "wrist": [
+          640,
+          640,
+          3
+        ]
+      },
+      "smoke_succeed": false,
+      "reset_episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/click_mouse-multitask-reset-seed0-20261014-110113-539672",
+      "all_passed": true
+    },
+    "fold_glasses": {
+      "checks": {
+        "start_task_identity": {
+          "passed": true
+        },
+        "23d_contract_and_prompt": {
+          "passed": true
+        },
+        "finite_robot_state_only": {
+          "passed": true
+        },
+        "camera_front": {
+          "passed": true
+        },
+        "camera_wrist": {
+          "passed": true
+        },
+        "official_selected_camera_layout": {
+          "passed": true
+        },
+        "dynamic_read_only_viewer": {
+          "passed": true
+        },
+        "preview_task_goal": {
+          "passed": true
+        },
+        "preview_grid": {
+          "passed": true
+        },
+        "paused_clock": {
+          "passed": true
+        },
+        "start_reuses_without_reset": {
+          "passed": true
+        },
+        "reject_mismatched_task_no_reset": {
+          "passed": true
+        },
+        "hold_pose": {
+          "passed": true
+        },
+        "small_motion_executes": {
+          "passed": true
+        },
+        "22d_action_conversion": {
+          "passed": true
+        },
+        "upstream_success_flag_bool": {
+          "passed": true
+        },
+        "invalid_action_no_advance": {
+          "passed": true
+        },
+        "preview_success_propagation": {
+          "passed": true
+        },
+        "summary_and_manifest": {
+          "passed": true
+        },
+        "same_task_reset_reproducible": {
+          "passed": true
+        },
+        "socket_cleanup": {
+          "passed": true
+        }
+      },
+      "agent_attempted": false,
+      "episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/fold_glasses-multitask-smoke-seed0-20261014-110118-683064",
+      "camera_shapes": {
+        "front": [
+          640,
+          640,
+          3
+        ],
+        "wrist": [
+          640,
+          640,
+          3
+        ]
+      },
+      "smoke_succeed": false,
+      "reset_episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/fold_glasses-multitask-reset-seed0-20261014-110130-888130",
+      "all_passed": true
+    },
+    "hammer_nail": {
+      "checks": {
+        "start_task_identity": {
+          "passed": true
+        },
+        "23d_contract_and_prompt": {
+          "passed": true
+        },
+        "finite_robot_state_only": {
+          "passed": true
+        },
+        "camera_front": {
+          "passed": true
+        },
+        "camera_wrist": {
+          "passed": true
+        },
+        "official_selected_camera_layout": {
+          "passed": true
+        },
+        "dynamic_read_only_viewer": {
+          "passed": true
+        },
+        "preview_task_goal": {
+          "passed": true
+        },
+        "preview_grid": {
+          "passed": true
+        },
+        "paused_clock": {
+          "passed": true
+        },
+        "start_reuses_without_reset": {
+          "passed": true
+        },
+        "reject_mismatched_task_no_reset": {
+          "passed": true
+        },
+        "hold_pose": {
+          "passed": true
+        },
+        "small_motion_executes": {
+          "passed": true
+        },
+        "22d_action_conversion": {
+          "passed": true
+        },
+        "upstream_success_flag_bool": {
+          "passed": true
+        },
+        "invalid_action_no_advance": {
+          "passed": true
+        },
+        "preview_success_propagation": {
+          "passed": true
+        },
+        "summary_and_manifest": {
+          "passed": true
+        },
+        "same_task_reset_reproducible": {
+          "passed": true
+        },
+        "socket_cleanup": {
+          "passed": true
+        }
+      },
+      "agent_attempted": false,
+      "episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/hammer_nail-multitask-smoke-seed0-20261014-110135-315120",
+      "camera_shapes": {
+        "front": [
+          640,
+          640,
+          3
+        ],
+        "wrist": [
+          640,
+          640,
+          3
+        ]
+      },
+      "smoke_succeed": false,
+      "reset_episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/hammer_nail-multitask-reset-seed0-20261014-110147-350631",
+      "all_passed": true
+    },
+    "pick_bucket": {
+      "checks": {
+        "start_task_identity": {
+          "passed": true
+        },
+        "23d_contract_and_prompt": {
+          "passed": true
+        },
+        "finite_robot_state_only": {
+          "passed": true
+        },
+        "camera_front": {
+          "passed": true
+        },
+        "camera_wrist": {
+          "passed": true
+        },
+        "official_selected_camera_layout": {
+          "passed": true
+        },
+        "dynamic_read_only_viewer": {
+          "passed": true
+        },
+        "preview_task_goal": {
+          "passed": true
+        },
+        "preview_grid": {
+          "passed": true
+        },
+        "paused_clock": {
+          "passed": true
+        },
+        "start_reuses_without_reset": {
+          "passed": true
+        },
+        "reject_mismatched_task_no_reset": {
+          "passed": true
+        },
+        "hold_pose": {
+          "passed": true
+        },
+        "small_motion_executes": {
+          "passed": true
+        },
+        "22d_action_conversion": {
+          "passed": true
+        },
+        "upstream_success_flag_bool": {
+          "passed": true
+        },
+        "invalid_action_no_advance": {
+          "passed": true
+        },
+        "preview_success_propagation": {
+          "passed": true
+        },
+        "summary_and_manifest": {
+          "passed": true
+        },
+        "same_task_reset_reproducible": {
+          "passed": true
+        },
+        "socket_cleanup": {
+          "passed": true
+        }
+      },
+      "agent_attempted": false,
+      "episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/pick_bucket-multitask-smoke-seed0-20261014-110152-723208",
+      "camera_shapes": {
+        "front": [
+          640,
+          640,
+          3
+        ],
+        "wrist": [
+          640,
+          640,
+          3
+        ]
+      },
+      "smoke_succeed": false,
+      "reset_episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/pick_bucket-multitask-reset-seed0-20261014-110204-750598",
+      "all_passed": true
+    },
+    "pinch_tongs": {
+      "checks": {
+        "start_task_identity": {
+          "passed": true
+        },
+        "23d_contract_and_prompt": {
+          "passed": true
+        },
+        "finite_robot_state_only": {
+          "passed": true
+        },
+        "camera_front": {
+          "passed": true
+        },
+        "camera_wrist": {
+          "passed": true
+        },
+        "official_selected_camera_layout": {
+          "passed": true
+        },
+        "dynamic_read_only_viewer": {
+          "passed": true
+        },
+        "preview_task_goal": {
+          "passed": true
+        },
+        "preview_grid": {
+          "passed": true
+        },
+        "paused_clock": {
+          "passed": true
+        },
+        "start_reuses_without_reset": {
+          "passed": true
+        },
+        "reject_mismatched_task_no_reset": {
+          "passed": true
+        },
+        "hold_pose": {
+          "passed": true
+        },
+        "small_motion_executes": {
+          "passed": true
+        },
+        "22d_action_conversion": {
+          "passed": true
+        },
+        "upstream_success_flag_bool": {
+          "passed": true
+        },
+        "invalid_action_no_advance": {
+          "passed": true
+        },
+        "preview_success_propagation": {
+          "passed": true
+        },
+        "summary_and_manifest": {
+          "passed": true
+        },
+        "same_task_reset_reproducible": {
+          "passed": true
+        },
+        "socket_cleanup": {
+          "passed": true
+        }
+      },
+      "agent_attempted": false,
+      "episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/pinch_tongs-multitask-smoke-seed0-20261014-110209-132893",
+      "camera_shapes": {
+        "front": [
+          640,
+          640,
+          3
+        ],
+        "wrist": [
+          640,
+          640,
+          3
+        ]
+      },
+      "smoke_succeed": false,
+      "reset_episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/pinch_tongs-multitask-reset-seed0-20261014-110221-525806",
+      "all_passed": true
+    },
+    "water_plant": {
+      "checks": {
+        "start_task_identity": {
+          "passed": true
+        },
+        "23d_contract_and_prompt": {
+          "passed": true
+        },
+        "finite_robot_state_only": {
+          "passed": true
+        },
+        "camera_front": {
+          "passed": true
+        },
+        "camera_wrist": {
+          "passed": true
+        },
+        "official_selected_camera_layout": {
+          "passed": true
+        },
+        "dynamic_read_only_viewer": {
+          "passed": true
+        },
+        "preview_task_goal": {
+          "passed": true
+        },
+        "preview_grid": {
+          "passed": true
+        },
+        "paused_clock": {
+          "passed": true
+        },
+        "start_reuses_without_reset": {
+          "passed": true
+        },
+        "reject_mismatched_task_no_reset": {
+          "passed": true
+        },
+        "hold_pose": {
+          "passed": true
+        },
+        "small_motion_executes": {
+          "passed": true
+        },
+        "22d_action_conversion": {
+          "passed": true
+        },
+        "upstream_success_flag_bool": {
+          "passed": true
+        },
+        "invalid_action_no_advance": {
+          "passed": true
+        },
+        "preview_success_propagation": {
+          "passed": true
+        },
+        "summary_and_manifest": {
+          "passed": true
+        },
+        "same_task_reset_reproducible": {
+          "passed": true
+        },
+        "socket_cleanup": {
+          "passed": true
+        }
+      },
+      "agent_attempted": false,
+      "episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/water_plant-multitask-smoke-seed0-20261014-110226-503949",
+      "camera_shapes": {
+        "front": [
+          640,
+          640,
+          3
+        ],
+        "wrist": [
+          640,
+          640,
+          3
+        ]
+      },
+      "smoke_succeed": false,
+      "reset_episode_dir": "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/artifacts/water_plant-multitask-reset-seed0-20261014-110234-850774",
+      "all_passed": true
+    }
+  },
+  "checks": {
+    "catalog_without_runner": {
+      "passed": true
+    },
+    "eleven_supported_tasks": {
+      "passed": true
+    },
+    "six_supported_single_arm": {
+      "passed": true
+    },
+    "official_prompt_click_mouse": {
+      "passed": true
+    },
+    "official_prompt_fold_glasses": {
+      "passed": true
+    },
+    "official_prompt_hammer_nail": {
+      "passed": true
+    },
+    "official_prompt_pick_bucket": {
+      "passed": true
+    },
+    "official_prompt_pinch_tongs": {
+      "passed": true
+    },
+    "official_prompt_water_plant": {
+      "passed": true
+    },
+    "official_prompt_bimanual_assembly": {
+      "passed": true
+    },
+    "official_prompt_bimanual_hanoi": {
+      "passed": true
+    },
+    "official_prompt_bimanual_microwave_cook": {
+      "passed": true
+    },
+    "official_prompt_bimanual_photograph": {
+      "passed": true
+    },
+    "official_prompt_bimanual_unlock_ipad": {
+      "passed": true
+    }
+  },
+  "all_passed": true
+}
