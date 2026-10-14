@@ -2,7 +2,7 @@
 
 固定初始场景、环境 seed=0、每任务五轮、跨轮上下文隔离。五轮为小样本稳定性观察，不代表跨场景泛化或官方 benchmark 成绩。
 
-计分进度：20/55；成功 5 轮；实际尝试 22 次。
+计分进度：20/55；成功 5 轮；实际尝试 23 次。
 评测状态：未完成正式评测。证据状态：未全部通过完整证据核验。
 
 不足五轮的任务不发布正式任务成功率；全部 11 个任务完成前不发布正式总体成功率。
@@ -14,7 +14,7 @@
 | hammer_nail | 5 | 5 | 0 | 5 | 0 | 0 | 0% | complete | [hammer_nail](episodes/hammer_nail) |
 | pick_bucket | 5 | 2 | 0 | 2 | 1 | 3 | 未完成 | 未完成正式评测 | [pick_bucket](episodes/pick_bucket) |
 | pinch_tongs | 5 | 2 | 0 | 2 | 1 | 3 | 未完成 | 未完成正式评测 | [pinch_tongs](episodes/pinch_tongs) |
-| water_plant | 5 | 1 | 0 | 1 | 0 | 4 | 未完成 | 未完成正式评测 | [water_plant](episodes/water_plant) |
+| water_plant | 5 | 1 | 0 | 1 | 1 | 4 | 未完成 | 未完成正式评测 | [water_plant](episodes/water_plant) |
 | bimanual_assembly | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
 | bimanual_hanoi | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
 | bimanual_microwave_cook | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
@@ -47,12 +47,13 @@
 | pinch_tongs / 2 | [trial02-attempt01](episodes/pinch_tongs/trial02-attempt01) | true | completed | False | 1000 | 47 | native_step_limit |  | passed |
 | pick_bucket / 3 | [trial03-attempt01](episodes/pick_bucket/trial03-attempt01) | false | interrupted |  |  |  | unknown_process_exit |  | incomplete |
 | pinch_tongs / 3 | [trial03-attempt01](episodes/pinch_tongs/trial03-attempt01) | false | interrupted |  |  |  | unknown_process_exit |  | incomplete |
+| water_plant / 2 | [trial02-attempt01](episodes/water_plant/trial02-attempt01) | false | interrupted |  |  |  | unknown_process_exit |  | incomplete |
 
 未完成任务及原因：
 
 - pick_bucket：缺少 3 轮；unknown_process_exit。
 - pinch_tongs：缺少 3 轮；unknown_process_exit。
-- water_plant：缺少 4 轮；native_step_limit。
+- water_plant：缺少 4 轮；unknown_process_exit。
 - bimanual_assembly：缺少 5 轮；not started。
 - bimanual_hanoi：缺少 5 轮；not started。
 - bimanual_microwave_cook：缺少 5 轮；not started。
@@ -63,6 +64,7 @@
 
 - pick_bucket/trial03-attempt01: 9 missing evidence items, 0 failed audit checks; see episodes/pick_bucket/trial03-attempt01/audit.json
 - pinch_tongs/trial03-attempt01: 9 missing evidence items, 0 failed audit checks; see episodes/pinch_tongs/trial03-attempt01/audit.json
+- water_plant/trial02-attempt01: 9 missing evidence items, 0 failed audit checks; see episodes/water_plant/trial02-attempt01/audit.json
 
 可获取性与核验边界：
 

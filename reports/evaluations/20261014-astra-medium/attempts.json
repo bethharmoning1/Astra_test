@@ -768,5 +768,40 @@
       "unique_model_image_references": 6,
       "public_model_error_records": 0
     }
+  },
+  {
+    "batch_id": "20261014-astra-medium",
+    "task": "water_plant",
+    "trial_index": 2,
+    "attempt_id": "trial02-attempt01",
+    "seed": 0,
+    "label": "eval-20261014-astra-medium-water_plant-t02-a01",
+    "scored": false,
+    "status": "interrupted",
+    "succeed": null,
+    "terminated": null,
+    "truncated": null,
+    "steps": null,
+    "action_calls": null,
+    "reason": "unknown_process_exit",
+    "evidence_path": "episodes/water_plant/trial02-attempt01",
+    "exception_class": "UnknownProcessExit",
+    "replacement_of": "",
+    "evidence_complete": false,
+    "audit_status": "incomplete",
+    "audit_counts": {
+      "steps": 825,
+      "action_calls": 31,
+      "reset_count": 1,
+      "observation_events": 33,
+      "official_success_ever_true": false,
+      "observation_directories": 33,
+      "command_count": 36,
+      "command_error_count": 1,
+      "successful_action_command_count": 31,
+      "model_image_references": 541,
+      "unique_model_image_references": 32,
+      "public_model_error_records": 1
+    }
   }
 ]
