@@ -9,8 +9,8 @@
     },
     {
       "path": "attempts.json",
-      "size_bytes": 13265,
-      "sha256": "04b6dd78442e1aafe050ee3baf639802de979d8dbce5e412f33d942bdb9be7eb"
+      "size_bytes": 14286,
+      "sha256": "4f6f75a19ceb231d2ecc65064b59da740460e879cbe8e973e378884d7eac53c9"
     },
     {
       "path": "batch_config.json",
@@ -19,8 +19,8 @@
     },
     {
       "path": "episode_results.csv",
-      "size_bytes": 2987,
-      "sha256": "835295222b350bf4de76e4e9945e3c1cdedcea9a3b4e73ed82847fac079e72d8"
+      "size_bytes": 3202,
+      "sha256": "c3871315948f17bf7e1255022dfe235363f166d4d966b3725238942a1ff0f7a1"
     },
     {
       "path": "episodes/click_mouse/trial01-attempt01/attempt.json",
@@ -12763,14 +12763,994 @@
       "sha256": "fc843dcff979fad8d2f1a0e23cae86839036665ca017e2898f26369ef6095017"
     },
     {
+      "path": "episodes/hammer_nail/trial05-attempt01/attempt.json",
+      "size_bytes": 2621,
+      "sha256": "51c3ecd81421cd11fdda08d6f8a8d6a7848548115819a72cc340d601d3fecf96"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/attempt_metadata.json",
+      "size_bytes": 1994,
+      "sha256": "e2fa20cd7c79790a17a0ac52c30cfde15cdbdc37324c5fec9e01de4d80fccc33"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/audit.json",
+      "size_bytes": 323576,
+      "sha256": "6ab17faafb90cda3b7a430ea96786b2b784a697085f3384c26fe33957697a67d"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/cleanup.json",
+      "size_bytes": 93,
+      "sha256": "6e0eded0dc46afd55ae1613bca06eecc77444e98f80697d6da01b64db60e14ab"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/command_errors.json",
+      "size_bytes": 278,
+      "sha256": "e901398356c0aaaedf015c2ecb4cd760e8d8ad6c22922f1de920c4d6761f05e1"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/command_log.jsonl",
+      "size_bytes": 219163,
+      "sha256": "ff49172173244c6eb54dccd4f37f859c0fe4c341445e543af2785142c4285573"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/contract.json",
+      "size_bytes": 2208,
+      "sha256": "4fe727e3902e0077a533d3c02e37c41f6e16244647248e2f4a9474ea411956ca"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/dispatch.json",
+      "size_bytes": 6778,
+      "sha256": "6db579914fb92f980a8f0b11afb9020261bda202459957fe4ae49e0b7a8d6615"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/events.jsonl",
+      "size_bytes": 1506281,
+      "sha256": "1fdaa5035e1bf136346e73c4c2c3177f1321dfc7e66ffd4d4fc6066474781334"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/evidence_inventory.json",
+      "size_bytes": 33936,
+      "sha256": "9ce604f7b0637e0f7427a1db2d0234061a5acdf768bafb8e727a845f2a7d8f4d"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/initial_state_verification.json",
+      "size_bytes": 818,
+      "sha256": "5e36d5b5ec0474cf4c8711d27073ffd70cc3589f35cb55c0ce30415ef1f6891a"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/manifest.json",
+      "size_bytes": 912,
+      "sha256": "6f7d4fe7b49f13b96b97b58dbf8e88df3622b37e9142dce72ac850abc7e5c752"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/16d14faedc77f0907d4e0b9de35495a031d46acc7afc799802374c5528466455.jpg",
+      "size_bytes": 95114,
+      "sha256": "16d14faedc77f0907d4e0b9de35495a031d46acc7afc799802374c5528466455"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/2493d9b2ae0c1fa84c2f2a75c0f9caf997072f44cbcb7d398636d5456d7545ab.jpg",
+      "size_bytes": 64496,
+      "sha256": "2493d9b2ae0c1fa84c2f2a75c0f9caf997072f44cbcb7d398636d5456d7545ab"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/2c6cd002a87366920b0b224e3d11f3718cb5e4844bdac7c07e8eac664e52a86e.jpg",
+      "size_bytes": 82738,
+      "sha256": "2c6cd002a87366920b0b224e3d11f3718cb5e4844bdac7c07e8eac664e52a86e"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/32ca62b219cdc5d5460351f1a3775266a0aba974cff6be9baf40eb7564ca233f.jpg",
+      "size_bytes": 85637,
+      "sha256": "32ca62b219cdc5d5460351f1a3775266a0aba974cff6be9baf40eb7564ca233f"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/336e363d541006268a6574eeafee0174f7ff2a8528910ad4396e8c6fec492b65.jpg",
+      "size_bytes": 85671,
+      "sha256": "336e363d541006268a6574eeafee0174f7ff2a8528910ad4396e8c6fec492b65"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/3cd45b8f7005bab8ff542ccc177035ab105c6cd39d0e10c6db4499775fa21eb3.jpg",
+      "size_bytes": 86523,
+      "sha256": "3cd45b8f7005bab8ff542ccc177035ab105c6cd39d0e10c6db4499775fa21eb3"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/504508e195cb5fa559768996f3b2091f330a3838fadb2bb27764f91d06b6f073.jpg",
+      "size_bytes": 82620,
+      "sha256": "504508e195cb5fa559768996f3b2091f330a3838fadb2bb27764f91d06b6f073"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/519bc7ce6a43ff98b8741aa109696c02658fb8acbd5e658525fa9be5e0d5ebf5.jpg",
+      "size_bytes": 87556,
+      "sha256": "519bc7ce6a43ff98b8741aa109696c02658fb8acbd5e658525fa9be5e0d5ebf5"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/56859ce43bc8dfa61ed71d1b7fa1544e88515b864392dde573155dac9fdeebea.jpg",
+      "size_bytes": 87716,
+      "sha256": "56859ce43bc8dfa61ed71d1b7fa1544e88515b864392dde573155dac9fdeebea"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/5fe9ce496155a1e735f55dbd9273d4231add5f826d02f194de152296446ef41b.jpg",
+      "size_bytes": 85874,
+      "sha256": "5fe9ce496155a1e735f55dbd9273d4231add5f826d02f194de152296446ef41b"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/60ab0273e08b7302d5136a371f13c3dbccf99b766ba58f3211707b2a2bf08c32.jpg",
+      "size_bytes": 90430,
+      "sha256": "60ab0273e08b7302d5136a371f13c3dbccf99b766ba58f3211707b2a2bf08c32"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/623a7fc89e481a0e3647bef0cc560b3b8924458f025c6d62a6b207f416d7ccd6.jpg",
+      "size_bytes": 82664,
+      "sha256": "623a7fc89e481a0e3647bef0cc560b3b8924458f025c6d62a6b207f416d7ccd6"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/6497d75856a83a42db4875f3f1f6fe933292461951e7580094c93de68c2ae0b7.jpg",
+      "size_bytes": 98854,
+      "sha256": "6497d75856a83a42db4875f3f1f6fe933292461951e7580094c93de68c2ae0b7"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/6cb0f1caf64f19dc52442643abbc37533dbe484acb28a7ca6e161a9239101631.jpg",
+      "size_bytes": 76920,
+      "sha256": "6cb0f1caf64f19dc52442643abbc37533dbe484acb28a7ca6e161a9239101631"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/6dfef2975b9a17d92363247ab1131c2499cdfa205c3d9d513c2762e72f997f9c.jpg",
+      "size_bytes": 84691,
+      "sha256": "6dfef2975b9a17d92363247ab1131c2499cdfa205c3d9d513c2762e72f997f9c"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/7a3a6fedf587b850468e21458996518d545979f4dc6e78a24a9cf60623cb747e.jpg",
+      "size_bytes": 90254,
+      "sha256": "7a3a6fedf587b850468e21458996518d545979f4dc6e78a24a9cf60623cb747e"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/8192acc42a3f38c138ff9553fe4c46a195bf36f86846d940f07a5ca8f93a70f7.jpg",
+      "size_bytes": 85571,
+      "sha256": "8192acc42a3f38c138ff9553fe4c46a195bf36f86846d940f07a5ca8f93a70f7"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/85b976e9b8391a1b0b3c247da6ec4b618981ede02256899556506892343bbc20.jpg",
+      "size_bytes": 85001,
+      "sha256": "85b976e9b8391a1b0b3c247da6ec4b618981ede02256899556506892343bbc20"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/86d705866146734d3e1c31501f36d89174ca8bcbe4e47256d21e29af46542a29.jpg",
+      "size_bytes": 81644,
+      "sha256": "86d705866146734d3e1c31501f36d89174ca8bcbe4e47256d21e29af46542a29"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/8aad709d94206460350010cba1036fdc6dc7d2235862004212d7e4061c0ce8b2.jpg",
+      "size_bytes": 87472,
+      "sha256": "8aad709d94206460350010cba1036fdc6dc7d2235862004212d7e4061c0ce8b2"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/a14ca05b3b8154526952670f4a609b846426775882ca243cc3a5d0d6ae4192a5.jpg",
+      "size_bytes": 88955,
+      "sha256": "a14ca05b3b8154526952670f4a609b846426775882ca243cc3a5d0d6ae4192a5"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/a592e7c70418185b3f3f4b8eeef7a172cf5ee6929599c77676b78c57c13d6735.jpg",
+      "size_bytes": 87954,
+      "sha256": "a592e7c70418185b3f3f4b8eeef7a172cf5ee6929599c77676b78c57c13d6735"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/a6cff85d2e97632f8a6a6b61ae253f94bd2cc867bbe3a50fd7ad82044b97e0fa.jpg",
+      "size_bytes": 92332,
+      "sha256": "a6cff85d2e97632f8a6a6b61ae253f94bd2cc867bbe3a50fd7ad82044b97e0fa"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/a8e97d8680de323c17004bd0c73252c98f049a1092454a4ee35d02552e152a63.jpg",
+      "size_bytes": 79149,
+      "sha256": "a8e97d8680de323c17004bd0c73252c98f049a1092454a4ee35d02552e152a63"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/b6b367d1ab3a65c779d8a9ae316af90c016815ca176f4c8e9c5a5b1296988f2c.jpg",
+      "size_bytes": 85759,
+      "sha256": "b6b367d1ab3a65c779d8a9ae316af90c016815ca176f4c8e9c5a5b1296988f2c"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/ba573ed4aac88b6c7030a9af1143cca44aa23dc8dfd84ed054c5478961a4ca44.jpg",
+      "size_bytes": 87280,
+      "sha256": "ba573ed4aac88b6c7030a9af1143cca44aa23dc8dfd84ed054c5478961a4ca44"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/c6f258e28f88784b647f7d57b3edb95c88105bbc6975a1c15e03bbf52f226f77.jpg",
+      "size_bytes": 89713,
+      "sha256": "c6f258e28f88784b647f7d57b3edb95c88105bbc6975a1c15e03bbf52f226f77"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/c8e26121d0b6a982322a922816404e32ecfaf1e0d3cc6a62e1143faa76c75d78.jpg",
+      "size_bytes": 77279,
+      "sha256": "c8e26121d0b6a982322a922816404e32ecfaf1e0d3cc6a62e1143faa76c75d78"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/df61f638b883db71e9a786012192d19ce59f32e5c706eba85945e05d4c5d6bdf.jpg",
+      "size_bytes": 83424,
+      "sha256": "df61f638b883db71e9a786012192d19ce59f32e5c706eba85945e05d4c5d6bdf"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/e6220fcba5194c9b2ae58a3ff297c401d5c31a92fb37572b0cc6ae84801ba326.jpg",
+      "size_bytes": 88132,
+      "sha256": "e6220fcba5194c9b2ae58a3ff297c401d5c31a92fb37572b0cc6ae84801ba326"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/f3017ae4a702d1578334b23379ddc0c61df35b9d6a9baff07c449b221ccefb86.jpg",
+      "size_bytes": 81456,
+      "sha256": "f3017ae4a702d1578334b23379ddc0c61df35b9d6a9baff07c449b221ccefb86"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/f5ba592d6cb4f1faf87b5aed646131153520edbc0be1fa9999b4973ac59323ce.jpg",
+      "size_bytes": 80710,
+      "sha256": "f5ba592d6cb4f1faf87b5aed646131153520edbc0be1fa9999b4973ac59323ce"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/f737efdced2cde3733784cba9ac73fca7332857360c0aecf91d6ee7d5b5b5993.jpg",
+      "size_bytes": 86429,
+      "sha256": "f737efdced2cde3733784cba9ac73fca7332857360c0aecf91d6ee7d5b5b5993"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_images/fb38dcfbc66800b96ce4b933f3d57d6a8482e7ad040bd3dda4d5ee2ea05d9ee8.jpg",
+      "size_bytes": 85172,
+      "sha256": "fb38dcfbc66800b96ce4b933f3d57d6a8482e7ad040bd3dda4d5ee2ea05d9ee8"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_result.json",
+      "size_bytes": 3329,
+      "sha256": "783072266e8908be8ef3fc183362b89459167724f687c2d52fecc2fdb2121b69"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/model_transcript.jsonl",
+      "size_bytes": 10001878,
+      "sha256": "676a43bcbafd08d2b022f9bd28ca687ca5e42ea7659bd16872265d94ce360f1b"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0001/contact_sheet.jpg",
+      "size_bytes": 88955,
+      "sha256": "a14ca05b3b8154526952670f4a609b846426775882ca243cc3a5d0d6ae4192a5"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0001/front.png",
+      "size_bytes": 358998,
+      "sha256": "8216598739d635cda13c3541742a89dce1386ecdd11ad3df84b7596338945946"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0001/observation.json",
+      "size_bytes": 2128,
+      "sha256": "9c762a62d4716212fffb85ea34b87941bb9582c006d5baf156d222dd7911852c"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0001/wrist.png",
+      "size_bytes": 384907,
+      "sha256": "dacd6a229d5bc91aa6ccb5fe8ba6e101964f02871a4cc5a4d11a8bf2ed1dcb2d"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0002/contact_sheet.jpg",
+      "size_bytes": 88955,
+      "sha256": "a14ca05b3b8154526952670f4a609b846426775882ca243cc3a5d0d6ae4192a5"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0002/front.png",
+      "size_bytes": 358998,
+      "sha256": "8216598739d635cda13c3541742a89dce1386ecdd11ad3df84b7596338945946"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0002/observation.json",
+      "size_bytes": 2128,
+      "sha256": "0094d6f76c36e5f9d8da3604fa6f8c44cbf370061fe4c84343510ec9669a2104"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0002/wrist.png",
+      "size_bytes": 384907,
+      "sha256": "dacd6a229d5bc91aa6ccb5fe8ba6e101964f02871a4cc5a4d11a8bf2ed1dcb2d"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0003/contact_sheet.jpg",
+      "size_bytes": 85671,
+      "sha256": "336e363d541006268a6574eeafee0174f7ff2a8528910ad4396e8c6fec492b65"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0003/front.png",
+      "size_bytes": 359153,
+      "sha256": "1260636648de4d5594e1194dfb3a0a0bcfaf09c978985a69bccee7d2fce36fe8"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0003/observation.json",
+      "size_bytes": 2625,
+      "sha256": "978008dfccc3131362624a485288c99fea0c3960363cae04b051f8c514fce91c"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0003/wrist.png",
+      "size_bytes": 358372,
+      "sha256": "f1830adc1589a745449c1c713d5d46c18df50dd4fd5b33879d74a98defa5bb6c"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0004/contact_sheet.jpg",
+      "size_bytes": 90430,
+      "sha256": "60ab0273e08b7302d5136a371f13c3dbccf99b766ba58f3211707b2a2bf08c32"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0004/front.png",
+      "size_bytes": 360310,
+      "sha256": "c35aa0d08a03914444c0b99e28267d9db99e5b882d25936ed2435ba3e057fa2e"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0004/observation.json",
+      "size_bytes": 2613,
+      "sha256": "80e80d3eee04b65c5b64d80abcf280071afa1af6a6f735b06400b94d4a7db4a0"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0004/wrist.png",
+      "size_bytes": 372403,
+      "sha256": "082f00e00d5dd54f230045f215451f79bb8f3bce58f53c75b1a34e10c39c0903"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0005/contact_sheet.jpg",
+      "size_bytes": 86429,
+      "sha256": "f737efdced2cde3733784cba9ac73fca7332857360c0aecf91d6ee7d5b5b5993"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0005/front.png",
+      "size_bytes": 363186,
+      "sha256": "4b3be0d8778858af683b4c712619541eff67419dbda6058ebdeaed6e4aa44aa8"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0005/observation.json",
+      "size_bytes": 2583,
+      "sha256": "ac915776c7ec21f2ec109375f1e2bc10966463135355ffafe934b0459d8bb4dd"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0005/wrist.png",
+      "size_bytes": 323042,
+      "sha256": "5a72ddedefe87ce894189ae8ddf3083a5401fa25d86f927cdc96a0022f673c25"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0006/contact_sheet.jpg",
+      "size_bytes": 82664,
+      "sha256": "623a7fc89e481a0e3647bef0cc560b3b8924458f025c6d62a6b207f416d7ccd6"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0006/front.png",
+      "size_bytes": 363908,
+      "sha256": "cad747d3f800a73ba5d3d3df0841d79efdae1a432538273fda8b34497af5d547"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0006/observation.json",
+      "size_bytes": 2578,
+      "sha256": "8557d62470d65d5ba7c43b1726f616ffabe74e81a93b1c7472a1ab81ecafd5ab"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0006/wrist.png",
+      "size_bytes": 244964,
+      "sha256": "a14a8598e624475683c3b732c0c01fb2030319f86ee3150a08a3adf540c6c430"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0007/contact_sheet.jpg",
+      "size_bytes": 79149,
+      "sha256": "a8e97d8680de323c17004bd0c73252c98f049a1092454a4ee35d02552e152a63"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0007/front.png",
+      "size_bytes": 365949,
+      "sha256": "f097a3cfff444036995c0de263eb551a992ca66db946ac0ddced6caa4027d00a"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0007/observation.json",
+      "size_bytes": 2551,
+      "sha256": "72124e644e8462afbd8d4ad4310b6bc8c38b59a989c387f46953370665f5a433"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0007/wrist.png",
+      "size_bytes": 231525,
+      "sha256": "684da8978b76455d1be2cb92ff2592761ab7c1b065c61aa9ed071f7f82de0039"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0008/contact_sheet.jpg",
+      "size_bytes": 80710,
+      "sha256": "f5ba592d6cb4f1faf87b5aed646131153520edbc0be1fa9999b4973ac59323ce"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0008/front.png",
+      "size_bytes": 366875,
+      "sha256": "480cf9079a75ed26bfa30255d07b3a745bc052d8f574f45cb01ea2dd6d85b0d3"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0008/observation.json",
+      "size_bytes": 2610,
+      "sha256": "fb362fd71e6472fa7fb7f7d1e7935d5882758bac0c9023b4a46e32e59cd61d10"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0008/wrist.png",
+      "size_bytes": 223192,
+      "sha256": "c3e60484414794f4435d2a0ec344724adff038c435dc1c534bfa03a782ce3c00"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0009/contact_sheet.jpg",
+      "size_bytes": 82738,
+      "sha256": "2c6cd002a87366920b0b224e3d11f3718cb5e4844bdac7c07e8eac664e52a86e"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0009/front.png",
+      "size_bytes": 368868,
+      "sha256": "8ecfc692839881798ae665a78f04bd7cf46ffb9f7602fa1b458ada99cdaa8783"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0009/observation.json",
+      "size_bytes": 2496,
+      "sha256": "fc261c70adaa0c2179a32febe40a6d14144338b03baeb3ea1d3b8f02e149b946"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0009/wrist.png",
+      "size_bytes": 178970,
+      "sha256": "f66d9823f0bff2d406b1fc9337d845dac8663f92e160e0bb4a9ef81aafeed299"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0010/contact_sheet.jpg",
+      "size_bytes": 77279,
+      "sha256": "c8e26121d0b6a982322a922816404e32ecfaf1e0d3cc6a62e1143faa76c75d78"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0010/front.png",
+      "size_bytes": 364607,
+      "sha256": "bbf23887243a8e05a2a342ee0261aaa9e14e61e41d4cb88ea429ed1060dcabcd"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0010/observation.json",
+      "size_bytes": 2478,
+      "sha256": "7f2c84494eecf273333ab706bf432ed11a15fed40cf5af28f49cd4093cd53802"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0010/wrist.png",
+      "size_bytes": 156532,
+      "sha256": "da0653bd3e93387840566c61cc7b984b76761f30c4a6b4bb5d8e44bcbeb7e593"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0011/contact_sheet.jpg",
+      "size_bytes": 82620,
+      "sha256": "504508e195cb5fa559768996f3b2091f330a3838fadb2bb27764f91d06b6f073"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0011/front.png",
+      "size_bytes": 365832,
+      "sha256": "ef4ed380dcf7580a0050deab826c04d0b514cf89c4eaf168bd13de75a83d87df"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0011/observation.json",
+      "size_bytes": 2462,
+      "sha256": "13cacd628cbdedf0beef8bc7e8ca9b95401cff9b49bd1e7d209a9185328876d6"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0011/wrist.png",
+      "size_bytes": 189213,
+      "sha256": "b8a3b9f51aa89b308b73bfddd7ab5422763ec82e839a895e3eb9f9bb6ae967db"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0012/contact_sheet.jpg",
+      "size_bytes": 90254,
+      "sha256": "7a3a6fedf587b850468e21458996518d545979f4dc6e78a24a9cf60623cb747e"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0012/front.png",
+      "size_bytes": 357940,
+      "sha256": "52a52e0b1ca65d1e4a60496936c4a5fa4426625076a6396457370533e1c3c7fe"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0012/observation.json",
+      "size_bytes": 2534,
+      "sha256": "950baeba71ce3b0342f7528f3d9bd0e83cd93a754835d73fcb766ae7616d612f"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0012/wrist.png",
+      "size_bytes": 290732,
+      "sha256": "de852c91a56fd78a75588490014356b0ac4dbd9171b870fed02c701cf775e1f7"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0013/contact_sheet.jpg",
+      "size_bytes": 88132,
+      "sha256": "e6220fcba5194c9b2ae58a3ff297c401d5c31a92fb37572b0cc6ae84801ba326"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0013/front.png",
+      "size_bytes": 358580,
+      "sha256": "13e21625560d6db0079885d24c25fd593fe47fc244d9e1b754de987b59a26074"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0013/observation.json",
+      "size_bytes": 2536,
+      "sha256": "c8bb044359ed1be1fda698ba097b0628fe27b07ad9090110b683473f5cf20b47"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0013/wrist.png",
+      "size_bytes": 284849,
+      "sha256": "a222f30025a609b1031ab0bfd1d42946b4c93f5ed5728bea5c671264ab5c0468"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0014/contact_sheet.jpg",
+      "size_bytes": 87280,
+      "sha256": "ba573ed4aac88b6c7030a9af1143cca44aa23dc8dfd84ed054c5478961a4ca44"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0014/front.png",
+      "size_bytes": 358716,
+      "sha256": "2856e35c201928805a0bc29e47aa133af4c49ca6fc36108d822e764a86ed311c"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0014/observation.json",
+      "size_bytes": 2497,
+      "sha256": "2a6da109c3749e4eabe4b2595abaa26e165a1810560c066384e5e1b4b1446fad"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0014/wrist.png",
+      "size_bytes": 279914,
+      "sha256": "5dbe267aa5355d2f8bc834e4773d3539763549ea324cd0adf65edc3864b36594"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0015/contact_sheet.jpg",
+      "size_bytes": 85874,
+      "sha256": "5fe9ce496155a1e735f55dbd9273d4231add5f826d02f194de152296446ef41b"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0015/front.png",
+      "size_bytes": 359485,
+      "sha256": "e749fcd33b53f5c79fe8be2162de9fba465783ac2e349bcf3b32a53c8c5ac96f"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0015/observation.json",
+      "size_bytes": 2514,
+      "sha256": "555ba01b58b45b57eeb5f3f3e9cb157764d1e20a18f8b073e46a6bbcd2a35b3a"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0015/wrist.png",
+      "size_bytes": 260176,
+      "sha256": "88e77a1bf92384eb3c9071a44f19a57682700f6359cdd52d16706f1564ce7aec"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0016/contact_sheet.jpg",
+      "size_bytes": 87472,
+      "sha256": "8aad709d94206460350010cba1036fdc6dc7d2235862004212d7e4061c0ce8b2"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0016/front.png",
+      "size_bytes": 359906,
+      "sha256": "c14f6121431b1d167f8c69420b00fd7a494d61c3534d31d3896e88aa27372e7b"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0016/observation.json",
+      "size_bytes": 2482,
+      "sha256": "04c342af9651e19d0313491a543819178c32bc9d148ae7d1dfae68ede5b51581"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0016/wrist.png",
+      "size_bytes": 254465,
+      "sha256": "39bd3a1d6aa3942550676fe0172118391ef83459baa78df5bced5220e5422049"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0017/contact_sheet.jpg",
+      "size_bytes": 84691,
+      "sha256": "6dfef2975b9a17d92363247ab1131c2499cdfa205c3d9d513c2762e72f997f9c"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0017/front.png",
+      "size_bytes": 358783,
+      "sha256": "8d84038054a5fd5d23e2fef667a922ee072eac93258466d9c67a6d4d2898f5ee"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0017/observation.json",
+      "size_bytes": 2528,
+      "sha256": "68aaec31f65a953f1a6508cf0dac5283b1d3a48a0482ecc594a74fdd05d9de38"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0017/wrist.png",
+      "size_bytes": 281553,
+      "sha256": "5d0d89e6645478464f3fd737d4da3042ef86e536128b0f45840597fc700117de"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0018/contact_sheet.jpg",
+      "size_bytes": 81456,
+      "sha256": "f3017ae4a702d1578334b23379ddc0c61df35b9d6a9baff07c449b221ccefb86"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0018/front.png",
+      "size_bytes": 358883,
+      "sha256": "786eb4cf1fc503f900a53fe997a1da1218b1e8dea6d30722e86b0c4260fb320e"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0018/observation.json",
+      "size_bytes": 2530,
+      "sha256": "4024f5cf1d5cda9ef75e1f56aa3d61edf3dc6806345604bd28d620ad9dd99d8a"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0018/wrist.png",
+      "size_bytes": 267380,
+      "sha256": "53e8dd2e347ef704ba17450e1d0542700572645fb19694c29d5d8921da1404da"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0019/contact_sheet.jpg",
+      "size_bytes": 87954,
+      "sha256": "a592e7c70418185b3f3f4b8eeef7a172cf5ee6929599c77676b78c57c13d6735"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0019/front.png",
+      "size_bytes": 363250,
+      "sha256": "c834a9b1134a25d728042ecb394431fb015f978ba8b77e359dc7083d9e0300d3"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0019/observation.json",
+      "size_bytes": 2503,
+      "sha256": "9908d35c0c39150e983c5dfacfcfe796b27426f9031bc9e4c3dd186516c926e4"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0019/wrist.png",
+      "size_bytes": 319553,
+      "sha256": "a59fe4eee4e14a7a47aaed75d302c5272a1567d2dc1286a609df64e142b58cb0"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0020/contact_sheet.jpg",
+      "size_bytes": 87716,
+      "sha256": "56859ce43bc8dfa61ed71d1b7fa1544e88515b864392dde573155dac9fdeebea"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0020/front.png",
+      "size_bytes": 362728,
+      "sha256": "2d477033f2a714ff88b0bea0f0d34d16e7c44a536ec8fe2b028d4139e0707461"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0020/observation.json",
+      "size_bytes": 2529,
+      "sha256": "748d56c81f3a4f21c65a937800d4b6232bcefd6803ac94edba05a5bac00a5e4e"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0020/wrist.png",
+      "size_bytes": 300725,
+      "sha256": "c7a3a8b2807f02a2db2db7479ce32883572ee0e29389320a31b42c416b93faa0"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0021/contact_sheet.jpg",
+      "size_bytes": 85637,
+      "sha256": "32ca62b219cdc5d5460351f1a3775266a0aba974cff6be9baf40eb7564ca233f"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0021/front.png",
+      "size_bytes": 361788,
+      "sha256": "7e627876dad6aeaf6a2f3a8a313540b370758dfd606e2883ef989fe2c99ffc29"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0021/observation.json",
+      "size_bytes": 2510,
+      "sha256": "fb27dcf7339c0e99b52486242e985d0e58ff1a0f91e42a056b289064431668f8"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0021/wrist.png",
+      "size_bytes": 256996,
+      "sha256": "9b4ef145da5d185c0bdb7980c38c236c3377aaecc37e8b947d9e68ad96f2566a"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0022/contact_sheet.jpg",
+      "size_bytes": 83424,
+      "sha256": "df61f638b883db71e9a786012192d19ce59f32e5c706eba85945e05d4c5d6bdf"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0022/front.png",
+      "size_bytes": 360144,
+      "sha256": "6198301e2576d33096b8dc662be84a1c8d4b0b2f7498f9ec59342a2f95b33638"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0022/observation.json",
+      "size_bytes": 2486,
+      "sha256": "fe5c123972fc473f1dc14f9e4448a07c67cd014cc5cbf2d17713d520ac53a060"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0022/wrist.png",
+      "size_bytes": 236947,
+      "sha256": "c3f8b52725736e716e062095dbbab8b715c93c3bbadaf83880574bb665fff6f9"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0023/contact_sheet.jpg",
+      "size_bytes": 81644,
+      "sha256": "86d705866146734d3e1c31501f36d89174ca8bcbe4e47256d21e29af46542a29"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0023/front.png",
+      "size_bytes": 355888,
+      "sha256": "891d114cc6cdadaab1435bc7c5377dd49f60b2cebfbda7252ac651d4ecb8de31"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0023/observation.json",
+      "size_bytes": 2501,
+      "sha256": "047c25c1f2e736c4d76ec8b43f5680feabc11b63f4eb3745eb2c843f71f0d5eb"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0023/wrist.png",
+      "size_bytes": 219538,
+      "sha256": "8ac9a863bb10ef0e607f0dcb2c7f4c2e8b92066ee87f4ea916b7775db134150c"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0024/contact_sheet.jpg",
+      "size_bytes": 89713,
+      "sha256": "c6f258e28f88784b647f7d57b3edb95c88105bbc6975a1c15e03bbf52f226f77"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0024/front.png",
+      "size_bytes": 356302,
+      "sha256": "596803b73b719609d25aaf8cb812bd7a11078066c1e61fe8fe0f34686494aced"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0024/observation.json",
+      "size_bytes": 2494,
+      "sha256": "5477eceaf518e51420e65555e38144e2a7a1a4a26f2a32ca8d0abe48417cae35"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0024/wrist.png",
+      "size_bytes": 311466,
+      "sha256": "6b54dedf8242efea57f2b33b6ea16b38ee834169616880206565957de94d46ad"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0025/contact_sheet.jpg",
+      "size_bytes": 86523,
+      "sha256": "3cd45b8f7005bab8ff542ccc177035ab105c6cd39d0e10c6db4499775fa21eb3"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0025/front.png",
+      "size_bytes": 357237,
+      "sha256": "04f0b99d478ccdbfa07075e0449295cf84f2065201871998af66b9c7752672a6"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0025/observation.json",
+      "size_bytes": 2618,
+      "sha256": "65db4d4414ef09adcc816e6e6fca05eed364a9e338a5b130fd25bad92a0a9edd"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0025/wrist.png",
+      "size_bytes": 298095,
+      "sha256": "1cdf61942c483bfe51a28c0d909768f2c603f87de35b1b0939b38cf2ad8a6924"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0026/contact_sheet.jpg",
+      "size_bytes": 85001,
+      "sha256": "85b976e9b8391a1b0b3c247da6ec4b618981ede02256899556506892343bbc20"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0026/front.png",
+      "size_bytes": 357759,
+      "sha256": "ecd4102ad47606f4fd56947d498bf3a5b554bee01690aed639a05ef71a69c1ec"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0026/observation.json",
+      "size_bytes": 2614,
+      "sha256": "e8d6a72d5b80e1954f478816ef0d79019214986468a284e90175966316e4c7b4"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0026/wrist.png",
+      "size_bytes": 297480,
+      "sha256": "08b74246f9c43921c4a4d49c38e019bb91e11819d5600105b6c83282d475f0f0"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0027/contact_sheet.jpg",
+      "size_bytes": 85571,
+      "sha256": "8192acc42a3f38c138ff9553fe4c46a195bf36f86846d940f07a5ca8f93a70f7"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0027/front.png",
+      "size_bytes": 357791,
+      "sha256": "2261b944b8b0e58ded1db3d906d75a76845bfc35fde3ca2d84ca677c1abcaa3d"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0027/observation.json",
+      "size_bytes": 2563,
+      "sha256": "093d0a036225ac31e300005ccff006ca28de13770b3086d53fc71b915c02c769"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0027/wrist.png",
+      "size_bytes": 292885,
+      "sha256": "9598ca32a13d84ee7e165cb4a83a92dbb200c1436c86ef4a627d633a4c9926be"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0028/contact_sheet.jpg",
+      "size_bytes": 85759,
+      "sha256": "b6b367d1ab3a65c779d8a9ae316af90c016815ca176f4c8e9c5a5b1296988f2c"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0028/front.png",
+      "size_bytes": 357169,
+      "sha256": "32f7c61f5630e034ebb01d87de189e1728b59d237f5671dc37164dd223f49ce8"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0028/observation.json",
+      "size_bytes": 2583,
+      "sha256": "a7d00b82d8716fa44132f12aa6ae613f682a51e194fe7c5ef674cc7a066a602a"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0028/wrist.png",
+      "size_bytes": 304945,
+      "sha256": "201710bd45c072184d45e452d1aedeb9dc49b435b3d9d6691a2a6633bc5b6e06"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0029/contact_sheet.jpg",
+      "size_bytes": 76920,
+      "sha256": "6cb0f1caf64f19dc52442643abbc37533dbe484acb28a7ca6e161a9239101631"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0029/front.png",
+      "size_bytes": 356121,
+      "sha256": "c1126b6aa6fbedd35661ebb45f6e45f08fa974bd1fc94bd0852d48bd3a3ffd52"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0029/observation.json",
+      "size_bytes": 2583,
+      "sha256": "4034160792af05dcda7c8107f455bd2637231a27b394e0f4ab155bdfe625dd0c"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0029/wrist.png",
+      "size_bytes": 254767,
+      "sha256": "5897d13615431b3dc7a79f145a3ee49a608c2c953ad002071180a02cade92b72"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0030/contact_sheet.jpg",
+      "size_bytes": 64496,
+      "sha256": "2493d9b2ae0c1fa84c2f2a75c0f9caf997072f44cbcb7d398636d5456d7545ab"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0030/front.png",
+      "size_bytes": 353348,
+      "sha256": "e04d6a7d963cdc8fe73efe3883a636dd76055591457e85f56fd9d3a6476e044c"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0030/observation.json",
+      "size_bytes": 2594,
+      "sha256": "24175b417fbe9e248064bfa7b8722fb3aa9a162a17d195a433a8cd980f9e5931"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0030/wrist.png",
+      "size_bytes": 145526,
+      "sha256": "57768b9bf6e893a3e986454eebebdc0bd74b0219c02ce781280fc7ee12ee4d4a"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0031/contact_sheet.jpg",
+      "size_bytes": 85172,
+      "sha256": "fb38dcfbc66800b96ce4b933f3d57d6a8482e7ad040bd3dda4d5ee2ea05d9ee8"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0031/front.png",
+      "size_bytes": 357227,
+      "sha256": "c94e008b11dfe74480e72c0d6923e6bb9a4602840e5c7b93ae20dd3dc66ab9e9"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0031/observation.json",
+      "size_bytes": 2601,
+      "sha256": "fae7ded54823dfb2ea0f00bce0aace8b2f60b9a4edfef5d5efab5670be69babc"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0031/wrist.png",
+      "size_bytes": 339649,
+      "sha256": "fd8298c370596f4093934616df2204576caeca6f3115b962b6c2fd8901148889"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0032/contact_sheet.jpg",
+      "size_bytes": 92332,
+      "sha256": "a6cff85d2e97632f8a6a6b61ae253f94bd2cc867bbe3a50fd7ad82044b97e0fa"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0032/front.png",
+      "size_bytes": 355241,
+      "sha256": "5482973a3e981dfe2b862eaaa92990295800a21b131e313de6ba3162a4e7b7a9"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0032/observation.json",
+      "size_bytes": 2616,
+      "sha256": "57aa30df6e9a0fe1bf2e12c591cc69ea1653672bd5f17cf3e548caab1ce41b4c"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0032/wrist.png",
+      "size_bytes": 407815,
+      "sha256": "b60aa2cc994bc6dee53d8192c80344e48d740efdde9ece5a5350415d5cccc821"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0033/contact_sheet.jpg",
+      "size_bytes": 87556,
+      "sha256": "519bc7ce6a43ff98b8741aa109696c02658fb8acbd5e658525fa9be5e0d5ebf5"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0033/front.png",
+      "size_bytes": 356304,
+      "sha256": "e6c65d8ef267e4572b7e41b6a4f4665b8564012684a5d69efa108a8e0c3b208e"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0033/observation.json",
+      "size_bytes": 2534,
+      "sha256": "0244bd20881afb76d4c6ad5d9ba485d9bdcaa57f7fbaaef0920e9d4db1608acc"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0033/wrist.png",
+      "size_bytes": 338898,
+      "sha256": "4f7586584826b71f5e6be9de9c9a772c14d8f0c43e9707bbf2256dc709d1c55f"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0034/contact_sheet.jpg",
+      "size_bytes": 95114,
+      "sha256": "16d14faedc77f0907d4e0b9de35495a031d46acc7afc799802374c5528466455"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0034/front.png",
+      "size_bytes": 355965,
+      "sha256": "a0ff814f782014758aa4fa0ecf9186e69f8b92829bb1bf5cd5b586e9a1237c50"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0034/observation.json",
+      "size_bytes": 2527,
+      "sha256": "80231fe7b56113ac8d9e3ae7339be1fdde1a9cd2aa502fb557ed65131b01670a"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0034/wrist.png",
+      "size_bytes": 403078,
+      "sha256": "4ef9fb25bbf45af4b3f7e07b2dbd96de98764459790550964ee349bd4ff18330"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0035/contact_sheet.jpg",
+      "size_bytes": 98854,
+      "sha256": "6497d75856a83a42db4875f3f1f6fe933292461951e7580094c93de68c2ae0b7"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0035/front.png",
+      "size_bytes": 357386,
+      "sha256": "06a55763a0aa07cfe48cd7d330b6840264014c19a4fa5ff74d6db2dbc4012564"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0035/observation.json",
+      "size_bytes": 2549,
+      "sha256": "884034472a89fba8b97591eeea7842a2410cdf55f7167f10572fc35ffb844650"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0035/wrist.png",
+      "size_bytes": 419557,
+      "sha256": "efc7c8de561eb32f89508b9cace89bebfc9f483648394698c9d0286923aa1aa8"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0036/contact_sheet.jpg",
+      "size_bytes": 94853,
+      "sha256": "53c3eb4a83623cf607625d5eb287b55dc41c1a23b51f2e1f0f7a1809aac13916"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0036/front.png",
+      "size_bytes": 358542,
+      "sha256": "8b66a288a833a9e102a94e163be33a9b1173bcca06d90c6cd0bb9a863329c961"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0036/observation.json",
+      "size_bytes": 2587,
+      "sha256": "dc3fe239740772ff5edca848274f0f399d78f66ebff70c1ef6acb2671bf488f0"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/obs-0036/wrist.png",
+      "size_bytes": 395265,
+      "sha256": "e660ff02e2c203912ffe706405b7be39b5d41b706ca0587a4263442f02b24ab8"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/redaction_manifest.json",
+      "size_bytes": 122,
+      "sha256": "4d6ae0615b94fc34d6ee9412a8f3e01ac46b10f322982240a7cc9c572917fa92"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/runner-log.txt",
+      "size_bytes": 81,
+      "sha256": "36e77a58c9bbfe530d5c14d8a5e35f8c0d2b98c2b7fe859e605266dd7cf6706f"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/source_path_mapping.json",
+      "size_bytes": 181803,
+      "sha256": "ee7dcfbaf3e2a7dab03b9ee81fd655de216bf220e64f3c424079d3b9e883664d"
+    },
+    {
+      "path": "episodes/hammer_nail/trial05-attempt01/summary.json",
+      "size_bytes": 955,
+      "sha256": "01b15d6659309455b7e9950109f6aee22afc4d6c8d2e65bb0efa935fee544fae"
+    },
+    {
       "path": "report.md",
-      "size_bytes": 5193,
-      "sha256": "2222753d77024140ab1ac7ab16d2f83f2a08de93b4b275287fac19232cb003f0"
+      "size_bytes": 5274,
+      "sha256": "7cb70de9d15a6fed63b775f17ce630b7f38c4acd3936d2834568239585120823"
     },
     {
       "path": "task_results.csv",
-      "size_bytes": 1209,
-      "sha256": "120f205aa673527cecb8f7f6ca3f1412953a216e15669e11e073ac59251b0a1f"
+      "size_bytes": 1181,
+      "sha256": "c3958065a12470b0106adf0346bca5a0f2a03bbfd6fca6aafd520e9a339110fd"
     }
   ],
   "excluded_from_hashing": [

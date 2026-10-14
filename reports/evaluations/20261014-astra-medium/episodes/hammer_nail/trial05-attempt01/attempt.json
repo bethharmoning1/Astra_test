@@ -1,0 +1,81 @@
+{
+  "batch_id": "20261014-astra-medium",
+  "task": "hammer_nail",
+  "trial_index": 5,
+  "attempt_id": "trial05-attempt01",
+  "seed": 0,
+  "label": "eval-20261014-astra-medium-hammer_nail-t05-a01",
+  "scored": true,
+  "status": "completed",
+  "reason": "native_step_limit",
+  "phase": "model_execution",
+  "replacement_of": "",
+  "source_commit": "3350b0ff49c8ad7b395467c5b83b5be704fa7315",
+  "expected_reset_count": 1,
+  "isolation": {
+    "method": "new API history; no filesystem/shell tools; current-episode callbacks only",
+    "verified": true
+  },
+  "model": {
+    "requested_model": "gpt-6-astra",
+    "reasoning_effort": "medium",
+    "backend_version_independently_verified": false
+  },
+  "frozen_config_sha256": "82dd6e4ecd3e310683f7639c8b5a10058f11582f6b32ab79a12a8e4056786f82",
+  "platform_limitations": [
+    "Hidden model reasoning and independent backend model version are unavailable."
+  ],
+  "initial_state_verification": {
+    "method": "exact decoded RGB; proprioception atol=1e-8 rtol=0; configuration SHA-256",
+    "is_reference": false,
+    "state_absolute_tolerance": 1e-08,
+    "state_max_absolute_error": 0.0,
+    "robot_state_equal": true,
+    "camera_configuration_equal": true,
+    "cameras": {
+      "front": {
+        "pixels_equal": true,
+        "initial_png_sha256": "8216598739d635cda13c3541742a89dce1386ecdd11ad3df84b7596338945946",
+        "reference_png_sha256": "8216598739d635cda13c3541742a89dce1386ecdd11ad3df84b7596338945946"
+      },
+      "wrist": {
+        "pixels_equal": true,
+        "initial_png_sha256": "dacd6a229d5bc91aa6ccb5fe8ba6e101964f02871a4cc5a4d11a8bf2ed1dcb2d",
+        "reference_png_sha256": "dacd6a229d5bc91aa6ccb5fe8ba6e101964f02871a4cc5a4d11a8bf2ed1dcb2d"
+      }
+    },
+    "reference_visible_to_model": false,
+    "passed": true
+  },
+  "exception_class": "",
+  "command_count": 42,
+  "command_error_count": 1,
+  "cleanup": {
+    "own_pid": 923101,
+    "runner_exited": true,
+    "returncode": 0,
+    "socket_absent": true
+  },
+  "succeed": false,
+  "terminated": true,
+  "truncated": false,
+  "steps": 1000,
+  "action_calls": 34,
+  "evidence_path": "episodes/hammer_nail/trial05-attempt01",
+  "evidence_complete": true,
+  "audit_status": "passed",
+  "audit_counts": {
+    "steps": 1000,
+    "action_calls": 34,
+    "reset_count": 1,
+    "observation_events": 36,
+    "official_success_ever_true": false,
+    "observation_directories": 36,
+    "command_count": 42,
+    "command_error_count": 1,
+    "successful_action_command_count": 34,
+    "model_image_references": 613,
+    "unique_model_image_references": 34,
+    "public_model_error_records": 1
+  }
+}
