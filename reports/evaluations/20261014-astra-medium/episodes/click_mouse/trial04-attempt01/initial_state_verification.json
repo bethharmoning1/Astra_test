@@ -1,0 +1,22 @@
+{
+  "method": "exact decoded RGB; proprioception atol=1e-8 rtol=0; configuration SHA-256",
+  "is_reference": false,
+  "state_absolute_tolerance": 1e-08,
+  "state_max_absolute_error": 0.0,
+  "robot_state_equal": true,
+  "camera_configuration_equal": true,
+  "cameras": {
+    "ego_right": {
+      "pixels_equal": true,
+      "initial_png_sha256": "4248560497909eb7badd780864e3e282ac6e29e33af2f70c506bac4ccec9a7f1",
+      "reference_png_sha256": "4248560497909eb7badd780864e3e282ac6e29e33af2f70c506bac4ccec9a7f1"
+    },
+    "wrist": {
+      "pixels_equal": true,
+      "initial_png_sha256": "78192ac704c0931b7b70a7fdd4262178b4d78885f30273157c6a810db4892b12",
+      "reference_png_sha256": "78192ac704c0931b7b70a7fdd4262178b4d78885f30273157c6a810db4892b12"
+    }
+  },
+  "reference_visible_to_model": false,
+  "passed": true
+}
