@@ -593,5 +593,40 @@
       "unique_model_image_references": 43,
       "public_model_error_records": 0
     }
+  },
+  {
+    "batch_id": "20261014-astra-medium",
+    "task": "pick_bucket",
+    "trial_index": 2,
+    "attempt_id": "trial02-attempt01",
+    "seed": 0,
+    "label": "eval-20261014-astra-medium-pick_bucket-t02-a01",
+    "scored": true,
+    "status": "completed",
+    "succeed": false,
+    "terminated": true,
+    "truncated": false,
+    "steps": 1200,
+    "action_calls": 50,
+    "reason": "native_step_limit",
+    "evidence_path": "episodes/pick_bucket/trial02-attempt01",
+    "exception_class": "",
+    "replacement_of": "",
+    "evidence_complete": true,
+    "audit_status": "passed",
+    "audit_counts": {
+      "steps": 1200,
+      "action_calls": 50,
+      "reset_count": 1,
+      "observation_events": 54,
+      "official_success_ever_true": false,
+      "observation_directories": 54,
+      "command_count": 61,
+      "command_error_count": 2,
+      "successful_action_command_count": 50,
+      "model_image_references": 1326,
+      "unique_model_image_references": 51,
+      "public_model_error_records": 0
+    }
   }
 ]
