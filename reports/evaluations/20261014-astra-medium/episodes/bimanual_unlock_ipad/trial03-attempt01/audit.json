@@ -1,0 +1,1776 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "passed": true,
+  "evidence_complete": true,
+  "checks": [
+    {
+      "name": "task_in_fixed_eleven",
+      "status": "passed",
+      "actual": "bimanual_unlock_ipad"
+    },
+    {
+      "name": "seed_zero",
+      "status": "passed",
+      "actual": 0
+    },
+    {
+      "name": "trial_index_valid",
+      "status": "passed",
+      "actual": 3
+    },
+    {
+      "name": "scored_is_boolean",
+      "status": "passed"
+    },
+    {
+      "name": "manifest.json:task",
+      "status": "passed",
+      "actual": "bimanual_unlock_ipad",
+      "expected": "bimanual_unlock_ipad"
+    },
+    {
+      "name": "manifest.json:seed",
+      "status": "passed",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "manifest.json:label",
+      "status": "passed",
+      "actual": "eval-20261014-astra-medium-bimanual_unlock_ipad-t03-a01",
+      "expected": "eval-20261014-astra-medium-bimanual_unlock_ipad-t03-a01"
+    },
+    {
+      "name": "manifest.json:native_action_dim",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "summary.json:task",
+      "status": "passed",
+      "actual": "bimanual_unlock_ipad",
+      "expected": "bimanual_unlock_ipad"
+    },
+    {
+      "name": "summary.json:seed",
+      "status": "passed",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "summary.json:label",
+      "status": "passed",
+      "actual": "eval-20261014-astra-medium-bimanual_unlock_ipad-t03-a01",
+      "expected": "eval-20261014-astra-medium-bimanual_unlock_ipad-t03-a01"
+    },
+    {
+      "name": "summary.json:native_action_dim",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "one_reset_per_episode",
+      "status": "passed",
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "consecutive_step_numbers",
+      "status": "passed",
+      "actual": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ]
+    },
+    {
+      "name": "summary_steps",
+      "status": "passed",
+      "actual": 104,
+      "events": 104
+    },
+    {
+      "name": "summary_action_calls",
+      "status": "passed",
+      "actual": 4,
+      "events": 4
+    },
+    {
+      "name": "step:1:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:2:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:2:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:3:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:3:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:4:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:4:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:5:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:5:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:6:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:6:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:7:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:7:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:8:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:8:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:9:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:9:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:10:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:10:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:11:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:11:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:12:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:12:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:13:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:13:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:14:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:14:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:15:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:15:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:16:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:16:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:17:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:17:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:18:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:18:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:19:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:19:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:20:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:20:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:21:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:21:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:22:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:22:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:23:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:23:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:24:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:24:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:25:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:25:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:26:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:26:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:27:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:27:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:28:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:28:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:29:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:29:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:30:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:30:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:31:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:31:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:32:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:32:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:33:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:33:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:34:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:34:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:35:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:35:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:36:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:36:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:37:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:37:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:38:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:38:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:39:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:39:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:40:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:40:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:41:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:41:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:42:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:42:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:43:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:43:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:44:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:44:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:45:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:45:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:46:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:46:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:47:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:47:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:48:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:48:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:49:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:49:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:50:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:50:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:51:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:51:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:52:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:52:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:53:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:53:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:54:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:54:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:55:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:55:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:56:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:56:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:57:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:57:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:58:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:58:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:59:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:59:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:60:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:60:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:61:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:61:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:62:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:62:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:63:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:63:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:64:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:64:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:65:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:65:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:66:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:66:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:67:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:67:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:68:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:68:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:69:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:69:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:70:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:70:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:71:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:71:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:72:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:72:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:73:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:73:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:74:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:74:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:75:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:75:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:76:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:76:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:77:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:77:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:78:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:78:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:79:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:79:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:80:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:80:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:81:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:81:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:82:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:82:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:83:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:83:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:84:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:84:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:85:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:85:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:86:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:86:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:87:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:87:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:88:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:88:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:89:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:89:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:90:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:90:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:91:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:91:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:92:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:92:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:93:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:93:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:94:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:94:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:95:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:95:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:96:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:96:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:97:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:97:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:98:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:98:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:99:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:99:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:100:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:100:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:101:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:101:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:102:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:102:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:103:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:103:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "step:104:after_terminal",
+      "status": "passed"
+    },
+    {
+      "name": "step:104:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "summary_succeed",
+      "status": "passed",
+      "actual": false,
+      "events": false
+    },
+    {
+      "name": "summary_terminated",
+      "status": "passed",
+      "actual": true,
+      "events": true
+    },
+    {
+      "name": "summary_truncated",
+      "status": "passed",
+      "actual": false,
+      "events": false
+    },
+    {
+      "name": "official_selected_cameras",
+      "status": "passed",
+      "actual": [
+        "ego",
+        "wrist_left",
+        "wrist_right"
+      ],
+      "expected": [
+        "ego",
+        "wrist_left",
+        "wrist_right"
+      ]
+    },
+    {
+      "name": "observation_directories_match_events",
+      "status": "passed",
+      "events": 6,
+      "directories": 6
+    },
+    {
+      "name": "obs-0001/observation.json:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "obs-0001/observation.json:selected_cameras",
+      "status": "passed",
+      "actual": [
+        "ego",
+        "wrist_left",
+        "wrist_right"
+      ],
+      "expected": [
+        "ego",
+        "wrist_left",
+        "wrist_right"
+      ]
+    },
+    {
+      "name": "obs-0001/observation.json:step_count",
+      "status": "passed",
+      "actual": 0,
+      "maximum": 104
+    },
+    {
+      "name": "obs-0001/observation.json:action_calls",
+      "status": "passed",
+      "actual": 0,
+      "maximum": 4
+    },
+    {
+      "name": "obs-0002/observation.json:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "obs-0002/observation.json:selected_cameras",
+      "status": "passed",
+      "actual": [
+        "ego",
+        "wrist_left",
+        "wrist_right"
+      ],
+      "expected": [
+        "ego",
+        "wrist_left",
+        "wrist_right"
+      ]
+    },
+    {
+      "name": "obs-0002/observation.json:step_count",
+      "status": "passed",
+      "actual": 0,
+      "maximum": 104
+    },
+    {
+      "name": "obs-0002/observation.json:action_calls",
+      "status": "passed",
+      "actual": 0,
+      "maximum": 4
+    },
+    {
+      "name": "obs-0003/observation.json:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "obs-0003/observation.json:selected_cameras",
+      "status": "passed",
+      "actual": [
+        "ego",
+        "wrist_left",
+        "wrist_right"
+      ],
+      "expected": [
+        "ego",
+        "wrist_left",
+        "wrist_right"
+      ]
+    },
+    {
+      "name": "obs-0003/observation.json:step_count",
+      "status": "passed",
+      "actual": 30,
+      "maximum": 104
+    },
+    {
+      "name": "obs-0003/observation.json:action_calls",
+      "status": "passed",
+      "actual": 1,
+      "maximum": 4
+    },
+    {
+      "name": "obs-0004/observation.json:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "obs-0004/observation.json:selected_cameras",
+      "status": "passed",
+      "actual": [
+        "ego",
+        "wrist_left",
+        "wrist_right"
+      ],
+      "expected": [
+        "ego",
+        "wrist_left",
+        "wrist_right"
+      ]
+    },
+    {
+      "name": "obs-0004/observation.json:step_count",
+      "status": "passed",
+      "actual": 60,
+      "maximum": 104
+    },
+    {
+      "name": "obs-0004/observation.json:action_calls",
+      "status": "passed",
+      "actual": 2,
+      "maximum": 4
+    },
+    {
+      "name": "obs-0005/observation.json:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "obs-0005/observation.json:selected_cameras",
+      "status": "passed",
+      "actual": [
+        "ego",
+        "wrist_left",
+        "wrist_right"
+      ],
+      "expected": [
+        "ego",
+        "wrist_left",
+        "wrist_right"
+      ]
+    },
+    {
+      "name": "obs-0005/observation.json:step_count",
+      "status": "passed",
+      "actual": 90,
+      "maximum": 104
+    },
+    {
+      "name": "obs-0005/observation.json:action_calls",
+      "status": "passed",
+      "actual": 3,
+      "maximum": 4
+    },
+    {
+      "name": "obs-0006/observation.json:robot_state_dimensions",
+      "status": "passed",
+      "actual": 46,
+      "expected": 46
+    },
+    {
+      "name": "obs-0006/observation.json:selected_cameras",
+      "status": "passed",
+      "actual": [
+        "ego",
+        "wrist_left",
+        "wrist_right"
+      ],
+      "expected": [
+        "ego",
+        "wrist_left",
+        "wrist_right"
+      ]
+    },
+    {
+      "name": "obs-0006/observation.json:step_count",
+      "status": "passed",
+      "actual": 104,
+      "maximum": 104
+    },
+    {
+      "name": "obs-0006/observation.json:action_calls",
+      "status": "passed",
+      "actual": 4,
+      "maximum": 4
+    },
+    {
+      "name": "initial_observation_step_zero",
+      "status": "passed",
+      "actual": 0
+    },
+    {
+      "name": "successful_commands_have_agent_requests",
+      "status": "passed",
+      "commands": 4,
+      "events": 4
+    },
+    {
+      "name": "agent_requests_have_command_records",
+      "status": "passed",
+      "events": 4,
+      "commands": 4
+    },
+    {
+      "name": "command_count_matches_recorder",
+      "status": "passed",
+      "expected": 12,
+      "actual": 12
+    },
+    {
+      "name": "command_error_count_matches_recorder",
+      "status": "passed",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "name": "isolation_verified",
+      "status": "passed",
+      "method": "new API history; no filesystem/shell tools; current-episode callbacks only"
+    },
+    {
+      "name": "initial_state_verified",
+      "status": "passed",
+      "verification": {
+        "method": "exact decoded RGB; proprioception atol=1e-8 rtol=0; configuration SHA-256",
+        "is_reference": false,
+        "state_absolute_tolerance": 1e-08,
+        "state_max_absolute_error": 0.0,
+        "robot_state_equal": true,
+        "camera_configuration_equal": true,
+        "cameras": {
+          "ego": {
+            "pixels_equal": true,
+            "initial_png_sha256": "f79db6d905868f9d35817b8fc90c24799604c07f513ea7f26b4a76b237b02239",
+            "reference_png_sha256": "f79db6d905868f9d35817b8fc90c24799604c07f513ea7f26b4a76b237b02239"
+          },
+          "wrist_left": {
+            "pixels_equal": true,
+            "initial_png_sha256": "981149dc834daba5714903a1a6aee1571b8622ed71398a13cc13440246a3358e",
+            "reference_png_sha256": "981149dc834daba5714903a1a6aee1571b8622ed71398a13cc13440246a3358e"
+          },
+          "wrist_right": {
+            "pixels_equal": true,
+            "initial_png_sha256": "2258d9aef5ddb7471b56ecccabf49b8f57ffeefcefdc58d4706c2fe91e28ad5b",
+            "reference_png_sha256": "2258d9aef5ddb7471b56ecccabf49b8f57ffeefcefdc58d4706c2fe91e28ad5b"
+          }
+        },
+        "reference_visible_to_model": false,
+        "passed": true
+      }
+    },
+    {
+      "name": "model_transcript.jsonl:2/request/input/3/content/1/image_url:externalization_marker",
+      "status": "passed"
+    },
+    {
+      "name": "model_transcript.jsonl:2/request/input/3/content/1/image_url:image:path_safe",
+      "status": "passed",
+      "actual": "model_images/62d250ffe78cd3e9b03ee86ab7ac575403e12ac27cea405f2b02f00819e7fd69.jpg"
+    },
+    {
+      "name": "model_transcript.jsonl:2/request/input/3/content/1/image_url:source_image:path_safe",
+      "status": "passed",
+      "actual": "obs-0002/contact_sheet.jpg"
+    },
+    {
+      "name": "model_transcript.jsonl:2/request/input/3/content/1/image_url:sha256_format",
+      "status": "passed"
+    },
+    {
+      "name": "model_transcript.jsonl:2/request/input/3/content/1/image_url:declared_mime",
+      "status": "passed",
+      "actual": "image/jpeg",
+      "expected": "image/jpeg"
+    },
+    {
+      "name": "model_transcript.jsonl:2/request/input/3/content/1/image_url:mime_matches_file",
+      "status": "passed"
+    },
+    {
+      "name": "model_transcript.jsonl:2/request/input/3/content/1/image_url:image_sha256",
+      "status": "passed",
+      "actual": "62d250ffe78cd3e9b03ee86ab7ac575403e12ac27cea405f2b02f00819e7fd69",
+      "expected": "62d250ffe78cd3e9b03ee86ab7ac575403e12ac27cea405f2b02f00819e7fd69"
+    },
+    {
+      "name": "model_transcript.jsonl:2/request/input/3/content/1/image_url:source_is_contact_sheet",
+      "status": "passed",
+      "actual": "obs-0002/contact_sheet.jpg"
+    },
+    {
+      "name": "model_transcript.jsonl:2/request/input/3/content/1/image_url:source_observation",
+      "status": "passed",
+      "actual": "obs-0002",
+      "expected": "obs-0002"
+    },
+    {
+      "name": "model_transcript.jsonl:2/request/input/3/content/1/image_url:source_sha256",
+      "status": "passed",
+      "actual": "62d250ffe78cd3e9b03ee86ab7ac575403e12ac27cea405f2b02f00819e7fd69",
+      "expected": "62d250ffe78cd3e9b03ee86ab7ac575403e12ac27cea405f2b02f00819e7fd69"
+    },
+    {
+      "name": "model_transcript.jsonl:2/request/input/3/content/1/image_url:identical_to_original_contact_sheet",
+      "status": "passed"
+    },
+    {
+      "name": "model_transcript.jsonl:114/request/input/7/content/1/image_url:externalization_marker",
+      "status": "passed"
+    },
+    {
+      "name": "model_transcript.jsonl:114/request/input/7/content/1/image_url:image:path_safe",
+      "status": "passed",
+      "actual": "model_images/4e84ffb15288a05c962cab90ac9bd5b5e485079bc7b900b11d4d62378c56fedd.jpg"
+    },
+    {
+      "name": "model_transcript.jsonl:114/request/input/7/content/1/image_url:source_image:path_safe",
+      "status": "passed",
+      "actual": "obs-0003/contact_sheet.jpg"
+    },
+    {
+      "name": "model_transcript.jsonl:114/request/input/7/content/1/image_url:sha256_format",
+      "status": "passed"
+    },
+    {
+      "name": "model_transcript.jsonl:114/request/input/7/content/1/image_url:declared_mime",
+      "status": "passed",
+      "actual": "image/jpeg",
+      "expected": "image/jpeg"
+    },
+    {
+      "name": "model_transcript.jsonl:114/request/input/7/content/1/image_url:mime_matches_file",
+      "status": "passed"
+    },
+    {
+      "name": "model_transcript.jsonl:114/request/input/7/content/1/image_url:image_sha256",
+      "status": "passed",
+      "actual": "4e84ffb15288a05c962cab90ac9bd5b5e485079bc7b900b11d4d62378c56fedd",
+      "expected": "4e84ffb15288a05c962cab90ac9bd5b5e485079bc7b900b11d4d62378c56fedd"
+    },
+    {
+      "name": "model_transcript.jsonl:114/request/input/7/content/1/image_url:source_is_contact_sheet",
+      "status": "passed",
+      "actual": "obs-0003/contact_sheet.jpg"
+    },
+    {
+      "name": "model_transcript.jsonl:114/request/input/7/content/1/image_url:source_observation",
+      "status": "passed",
+      "actual": "obs-0003",
+      "expected": "obs-0003"
+    },
+    {
+      "name": "model_transcript.jsonl:114/request/input/7/content/1/image_url:source_sha256",
+      "status": "passed",
+      "actual": "4e84ffb15288a05c962cab90ac9bd5b5e485079bc7b900b11d4d62378c56fedd",
+      "expected": "4e84ffb15288a05c962cab90ac9bd5b5e485079bc7b900b11d4d62378c56fedd"
+    },
+    {
+      "name": "model_transcript.jsonl:114/request/input/7/content/1/image_url:identical_to_original_contact_sheet",
+      "status": "passed"
+    },
+    {
+      "name": "model_transcript.jsonl:173/request/input/10/content/1/image_url:externalization_marker",
+      "status": "passed"
+    },
+    {
+      "name": "model_transcript.jsonl:173/request/input/10/content/1/image_url:image:path_safe",
+      "status": "passed",
+      "actual": "model_images/957c12f56f873f0fe1695477a42830ebccea4306f5ac19318dc85730a42fcb6c.jpg"
+    },
+    {
+      "name": "model_transcript.jsonl:173/request/input/10/content/1/image_url:source_image:path_safe",
+      "status": "passed",
+      "actual": "obs-0004/contact_sheet.jpg"
+    },
+    {
+      "name": "model_transcript.jsonl:173/request/input/10/content/1/image_url:sha256_format",
+      "status": "passed"
+    },
+    {
+      "name": "model_transcript.jsonl:173/request/input/10/content/1/image_url:declared_mime",
+      "status": "passed",
+      "actual": "image/jpeg",
+      "expected": "image/jpeg"
+    },
+    {
+      "name": "model_transcript.jsonl:173/request/input/10/content/1/image_url:mime_matches_file",
+      "status": "passed"
+    },
+    {
+      "name": "model_transcript.jsonl:173/request/input/10/content/1/image_url:image_sha256",
+      "status": "passed",
+      "actual": "957c12f56f873f0fe1695477a42830ebccea4306f5ac19318dc85730a42fcb6c",
+      "expected": "957c12f56f873f0fe1695477a42830ebccea4306f5ac19318dc85730a42fcb6c"
+    },
+    {
+      "name": "model_transcript.jsonl:173/request/input/10/content/1/image_url:source_is_contact_sheet",
+      "status": "passed",
+      "actual": "obs-0004/contact_sheet.jpg"
+    },
+    {
+      "name": "model_transcript.jsonl:173/request/input/10/content/1/image_url:source_observation",
+      "status": "passed",
+      "actual": "obs-0004",
+      "expected": "obs-0004"
+    },
+    {
+      "name": "model_transcript.jsonl:173/request/input/10/content/1/image_url:source_sha256",
+      "status": "passed",
+      "actual": "957c12f56f873f0fe1695477a42830ebccea4306f5ac19318dc85730a42fcb6c",
+      "expected": "957c12f56f873f0fe1695477a42830ebccea4306f5ac19318dc85730a42fcb6c"
+    },
+    {
+      "name": "model_transcript.jsonl:173/request/input/10/content/1/image_url:identical_to_original_contact_sheet",
+      "status": "passed"
+    },
+    {
+      "name": "model_transcript.jsonl:291/request/input/14/content/1/image_url:externalization_marker",
+      "status": "passed"
+    },
+    {
+      "name": "model_transcript.jsonl:291/request/input/14/content/1/image_url:image:path_safe",
+      "status": "passed",
+      "actual": "model_images/9083a316bdefb6a826990deaa08bfd970eb168711dfd5be51123e404541574db.jpg"
+    },
+    {
+      "name": "model_transcript.jsonl:291/request/input/14/content/1/image_url:source_image:path_safe",
+      "status": "passed",
+      "actual": "obs-0005/contact_sheet.jpg"
+    },
+    {
+      "name": "model_transcript.jsonl:291/request/input/14/content/1/image_url:sha256_format",
+      "status": "passed"
+    },
+    {
+      "name": "model_transcript.jsonl:291/request/input/14/content/1/image_url:declared_mime",
+      "status": "passed",
+      "actual": "image/jpeg",
+      "expected": "image/jpeg"
+    },
+    {
+      "name": "model_transcript.jsonl:291/request/input/14/content/1/image_url:mime_matches_file",
+      "status": "passed"
+    },
+    {
+      "name": "model_transcript.jsonl:291/request/input/14/content/1/image_url:image_sha256",
+      "status": "passed",
+      "actual": "9083a316bdefb6a826990deaa08bfd970eb168711dfd5be51123e404541574db",
+      "expected": "9083a316bdefb6a826990deaa08bfd970eb168711dfd5be51123e404541574db"
+    },
+    {
+      "name": "model_transcript.jsonl:291/request/input/14/content/1/image_url:source_is_contact_sheet",
+      "status": "passed",
+      "actual": "obs-0005/contact_sheet.jpg"
+    },
+    {
+      "name": "model_transcript.jsonl:291/request/input/14/content/1/image_url:source_observation",
+      "status": "passed",
+      "actual": "obs-0005",
+      "expected": "obs-0005"
+    },
+    {
+      "name": "model_transcript.jsonl:291/request/input/14/content/1/image_url:source_sha256",
+      "status": "passed",
+      "actual": "9083a316bdefb6a826990deaa08bfd970eb168711dfd5be51123e404541574db",
+      "expected": "9083a316bdefb6a826990deaa08bfd970eb168711dfd5be51123e404541574db"
+    },
+    {
+      "name": "model_transcript.jsonl:291/request/input/14/content/1/image_url:identical_to_original_contact_sheet",
+      "status": "passed"
+    }
+  ],
+  "counts": {
+    "steps": 104,
+    "action_calls": 4,
+    "reset_count": 1,
+    "observation_events": 6,
+    "official_success_ever_true": false,
+    "observation_directories": 6,
+    "command_count": 12,
+    "command_error_count": 1,
+    "successful_action_command_count": 4,
+    "model_image_references": 10,
+    "unique_model_image_references": 4,
+    "public_model_error_records": 0
+  },
+  "missing_evidence_count": 0,
+  "failed_check_count": 0,
+  "platform_limitations": [
+    "Only exportable public model inputs, outputs and tool records are archived. Private/internal model reasoning is unavailable; this is not a complete model conversation.",
+    "The requested model and settings can be recorded, but the backend model version has not been independently verified.",
+    "The archive can verify recorded commands and declared recorder counts; it cannot independently prove that a command was never omitted by the recorder."
+  ],
+  "manifest_interpretation": "Bridge manifest model_api_used/purpose fields describe the bridge defaults. The external dispatch, batch configuration and public model records document the actual evaluation; original manifest fields are preserved."
+}

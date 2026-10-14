@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "attempt.json",
+      "size_bytes": 2900,
+      "sha256": "792f9266416edb77a559a2313f80548fd35d9c56deae03372e63e94ea51013ab"
+    },
+    {
+      "path": "attempt_metadata.json",
+      "size_bytes": 2273,
+      "sha256": "c2cface3ec989e9c6cdb16f8a19c69aba28e007240987708f0c8b24a1ad3dff0"
+    },
+    {
+      "path": "audit.json",
+      "size_bytes": 41583,
+      "sha256": "b6c2a56624f626488fe44825ae0839c62b805c53907747359f32d6723f8c8214"
+    },
+    {
+      "path": "cleanup.json",
+      "size_bytes": 93,
+      "sha256": "e6707a9df14925387afc10f2f4f17053950893e0ac19d8518c397242aaa5bdf4"
+    },
+    {
+      "path": "command_errors.json",
+      "size_bytes": 278,
+      "sha256": "e901398356c0aaaedf015c2ecb4cd760e8d8ad6c22922f1de920c4d6761f05e1"
+    },
+    {
+      "path": "command_log.jsonl",
+      "size_bytes": 62133,
+      "sha256": "21a8953cf6c0cc6c335d0f07702cd46c790cbf0852a93360c9427b17002ed0fc"
+    },
+    {
+      "path": "contract.json",
+      "size_bytes": 3822,
+      "sha256": "3dc9b654f5d65af135907ebd5bbf684ace6e09cbde5639b8bb65dee98e5338d5"
+    },
+    {
+      "path": "dispatch.json",
+      "size_bytes": 6796,
+      "sha256": "42a2af1cc3a46dd2c44ff16f97fa67e18c24377ec1f280ad3816a6985a5085d0"
+    },
+    {
+      "path": "events.jsonl",
+      "size_bytes": 300631,
+      "sha256": "3636b9cf80a030e8952c5240d2a7f90e2f0bc7b8a822de163f9425e0b1cdba2e"
+    },
+    {
+      "path": "initial_state_verification.json",
+      "size_bytes": 1070,
+      "sha256": "476f6038d307a946ef22a90bc5d0241df0f820f4eea6e80a8cbd5cf9e665607c"
+    },
+    {
+      "path": "manifest.json",
+      "size_bytes": 1010,
+      "sha256": "8ee593fcbb803800c97ed015b9ee806efe725cc21d719d6fea167e1b4a55fdc0"
+    },
+    {
+      "path": "model_images/4e84ffb15288a05c962cab90ac9bd5b5e485079bc7b900b11d4d62378c56fedd.jpg",
+      "size_bytes": 116094,
+      "sha256": "4e84ffb15288a05c962cab90ac9bd5b5e485079bc7b900b11d4d62378c56fedd"
+    },
+    {
+      "path": "model_images/62d250ffe78cd3e9b03ee86ab7ac575403e12ac27cea405f2b02f00819e7fd69.jpg",
+      "size_bytes": 112254,
+      "sha256": "62d250ffe78cd3e9b03ee86ab7ac575403e12ac27cea405f2b02f00819e7fd69"
+    },
+    {
+      "path": "model_images/9083a316bdefb6a826990deaa08bfd970eb168711dfd5be51123e404541574db.jpg",
+      "size_bytes": 111029,
+      "sha256": "9083a316bdefb6a826990deaa08bfd970eb168711dfd5be51123e404541574db"
+    },
+    {
+      "path": "model_images/957c12f56f873f0fe1695477a42830ebccea4306f5ac19318dc85730a42fcb6c.jpg",
+      "size_bytes": 118010,
+      "sha256": "957c12f56f873f0fe1695477a42830ebccea4306f5ac19318dc85730a42fcb6c"
+    },
+    {
+      "path": "model_result.json",
+      "size_bytes": 5597,
+      "sha256": "a243253cb5c51a80512f4f412d2e522386b5f9929291b250d61a81f388fe6925"
+    },
+    {
+      "path": "model_transcript.jsonl",
+      "size_bytes": 815269,
+      "sha256": "c13a61233452844b4b7508b32965ec58d51ef59c8dd9503321be54d2969f0c3c"
+    },
+    {
+      "path": "obs-0001/contact_sheet.jpg",
+      "size_bytes": 112254,
+      "sha256": "62d250ffe78cd3e9b03ee86ab7ac575403e12ac27cea405f2b02f00819e7fd69"
+    },
+    {
+      "path": "obs-0001/ego.png",
+      "size_bytes": 308401,
+      "sha256": "f79db6d905868f9d35817b8fc90c24799604c07f513ea7f26b4a76b237b02239"
+    },
+    {
+      "path": "obs-0001/observation.json",
+      "size_bytes": 3215,
+      "sha256": "971c95fb3326fe9752c03d6c992340813d3743e716fc25a122aa80bf02ee16d0"
+    },
+    {
+      "path": "obs-0001/wrist_left.png",
+      "size_bytes": 259306,
+      "sha256": "981149dc834daba5714903a1a6aee1571b8622ed71398a13cc13440246a3358e"
+    },
+    {
+      "path": "obs-0001/wrist_right.png",
+      "size_bytes": 240097,
+      "sha256": "2258d9aef5ddb7471b56ecccabf49b8f57ffeefcefdc58d4706c2fe91e28ad5b"
+    },
+    {
+      "path": "obs-0002/contact_sheet.jpg",
+      "size_bytes": 112254,
+      "sha256": "62d250ffe78cd3e9b03ee86ab7ac575403e12ac27cea405f2b02f00819e7fd69"
+    },
+    {
+      "path": "obs-0002/ego.png",
+      "size_bytes": 308401,
+      "sha256": "f79db6d905868f9d35817b8fc90c24799604c07f513ea7f26b4a76b237b02239"
+    },
+    {
+      "path": "obs-0002/observation.json",
+      "size_bytes": 3215,
+      "sha256": "3422bd5f56852bb75fcc71d4a9e8e07e1b80598bcb7fb1d12a25ff03eec6369b"
+    },
+    {
+      "path": "obs-0002/wrist_left.png",
+      "size_bytes": 259306,
+      "sha256": "981149dc834daba5714903a1a6aee1571b8622ed71398a13cc13440246a3358e"
+    },
+    {
+      "path": "obs-0002/wrist_right.png",
+      "size_bytes": 240097,
+      "sha256": "2258d9aef5ddb7471b56ecccabf49b8f57ffeefcefdc58d4706c2fe91e28ad5b"
+    },
+    {
+      "path": "obs-0003/contact_sheet.jpg",
+      "size_bytes": 116094,
+      "sha256": "4e84ffb15288a05c962cab90ac9bd5b5e485079bc7b900b11d4d62378c56fedd"
+    },
+    {
+      "path": "obs-0003/ego.png",
+      "size_bytes": 325687,
+      "sha256": "699d1ee80d304faff0235704689e258ed6c556448d344ef354962c2f73f6d49c"
+    },
+    {
+      "path": "obs-0003/observation.json",
+      "size_bytes": 4322,
+      "sha256": "72edc34d0eb481c0fa566f2558b8b6df630db7629ba3087eb7ab16f85680c3ce"
+    },
+    {
+      "path": "obs-0003/wrist_left.png",
+      "size_bytes": 260202,
+      "sha256": "d75b32398e67f142754a366ff1a283ceee5c1e033ee292e56765bdf25afc5461"
+    },
+    {
+      "path": "obs-0003/wrist_right.png",
+      "size_bytes": 221515,
+      "sha256": "5b66fc4e5d248f1a6bde441b57bf63cd7cb7208ad3cf4a1cc57e702a711f08c0"
+    },
+    {
+      "path": "obs-0004/contact_sheet.jpg",
+      "size_bytes": 118010,
+      "sha256": "957c12f56f873f0fe1695477a42830ebccea4306f5ac19318dc85730a42fcb6c"
+    },
+    {
+      "path": "obs-0004/ego.png",
+      "size_bytes": 345572,
+      "sha256": "62bfd919bd6ee263d9ef5c755258fde3a1bb21e4765bc06372654e50536f386e"
+    },
+    {
+      "path": "obs-0004/observation.json",
+      "size_bytes": 4279,
+      "sha256": "2130dc1870b7cc3ba29c643c384c1510e36c3f1196f783980110a3912c10ef97"
+    },
+    {
+      "path": "obs-0004/wrist_left.png",
+      "size_bytes": 212697,
+      "sha256": "da0430cd1f99ba496ba3016ed49d510b814162ba9439bd6f1e2ba5a17e8bc8f5"
+    },
+    {
+      "path": "obs-0004/wrist_right.png",
+      "size_bytes": 177146,
+      "sha256": "bb4186c8d3e7f738f917cdfe0b6bf002b9c6230b3482f051ca416daf9a16076c"
+    },
+    {
+      "path": "obs-0005/contact_sheet.jpg",
+      "size_bytes": 111029,
+      "sha256": "9083a316bdefb6a826990deaa08bfd970eb168711dfd5be51123e404541574db"
+    },
+    {
+      "path": "obs-0005/ego.png",
+      "size_bytes": 346944,
+      "sha256": "60d3f45449ae7850f402480a3b9725506ea1a721424c9033cb56676049851815"
+    },
+    {
+      "path": "obs-0005/observation.json",
+      "size_bytes": 4215,
+      "sha256": "3f7b68223f8ca059bca3dc3d6164b248c2d2db8b7c6a9ac086d5ed2e92006f40"
+    },
+    {
+      "path": "obs-0005/wrist_left.png",
+      "size_bytes": 116468,
+      "sha256": "817c902677d0c728f256492e54c1082e2b46a1cbea4e967a2d32b2cf71405051"
+    },
+    {
+      "path": "obs-0005/wrist_right.png",
+      "size_bytes": 153004,
+      "sha256": "597bc360f4b7aa7a9289a5a57ca97ccac831b0f70fd19ae08b7a3f87b2421210"
+    },
+    {
+      "path": "obs-0006/contact_sheet.jpg",
+      "size_bytes": 100200,
+      "sha256": "2ebee97fc65107a89c705332711572fd8808d36d8c0628e6dfc352dd53f64d21"
+    },
+    {
+      "path": "obs-0006/ego.png",
+      "size_bytes": 341526,
+      "sha256": "6612719f933cdb30a2ba6d347c6ae3a5298b21916a78c1327e89cf714cd0d16d"
+    },
+    {
+      "path": "obs-0006/observation.json",
+      "size_bytes": 4406,
+      "sha256": "17b77457005bed2e9a8c5e52fb47a4975abda282a8d829387da95c5f1ce18a96"
+    },
+    {
+      "path": "obs-0006/wrist_left.png",
+      "size_bytes": 62333,
+      "sha256": "90b1eb8216eeb5e1a7b25b4ec33b1cbcac9caa17d881210078a94e54a4eb5978"
+    },
+    {
+      "path": "obs-0006/wrist_right.png",
+      "size_bytes": 142213,
+      "sha256": "32a48c262f17f7f8f5837184a1ac26625c965f9e0dbcf355aeede1d2c90525ea"
+    },
+    {
+      "path": "redaction_manifest.json",
+      "size_bytes": 122,
+      "sha256": "4d6ae0615b94fc34d6ee9412a8f3e01ac46b10f322982240a7cc9c572917fa92"
+    },
+    {
+      "path": "runner-log.txt",
+      "size_bytes": 81,
+      "sha256": "172ad3c28eee237cd4b2bbe976ecdd8a0389a8b5e2c972d5ea03160ab146d2b2"
+    },
+    {
+      "path": "source_path_mapping.json",
+      "size_bytes": 40775,
+      "sha256": "341364eece4084da4004dd98555b13caa2b690732a4b6946c6dc8b3ca0d38b52"
+    },
+    {
+      "path": "summary.json",
+      "size_bytes": 1059,
+      "sha256": "e234382ca7397eaa405d2c8b1fd2193ed186e68df6c27d2aab492dfecf50d8c7"
+    }
+  ],
+  "excluded_from_hashing": [
+    "evidence_inventory.json"
+  ],
+  "exclusion_reason": "A checksum manifest cannot include its own final checksum. Nested manifests are included."
+}
