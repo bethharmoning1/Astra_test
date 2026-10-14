@@ -9,8 +9,8 @@
     },
     {
       "path": "attempts.json",
-      "size_bytes": 3,
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      "size_bytes": 1019,
+      "sha256": "516f18ddc7ccedae56badaf1ceb7036f480b240041eadcf2f403d9df090f793c"
     },
     {
       "path": "batch_config.json",
@@ -19,18 +19,748 @@
     },
     {
       "path": "episode_results.csv",
-      "size_bytes": 194,
-      "sha256": "81d98e003da830f19365b4274adbf6421986b7f7a53e8f3c64ccb54a752f9c1c"
+      "size_bytes": 406,
+      "sha256": "3e39271901dcf02024cca1d6489f881ca950cb95f16b45ce56f6004e5cc3d8b2"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/attempt.json",
+      "size_bytes": 2619,
+      "sha256": "2cef05674ad373a185fb30e359d328527ee3bb0da66e2a54468ec839929f10d4"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/attempt_metadata.json",
+      "size_bytes": 1996,
+      "sha256": "077449ee19a1641990f7ac2a4debc71277ad8d901496dc20e2df1ae27c2e981e"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/audit.json",
+      "size_bytes": 227816,
+      "sha256": "e60ea577eb6fe80f8895adb35a014587bc9f78907d248860549b3c6a4c4d37ac"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/cleanup.json",
+      "size_bytes": 93,
+      "sha256": "629a3c0747e3a43e30c4a6b763f9f0ff46e362285a05093aa5151efc11207581"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/command_errors.json",
+      "size_bytes": 278,
+      "sha256": "e901398356c0aaaedf015c2ecb4cd760e8d8ad6c22922f1de920c4d6761f05e1"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/command_log.jsonl",
+      "size_bytes": 164827,
+      "sha256": "ec1188d00ac3959e566b67c49299aaec5b49ac33f27e538c9f276d2ada4fe900"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/contract.json",
+      "size_bytes": 2232,
+      "sha256": "558928796271856360e8232110226d740ab4d22af4c4bce6a69a116506af44cb"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/dispatch.json",
+      "size_bytes": 6778,
+      "sha256": "7dee3ce7378ba76615d53e501c23f8c96ede841cee3e2af7be21967de08bac8f"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/events.jsonl",
+      "size_bytes": 1075645,
+      "sha256": "0dfb43f2be5587129601605dd6758fa33e8174cd362f270ad504db35577ef73d"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/evidence_inventory.json",
+      "size_bytes": 25293,
+      "sha256": "7a8e104b8e9173db259198195f9e8513ac0a62644c39c36000d1357d75b819bb"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/initial_state_verification.json",
+      "size_bytes": 821,
+      "sha256": "83502f8471e791a8a946d5ecca73731b74ecf9991a89598c22ae00929fbcabfc"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/manifest.json",
+      "size_bytes": 936,
+      "sha256": "b659ea4b69af9409d0ede7961435ad353206b8d3b0750cdfda81280072fa297e"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/01ab731560b12319a7fdec978dd405cde93851853738c6f7ac8bea5228004507.jpg",
+      "size_bytes": 72532,
+      "sha256": "01ab731560b12319a7fdec978dd405cde93851853738c6f7ac8bea5228004507"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/0562d7d8d8e2a6ed748ed573145965c67496b6b7c45ff9dc4526f8f1d66e97b6.jpg",
+      "size_bytes": 69373,
+      "sha256": "0562d7d8d8e2a6ed748ed573145965c67496b6b7c45ff9dc4526f8f1d66e97b6"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/19b49a570dec970c03946606ec3c9ffb7bc4a66cbf5d8d18fef049cba0b12247.jpg",
+      "size_bytes": 74555,
+      "sha256": "19b49a570dec970c03946606ec3c9ffb7bc4a66cbf5d8d18fef049cba0b12247"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/2113f4f8da2404c5f000065da3e1854591486887491ffe46acd8d5067a7ae188.jpg",
+      "size_bytes": 68716,
+      "sha256": "2113f4f8da2404c5f000065da3e1854591486887491ffe46acd8d5067a7ae188"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/2d044d48992d9184392af45ba3e2cacbc8a8fb1d67f4fea3cc0b4962bfd9af23.jpg",
+      "size_bytes": 70112,
+      "sha256": "2d044d48992d9184392af45ba3e2cacbc8a8fb1d67f4fea3cc0b4962bfd9af23"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/2e363db4c952b94de4349b4f1af26e19c9e534aa79ae9d239f5c8f9a63b4c726.jpg",
+      "size_bytes": 70661,
+      "sha256": "2e363db4c952b94de4349b4f1af26e19c9e534aa79ae9d239f5c8f9a63b4c726"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/3a327783ec1519cd6afe9cff2650466ed783fa8a1ff2bafb436c67a759638e71.jpg",
+      "size_bytes": 70822,
+      "sha256": "3a327783ec1519cd6afe9cff2650466ed783fa8a1ff2bafb436c67a759638e71"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/3a72129b1c6a01cad9e951a047ce77f9dbc41e3f5333e1802db4c94b10ffe335.jpg",
+      "size_bytes": 70391,
+      "sha256": "3a72129b1c6a01cad9e951a047ce77f9dbc41e3f5333e1802db4c94b10ffe335"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/3d32f519ed8e9abb6e9f41029749e4ad61a055f92f9a268fcff8b4cd53a0e1aa.jpg",
+      "size_bytes": 74974,
+      "sha256": "3d32f519ed8e9abb6e9f41029749e4ad61a055f92f9a268fcff8b4cd53a0e1aa"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/4cc87974d695eb7ae5b7dafda7376810c624e6fd507d30f719c5762198481fd8.jpg",
+      "size_bytes": 68197,
+      "sha256": "4cc87974d695eb7ae5b7dafda7376810c624e6fd507d30f719c5762198481fd8"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/51877eb09c71a1a3ba0d34f6dc50b64246b022337072f4f12b1dfcb1f8ef2015.jpg",
+      "size_bytes": 68772,
+      "sha256": "51877eb09c71a1a3ba0d34f6dc50b64246b022337072f4f12b1dfcb1f8ef2015"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/5e918b7f4afd385538dad2308e6c18d4bd5debb7945dfa58b2906d131a58bd05.jpg",
+      "size_bytes": 69327,
+      "sha256": "5e918b7f4afd385538dad2308e6c18d4bd5debb7945dfa58b2906d131a58bd05"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/6556bc1f0cc8db5c999c3fcbbb279ddfc02baf5c5b58e80947cd7dc91e19c84a.jpg",
+      "size_bytes": 71210,
+      "sha256": "6556bc1f0cc8db5c999c3fcbbb279ddfc02baf5c5b58e80947cd7dc91e19c84a"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/6f3b4675c4fe02fc42846f81e8a6fae7c637baf1402a276d7179a541d7863d95.jpg",
+      "size_bytes": 77005,
+      "sha256": "6f3b4675c4fe02fc42846f81e8a6fae7c637baf1402a276d7179a541d7863d95"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/735a8639a6e6ddd51b9358b1f74c2fe3a5f07c1865740e2a1b0c91cd12c862e7.jpg",
+      "size_bytes": 74452,
+      "sha256": "735a8639a6e6ddd51b9358b1f74c2fe3a5f07c1865740e2a1b0c91cd12c862e7"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/9ced4cbe3a4ff0eb4dd408873f3cc6891ed562a49936fe0ebf3f1c3d573a906c.jpg",
+      "size_bytes": 74055,
+      "sha256": "9ced4cbe3a4ff0eb4dd408873f3cc6891ed562a49936fe0ebf3f1c3d573a906c"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/a7b4e40991daac186d5503e7fb05a7e8500d05e365883df15a1b6ae15855e81f.jpg",
+      "size_bytes": 66512,
+      "sha256": "a7b4e40991daac186d5503e7fb05a7e8500d05e365883df15a1b6ae15855e81f"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/b0eac36506f9918fde92f7fa97dcd84fcc5cb420ac5f8bb6f418bc0c008feee3.jpg",
+      "size_bytes": 70160,
+      "sha256": "b0eac36506f9918fde92f7fa97dcd84fcc5cb420ac5f8bb6f418bc0c008feee3"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/b7d32768d6ff5853780d64ecbf1999964ca98b54b113ce1614d7fdd371494a0d.jpg",
+      "size_bytes": 69395,
+      "sha256": "b7d32768d6ff5853780d64ecbf1999964ca98b54b113ce1614d7fdd371494a0d"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/c9ebd66b743c21455085c27114792d1576e5edbc268c8f548add43df13f2b238.jpg",
+      "size_bytes": 73911,
+      "sha256": "c9ebd66b743c21455085c27114792d1576e5edbc268c8f548add43df13f2b238"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/d5e6972346ebb26c6cbdc93cf7e6b3b24004592262053d738798ebeec78f73ef.jpg",
+      "size_bytes": 72718,
+      "sha256": "d5e6972346ebb26c6cbdc93cf7e6b3b24004592262053d738798ebeec78f73ef"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/d8bdc88fa00a3c947da4eb9aa9f0b1fbb24e187d17ec93d42ad7b316946233d4.jpg",
+      "size_bytes": 72964,
+      "sha256": "d8bdc88fa00a3c947da4eb9aa9f0b1fbb24e187d17ec93d42ad7b316946233d4"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/dd1020a311634eb003e8b1a0fada0cdbbd4aed23426a8f74c1948034717a3df3.jpg",
+      "size_bytes": 67951,
+      "sha256": "dd1020a311634eb003e8b1a0fada0cdbbd4aed23426a8f74c1948034717a3df3"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_images/e689851319594856602b89bfa29773b9acd555e614a190be18217c9e3ea94595.jpg",
+      "size_bytes": 67290,
+      "sha256": "e689851319594856602b89bfa29773b9acd555e614a190be18217c9e3ea94595"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_result.json",
+      "size_bytes": 3230,
+      "sha256": "c80537b76f3d23d8df84d4769469c35ee983706aad65c9f114c06b615cbe0e45"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/model_transcript.jsonl",
+      "size_bytes": 6262929,
+      "sha256": "d247771983cdc046817127bb8b649b9c25ca04ce9e47f352806965e10d3bbd6c"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0001/contact_sheet.jpg",
+      "size_bytes": 67951,
+      "sha256": "dd1020a311634eb003e8b1a0fada0cdbbd4aed23426a8f74c1948034717a3df3"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0001/ego_right.png",
+      "size_bytes": 261169,
+      "sha256": "4248560497909eb7badd780864e3e282ac6e29e33af2f70c506bac4ccec9a7f1"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0001/observation.json",
+      "size_bytes": 2901,
+      "sha256": "48cd0cb84f3195b395d03e98b7b4fca520b57bf6ed377b0e8bc2378793396b71"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0001/wrist.png",
+      "size_bytes": 152244,
+      "sha256": "78192ac704c0931b7b70a7fdd4262178b4d78885f30273157c6a810db4892b12"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0002/contact_sheet.jpg",
+      "size_bytes": 67951,
+      "sha256": "dd1020a311634eb003e8b1a0fada0cdbbd4aed23426a8f74c1948034717a3df3"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0002/ego_right.png",
+      "size_bytes": 261169,
+      "sha256": "4248560497909eb7badd780864e3e282ac6e29e33af2f70c506bac4ccec9a7f1"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0002/observation.json",
+      "size_bytes": 2901,
+      "sha256": "98597f439b074d01135a6726cc2cd92e1c32ea56bf3f8d6ea4a9419dc89500ce"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0002/wrist.png",
+      "size_bytes": 152244,
+      "sha256": "78192ac704c0931b7b70a7fdd4262178b4d78885f30273157c6a810db4892b12"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0003/contact_sheet.jpg",
+      "size_bytes": 67290,
+      "sha256": "e689851319594856602b89bfa29773b9acd555e614a190be18217c9e3ea94595"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0003/ego_right.png",
+      "size_bytes": 265487,
+      "sha256": "b19e7fc0de95726c21d5804e9d296e7088e18453838a13f2dcea694f94a83c23"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0003/observation.json",
+      "size_bytes": 2872,
+      "sha256": "b608c8b5a83bb6ecc24f2aa9bb683f554da975bc3ce808bd78196690458012f3"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0003/wrist.png",
+      "size_bytes": 129385,
+      "sha256": "16768fe96b25fe185fef41a31066ffdf254aff7e98255097e586ccb10bcd1230"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0004/contact_sheet.jpg",
+      "size_bytes": 72532,
+      "sha256": "01ab731560b12319a7fdec978dd405cde93851853738c6f7ac8bea5228004507"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0004/ego_right.png",
+      "size_bytes": 264965,
+      "sha256": "9c8f1813c13584455cd5843b8c396d84fadfe7bb4447a862b339a1ec24dceaac"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0004/observation.json",
+      "size_bytes": 2856,
+      "sha256": "e2069e6cf8ed41dda023e0703d076f2eb52adcdc3714519b6c2225b220ba807f"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0004/wrist.png",
+      "size_bytes": 131031,
+      "sha256": "c861e029e8a4e80c6f89f50e465a1ccb64f1af63a338f71896627bbbff67b4e8"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0005/contact_sheet.jpg",
+      "size_bytes": 74974,
+      "sha256": "3d32f519ed8e9abb6e9f41029749e4ad61a055f92f9a268fcff8b4cd53a0e1aa"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0005/ego_right.png",
+      "size_bytes": 270427,
+      "sha256": "bcd1e82a500cc7746e00f1d3372bf3bfbe97119a88a2bbb3594aa2f0886580fb"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0005/observation.json",
+      "size_bytes": 2846,
+      "sha256": "34dafbdcdcd106631455f40a1f450f48ad5cdc353dc1a56e8b56fef3187635c8"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0005/wrist.png",
+      "size_bytes": 88644,
+      "sha256": "28fd65713a47e617c92cfb1914349bb851e857bdbd7ccfa0cd21c1449eae00b8"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0006/contact_sheet.jpg",
+      "size_bytes": 74055,
+      "sha256": "9ced4cbe3a4ff0eb4dd408873f3cc6891ed562a49936fe0ebf3f1c3d573a906c"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0006/ego_right.png",
+      "size_bytes": 271175,
+      "sha256": "a9694c2aeeb13d6e0ea148ed2aa806865a22731a5f60dd0c36fcddf1eec30e3d"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0006/observation.json",
+      "size_bytes": 2841,
+      "sha256": "53010bde7321d951af980e1ee39ebf93718bbea053155fba1f85849ac2de99ef"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0006/wrist.png",
+      "size_bytes": 111462,
+      "sha256": "2c97d43c251c629fed8ebf10c8cf955514ecf7bbe029a22ed8c9d7dae65a4394"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0007/contact_sheet.jpg",
+      "size_bytes": 70822,
+      "sha256": "3a327783ec1519cd6afe9cff2650466ed783fa8a1ff2bafb436c67a759638e71"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0007/ego_right.png",
+      "size_bytes": 270513,
+      "sha256": "e50cc82df536a3cbdca8fa9f3c26f01f93182c17ba23db0135e674b9f32d5111"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0007/observation.json",
+      "size_bytes": 2836,
+      "sha256": "986286b3ae8a32a537c27f480429de8ce2c54549d82ddd45ec1cc94f249ea65c"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0007/wrist.png",
+      "size_bytes": 119965,
+      "sha256": "e636daf3b68e1c1af71be321c3e911609d14d6131a67869e3506ce6e50c6128c"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0008/contact_sheet.jpg",
+      "size_bytes": 70391,
+      "sha256": "3a72129b1c6a01cad9e951a047ce77f9dbc41e3f5333e1802db4c94b10ffe335"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0008/ego_right.png",
+      "size_bytes": 268481,
+      "sha256": "9ea7a705c510b0a3f69ca86c18e854c7763e17398732b955e2eb1a7d57c20227"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0008/observation.json",
+      "size_bytes": 2633,
+      "sha256": "08a294b1b1fc8a416be6ecb0c2c87a31d4542bce9fe1406e857079c3c915b21b"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0008/wrist.png",
+      "size_bytes": 113004,
+      "sha256": "96927658b187c9ac577a092440b57cdafec28e3f22dfc4e6cf57a7d45e34c7d0"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0009/contact_sheet.jpg",
+      "size_bytes": 74555,
+      "sha256": "19b49a570dec970c03946606ec3c9ffb7bc4a66cbf5d8d18fef049cba0b12247"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0009/ego_right.png",
+      "size_bytes": 271249,
+      "sha256": "ea9c2075d0a861e2c945ee1acf0f7b559185b998133cdc862537733947788df7"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0009/observation.json",
+      "size_bytes": 2586,
+      "sha256": "c80c4253fd40c9e3c4cda30019d95e3bd0ae4dad89887195d0d4f71391a4bc3c"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0009/wrist.png",
+      "size_bytes": 116385,
+      "sha256": "a5f14ac02acda6ed963d07d32c334a8733b5de2db335b90c492ca3cb2f239b57"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0010/contact_sheet.jpg",
+      "size_bytes": 70160,
+      "sha256": "b0eac36506f9918fde92f7fa97dcd84fcc5cb420ac5f8bb6f418bc0c008feee3"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0010/ego_right.png",
+      "size_bytes": 268875,
+      "sha256": "097e787a52e1e7c538d3ff3c1e3b11947481f9c7c196ceb438bf779a415ef6a2"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0010/observation.json",
+      "size_bytes": 2618,
+      "sha256": "1156946596eb4cf357dbefb2201e3ef56f531896668696eadb23b09b236a8656"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0010/wrist.png",
+      "size_bytes": 99619,
+      "sha256": "46f8b70c282ad23200440cb853d2d3d0bbc49edad293bd159b3369e7b34ff128"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0011/contact_sheet.jpg",
+      "size_bytes": 68197,
+      "sha256": "4cc87974d695eb7ae5b7dafda7376810c624e6fd507d30f719c5762198481fd8"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0011/ego_right.png",
+      "size_bytes": 266977,
+      "sha256": "78707e1232d9fcc98b51c358d38940bc0b32dbe9c04b2c1b7d4a6b470f381e55"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0011/observation.json",
+      "size_bytes": 2622,
+      "sha256": "a213889ffadee9346b54982cc34b08532dc8f266d4c2f2546a6ee722e9617a2c"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0011/wrist.png",
+      "size_bytes": 109726,
+      "sha256": "b541c1df7badb49454961acd433261ef6cd21cfbc653758a18cbd3f0970373ee"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0012/contact_sheet.jpg",
+      "size_bytes": 69327,
+      "sha256": "5e918b7f4afd385538dad2308e6c18d4bd5debb7945dfa58b2906d131a58bd05"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0012/ego_right.png",
+      "size_bytes": 266307,
+      "sha256": "970cc3211dd96fcb8f5731d34ba8ca5ec2fc77991e4b93fe609cb4536474095d"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0012/observation.json",
+      "size_bytes": 2560,
+      "sha256": "5e646dfb49e217427e26c03ce0e37a25606ed5f49147185923da7861ee1cc1aa"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0012/wrist.png",
+      "size_bytes": 117312,
+      "sha256": "ab057b2b23a5da981a49f57c9e44383d3673a0385cbeb844431f9e917d80b607"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0013/contact_sheet.jpg",
+      "size_bytes": 68772,
+      "sha256": "51877eb09c71a1a3ba0d34f6dc50b64246b022337072f4f12b1dfcb1f8ef2015"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0013/ego_right.png",
+      "size_bytes": 264780,
+      "sha256": "ac56d1c611ec710b301509dc269de635c7df4fdfbb82d5e5d567e6281b23578d"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0013/observation.json",
+      "size_bytes": 2564,
+      "sha256": "1f35783f6a137b60590c73e1042ba267c449eca02b3adb8a415d2df4515db81c"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0013/wrist.png",
+      "size_bytes": 123246,
+      "sha256": "7881df76f4460c4974f687067564901b87ddaa8d133fa4adcea6bd80f2dde40a"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0014/contact_sheet.jpg",
+      "size_bytes": 69373,
+      "sha256": "0562d7d8d8e2a6ed748ed573145965c67496b6b7c45ff9dc4526f8f1d66e97b6"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0014/ego_right.png",
+      "size_bytes": 266766,
+      "sha256": "92c5ec1d36588b106fb10a663221d71acd30f340c191daf4d981c98aa4269d36"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0014/observation.json",
+      "size_bytes": 2570,
+      "sha256": "e881cc46ba2b0e84ffaaa4ac23df84b1bf6f962b836097b0bc0e8c8f68f29951"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0014/wrist.png",
+      "size_bytes": 134149,
+      "sha256": "5d7e3426142cb8e021fa91ed5497f48fe8577dde918882bc49b708256df62e0b"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0015/contact_sheet.jpg",
+      "size_bytes": 73911,
+      "sha256": "c9ebd66b743c21455085c27114792d1576e5edbc268c8f548add43df13f2b238"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0015/ego_right.png",
+      "size_bytes": 274823,
+      "sha256": "841f69aa74f8425b7940022c91184ca9252612cc875e0f28d597e9eacf16bbbe"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0015/observation.json",
+      "size_bytes": 2583,
+      "sha256": "dca189a118ba94d8a46141e3c1b082741e16a7ac1b9b42949d7f26798410e60a"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0015/wrist.png",
+      "size_bytes": 155187,
+      "sha256": "ed33c9036e7cb91d93d3bbb86d4e44fcb2cba36a4b77e8d5cf1c0eb7a7fe3f0a"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0016/contact_sheet.jpg",
+      "size_bytes": 77005,
+      "sha256": "6f3b4675c4fe02fc42846f81e8a6fae7c637baf1402a276d7179a541d7863d95"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0016/ego_right.png",
+      "size_bytes": 279625,
+      "sha256": "b9e982f94d849ac77e7e5e5d58f9f90214f7b007ea6c004e6de975aded3314ee"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0016/observation.json",
+      "size_bytes": 2593,
+      "sha256": "3110924c6f073530385b878aa36f14df1f91ffd1fab63b02908fd4bcdc43827c"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0016/wrist.png",
+      "size_bytes": 118897,
+      "sha256": "8b9d0330242c6c0e12be8752b345cbfb825e9c03a69570b05c2eb8fe2c67334d"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0017/contact_sheet.jpg",
+      "size_bytes": 72718,
+      "sha256": "d5e6972346ebb26c6cbdc93cf7e6b3b24004592262053d738798ebeec78f73ef"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0017/ego_right.png",
+      "size_bytes": 267935,
+      "sha256": "e4248c03e3454a822407adff85898cc9a75ef966f79b27c1b7dec32c31272420"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0017/observation.json",
+      "size_bytes": 2546,
+      "sha256": "13c2a61f875403ce3f0b490830bfd17d04d098ac9253490110dc1772d065e961"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0017/wrist.png",
+      "size_bytes": 101045,
+      "sha256": "22f0b013a1cb10f574bd572794dbb9f1bccfa946f7d6adc035b882deafd4166b"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0018/contact_sheet.jpg",
+      "size_bytes": 66512,
+      "sha256": "a7b4e40991daac186d5503e7fb05a7e8500d05e365883df15a1b6ae15855e81f"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0018/ego_right.png",
+      "size_bytes": 261194,
+      "sha256": "07d1986b09aa2ef8e96b14f51c8b38abc4d22a3a9271eff14b605187d1165aac"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0018/observation.json",
+      "size_bytes": 2550,
+      "sha256": "f310bdc2b5c3981cce7ced393d7a01048ab789bd4ff85f07d93c56dadce89e44"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0018/wrist.png",
+      "size_bytes": 82127,
+      "sha256": "9bce3f295b858baaf76807232feb9fde7cb9ade2d51a5a6f064b542a1f4871a2"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0019/contact_sheet.jpg",
+      "size_bytes": 68716,
+      "sha256": "2113f4f8da2404c5f000065da3e1854591486887491ffe46acd8d5067a7ae188"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0019/ego_right.png",
+      "size_bytes": 261321,
+      "sha256": "1e3f4a93962acf46aa9f7b3702cd4dc1a274c78160f83f34e9e34d352b625776"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0019/observation.json",
+      "size_bytes": 2534,
+      "sha256": "f736e11ad964a20a01cfb723222ee0cf92dac33864ae1a3ac3b69f993d49181a"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0019/wrist.png",
+      "size_bytes": 109025,
+      "sha256": "36623d12be2f132a9c5ebfe3dc86b2b3a9f5322689171f368f571bcedba7ad93"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0020/contact_sheet.jpg",
+      "size_bytes": 69395,
+      "sha256": "b7d32768d6ff5853780d64ecbf1999964ca98b54b113ce1614d7fdd371494a0d"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0020/ego_right.png",
+      "size_bytes": 266957,
+      "sha256": "e471ff42c9448f44d95cdd2912d13d62931732586847924631708dae89c26cd4"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0020/observation.json",
+      "size_bytes": 2516,
+      "sha256": "9bb6c4b9e20e0a497e531a6cdd95676983af290a5d047be2ed5346358c3ef9e0"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0020/wrist.png",
+      "size_bytes": 113681,
+      "sha256": "cd6b8c43829967c35d663ef9a065c15edc6a2605d12f05ff0ea72642df1033a4"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0021/contact_sheet.jpg",
+      "size_bytes": 71210,
+      "sha256": "6556bc1f0cc8db5c999c3fcbbb279ddfc02baf5c5b58e80947cd7dc91e19c84a"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0021/ego_right.png",
+      "size_bytes": 272632,
+      "sha256": "64f0835d97bdfa4273d5c9b657867724b6f6b836a6b037dd5fe37c1eb4bc0ab7"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0021/observation.json",
+      "size_bytes": 2485,
+      "sha256": "7a97f1a5bc168d82e75068f1b9a644d3afe66d7fd28841695a5701314fdb6a0f"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0021/wrist.png",
+      "size_bytes": 121306,
+      "sha256": "72806338ca0f57b35baf14912a817e86ef45cd3784253e052ab991b9713a8049"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0022/contact_sheet.jpg",
+      "size_bytes": 72964,
+      "sha256": "d8bdc88fa00a3c947da4eb9aa9f0b1fbb24e187d17ec93d42ad7b316946233d4"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0022/ego_right.png",
+      "size_bytes": 280363,
+      "sha256": "08e106b830a515d422fe60da55ee03552393e6600a652801ca1806ac732b8166"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0022/observation.json",
+      "size_bytes": 2521,
+      "sha256": "e6593b7b9ac7127a9ba9729fa67dd6e1bef49c4a3632d4493b626e24e5b2bab5"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0022/wrist.png",
+      "size_bytes": 123132,
+      "sha256": "ce1b9326014364942899b8181e16807a4922422be786f4c795a7842322a6cb44"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0023/contact_sheet.jpg",
+      "size_bytes": 70661,
+      "sha256": "2e363db4c952b94de4349b4f1af26e19c9e534aa79ae9d239f5c8f9a63b4c726"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0023/ego_right.png",
+      "size_bytes": 272203,
+      "sha256": "09ee8d7f0fffdf980d117542701dda899794e12319f256f612f72fa9235b3a33"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0023/observation.json",
+      "size_bytes": 2536,
+      "sha256": "afaa6561544e114cec5928bdf4c9452d84a1cf0cd286f3e03a1495539e3da6e5"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0023/wrist.png",
+      "size_bytes": 101224,
+      "sha256": "c2ef3466d6e786812931534046c738f784523c3d58a743be095ffd9b91506d7a"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0024/contact_sheet.jpg",
+      "size_bytes": 70112,
+      "sha256": "2d044d48992d9184392af45ba3e2cacbc8a8fb1d67f4fea3cc0b4962bfd9af23"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0024/ego_right.png",
+      "size_bytes": 271122,
+      "sha256": "5f203d0c1cfb72d4d8bbc0a03a0f559af6323051a36cceedf795325072de33f0"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0024/observation.json",
+      "size_bytes": 2565,
+      "sha256": "8fa9dee632e801a92a7beeb432a8542ea146427e904971fcc8700a4474da4669"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0024/wrist.png",
+      "size_bytes": 78499,
+      "sha256": "06ca12ce38e74f9981dcb02c7b3db4b95f02fe9b7373ae229e42f370b37ea502"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0025/contact_sheet.jpg",
+      "size_bytes": 74452,
+      "sha256": "735a8639a6e6ddd51b9358b1f74c2fe3a5f07c1865740e2a1b0c91cd12c862e7"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0025/ego_right.png",
+      "size_bytes": 277231,
+      "sha256": "a044a37e973f874c0379426d5194e9835b1582a82c8dcc9db6f28034c91eb8ba"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0025/observation.json",
+      "size_bytes": 2507,
+      "sha256": "d7c999e9f1427521e757782c92e514d6d63bca50b5d0ad747735efdaf9c71639"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0025/wrist.png",
+      "size_bytes": 78724,
+      "sha256": "ab4b4f077ae9c6b0cf18516e40cabf2212e1c85da5d041ccd282674a2e80d73c"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0026/contact_sheet.jpg",
+      "size_bytes": 75067,
+      "sha256": "2fe18ed4cd37966cbd40f63d3bafe52a0a5d35cbdab0a701a8e9528b99de741b"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0026/ego_right.png",
+      "size_bytes": 278223,
+      "sha256": "10f9dc6e86f0b1f31d6b4a824ebef66830008295508fddcd28bac4ee5f6704ea"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0026/observation.json",
+      "size_bytes": 2489,
+      "sha256": "93c0acd05605bf240e3eaafb15bcb782f55954d9398312047ad3e1f8ee3575dc"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/obs-0026/wrist.png",
+      "size_bytes": 80743,
+      "sha256": "a63309bf42e1fcec0cba81c09da3afc02dc8f1a75e19f828da54d03173bb263c"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/redaction_manifest.json",
+      "size_bytes": 122,
+      "sha256": "4d6ae0615b94fc34d6ee9412a8f3e01ac46b10f322982240a7cc9c572917fa92"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/runner-log.txt",
+      "size_bytes": 81,
+      "sha256": "57eb6c5e93ad85c660a2eab3ead698135f2d4fe0078cfa6323420760b9e7c6c1"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/source_path_mapping.json",
+      "size_bytes": 133009,
+      "sha256": "472fd46bedf923c330b9509e16891fc0d8fdf9094f89c478aa395b1d34108046"
+    },
+    {
+      "path": "episodes/click_mouse/trial01-attempt01/summary.json",
+      "size_bytes": 976,
+      "sha256": "3ce4c26fa795e535d1a2fd4c570d17e9bc40a1bf1263b725ba9ead408b3ad254"
     },
     {
       "path": "report.md",
-      "size_bytes": 3181,
-      "sha256": "b830a01454651b3080ca9852553651c503a45d158a426bebb7814862ae70bbbd"
+      "size_bytes": 3356,
+      "sha256": "735d541e3215c8dee7936cd88ead08e81df1d3afe666f50562e41edce174ce43"
     },
     {
       "path": "task_results.csv",
-      "size_bytes": 1221,
-      "sha256": "4b12236b55a30429ead9c9d50719466c02a2c9b5a1c5fc0236b13c51e343c467"
+      "size_bytes": 1225,
+      "sha256": "98d2a88506692ed0694435c0c0bb989e387aa6b158401d60c42de3c54f0ef2f1"
     }
   ],
   "excluded_from_hashing": [

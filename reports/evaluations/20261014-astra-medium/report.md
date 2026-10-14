@@ -2,14 +2,14 @@
 
 固定初始场景、环境 seed=0、每任务五轮、跨轮上下文隔离。五轮为小样本稳定性观察，不代表跨场景泛化或官方 benchmark 成绩。
 
-计分进度：0/55；成功 0 轮；实际尝试 0 次。
-评测状态：未完成正式评测。证据状态：未全部通过完整证据核验。
+计分进度：1/55；成功 1 轮；实际尝试 1 次。
+评测状态：未完成正式评测。证据状态：已归档并通过核验。
 
 不足五轮的任务不发布正式任务成功率；全部 11 个任务完成前不发布正式总体成功率。
 
 | task | 计划 | 有效完成 | 成功 | 失败 | 中断 | 缺少 | 任务成功率 | 状态 | 证据 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- | --- |
-| click_mouse | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
+| click_mouse | 5 | 1 | 1 | 0 | 0 | 4 | 未完成 | 未完成正式评测 | [click_mouse](episodes/click_mouse) |
 | fold_glasses | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
 | hammer_nail | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
 | pick_bucket | 5 | 0 | 0 | 0 | 0 | 5 | 未完成 | 未完成正式评测 | 尚无 |
@@ -25,10 +25,11 @@
 
 | task / trial | attempt | 计分 | 状态 | succeed | steps | action_calls | reason | 补测关联 | 核验 |
 | --- | --- | --- | --- | --- | ---: | ---: | --- | --- | --- |
+| click_mouse / 1 | [trial01-attempt01](episodes/click_mouse/trial01-attempt01) | true | completed | True | 694 | 24 | official_success |  | passed |
 
 未完成任务及原因：
 
-- click_mouse：缺少 5 轮；not started。
+- click_mouse：缺少 4 轮；official_success。
 - fold_glasses：缺少 5 轮；not started。
 - hammer_nail：缺少 5 轮；not started。
 - pick_bucket：缺少 5 轮；not started。
