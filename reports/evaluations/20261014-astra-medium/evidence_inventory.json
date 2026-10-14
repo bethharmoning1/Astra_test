@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "PLAN.md",
+      "size_bytes": 3675,
+      "sha256": "e32131be3f199390db3ca3d9547cc2680a625843d5cde0e2bb76857eafabda65"
+    },
+    {
+      "path": "attempts.json",
+      "size_bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "batch_config.json",
+      "size_bytes": 47563,
+      "sha256": "ef0652991d03e5abf5728474a3e43d9b535ae7cb45cac715f860dccb9212b18d"
+    },
+    {
+      "path": "episode_results.csv",
+      "size_bytes": 194,
+      "sha256": "81d98e003da830f19365b4274adbf6421986b7f7a53e8f3c64ccb54a752f9c1c"
+    },
+    {
+      "path": "report.md",
+      "size_bytes": 3181,
+      "sha256": "b830a01454651b3080ca9852553651c503a45d158a426bebb7814862ae70bbbd"
+    },
+    {
+      "path": "task_results.csv",
+      "size_bytes": 1221,
+      "sha256": "4b12236b55a30429ead9c9d50719466c02a2c9b5a1c5fc0236b13c51e343c467"
+    }
+  ],
+  "excluded_from_hashing": [
+    "evidence_inventory.json"
+  ],
+  "exclusion_reason": "A checksum manifest cannot include its own final checksum. Nested manifests are included."
+}
