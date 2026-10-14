@@ -1,0 +1,14 @@
+{"ready": true, "pid": 1013926, "socket": "/tmp/astra-eval-obgfemgq/runner.sock"}
+Traceback (most recent call last):
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 337, in serve
+    result = runner.execute(msg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/bridge.py", line 236, in execute
+    sequence = self.robot.move_sequence(self.obs["state"], self.target, msg, steps)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 145, in move_sequence
+    end = self.validate(end)
+          ^^^^^^^^^^^^^^^^^^
+  File "/ssd1/tianjingqi/work2/Astra_test/dexjoco-linux-cpu-20261012/dexjoco/agent_bridge/robot_actions.py", line 60, in validate
+    raise ValueError(f"{arm} position outside configured bridge workspace")
+ValueError: single position outside configured bridge workspace
