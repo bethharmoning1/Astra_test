@@ -1,2 +1,5 @@
 # Preserve exact source bytes so migration manifest hashes remain valid.
 * -text
+
+# csv.DictWriter emits standard CRLF; preserve these evidence bytes and hashes.
+reports/evaluations/**/*.csv whitespace=trailing-space,space-before-tab,cr-at-eol
