@@ -1,0 +1,217 @@
+{
+  "algorithm": "sha256",
+  "errors": [],
+  "files": [
+    {
+      "path": "CONTRACT.json",
+      "sha256": "e6536802112ce360738a19fd6a44dcb7d69ef06f160837874c087c92c3e71c86",
+      "size": 4021
+    },
+    {
+      "path": "codex.events.jsonl",
+      "sha256": "8abf4a3751ccf495e2d79eca6b0be3a3a83ce8f11344eeaf9b0b50edf9337685",
+      "size": 30498
+    },
+    {
+      "path": "codex.stderr.log",
+      "sha256": "9d60ce6b64e778da13446177a3befdcad90042e7fd388409d950928ecf280875",
+      "size": 153
+    },
+    {
+      "path": "evaluator/codex_errors.json",
+      "sha256": "6d9d5e628481a05e5ed9a37d8809fb4f1cd5b144ea9797afc4f91f0618739177",
+      "size": 240
+    },
+    {
+      "path": "evaluator/dispatch.json",
+      "sha256": "c2f35ed6ce12250408609762b67ac6f35dc3094f010848b8313a7de9b86d781d",
+      "size": 2102
+    },
+    {
+      "path": "evaluator/docker-create.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "evaluator/error.log",
+      "sha256": "e8371299b1da60070743aa50bfa708a4abf1abeeaf53f4d95ddda2af12cc1453",
+      "size": 343
+    },
+    {
+      "path": "evaluator/events.jsonl",
+      "sha256": "901a6c535f812dffb30d065140ecb33baf99289feceecfab1c05c52b28bea235",
+      "size": 308485
+    },
+    {
+      "path": "evaluator/final_outcome.json",
+      "sha256": "8322d6adfc7d41d65cf8ae082bd60f61a77e3502d3b98447619e9ccf590e9a3e",
+      "size": 298
+    },
+    {
+      "path": "evaluator/isolation.json",
+      "sha256": "cc2c3db7b8aaaf6d64af9cadc5f15dcebf2e986f161039b0b24adfeade1ffc06",
+      "size": 3028
+    },
+    {
+      "path": "evaluator/model_connections.jsonl",
+      "sha256": "57a88086e0df026446d9cddfced4d139872629fdf45b53066459b15824733da4",
+      "size": 2585
+    },
+    {
+      "path": "evaluator/outcome.json",
+      "sha256": "8322d6adfc7d41d65cf8ae082bd60f61a77e3502d3b98447619e9ccf590e9a3e",
+      "size": 298
+    },
+    {
+      "path": "evaluator/policy_lifecycle.json",
+      "sha256": "72c0f237465d1bf78f0053ec3e6ce621fb3b258ff9eda8cb4b5f4d90fc2aed07",
+      "size": 1164
+    },
+    {
+      "path": "evaluator/tool_calls.jsonl",
+      "sha256": "3592ad2cbc0b6f34c8d65422eddf09514d035c6f4b0b8fb349574934f551109a",
+      "size": 50807
+    },
+    {
+      "path": "initial_observation.json",
+      "sha256": "ea13f460aec06d613e68ebb246922bc2c7e012b8f8b57ab2287bc0f464509279",
+      "size": 963
+    },
+    {
+      "path": "missing_evidence.json",
+      "sha256": "215a083f6a1074171f6e0d589961fa28c1ae8cb73fb74d0738479cc6760f63fd",
+      "size": 56
+    },
+    {
+      "path": "observations/frame_000000_step_000000_external.png",
+      "sha256": "258463f1c95784245fbff9f9a13f7357cadecc808ca2400bccb09e598735859b",
+      "size": 474482
+    },
+    {
+      "path": "observations/frame_000000_step_000000_wrist_left.png",
+      "sha256": "475924f1cd6c8320916b01b0d68b08030e5a19cd764c5ec866968aeca0fdfe97",
+      "size": 247059
+    },
+    {
+      "path": "observations/frame_000000_step_000000_wrist_right.png",
+      "sha256": "45490ee0166918999a8f4960652793638dedd7166fdccccf7930c2b88473538d",
+      "size": 328092
+    },
+    {
+      "path": "observations/frame_000001_step_000025_external.png",
+      "sha256": "84d0adc5671a8bd5eab2230bc51de4e691168b3c0e81ea0435c2e2ad97d22fda",
+      "size": 467140
+    },
+    {
+      "path": "observations/frame_000001_step_000025_wrist_left.png",
+      "sha256": "2c6d9bbc21ebde8c98dc81483175011d704decff6bb7cf9ee094f7f0ce03fd52",
+      "size": 231874
+    },
+    {
+      "path": "observations/frame_000001_step_000025_wrist_right.png",
+      "sha256": "d8b80e7b00056ee5a5c4e8f6c455185446feba4ec0fd42fe24ca050c79c6eae1",
+      "size": 256682
+    },
+    {
+      "path": "observations/frame_000002_step_000050_external.png",
+      "sha256": "3f7053dbdba65b0e46b610a3ba6839cafde1f3c0d1881c7e5370d7f72f0799c4",
+      "size": 468533
+    },
+    {
+      "path": "observations/frame_000002_step_000050_wrist_left.png",
+      "sha256": "978d7b88121f7870f3497375f506a83845609b649d88506e4e62159b0f29721a",
+      "size": 227031
+    },
+    {
+      "path": "observations/frame_000002_step_000050_wrist_right.png",
+      "sha256": "2184adefcbc879b8d630c2824b0e2b19151a80fde4896fe61cc9352b3e6f6997",
+      "size": 385895
+    },
+    {
+      "path": "observations/frame_000003_step_000080_external.png",
+      "sha256": "65c0b3b820e7f8529cb8d96a92ac6435c726c014532be90ce5c0bfd9b55d29ea",
+      "size": 466704
+    },
+    {
+      "path": "observations/frame_000003_step_000080_wrist_left.png",
+      "sha256": "081d4090aba1e474c006c6cf00fba74e7982423f2fcdd96f0011871ea9d8d1b6",
+      "size": 235775
+    },
+    {
+      "path": "observations/frame_000003_step_000080_wrist_right.png",
+      "sha256": "9660f18fbb11b1c70cdd9251d536991d1f94c99f5d11c576044b80512e4544d3",
+      "size": 379446
+    },
+    {
+      "path": "prompt.txt",
+      "sha256": "6aa26145d1f544f75f85ed7f4f0657277e2f0577e39c988dae551b80813b4434",
+      "size": 2216
+    },
+    {
+      "path": "public_reasoning.json",
+      "sha256": "ecaa1e93279598296a6fd6862f6e927a9dc73a35cee4b6ff9e468d135bc09074",
+      "size": 1611
+    },
+    {
+      "path": "result.json",
+      "sha256": "52cdfa2a8e128f5db3a5bc7f0ccbbeb3e654eddf1533fd0bf6187fda6c907845",
+      "size": 1202
+    },
+    {
+      "path": "script_versions.jsonl",
+      "sha256": "c48d09df3f4b7ede54d421f0afbae11fa6f780b4f3ea8158a5afa55a3b0f0ae8",
+      "size": 1306
+    },
+    {
+      "path": "script_versions/72a45af198b6a5fce758d1e28e20b8cd8a6f07b97dbf7837fb92ff01ea9c49d2/actions.json",
+      "sha256": "72a45af198b6a5fce758d1e28e20b8cd8a6f07b97dbf7837fb92ff01ea9c49d2",
+      "size": 9930
+    },
+    {
+      "path": "script_versions/83d5495dbf9a7c3e7be0de95040f922941c03978d1f6642d36946032e070aa90/actions.json",
+      "sha256": "83d5495dbf9a7c3e7be0de95040f922941c03978d1f6642d36946032e070aa90",
+      "size": 24414
+    },
+    {
+      "path": "script_versions/d6e2648bde533c86e92a4cb4ebfb7ff381ed1cc349cd5fd4fc987113aaa7bb9b/actions.json",
+      "sha256": "d6e2648bde533c86e92a4cb4ebfb7ff381ed1cc349cd5fd4fc987113aaa7bb9b",
+      "size": 10299
+    },
+    {
+      "path": "script_versions/e6536802112ce360738a19fd6a44dcb7d69ef06f160837874c087c92c3e71c86/CONTRACT.json",
+      "sha256": "e6536802112ce360738a19fd6a44dcb7d69ef06f160837874c087c92c3e71c86",
+      "size": 4021
+    },
+    {
+      "path": "script_versions/ea13f460aec06d613e68ebb246922bc2c7e012b8f8b57ab2287bc0f464509279/initial_observation.json",
+      "sha256": "ea13f460aec06d613e68ebb246922bc2c7e012b8f8b57ab2287bc0f464509279",
+      "size": 963
+    },
+    {
+      "path": "timeline.html",
+      "sha256": "360bd1c7fd466de454ee5bd1713cbb948ca1d35146856ab08d41a479b8b259a5",
+      "size": 87960
+    },
+    {
+      "path": "workspace/CONTRACT.json",
+      "sha256": "e6536802112ce360738a19fd6a44dcb7d69ef06f160837874c087c92c3e71c86",
+      "size": 4021
+    },
+    {
+      "path": "workspace/TASK.md",
+      "sha256": "6aa26145d1f544f75f85ed7f4f0657277e2f0577e39c988dae551b80813b4434",
+      "size": 2216
+    },
+    {
+      "path": "workspace/actions.json",
+      "sha256": "72a45af198b6a5fce758d1e28e20b8cd8a6f07b97dbf7837fb92ff01ea9c49d2",
+      "size": 9930
+    },
+    {
+      "path": "workspace/initial_observation.json",
+      "sha256": "ea13f460aec06d613e68ebb246922bc2c7e012b8f8b57ab2287bc0f464509279",
+      "size": 963
+    }
+  ],
+  "skipped": []
+}

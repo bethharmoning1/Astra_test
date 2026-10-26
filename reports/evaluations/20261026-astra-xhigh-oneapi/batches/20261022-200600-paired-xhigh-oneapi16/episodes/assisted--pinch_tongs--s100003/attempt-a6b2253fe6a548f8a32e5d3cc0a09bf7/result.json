@@ -1,0 +1,37 @@
+{
+  "episode_id": "assisted--pinch_tongs--s100003",
+  "mode": "assisted",
+  "task": "pinch_tongs",
+  "seed": 100003,
+  "trial": 4,
+  "attempt_id": "attempt-a6b2253fe6a548f8a32e5d3cc0a09bf7",
+  "started_at": "2026-10-22T15:49:42.181488+00:00",
+  "status": "failure",
+  "succeed": false,
+  "scored": true,
+  "steps": 545,
+  "action_calls": 26,
+  "reason": "agent_stopped_without_success",
+  "session_id": "01a1644d-dc77-7740-8489-86b812c68750",
+  "evidence_dir": "episodes/assisted--pinch_tongs--s100003/attempt-a6b2253fe6a548f8a32e5d3cc0a09bf7",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "xhigh",
+  "backend_model_independently_verified": false,
+  "codex_exit_code": 0,
+  "policy_wall_seconds_excluding_interface": 1127.4740498178871,
+  "token_usage": [
+    {
+      "input_tokens": 4034169,
+      "cached_input_tokens": 3955328,
+      "output_tokens": 4910
+    }
+  ],
+  "recovered_service_errors": 0,
+  "service_error_kind": null,
+  "service_error_detail": null,
+  "terminated": false,
+  "truncated": false,
+  "budget": 1000,
+  "finished_at": "2026-10-22T16:17:50.114732+00:00",
+  "reasoning_record": "Public Codex JSONL reasoning summaries and messages only; hidden chain-of-thought is unavailable"
+}

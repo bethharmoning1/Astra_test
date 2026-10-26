@@ -1,0 +1,174 @@
+{
+  "session_id": "01a16766-4e45-79b3-858d-899ff9abedbb",
+  "errors": [
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 2/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 3/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 2/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 3/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 4/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 5/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "stream disconnected before completion: Our servers are currently overloaded. Please try again later."
+    },
+    {
+      "type": "turn.failed",
+      "error": {
+        "message": "stream disconnected before completion: Our servers are currently overloaded. Please try again later."
+      }
+    }
+  ],
+  "token_usage": [],
+  "service_failed": true,
+  "service_error_kind": "transient",
+  "service_error_detail": "overload",
+  "recovered_error_count": 4,
+  "terminal_turn_failed": true,
+  "turn_completed_count": 0,
+  "unresolved_error_count": 6,
+  "error_events": [
+    {
+      "line": 4,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": true,
+      "recovered_at_line": 7,
+      "recovery_marker": "item.completed"
+    },
+    {
+      "line": 5,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": true,
+      "recovered_at_line": 7,
+      "recovery_marker": "item.completed"
+    },
+    {
+      "line": 6,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": true,
+      "recovered_at_line": 7,
+      "recovery_marker": "item.completed"
+    },
+    {
+      "line": 10,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": true,
+      "recovered_at_line": 11,
+      "recovery_marker": "item.completed"
+    },
+    {
+      "line": 14,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": false
+    },
+    {
+      "line": 15,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": false
+    },
+    {
+      "line": 16,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": false
+    },
+    {
+      "line": 17,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": false
+    },
+    {
+      "line": 18,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": false
+    },
+    {
+      "line": 19,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": false
+    },
+    {
+      "line": 20,
+      "event_type": "turn.failed",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": false
+    }
+  ],
+  "recovery_events": [
+    {
+      "marker": "item.completed",
+      "line": 7,
+      "error_lines": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "marker": "item.completed",
+      "line": 11,
+      "error_lines": [
+        10
+      ]
+    }
+  ],
+  "lifecycle_valid": true,
+  "lifecycle_issues": [],
+  "failure_reason": "terminal_turn_failed",
+  "event_count": 20,
+  "thread_started_count": 1,
+  "analysis_inputs": {
+    "exit_code": 1,
+    "forced": null,
+    "episode_finished": false
+  }
+}

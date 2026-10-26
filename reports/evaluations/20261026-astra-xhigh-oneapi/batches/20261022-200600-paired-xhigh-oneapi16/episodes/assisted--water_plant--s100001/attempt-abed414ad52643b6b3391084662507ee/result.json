@@ -1,0 +1,37 @@
+{
+  "episode_id": "assisted--water_plant--s100001",
+  "mode": "assisted",
+  "task": "water_plant",
+  "seed": 100001,
+  "trial": 2,
+  "attempt_id": "attempt-abed414ad52643b6b3391084662507ee",
+  "started_at": "2026-10-22T20:16:45.598509+00:00",
+  "status": "failure",
+  "succeed": false,
+  "scored": true,
+  "steps": 347,
+  "action_calls": 12,
+  "reason": "agent_stopped_without_success",
+  "session_id": "01a16542-5b46-74b0-b988-3b2c1572c7f6",
+  "evidence_dir": "episodes/assisted--water_plant--s100001/attempt-abed414ad52643b6b3391084662507ee",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "xhigh",
+  "backend_model_independently_verified": false,
+  "codex_exit_code": 0,
+  "policy_wall_seconds_excluding_interface": 1072.5564780735876,
+  "token_usage": [
+    {
+      "input_tokens": 1850923,
+      "cached_input_tokens": 1791872,
+      "output_tokens": 8196
+    }
+  ],
+  "recovered_service_errors": 17,
+  "service_error_kind": null,
+  "service_error_detail": null,
+  "terminated": false,
+  "truncated": false,
+  "budget": 1000,
+  "finished_at": "2026-10-22T20:37:30.213724+00:00",
+  "reasoning_record": "Public Codex JSONL reasoning summaries and messages only; hidden chain-of-thought is unavailable"
+}

@@ -1,0 +1,237 @@
+{
+  "algorithm": "sha256",
+  "errors": [],
+  "files": [
+    {
+      "path": "CONTRACT.json",
+      "sha256": "53819be93ed3635df01011295905aae10202427ed7335f873ec659a1c49306d2",
+      "size": 3973
+    },
+    {
+      "path": "codex.events.jsonl",
+      "sha256": "85d7af510c68d75c8b9284e162d3775c944143b7c152726041ff7708aa996bd4",
+      "size": 79249
+    },
+    {
+      "path": "codex.stderr.log",
+      "sha256": "9d60ce6b64e778da13446177a3befdcad90042e7fd388409d950928ecf280875",
+      "size": 153
+    },
+    {
+      "path": "evaluator/codex_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size": 3
+    },
+    {
+      "path": "evaluator/dispatch.json",
+      "sha256": "d2a2b6fd4ab98b2f67a66dc69a70c8795b17e13bd9546fd2bd53685280e30241",
+      "size": 2104
+    },
+    {
+      "path": "evaluator/docker-create.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "evaluator/events.jsonl",
+      "sha256": "b361935ea0bce10b93c7d76016ff63444a92db62061534ece32640522afe8f11",
+      "size": 32033
+    },
+    {
+      "path": "evaluator/final_outcome.json",
+      "sha256": "1820c5bbbc8fcef5311763501a468a6414e06a5a9ef44e05212bbc9021b5b889",
+      "size": 295
+    },
+    {
+      "path": "evaluator/isolation.json",
+      "sha256": "bcf7da68211437548ddddfb9beffe077dceb8c3cbdb6b36ee97823b836ac5e1a",
+      "size": 3379
+    },
+    {
+      "path": "evaluator/model_connections.jsonl",
+      "sha256": "d5ab2327656020076534da993e54b893bc565f0c90fe4f21c07d6ec498ef6cab",
+      "size": 2280
+    },
+    {
+      "path": "evaluator/outcome.json",
+      "sha256": "1820c5bbbc8fcef5311763501a468a6414e06a5a9ef44e05212bbc9021b5b889",
+      "size": 295
+    },
+    {
+      "path": "evaluator/policy_lifecycle.json",
+      "sha256": "09fc8aed9ac6c39c81e987f06e4665f68e43ee06b50396390e5b0f2f42574b21",
+      "size": 691
+    },
+    {
+      "path": "evaluator/robot_reference_manifest.json",
+      "sha256": "f7de59bd48757ae034cd4b29ad394b1ad64513600906d399e5ab3efcb1f877db",
+      "size": 10794
+    },
+    {
+      "path": "evaluator/tool_calls.jsonl",
+      "sha256": "f218d66a67af1f354ae353b94a952695a1efe0dcd73d073586fe64ef8fd73e97",
+      "size": 6219
+    },
+    {
+      "path": "initial_observation.json",
+      "sha256": "5c05e22ba0bbd17981816f1cdd98f9be403ab7cce2a7ff3bb2028c8298aac877",
+      "size": 963
+    },
+    {
+      "path": "missing_evidence.json",
+      "sha256": "6e7b4f4a18f41e1d134db65c70ad6299d30fc1ff130e8fac768c144ff7e3ff5f",
+      "size": 43
+    },
+    {
+      "path": "observations/frame_000000_step_000000_external.png",
+      "sha256": "7e77b21a04cd882f959530549cfe91f12e170f45c767e9f2d6c51a24b3a313b2",
+      "size": 481142
+    },
+    {
+      "path": "observations/frame_000000_step_000000_wrist_left.png",
+      "sha256": "421b05c4d32d9f49b8fd8434db211d9cc189367d77acc4964b1004e1ecc8514f",
+      "size": 313945
+    },
+    {
+      "path": "observations/frame_000000_step_000000_wrist_right.png",
+      "sha256": "1efb37c78b4d330eb185738d6946c376e1f8bff12905a015794fa37348424258",
+      "size": 327874
+    },
+    {
+      "path": "observations/frame_000001_step_000010_external.png",
+      "sha256": "ddd7b85c8e6b3a1f7fcd94c92a89dfa32f6eae6db8b9e0b643b00f0f1268d935",
+      "size": 481288
+    },
+    {
+      "path": "observations/frame_000001_step_000010_wrist_left.png",
+      "sha256": "acfbcc42f6ab26606d053e682b57c0d2b748fbae815ab08be5a2b3ba73d40456",
+      "size": 314876
+    },
+    {
+      "path": "observations/frame_000001_step_000010_wrist_right.png",
+      "sha256": "3a3600942782055de9f8a5062482875400f271bbc31f79eab51cd2d61a8bb7e7",
+      "size": 327304
+    },
+    {
+      "path": "prompt.txt",
+      "sha256": "61bd011f0915817e36a7d57ea9181e8e05c4fe0da9cd485ebcb9c508fcc7354b",
+      "size": 2654
+    },
+    {
+      "path": "public_reasoning.json",
+      "sha256": "2a373d5a8fbb59e1e44883f36c5c6c313d585cd63605ad4b54843614d84977b3",
+      "size": 910
+    },
+    {
+      "path": "result.json",
+      "sha256": "0426053b5085c98b98cc0c7cbe93a55505b12a50564e83a0786ff8cc43b05ce4",
+      "size": 1250
+    },
+    {
+      "path": "script_versions.jsonl",
+      "sha256": "5ec244f13db4e2243e2f4560f7061798e4de556be6c826a6dc2213d92c1a471e",
+      "size": 2282
+    },
+    {
+      "path": "script_versions/1f440c3789c1095ee2edd2a8ac45f2a812afd5b6e5cd9f8f45926b428fad556b/last.json",
+      "sha256": "1f440c3789c1095ee2edd2a8ac45f2a812afd5b6e5cd9f8f45926b428fad556b",
+      "size": 419
+    },
+    {
+      "path": "script_versions/53819be93ed3635df01011295905aae10202427ed7335f873ec659a1c49306d2/CONTRACT.json",
+      "sha256": "53819be93ed3635df01011295905aae10202427ed7335f873ec659a1c49306d2",
+      "size": 3973
+    },
+    {
+      "path": "script_versions/5c05e22ba0bbd17981816f1cdd98f9be403ab7cce2a7ff3bb2028c8298aac877/initial_observation.json",
+      "sha256": "5c05e22ba0bbd17981816f1cdd98f9be403ab7cce2a7ff3bb2028c8298aac877",
+      "size": 963
+    },
+    {
+      "path": "script_versions/7480df61b6a7fe9fcf9174333d2c28ca960186ff49d854800aac1d7b6cc6bb76/obs.json",
+      "sha256": "7480df61b6a7fe9fcf9174333d2c28ca960186ff49d854800aac1d7b6cc6bb76",
+      "size": 1318
+    },
+    {
+      "path": "script_versions/7480df61b6a7fe9fcf9174333d2c28ca960186ff49d854800aac1d7b6cc6bb76/view1.json",
+      "sha256": "7480df61b6a7fe9fcf9174333d2c28ca960186ff49d854800aac1d7b6cc6bb76",
+      "size": 1318
+    },
+    {
+      "path": "script_versions/840b3ce8d4a36c265367103c9dcdb7d6978d8d2ccad564c8a77f0658b14d0aa4/run.py",
+      "sha256": "840b3ce8d4a36c265367103c9dcdb7d6978d8d2ccad564c8a77f0658b14d0aa4",
+      "size": 818
+    },
+    {
+      "path": "script_versions/90325f62f78136d1cae139bd2cc416274d6e85c9075630080c18e1f3368e52f3/actions.json",
+      "sha256": "90325f62f78136d1cae139bd2cc416274d6e85c9075630080c18e1f3368e52f3",
+      "size": 4210
+    },
+    {
+      "path": "script_versions/dad97696c75876682671a9fe53a9bcf63eee276dd1e0dedae6e6c7ec252f83d4/show.py",
+      "sha256": "dad97696c75876682671a9fe53a9bcf63eee276dd1e0dedae6e6c7ec252f83d4",
+      "size": 231
+    },
+    {
+      "path": "script_versions/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855/obs.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "timeline.html",
+      "sha256": "7e19f30ddb9ed95045c45a79e623c4af3bcb186c3cef86fee3445b1d0c43162e",
+      "size": 13808
+    },
+    {
+      "path": "workspace/CONTRACT.json",
+      "sha256": "53819be93ed3635df01011295905aae10202427ed7335f873ec659a1c49306d2",
+      "size": 3973
+    },
+    {
+      "path": "workspace/TASK.md",
+      "sha256": "61bd011f0915817e36a7d57ea9181e8e05c4fe0da9cd485ebcb9c508fcc7354b",
+      "size": 2654
+    },
+    {
+      "path": "workspace/actions.json",
+      "sha256": "90325f62f78136d1cae139bd2cc416274d6e85c9075630080c18e1f3368e52f3",
+      "size": 4210
+    },
+    {
+      "path": "workspace/initial_observation.json",
+      "sha256": "5c05e22ba0bbd17981816f1cdd98f9be403ab7cce2a7ff3bb2028c8298aac877",
+      "size": 963
+    },
+    {
+      "path": "workspace/last.json",
+      "sha256": "1f440c3789c1095ee2edd2a8ac45f2a812afd5b6e5cd9f8f45926b428fad556b",
+      "size": 419
+    },
+    {
+      "path": "workspace/obs.json",
+      "sha256": "7480df61b6a7fe9fcf9174333d2c28ca960186ff49d854800aac1d7b6cc6bb76",
+      "size": 1318
+    },
+    {
+      "path": "workspace/run.py",
+      "sha256": "840b3ce8d4a36c265367103c9dcdb7d6978d8d2ccad564c8a77f0658b14d0aa4",
+      "size": 818
+    },
+    {
+      "path": "workspace/show.py",
+      "sha256": "dad97696c75876682671a9fe53a9bcf63eee276dd1e0dedae6e6c7ec252f83d4",
+      "size": 231
+    },
+    {
+      "path": "workspace/view1.json",
+      "sha256": "7480df61b6a7fe9fcf9174333d2c28ca960186ff49d854800aac1d7b6cc6bb76",
+      "size": 1318
+    },
+    {
+      "path": "workspace/views.png",
+      "sha256": "0f2ac4058252b12bafc3d85d4419529686a5099bc326ccd7406a7a564f46b988",
+      "size": 1152742
+    }
+  ],
+  "skipped": []
+}

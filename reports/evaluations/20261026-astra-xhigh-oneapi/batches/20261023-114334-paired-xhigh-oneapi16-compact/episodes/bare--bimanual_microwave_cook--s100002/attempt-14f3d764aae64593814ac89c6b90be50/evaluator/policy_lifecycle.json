@@ -1,0 +1,50 @@
+{
+  "session_id": "01a17316-51b0-72c0-97ac-38535ee9fb66",
+  "errors": [
+    {
+      "type": "error",
+      "message": "exceeded retry limit, last status: 429 Too Many Requests"
+    },
+    {
+      "type": "turn.failed",
+      "error": {
+        "message": "exceeded retry limit, last status: 429 Too Many Requests"
+      }
+    }
+  ],
+  "token_usage": [],
+  "service_failed": true,
+  "service_error_kind": "transient",
+  "service_error_detail": "rate_limit",
+  "recovered_error_count": 0,
+  "terminal_turn_failed": true,
+  "turn_completed_count": 0,
+  "unresolved_error_count": 1,
+  "error_events": [
+    {
+      "line": 4,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "rate_limit",
+      "recovered": false
+    },
+    {
+      "line": 5,
+      "event_type": "turn.failed",
+      "kind": "transient",
+      "detail": "rate_limit",
+      "recovered": false
+    }
+  ],
+  "recovery_events": [],
+  "lifecycle_valid": true,
+  "lifecycle_issues": [],
+  "failure_reason": "terminal_turn_failed",
+  "event_count": 5,
+  "thread_started_count": 1,
+  "analysis_inputs": {
+    "exit_code": 1,
+    "forced": null,
+    "episode_finished": false
+  }
+}

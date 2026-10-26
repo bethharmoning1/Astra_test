@@ -1,0 +1,236 @@
+{
+  "session_id": "01a1658e-1b82-7ba1-909b-055bdd9a8ab6",
+  "errors": [
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (unexpected status 413 Payload Too Large: 请求体过大 (request id: 2026102306281664430215505435408), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (unexpected status 413 Payload Too Large: 请求体过大 (request id: 2026102306294011718113414539426), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 2/5 (unexpected status 413 Payload Too Large: 请求体过大 (request id: 202610230630004968162914619974), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (unexpected status 413 Payload Too Large: 请求体过大 (request id: 2026102306325456388536130537081), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (unexpected status 413 Payload Too Large: 请求体过大 (request id: 2026102306345674123822352936161), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 2/5 (unexpected status 413 Payload Too Large: 请求体过大 (request id: 2026102306371888625114539785653), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (unexpected status 413 Payload Too Large: 请求体过大 (request id: 2026102306384662666984915317400), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 2/5 (unexpected status 413 Payload Too Large: 请求体过大 (request id: 2026102306405667329427291661472), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (unexpected status 413 Payload Too Large: 请求体过大 (request id: 2026102306422820970108009476372), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 2/5 (unexpected status 413 Payload Too Large: 请求体过大 (request id: 202610230642507108022386514830), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 3/5 (unexpected status 413 Payload Too Large: 请求体过大 (request id: 2026102306431326766957693576256), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 4/5 (unexpected status 413 Payload Too Large: 请求体过大 (request id: 2026102306433525446472220893004), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 5/5 (unexpected status 413 Payload Too Large: 请求体过大 (request id: 20261023064358648979565733005), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "unexpected status 413 Payload Too Large: 请求体过大 (request id: 2026102306442190612360549165684), url: https://oneapi-comate.baidu-int.com/v1/responses"
+    },
+    {
+      "type": "turn.failed",
+      "error": {
+        "message": "unexpected status 413 Payload Too Large: 请求体过大 (request id: 2026102306442190612360549165684), url: https://oneapi-comate.baidu-int.com/v1/responses"
+      }
+    }
+  ],
+  "token_usage": [],
+  "service_failed": true,
+  "service_error_kind": "permanent",
+  "service_error_detail": "model_or_request_rejected",
+  "recovered_error_count": 8,
+  "terminal_turn_failed": true,
+  "turn_completed_count": 0,
+  "unresolved_error_count": 6,
+  "error_events": [
+    {
+      "line": 102,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": true,
+      "recovered_at_line": 105,
+      "recovery_marker": "item.started"
+    },
+    {
+      "line": 103,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": true,
+      "recovered_at_line": 105,
+      "recovery_marker": "item.started"
+    },
+    {
+      "line": 104,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": true,
+      "recovered_at_line": 105,
+      "recovery_marker": "item.started"
+    },
+    {
+      "line": 106,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": true,
+      "recovered_at_line": 108,
+      "recovery_marker": "item.started"
+    },
+    {
+      "line": 110,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": true,
+      "recovered_at_line": 114,
+      "recovery_marker": "item.started"
+    },
+    {
+      "line": 111,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": true,
+      "recovered_at_line": 114,
+      "recovery_marker": "item.started"
+    },
+    {
+      "line": 112,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": true,
+      "recovered_at_line": 114,
+      "recovery_marker": "item.started"
+    },
+    {
+      "line": 113,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": true,
+      "recovered_at_line": 114,
+      "recovery_marker": "item.started"
+    },
+    {
+      "line": 116,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": false
+    },
+    {
+      "line": 117,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": false
+    },
+    {
+      "line": 118,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": false
+    },
+    {
+      "line": 119,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": false
+    },
+    {
+      "line": 120,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": false
+    },
+    {
+      "line": 121,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": false
+    },
+    {
+      "line": 122,
+      "event_type": "turn.failed",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": false
+    }
+  ],
+  "recovery_events": [
+    {
+      "marker": "item.started",
+      "line": 105,
+      "error_lines": [
+        102,
+        103,
+        104
+      ]
+    },
+    {
+      "marker": "item.started",
+      "line": 108,
+      "error_lines": [
+        106
+      ]
+    },
+    {
+      "marker": "item.started",
+      "line": 114,
+      "error_lines": [
+        110,
+        111,
+        112,
+        113
+      ]
+    }
+  ],
+  "lifecycle_valid": true,
+  "lifecycle_issues": [],
+  "failure_reason": "terminal_turn_failed",
+  "event_count": 122,
+  "thread_started_count": 1,
+  "analysis_inputs": {
+    "exit_code": 1,
+    "forced": null,
+    "episode_finished": false
+  }
+}

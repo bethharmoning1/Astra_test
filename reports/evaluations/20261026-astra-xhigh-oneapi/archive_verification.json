@@ -1,0 +1,26 @@
+{
+  "verified_at": "2026-10-26T09:23:39.558273+00:00",
+  "archive_verification_ok": true,
+  "copied_files_verified_against_local_sources": 1852,
+  "exported_evidence_files_verified_against_original_inventory": 1621,
+  "unique_planned_slots": 110,
+  "historical_result_hashes_verified": 69,
+  "continuation_slots_added": 41,
+  "duplicate_scores_excluded": 5,
+  "attempts_verified": 203,
+  "all_selected_outcomes_match_archived_private_final_outcomes": true,
+  "all_task_and_mode_aggregates_match_selected_results": true,
+  "retained_evidence_audit_passed": 105,
+  "retained_evidence_audit_issues": 5,
+  "credential_scan": {
+    "findings": [],
+    "scope": "Known configured credentials and common credential patterns; no credential contents exported."
+  },
+  "parsed_records": {
+    "json_files": 1845,
+    "jsonl_records": 480
+  },
+  "raw_evidence_reaudited": false,
+  "formal_publication_ready": false,
+  "limitation": "Verifies this metadata archive only; retains existing audit failures and mixed configuration coverage."
+}

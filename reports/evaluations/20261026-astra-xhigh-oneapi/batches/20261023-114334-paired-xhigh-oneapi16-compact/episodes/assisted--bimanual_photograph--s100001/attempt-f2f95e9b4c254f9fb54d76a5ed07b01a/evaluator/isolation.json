@@ -1,0 +1,110 @@
+{
+  "container_id": "45573d1d28216e38b9f21af72cb3ca6826812a9c8f4a0d909d072821955ea8fd",
+  "image_id": "sha256:1d344cb72fa516d2cb0ef6bba70b8cf44ceed3e7413e419fdb03bcb2cd42bd80",
+  "network_mode": "none",
+  "readonly_rootfs": true,
+  "privileged": false,
+  "user": "1000:1000",
+  "cap_drop": [
+    "ALL"
+  ],
+  "devices": [],
+  "tmpfs": {
+    "/tmp": "rw,nosuid,nodev,size=512m,mode=1777"
+  },
+  "security_options": [
+    "no-new-privileges"
+  ],
+  "memory_bytes": 4294967296,
+  "nano_cpus": 2000000000,
+  "pids_limit": 256,
+  "mounts": [
+    {
+      "source": "/ssd1/tianjingqi/work2/Astra_test/releases/v2.0.0/version2-oneapi16-compact/runs/20261023-114334-paired-xhigh-oneapi16-compact/episodes/assisted--bimanual_photograph--s100001/attempt-f2f95e9b4c254f9fb54d76a5ed07b01a/workspace",
+      "destination": "/work",
+      "rw": true
+    },
+    {
+      "source": "/ssd1/tianjingqi/work2/Astra_test/releases/v2.0.0/version2-oneapi16-compact/runs/20261023-114334-paired-xhigh-oneapi16-compact/episodes/assisted--bimanual_photograph--s100001/attempt-f2f95e9b4c254f9fb54d76a5ed07b01a/observations",
+      "destination": "/observations",
+      "rw": false
+    },
+    {
+      "source": "/tmp/dexb-l1pw4of6/interface",
+      "destination": "/interface",
+      "rw": false
+    },
+    {
+      "source": "/tmp/dexb-l1pw4of6/credentials",
+      "destination": "/run/codex-auth",
+      "rw": false
+    },
+    {
+      "source": "/tmp/dexb-l1pw4of6/robot_reference",
+      "destination": "/robot_reference",
+      "rw": false
+    },
+    {
+      "source": "/ssd1/tianjingqi/work2/Astra_test/releases/v2.0.0/version2-oneapi16-compact/example/dexjoco/v1.0.0/rand_full/bimanual_photograph/payload",
+      "destination": "/knowledge",
+      "rw": false
+    }
+  ],
+  "command": [
+    "codex",
+    "exec",
+    "--json",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--color",
+    "never",
+    "--sandbox",
+    "danger-full-access",
+    "-C",
+    "/work",
+    "-m",
+    "gpt-6-astra",
+    "-c",
+    "model_reasoning_effort=\"xhigh\"",
+    "-c",
+    "model_reasoning_summary=\"detailed\"",
+    "-c",
+    "hide_agent_reasoning=false",
+    "-c",
+    "web_search=\"disabled\"",
+    "-c",
+    "project_doc_max_bytes=0",
+    "-c",
+    "features.multi_agent=false",
+    "-c",
+    "approval_policy=\"never\"",
+    "-c",
+    "model_auto_compact_token_limit=20000",
+    "-c",
+    "model_provider=\"oneapi-comate\"",
+    "-c",
+    "model_providers.oneapi-comate.base_url=\"https://oneapi-comate.baidu-int.com/v1\"",
+    "-c",
+    "model_providers.oneapi-comate.name=\"oneapi-comate\"",
+    "-c",
+    "model_providers.oneapi-comate.request_max_retries=4",
+    "-c",
+    "model_providers.oneapi-comate.requires_openai_auth=true",
+    "-c",
+    "model_providers.oneapi-comate.stream_max_retries=5",
+    "-c",
+    "model_providers.oneapi-comate.wire_api=\"responses\"",
+    "--image",
+    "/observations/frame_000000_step_000000_external.png",
+    "--image",
+    "/observations/frame_000000_step_000000_wrist_left.png",
+    "--image",
+    "/observations/frame_000000_step_000000_wrist_right.png",
+    "--",
+    "Read /work/TASK.md and /work/CONTRACT.json, then complete this single episode using its initial live images."
+  ],
+  "codex_home": "fresh tmpfs, auth-only snapshot, no config/skills/memory/session reuse",
+  "direct_network": false,
+  "docker_socket_mounted": false,
+  "gpu_requested": false
+}

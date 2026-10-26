@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "archived_at": "2026-10-26T09:21:24.094756+00:00",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "xhigh",
+  "backend_model_independently_verified": false,
+  "scope": "Two OneAPI batches only; earlier baseline/ebill batches excluded.",
+  "planned": 110,
+  "distinct_completed": 110,
+  "remaining": 0,
+  "historical_retained": 69,
+  "continuation_added": 41,
+  "attempts_archived": 203,
+  "duplicate_scored_attempts": 5,
+  "unscored_attempts": 88,
+  "retained_totals": {
+    "completed": 110,
+    "successes": 33,
+    "failures": 77,
+    "evidence_audit_passed": 105,
+    "evidence_audit_issues": 5,
+    "formal_success_rate": null
+  },
+  "modes": [
+    {
+      "mode": "assisted",
+      "completed": 55,
+      "successes": 26,
+      "failures": 29,
+      "evidence_audit_passed": 51,
+      "evidence_audit_issues": 4,
+      "formal_success_rate": null
+    },
+    {
+      "mode": "bare",
+      "completed": 55,
+      "successes": 7,
+      "failures": 48,
+      "evidence_audit_passed": 54,
+      "evidence_audit_issues": 1,
+      "formal_success_rate": null
+    }
+  ],
+  "formal_success_rate": null,
+  "formal_publication_ready": false,
+  "limitations": [
+    "Two configurations; the continuation enables compact at 20000 tokens.",
+    "Five retained results have script_snapshot_reference_mismatch audit errors.",
+    "Existing evidence audit snapshots are archived, not rerun or repaired.",
+    "Raw images, policy events and action trajectories remain local."
+  ],
+  "selection": "Keep all historical scores, including failures; add only previously missing slots.",
+  "batches": [
+    {
+      "batch_id": "20261022-200600-paired-xhigh-oneapi16",
+      "source_version": "version2-oneapi16",
+      "source_path": "releases/v2.0.0/version2-oneapi16/runs/20261022-200600-paired-xhigh-oneapi16",
+      "archive_path": "batches/20261022-200600-paired-xhigh-oneapi16",
+      "audited_at": "2026-10-23T02:39:45.863371+00:00",
+      "attempts_seen": 81,
+      "scored_finished_attempts": 69,
+      "unscored_finished_attempts": 12,
+      "valid_scored_finished_attempts": 68,
+      "audit_ok_for_available_evidence": false,
+      "formal_complete": false
+    },
+    {
+      "batch_id": "20261023-114334-paired-xhigh-oneapi16-compact",
+      "source_version": "version2-oneapi16-compact",
+      "source_path": "releases/v2.0.0/version2-oneapi16-compact/runs/20261023-114334-paired-xhigh-oneapi16-compact",
+      "archive_path": "batches/20261023-114334-paired-xhigh-oneapi16-compact",
+      "audited_at": "2026-10-26T00:54:59.323128+00:00",
+      "attempts_seen": 122,
+      "scored_finished_attempts": 46,
+      "unscored_finished_attempts": 76,
+      "valid_scored_finished_attempts": 42,
+      "audit_ok_for_available_evidence": false,
+      "formal_complete": false
+    }
+  ]
+}

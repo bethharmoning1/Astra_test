@@ -1,0 +1,255 @@
+{
+  "session_id": "01a1639d-44f6-7b41-ae73-b5d8126fe003",
+  "errors": [
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 2/5 (stream disconnected before completion: An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID 6ad67b16-169f-4b5a-8c67-815172f8161c in your message.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 2/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID 00715c8b-24ab-4da9-b69c-d7ac65b5ae07 in your message.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    }
+  ],
+  "token_usage": [
+    {
+      "input_tokens": 2556063,
+      "cached_input_tokens": 2379392,
+      "output_tokens": 8344
+    }
+  ],
+  "service_failed": false,
+  "service_error_kind": null,
+  "service_error_detail": null,
+  "recovered_error_count": 12,
+  "terminal_turn_failed": false,
+  "turn_completed_count": 1,
+  "unresolved_error_count": 0,
+  "error_events": [
+    {
+      "line": 20,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": true,
+      "recovered_at_line": 23,
+      "recovery_marker": "item.completed"
+    },
+    {
+      "line": 22,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "connection",
+      "recovered": true,
+      "recovered_at_line": 23,
+      "recovery_marker": "item.completed"
+    },
+    {
+      "line": 28,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": true,
+      "recovered_at_line": 31,
+      "recovery_marker": "item.completed"
+    },
+    {
+      "line": 30,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": true,
+      "recovered_at_line": 31,
+      "recovery_marker": "item.completed"
+    },
+    {
+      "line": 45,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "connection",
+      "recovered": true,
+      "recovered_at_line": 46,
+      "recovery_marker": "item.started"
+    },
+    {
+      "line": 54,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": true,
+      "recovered_at_line": 56,
+      "recovery_marker": "item.completed"
+    },
+    {
+      "line": 66,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": true,
+      "recovered_at_line": 68,
+      "recovery_marker": "item.started"
+    },
+    {
+      "line": 67,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": true,
+      "recovered_at_line": 68,
+      "recovery_marker": "item.started"
+    },
+    {
+      "line": 70,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": true,
+      "recovered_at_line": 71,
+      "recovery_marker": "item.completed"
+    },
+    {
+      "line": 74,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": true,
+      "recovered_at_line": 75,
+      "recovery_marker": "item.completed"
+    },
+    {
+      "line": 78,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": true,
+      "recovered_at_line": 79,
+      "recovery_marker": "item.started"
+    },
+    {
+      "line": 83,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": true,
+      "recovered_at_line": 84,
+      "recovery_marker": "item.started"
+    }
+  ],
+  "recovery_events": [
+    {
+      "marker": "item.completed",
+      "line": 23,
+      "error_lines": [
+        20,
+        22
+      ]
+    },
+    {
+      "marker": "item.completed",
+      "line": 31,
+      "error_lines": [
+        28,
+        30
+      ]
+    },
+    {
+      "marker": "item.started",
+      "line": 46,
+      "error_lines": [
+        45
+      ]
+    },
+    {
+      "marker": "item.completed",
+      "line": 56,
+      "error_lines": [
+        54
+      ]
+    },
+    {
+      "marker": "item.started",
+      "line": 68,
+      "error_lines": [
+        66,
+        67
+      ]
+    },
+    {
+      "marker": "item.completed",
+      "line": 71,
+      "error_lines": [
+        70
+      ]
+    },
+    {
+      "marker": "item.completed",
+      "line": 75,
+      "error_lines": [
+        74
+      ]
+    },
+    {
+      "marker": "item.started",
+      "line": 79,
+      "error_lines": [
+        78
+      ]
+    },
+    {
+      "marker": "item.started",
+      "line": 84,
+      "error_lines": [
+        83
+      ]
+    }
+  ],
+  "lifecycle_valid": true,
+  "lifecycle_issues": [],
+  "failure_reason": null,
+  "event_count": 98,
+  "thread_started_count": 1,
+  "analysis_inputs": {
+    "exit_code": 0,
+    "forced": null,
+    "episode_finished": true
+  }
+}

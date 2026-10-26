@@ -1,0 +1,37 @@
+{
+  "episode_id": "assisted--fold_glasses--s100001",
+  "mode": "assisted",
+  "task": "fold_glasses",
+  "seed": 100001,
+  "trial": 2,
+  "attempt_id": "attempt-8fa4f10747f04ac4951b4be442a7ff3d",
+  "started_at": "2026-10-22T18:15:40.894952+00:00",
+  "status": "failure",
+  "succeed": false,
+  "scored": true,
+  "steps": 475,
+  "action_calls": 16,
+  "reason": "agent_stopped_without_success",
+  "session_id": "01a164d3-8551-74e2-8493-b02f3e4a8da9",
+  "evidence_dir": "episodes/assisted--fold_glasses--s100001/attempt-8fa4f10747f04ac4951b4be442a7ff3d",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "xhigh",
+  "backend_model_independently_verified": false,
+  "codex_exit_code": 0,
+  "policy_wall_seconds_excluding_interface": 471.12769094412215,
+  "token_usage": [
+    {
+      "input_tokens": 2589095,
+      "cached_input_tokens": 2470656,
+      "output_tokens": 8979
+    }
+  ],
+  "recovered_service_errors": 0,
+  "service_error_kind": null,
+  "service_error_detail": null,
+  "terminated": false,
+  "truncated": false,
+  "budget": 1200,
+  "finished_at": "2026-10-22T18:31:33.425214+00:00",
+  "reasoning_record": "Public Codex JSONL reasoning summaries and messages only; hidden chain-of-thought is unavailable"
+}

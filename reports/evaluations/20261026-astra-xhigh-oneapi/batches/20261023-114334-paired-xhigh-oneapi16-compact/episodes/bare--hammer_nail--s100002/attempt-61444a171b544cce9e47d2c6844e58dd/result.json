@@ -1,0 +1,37 @@
+{
+  "episode_id": "bare--hammer_nail--s100002",
+  "mode": "bare",
+  "task": "hammer_nail",
+  "seed": 100002,
+  "trial": 3,
+  "attempt_id": "attempt-61444a171b544cce9e47d2c6844e58dd",
+  "started_at": "2026-10-23T09:36:40.956555+00:00",
+  "status": "failure",
+  "succeed": false,
+  "scored": true,
+  "steps": 360,
+  "action_calls": 12,
+  "reason": "agent_stopped_without_success",
+  "session_id": "01a1681e-b673-7611-801e-88d203c835fa",
+  "evidence_dir": "episodes/bare--hammer_nail--s100002/attempt-61444a171b544cce9e47d2c6844e58dd",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "xhigh",
+  "backend_model_independently_verified": false,
+  "codex_exit_code": 0,
+  "policy_wall_seconds_excluding_interface": 582.9695933909388,
+  "token_usage": [
+    {
+      "input_tokens": 1103050,
+      "cached_input_tokens": 984192,
+      "output_tokens": 7136
+    }
+  ],
+  "recovered_service_errors": 0,
+  "service_error_kind": null,
+  "service_error_detail": null,
+  "terminated": false,
+  "truncated": false,
+  "budget": 1000,
+  "finished_at": "2026-10-23T09:52:34.475770+00:00",
+  "reasoning_record": "Public Codex JSONL reasoning summaries and messages only; hidden chain-of-thought is unavailable"
+}

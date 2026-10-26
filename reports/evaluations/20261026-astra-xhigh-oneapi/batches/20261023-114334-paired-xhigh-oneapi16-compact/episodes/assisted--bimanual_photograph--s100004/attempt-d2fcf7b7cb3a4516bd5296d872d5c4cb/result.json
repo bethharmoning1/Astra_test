@@ -1,0 +1,37 @@
+{
+  "episode_id": "assisted--bimanual_photograph--s100004",
+  "mode": "assisted",
+  "task": "bimanual_photograph",
+  "seed": 100004,
+  "trial": 5,
+  "attempt_id": "attempt-d2fcf7b7cb3a4516bd5296d872d5c4cb",
+  "started_at": "2026-10-26T00:30:50.934069+00:00",
+  "status": "failure",
+  "succeed": false,
+  "scored": true,
+  "steps": 403,
+  "action_calls": 22,
+  "reason": "agent_stopped_without_success",
+  "session_id": "01a1759e-14c1-7961-916d-99b8285ec554",
+  "evidence_dir": "episodes/assisted--bimanual_photograph--s100004/attempt-d2fcf7b7cb3a4516bd5296d872d5c4cb",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "xhigh",
+  "backend_model_independently_verified": false,
+  "codex_exit_code": 0,
+  "policy_wall_seconds_excluding_interface": 1033.2307251158636,
+  "token_usage": [
+    {
+      "input_tokens": 2228820,
+      "cached_input_tokens": 1915776,
+      "output_tokens": 22816
+    }
+  ],
+  "recovered_service_errors": 0,
+  "service_error_kind": null,
+  "service_error_detail": null,
+  "terminated": false,
+  "truncated": false,
+  "budget": 1000,
+  "finished_at": "2026-10-26T00:53:02.569570+00:00",
+  "reasoning_record": "Public Codex JSONL reasoning summaries and messages only; hidden chain-of-thought is unavailable"
+}

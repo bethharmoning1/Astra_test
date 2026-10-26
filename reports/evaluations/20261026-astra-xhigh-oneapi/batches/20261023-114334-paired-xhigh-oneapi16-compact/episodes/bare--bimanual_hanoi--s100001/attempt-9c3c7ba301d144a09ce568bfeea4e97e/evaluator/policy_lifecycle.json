@@ -1,0 +1,73 @@
+{
+  "session_id": "01a1692f-43db-7dd1-814a-5a9476d40e05",
+  "errors": [
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: stream closed before response.completed)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: Our servers are currently overloaded. Please try again later.)"
+    }
+  ],
+  "token_usage": [
+    {
+      "input_tokens": 2227301,
+      "cached_input_tokens": 1741952,
+      "output_tokens": 45641
+    }
+  ],
+  "service_failed": false,
+  "service_error_kind": null,
+  "service_error_detail": null,
+  "recovered_error_count": 2,
+  "terminal_turn_failed": false,
+  "turn_completed_count": 1,
+  "unresolved_error_count": 0,
+  "error_events": [
+    {
+      "line": 26,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "connection",
+      "recovered": true,
+      "recovered_at_line": 27,
+      "recovery_marker": "item.completed"
+    },
+    {
+      "line": 77,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "overload",
+      "recovered": true,
+      "recovered_at_line": 78,
+      "recovery_marker": "item.completed"
+    }
+  ],
+  "recovery_events": [
+    {
+      "marker": "item.completed",
+      "line": 27,
+      "error_lines": [
+        26
+      ]
+    },
+    {
+      "marker": "item.completed",
+      "line": 78,
+      "error_lines": [
+        77
+      ]
+    }
+  ],
+  "lifecycle_valid": true,
+  "lifecycle_issues": [],
+  "failure_reason": null,
+  "event_count": 202,
+  "thread_started_count": 1,
+  "analysis_inputs": {
+    "exit_code": 0,
+    "forced": null,
+    "episode_finished": true
+  }
+}

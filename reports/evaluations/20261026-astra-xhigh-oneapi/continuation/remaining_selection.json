@@ -1,0 +1,284 @@
+{
+  "historical_batch": "/ssd1/tianjingqi/work2/Astra_test/releases/v2.0.0/version2-oneapi16/runs/20261022-200600-paired-xhigh-oneapi16",
+  "current_batch": "/ssd1/tianjingqi/work2/Astra_test/releases/v2.0.0/version2-oneapi16-compact/runs/20261023-114334-paired-xhigh-oneapi16-compact",
+  "historical_plan_sha256": "e37b6228d9cf9868d9ad672b1c9be2b0395ec749621d300b9db065238947a318",
+  "current_plan_sha256": "e8985104c4965ba3faaa46557e3da7a240117da3b2259e6eb5291e1978cbd2e1",
+  "historical_scores": {
+    "assisted--bimanual_hanoi--s100000": {
+      "result_path": "episodes/assisted--bimanual_hanoi--s100000/attempt-989716a5ccde468298010c40a9a85107/result.json",
+      "sha256": "6678afe87707fde35543e9d818cb98bbf76eaac0ffd4bc6903833f374c3ae7a3"
+    },
+    "assisted--bimanual_unlock_ipad--s100000": {
+      "result_path": "episodes/assisted--bimanual_unlock_ipad--s100000/attempt-1a31507ed977498087d1ca46d93eb9e6/result.json",
+      "sha256": "1d6517f59581546d9f8ae57f21e5a9acdbb9bbb4aa92a20e7fbdac02897fb3df"
+    },
+    "assisted--bimanual_unlock_ipad--s100002": {
+      "result_path": "episodes/assisted--bimanual_unlock_ipad--s100002/attempt-abdc4cf224da4322aa793ac292e484cf/result.json",
+      "sha256": "19de518ad163a1b93be454dd1199a4a6bb45149c7584cd7f26e3d9b33b6ba066"
+    },
+    "assisted--click_mouse--s100000": {
+      "result_path": "episodes/assisted--click_mouse--s100000/attempt-d5a04bb20ab24d5195afeb10b7c67f23/result.json",
+      "sha256": "73d6ebc5e196041601655bd7d2c231fa65cb1ced82f02a070b650f9f52209ec1"
+    },
+    "assisted--click_mouse--s100001": {
+      "result_path": "episodes/assisted--click_mouse--s100001/attempt-3dca5143575846a691ea228f319160b9/result.json",
+      "sha256": "e4f1326054f50946f4df8de20a47da93eeaa8a2b8d6bc349673a6fcaf90a6231"
+    },
+    "assisted--click_mouse--s100002": {
+      "result_path": "episodes/assisted--click_mouse--s100002/attempt-29729ed6a5634a9c8a63a7853abd1dbc/result.json",
+      "sha256": "06738f4b2e0033334a8172d2e336c74b42f17a5530270bb9d3823cd42ee596a0"
+    },
+    "assisted--click_mouse--s100003": {
+      "result_path": "episodes/assisted--click_mouse--s100003/attempt-26f74e33ec0641da90e3a259003b97f7/result.json",
+      "sha256": "9308e6078e14aa95c01548c4a6de0a17849daafc9b25000dd49363c86d760748"
+    },
+    "assisted--click_mouse--s100004": {
+      "result_path": "episodes/assisted--click_mouse--s100004/attempt-fb4eb11b4a0f4a52beaec7229703a81e/result.json",
+      "sha256": "8623ed8aadb4221e308bc32f289983eedd6d2b64c46681b1b04f8f1977f244af"
+    },
+    "assisted--fold_glasses--s100000": {
+      "result_path": "episodes/assisted--fold_glasses--s100000/attempt-e30fb544acd34f3292afb7b80ae30930/result.json",
+      "sha256": "7bbbd7e277dbf5ca9511c30aa37d4c0955d076c69d649fb7ab11af5c59f80695"
+    },
+    "assisted--fold_glasses--s100001": {
+      "result_path": "episodes/assisted--fold_glasses--s100001/attempt-8fa4f10747f04ac4951b4be442a7ff3d/result.json",
+      "sha256": "7e74310aff60d20ed42ad99920a29c91ba0fef403bf870ce82f92ca6cb12e868"
+    },
+    "assisted--fold_glasses--s100002": {
+      "result_path": "episodes/assisted--fold_glasses--s100002/attempt-ebfddac456784570937b6230a8a3a02b/result.json",
+      "sha256": "e21f29e33e1fc7a2765b9e395b8fac095bff6e2a046af94ea56cb4d888575eac"
+    },
+    "assisted--fold_glasses--s100003": {
+      "result_path": "episodes/assisted--fold_glasses--s100003/attempt-85231df948904dd68908c2131a5e8f40/result.json",
+      "sha256": "c2085389a82ebd59bda4b0938e3a3d24f370da0d70e84eb7131ab601e27e4772"
+    },
+    "assisted--fold_glasses--s100004": {
+      "result_path": "episodes/assisted--fold_glasses--s100004/attempt-30bb58b9cff64c2f9695e0d4bb660590/result.json",
+      "sha256": "01a0b1c8535b47d6dffbd9b34409d3ef6a833b3a07ba29057db2b4ea33dab860"
+    },
+    "assisted--hammer_nail--s100000": {
+      "result_path": "episodes/assisted--hammer_nail--s100000/attempt-21321cf7a3c844a89aa5f00269e4bbae/result.json",
+      "sha256": "a3cdb5d3bec0c4b54623473cee796a0374baef75d1129b401a48902996f06a90"
+    },
+    "assisted--hammer_nail--s100001": {
+      "result_path": "episodes/assisted--hammer_nail--s100001/attempt-4ba9dfb7cf524eee8e9ef4f6553a6c0f/result.json",
+      "sha256": "c15bd318476432560b15238afce9fb8d4b36777c21c8671fd21e77fedf9254e0"
+    },
+    "assisted--hammer_nail--s100002": {
+      "result_path": "episodes/assisted--hammer_nail--s100002/attempt-fed7ef67545649779859408f13534b0e/result.json",
+      "sha256": "e8201b1ea846bf2831609d765df61f03b2009dba8b1b3c469bebe189345076da"
+    },
+    "assisted--hammer_nail--s100003": {
+      "result_path": "episodes/assisted--hammer_nail--s100003/attempt-616f24e02f9d4be99a684a9e48ff3659/result.json",
+      "sha256": "d195a9d64028c9a41af3defda5856df59909cea22ea1f853cb1f2386987bed27"
+    },
+    "assisted--hammer_nail--s100004": {
+      "result_path": "episodes/assisted--hammer_nail--s100004/attempt-9c6fae47db0f4452b55dae15db240ef0/result.json",
+      "sha256": "bb244604e466b0141ed62937f3c5834291a60ca29fedc746c80aaf0b4be3f425"
+    },
+    "assisted--pick_bucket--s100000": {
+      "result_path": "episodes/assisted--pick_bucket--s100000/attempt-5846652b13a84f4fa876ef4473198396/result.json",
+      "sha256": "da114906f8cb1408c969614637a0a5261d0f8f7dc910a103e172eae9436f420f"
+    },
+    "assisted--pick_bucket--s100001": {
+      "result_path": "episodes/assisted--pick_bucket--s100001/attempt-82063915f14a42f8ba867ef2498501f6/result.json",
+      "sha256": "7669acfb7ebe4d48fe7009a1aa4067aa6462d8e718ae752a4e480a4d0e2794d2"
+    },
+    "assisted--pick_bucket--s100002": {
+      "result_path": "episodes/assisted--pick_bucket--s100002/attempt-d867717a281f42e995a42e62c44d8500/result.json",
+      "sha256": "54a51f40250e4ba862adfede901e8194762a719ad4916d00eb92d5207a5807c0"
+    },
+    "assisted--pick_bucket--s100003": {
+      "result_path": "episodes/assisted--pick_bucket--s100003/attempt-6cd12423a09b4b6dae1813bd5a03f589/result.json",
+      "sha256": "3fa71b00cc54e83816448b9db616615f4d111a2c0619238e97660d1eb73f0b84"
+    },
+    "assisted--pick_bucket--s100004": {
+      "result_path": "episodes/assisted--pick_bucket--s100004/attempt-c4e6119ee2044aedb07402b579a881fa/result.json",
+      "sha256": "ea7f1ce21539957e0bf5399a25274b85bb69f5ed715d031071888a03270c189d"
+    },
+    "assisted--pinch_tongs--s100000": {
+      "result_path": "episodes/assisted--pinch_tongs--s100000/attempt-7cb1d43b18df443aa97155e09907a67f/result.json",
+      "sha256": "ab53aaa89413ea4b9b75513d8424b41b9f5138ffe6741ded42969e273e2cfc8a"
+    },
+    "assisted--pinch_tongs--s100001": {
+      "result_path": "episodes/assisted--pinch_tongs--s100001/attempt-0e89ada1b9ba434594a84eb49495b8d9/result.json",
+      "sha256": "482d91bd73db7c887eacf90c237cfb62dc1246509768a957021e2935c72765ed"
+    },
+    "assisted--pinch_tongs--s100002": {
+      "result_path": "episodes/assisted--pinch_tongs--s100002/attempt-60e479481fa54e09acdc7617972fec10/result.json",
+      "sha256": "3fa1fa5020cdd2904fd7b50b9707732b1823f0b6508471df8df8074771e54067"
+    },
+    "assisted--pinch_tongs--s100003": {
+      "result_path": "episodes/assisted--pinch_tongs--s100003/attempt-a6b2253fe6a548f8a32e5d3cc0a09bf7/result.json",
+      "sha256": "41e6ce35ce974fa1dc29d8ba6d53ad25a28ad7eb9ab0fefba70b9dc815d301d9"
+    },
+    "assisted--pinch_tongs--s100004": {
+      "result_path": "episodes/assisted--pinch_tongs--s100004/attempt-b88cc7efaa144f35a047695d02db61ad/result.json",
+      "sha256": "fa63b543e6d03fbda614f10e916dad91585b7966f8fa4d618759fb8fbb34b134"
+    },
+    "assisted--water_plant--s100000": {
+      "result_path": "episodes/assisted--water_plant--s100000/attempt-532b3f228ad5428bb12379556f9e8567/result.json",
+      "sha256": "443e6d30c028f63199b1c3b08036bfa10066013a47d735f8139e08238a24c401"
+    },
+    "assisted--water_plant--s100001": {
+      "result_path": "episodes/assisted--water_plant--s100001/attempt-abed414ad52643b6b3391084662507ee/result.json",
+      "sha256": "d6f31cf5dcab90cb268de7185e49e560c4ff67417f6c3d3c6586464eddf8a60f"
+    },
+    "assisted--water_plant--s100002": {
+      "result_path": "episodes/assisted--water_plant--s100002/attempt-90509b8c4ab94f9ba0730e669bced0ec/result.json",
+      "sha256": "b2485b4df883d91f105df624c99d51caa56bcd917cc7ff8bffd3c80b689d2d18"
+    },
+    "assisted--water_plant--s100003": {
+      "result_path": "episodes/assisted--water_plant--s100003/attempt-41697749635548549f56ec892253132d/result.json",
+      "sha256": "b6042b98327ef79a6c90683df5c3ab76e3238398c6edd7ad27086722803e2665"
+    },
+    "assisted--water_plant--s100004": {
+      "result_path": "episodes/assisted--water_plant--s100004/attempt-bcfc9d97d5e84281a2ab746ff240b90e/result.json",
+      "sha256": "fc420bdc1bb3a32d254f3ba34ecca5857f7d24d75e969502b0daf38e6233634c"
+    },
+    "bare--bimanual_hanoi--s100000": {
+      "result_path": "episodes/bare--bimanual_hanoi--s100000/attempt-71ce104ab03c470d8912a29bbc5af8bc/result.json",
+      "sha256": "4ab252ee3c19e1b19f5a6c2cc3de48aee81f033a252cb3d0c913ca4a3da38d28"
+    },
+    "bare--bimanual_unlock_ipad--s100000": {
+      "result_path": "episodes/bare--bimanual_unlock_ipad--s100000/attempt-283c18f66f3d4b2896c8e5e673ea7371/result.json",
+      "sha256": "40899a5fa8cbf1337d6c75f5c9be363de23005671e6bc712efc365ac7e97ad69"
+    },
+    "bare--bimanual_unlock_ipad--s100001": {
+      "result_path": "episodes/bare--bimanual_unlock_ipad--s100001/attempt-a5a09967b9624f1db7a903d13cdc20e5/result.json",
+      "sha256": "e37d039eb4fea7f8a3afa630328686213ea64f5a53a8e1e38d9ca0ecc8cc48c1"
+    },
+    "bare--bimanual_unlock_ipad--s100002": {
+      "result_path": "episodes/bare--bimanual_unlock_ipad--s100002/attempt-cbac9ae7c0084765a4661948ac5b49d9/result.json",
+      "sha256": "785c604b4c3b54056d1a0358921f306823959202e3996301313752ac8c1a1c53"
+    },
+    "bare--bimanual_unlock_ipad--s100003": {
+      "result_path": "episodes/bare--bimanual_unlock_ipad--s100003/attempt-ea0c43f60da5413ab9235e4fb67f37dd/result.json",
+      "sha256": "ce1903f336676b1b00cc3262d003156fcd7ed7ce667ed49ea6c19b19278f7cf6"
+    },
+    "bare--bimanual_unlock_ipad--s100004": {
+      "result_path": "episodes/bare--bimanual_unlock_ipad--s100004/attempt-de915e89c7b9452e88f40eaffddbe400/result.json",
+      "sha256": "98959f3fa4817f5df4a48af8954f409fbfb3a7f1292453bdb4281d3e9b37478d"
+    },
+    "bare--click_mouse--s100000": {
+      "result_path": "episodes/bare--click_mouse--s100000/attempt-63189f3b4a4a43f8bc2df5e63d96512c/result.json",
+      "sha256": "cc8eb894874f7f789c2f91bc18d908894e2143961fae932230735763e4ed6bd5"
+    },
+    "bare--click_mouse--s100001": {
+      "result_path": "episodes/bare--click_mouse--s100001/attempt-fdf3e12df12f48acbe75fe51fa4af0b7/result.json",
+      "sha256": "1d306a58855c244dcc36c3bfa3ca065c686b95806da2a1d846b6378bace5d058"
+    },
+    "bare--click_mouse--s100002": {
+      "result_path": "episodes/bare--click_mouse--s100002/attempt-cf9a96ce5daf412f8dbd5f6e2ac62733/result.json",
+      "sha256": "99fabd6c9adcbfac95f8273f151afc1ece579d77231c499283540b170f51d69a"
+    },
+    "bare--click_mouse--s100003": {
+      "result_path": "episodes/bare--click_mouse--s100003/attempt-f7f05fbf8d6d47b9962d86bca592af53/result.json",
+      "sha256": "706879c89239364ac957960f87e28d6bf6dfce3cf9302b5075525c1e2c7395bd"
+    },
+    "bare--click_mouse--s100004": {
+      "result_path": "episodes/bare--click_mouse--s100004/attempt-aa601f362d4e4ef087aad752ea13267d/result.json",
+      "sha256": "53e6c278ef19e4885789bf924b58edba23bfbb3cd4e74180b27d2da4905bb38a"
+    },
+    "bare--fold_glasses--s100000": {
+      "result_path": "episodes/bare--fold_glasses--s100000/attempt-5b1144b551134ca99a4252549822970a/result.json",
+      "sha256": "42285ff9d5543cf421e7be278e438e28f9035efa76958bfdf003ab1ffdee86b4"
+    },
+    "bare--fold_glasses--s100001": {
+      "result_path": "episodes/bare--fold_glasses--s100001/attempt-6bcab9c98c054a86a82d665861148275/result.json",
+      "sha256": "8d3489a5f4c1c2ef11d4b612cd09092dcf54fe8c5b95b1b8dd51936c221b30b1"
+    },
+    "bare--fold_glasses--s100002": {
+      "result_path": "episodes/bare--fold_glasses--s100002/attempt-e3de63cac8084744afb8d26d08664ec5/result.json",
+      "sha256": "18d1a0f2aaddfdffb1f6be5469ff99e3848ad04d4262828165964617c586ef15"
+    },
+    "bare--fold_glasses--s100003": {
+      "result_path": "episodes/bare--fold_glasses--s100003/attempt-752f04aad36d411599bafecde8017ede/result.json",
+      "sha256": "2dda87404f80b0e39af78aaf5ba910651d78ad813895db700c524dd53ad4c44d"
+    },
+    "bare--fold_glasses--s100004": {
+      "result_path": "episodes/bare--fold_glasses--s100004/attempt-5938e028b6ca463cba5493f69942a301/result.json",
+      "sha256": "6714938a60a1429e02754c680109f14c1466015ca5696e4744427170e1cb7dae"
+    },
+    "bare--hammer_nail--s100000": {
+      "result_path": "episodes/bare--hammer_nail--s100000/attempt-d368ff2c96da47048445a2da8442f82e/result.json",
+      "sha256": "c8abcf9cd942b82e457ec4b46d6a1616a7076feffa87277189b947e2714ce8c4"
+    },
+    "bare--hammer_nail--s100001": {
+      "result_path": "episodes/bare--hammer_nail--s100001/attempt-cd6af9732a91473fa010fc7ef8ab0691/result.json",
+      "sha256": "2317141f6fa110407d611996fb06d5b7c9f2e7fbd7822c6b5b76d2520d868944"
+    },
+    "bare--hammer_nail--s100002": {
+      "result_path": "episodes/bare--hammer_nail--s100002/attempt-80afd9f445c442afac30df894ecbe72a/result.json",
+      "sha256": "8ac4511307fa30d732bdae4ff0cd399bff9074afd0dd34c40f740bfa6af314fb"
+    },
+    "bare--hammer_nail--s100003": {
+      "result_path": "episodes/bare--hammer_nail--s100003/attempt-fd2eaa63320041d69d75e1cd4614dae9/result.json",
+      "sha256": "70f34ac7a2821c87efd61ffa3bf74ec0a0780da2f668c6a8024c3b1448084d07"
+    },
+    "bare--hammer_nail--s100004": {
+      "result_path": "episodes/bare--hammer_nail--s100004/attempt-8f6ed08bb87d4f7b8d117cbf310023a3/result.json",
+      "sha256": "6ec0b0ad2be26005f4f8b3cfbfa8525a026116910941f839b5ebd88247e6754e"
+    },
+    "bare--pick_bucket--s100000": {
+      "result_path": "episodes/bare--pick_bucket--s100000/attempt-fbdc8b212648497a83abea44f2262c9b/result.json",
+      "sha256": "13a92cc8859322f8c1d112b6734cba2132868d069b018d5cf3384a454c8dff1f"
+    },
+    "bare--pick_bucket--s100001": {
+      "result_path": "episodes/bare--pick_bucket--s100001/attempt-e4fce88a75cd47fc8cdefee871ae503b/result.json",
+      "sha256": "91556f96669b6fc1f93435a448adfefda14d070c41889cac689989aaa0ed0e25"
+    },
+    "bare--pick_bucket--s100002": {
+      "result_path": "episodes/bare--pick_bucket--s100002/attempt-1e46649788b541d0befdaa56b928bfcf/result.json",
+      "sha256": "a1ae949dc37dda5d78536c1a05a12b197e1fc42e3dce0ddd6bcbb472949f6b0c"
+    },
+    "bare--pick_bucket--s100003": {
+      "result_path": "episodes/bare--pick_bucket--s100003/attempt-0096f6848f8a4d4e89e667c9dcb427c1/result.json",
+      "sha256": "5f022fa2bfd67aef58e192ba268f87129149cc2a125d98f57489c524fcd188fd"
+    },
+    "bare--pick_bucket--s100004": {
+      "result_path": "episodes/bare--pick_bucket--s100004/attempt-9e8dce65f5404a19bf4c01b4de75325d/result.json",
+      "sha256": "6c5ffc355658be53c4c632ea3faa430abe97043f8ccb988d74ffcd1e4d81f214"
+    },
+    "bare--pinch_tongs--s100000": {
+      "result_path": "episodes/bare--pinch_tongs--s100000/attempt-0acad1acdb484e5c9b4e2755411d9647/result.json",
+      "sha256": "36436afd157b143a0557a43d5f4f5090e9c1d881f9922c82ccc54bcdc268dae2"
+    },
+    "bare--pinch_tongs--s100001": {
+      "result_path": "episodes/bare--pinch_tongs--s100001/attempt-6dc8f2d1b9314034b02df4120e220bf8/result.json",
+      "sha256": "bc0ff8a643787c4fd6881d51672fc00784b0e4a5e67a096e838f41c507c0dd69"
+    },
+    "bare--pinch_tongs--s100002": {
+      "result_path": "episodes/bare--pinch_tongs--s100002/attempt-1ef3c711a6d540e3a5f17e006344c2bf/result.json",
+      "sha256": "785f3a92786b6590e46d709789eff5ad83d394645a9a747605d8781aefa3b282"
+    },
+    "bare--pinch_tongs--s100003": {
+      "result_path": "episodes/bare--pinch_tongs--s100003/attempt-a7921c0ff2c94608a1c4d8d161e0c7bf/result.json",
+      "sha256": "020502179277a394ed3bdd2bfc3774f7f33fe23a73036a053554f1d236894411"
+    },
+    "bare--pinch_tongs--s100004": {
+      "result_path": "episodes/bare--pinch_tongs--s100004/attempt-9df41ad39c1344d28c1a4bfebecaf5bf/result.json",
+      "sha256": "24bc4fef5f066f64c4761c584da00bd274f52a942a688f290d8d33ab543169b5"
+    },
+    "bare--water_plant--s100000": {
+      "result_path": "episodes/bare--water_plant--s100000/attempt-d5e7f5fdb3724929a74d4326531dd0ff/result.json",
+      "sha256": "81b431775092e65760c9b250099b0c6f021574da7f9a1e8514821eb4bcbaab01"
+    },
+    "bare--water_plant--s100001": {
+      "result_path": "episodes/bare--water_plant--s100001/attempt-8222f654fe5b4072a80bf1dab1ecb96f/result.json",
+      "sha256": "a985103dc90f02c42a4d5ebfc8670985304c23c4593434917cb067f19ad42e86"
+    },
+    "bare--water_plant--s100002": {
+      "result_path": "episodes/bare--water_plant--s100002/attempt-96023f6e24c54804ab01007687eef3a3/result.json",
+      "sha256": "bbb95fcb159a946bb7235aa6f38d5f5285e9b00e9c370e74a9be72c56fc1f5b1"
+    },
+    "bare--water_plant--s100003": {
+      "result_path": "episodes/bare--water_plant--s100003/attempt-8e2ee9ae91f8461eb89c73ee2ea99b5e/result.json",
+      "sha256": "2f9467cebe2d6ae8deed94955fd4d585ba19a8ecc8561df2c79c770ef008875a"
+    },
+    "bare--water_plant--s100004": {
+      "result_path": "episodes/bare--water_plant--s100004/attempt-29cdf88f73ee4614b4b8e06a3881f4c1/result.json",
+      "sha256": "86fd35df78ef4af1f1838f4f7e6468236829b4ed210fa9157710629538ced5b2"
+    }
+  }
+}

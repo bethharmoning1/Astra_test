@@ -1,0 +1,47 @@
+{
+  "session_id": "01a16391-5366-74a0-8d0a-697362c30fa3",
+  "errors": [
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (stream disconnected before completion: stream closed before response.completed)"
+    }
+  ],
+  "token_usage": [],
+  "service_failed": false,
+  "service_error_kind": null,
+  "service_error_detail": null,
+  "recovered_error_count": 1,
+  "terminal_turn_failed": false,
+  "turn_completed_count": 0,
+  "unresolved_error_count": 0,
+  "error_events": [
+    {
+      "line": 18,
+      "event_type": "error",
+      "kind": "transient",
+      "detail": "connection",
+      "recovered": true,
+      "recovered_at_line": 19,
+      "recovery_marker": "item.completed"
+    }
+  ],
+  "recovery_events": [
+    {
+      "marker": "item.completed",
+      "line": 19,
+      "error_lines": [
+        18
+      ]
+    }
+  ],
+  "lifecycle_valid": true,
+  "lifecycle_issues": [],
+  "failure_reason": null,
+  "event_count": 53,
+  "thread_started_count": 1,
+  "analysis_inputs": {
+    "exit_code": 0,
+    "forced": "episode_closed",
+    "episode_finished": true
+  }
+}

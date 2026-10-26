@@ -1,0 +1,53 @@
+{
+  "native_environment": {
+    "python": "3.11.17 (main, Oct  9 2026, 15:21:28) [Clang 22.1.3 ]",
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.39",
+    "packages": {
+      "mujoco": "3.4.0",
+      "numpy": "1.26.4",
+      "scipy": "1.17.1",
+      "Pillow": "12.3.0",
+      "PyYAML": "6.0.3",
+      "PyOpenGL": "3.1.10",
+      "gymnasium": "1.0.0"
+    },
+    "host_thread_limits": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "LP_NUM_THREADS": "2"
+    },
+    "project_osmesa_sha256": null
+  },
+  "platform": "linux",
+  "python": "3.11.17 (main, Oct  9 2026, 15:21:28) [Clang 22.1.3 ]",
+  "cpu_rendering": {
+    "MUJOCO_GL": "osmesa",
+    "LIBGL_ALWAYS_SOFTWARE": "1",
+    "CUDA_VISIBLE_DEVICES": ""
+  },
+  "source": {
+    "ok": true,
+    "digest": "b92e1aaf46c79dca8bd518583b1b31e4c5a9ab12551d5133d589f1957b7eb541"
+  },
+  "knowledge": {
+    "ok": true,
+    "digest": "5257da8da67a800e3e63f6f5fc6634507b02d8d99ae3a8b70a62ff5b0886d618"
+  },
+  "policy_image": {
+    "image_id": "sha256:1d344cb72fa516d2cb0ef6bba70b8cf44ceed3e7413e419fdb03bcb2cd42bd80",
+    "codex_version": "codex-cli 0.116.0"
+  },
+  "credentials_present": true,
+  "auth_source": "auth_file",
+  "network": {
+    "checked": true,
+    "ok": true,
+    "domain": "oneapi-comate.baidu-int.com",
+    "tls_version": "TLSv1.2",
+    "model_called": false
+  },
+  "upstream_proxy_configured": true,
+  "ok": true,
+  "problems": []
+}

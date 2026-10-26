@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-10-26T01:27:03.822612+00:00",
+  "status": "coverage_complete",
+  "planned": 110,
+  "distinct_completed": 110,
+  "historical_completed": 69,
+  "new_distinct_completed": 41,
+  "remaining": 0,
+  "pending_episode_ids": [],
+  "historical_batch": "/ssd1/tianjingqi/work2/Astra_test/releases/v2.0.0/version2-oneapi16/runs/20261022-200600-paired-xhigh-oneapi16",
+  "current_batch": "/ssd1/tianjingqi/work2/Astra_test/releases/v2.0.0/version2-oneapi16-compact/runs/20261023-114334-paired-xhigh-oneapi16-compact",
+  "modes": [
+    {
+      "mode": "bare",
+      "planned": 55,
+      "completed": 55,
+      "successes": 7,
+      "failures": 48,
+      "remaining": 0
+    },
+    {
+      "mode": "assisted",
+      "planned": 55,
+      "completed": 55,
+      "successes": 26,
+      "failures": 29,
+      "remaining": 0
+    }
+  ],
+  "repeated_current_episode_ids": [
+    "assisted--hammer_nail--s100000",
+    "assisted--hammer_nail--s100001",
+    "bare--hammer_nail--s100000",
+    "bare--hammer_nail--s100001",
+    "bare--hammer_nail--s100002"
+  ],
+  "selection": "Keep all historical scores, including failures; add only previously missing slots.",
+  "formal_success_rate": null,
+  "limitation": "Coverage across two configurations; current runs enable compact at 20000 tokens. Batch reports remain independent.",
+  "runner_sha256": "bf2a1af0cbf8f5af10adc210b139d7819fee3f303bf60ca8d9e04517b936f573"
+}

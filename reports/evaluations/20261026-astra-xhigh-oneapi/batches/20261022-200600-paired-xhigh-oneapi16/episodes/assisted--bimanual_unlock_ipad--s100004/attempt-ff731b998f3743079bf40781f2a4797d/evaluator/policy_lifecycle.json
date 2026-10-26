@@ -1,0 +1,105 @@
+{
+  "session_id": "01a16591-4cc2-74a1-a15b-bf857764ce88",
+  "errors": [
+    {
+      "type": "error",
+      "message": "Reconnecting... 1/5 (unexpected status 413 Payload Too Large: request body too large, max 100 MiB (request id: 2026102307093489255568184379011), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 2/5 (unexpected status 413 Payload Too Large: request body too large, max 100 MiB (request id: 202610230709413058030497336453), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 3/5 (unexpected status 413 Payload Too Large: request body too large, max 100 MiB (request id: 2026102307094813120109848062189), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 4/5 (unexpected status 413 Payload Too Large: request body too large, max 100 MiB (request id: 2026102307095551375380346943276), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "Reconnecting... 5/5 (unexpected status 413 Payload Too Large: request body too large, max 100 MiB (request id: 2026102307100352893886588000574), url: https://oneapi-comate.baidu-int.com/v1/responses)"
+    },
+    {
+      "type": "error",
+      "message": "unexpected status 413 Payload Too Large: request body too large, max 100 MiB (request id: 2026102307101326237514273957162), url: https://oneapi-comate.baidu-int.com/v1/responses"
+    },
+    {
+      "type": "turn.failed",
+      "error": {
+        "message": "unexpected status 413 Payload Too Large: request body too large, max 100 MiB (request id: 2026102307101326237514273957162), url: https://oneapi-comate.baidu-int.com/v1/responses"
+      }
+    }
+  ],
+  "token_usage": [],
+  "service_failed": true,
+  "service_error_kind": "permanent",
+  "service_error_detail": "model_or_request_rejected",
+  "recovered_error_count": 0,
+  "terminal_turn_failed": true,
+  "turn_completed_count": 0,
+  "unresolved_error_count": 6,
+  "error_events": [
+    {
+      "line": 139,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": false
+    },
+    {
+      "line": 140,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": false
+    },
+    {
+      "line": 141,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": false
+    },
+    {
+      "line": 142,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": false
+    },
+    {
+      "line": 143,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": false
+    },
+    {
+      "line": 144,
+      "event_type": "error",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": false
+    },
+    {
+      "line": 145,
+      "event_type": "turn.failed",
+      "kind": "permanent",
+      "detail": "model_or_request_rejected",
+      "recovered": false
+    }
+  ],
+  "recovery_events": [],
+  "lifecycle_valid": true,
+  "lifecycle_issues": [],
+  "failure_reason": "terminal_turn_failed",
+  "event_count": 145,
+  "thread_started_count": 1,
+  "analysis_inputs": {
+    "exit_code": 1,
+    "forced": null,
+    "episode_finished": false
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "episode_id": "assisted--pick_bucket--s100002",
+  "mode": "assisted",
+  "task": "pick_bucket",
+  "seed": 100002,
+  "trial": 3,
+  "attempt_id": "attempt-d867717a281f42e995a42e62c44d8500",
+  "started_at": "2026-10-22T12:34:18.145928+00:00",
+  "status": "failure",
+  "succeed": false,
+  "scored": true,
+  "steps": 827,
+  "action_calls": 33,
+  "reason": "agent_stopped_without_success",
+  "session_id": "01a1639a-fab7-7e71-80d0-f4ed8ebb2492",
+  "evidence_dir": "episodes/assisted--pick_bucket--s100002/attempt-d867717a281f42e995a42e62c44d8500",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "xhigh",
+  "backend_model_independently_verified": false,
+  "codex_exit_code": 0,
+  "policy_wall_seconds_excluding_interface": 2003.7786151821492,
+  "token_usage": [
+    {
+      "input_tokens": 6021637,
+      "cached_input_tokens": 5907456,
+      "output_tokens": 8052
+    }
+  ],
+  "recovered_service_errors": 0,
+  "service_error_kind": null,
+  "service_error_detail": null,
+  "terminated": false,
+  "truncated": false,
+  "budget": 1200,
+  "finished_at": "2026-10-22T13:22:28.254399+00:00",
+  "reasoning_record": "Public Codex JSONL reasoning summaries and messages only; hidden chain-of-thought is unavailable"
+}

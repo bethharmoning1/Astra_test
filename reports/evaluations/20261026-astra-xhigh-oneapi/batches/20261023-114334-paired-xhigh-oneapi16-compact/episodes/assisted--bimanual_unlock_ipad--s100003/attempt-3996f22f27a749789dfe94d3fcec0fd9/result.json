@@ -1,0 +1,37 @@
+{
+  "episode_id": "assisted--bimanual_unlock_ipad--s100003",
+  "mode": "assisted",
+  "task": "bimanual_unlock_ipad",
+  "seed": 100003,
+  "trial": 4,
+  "attempt_id": "attempt-3996f22f27a749789dfe94d3fcec0fd9",
+  "started_at": "2026-10-23T12:47:35.652090+00:00",
+  "status": "failure",
+  "succeed": false,
+  "scored": true,
+  "steps": 275,
+  "action_calls": 11,
+  "reason": "agent_stopped_without_success",
+  "session_id": "01a168cd-83b6-7772-af74-2cccdb762f1c",
+  "evidence_dir": "episodes/assisted--bimanual_unlock_ipad--s100003/attempt-3996f22f27a749789dfe94d3fcec0fd9",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "xhigh",
+  "backend_model_independently_verified": false,
+  "codex_exit_code": 0,
+  "policy_wall_seconds_excluding_interface": 721.4794714908348,
+  "token_usage": [
+    {
+      "input_tokens": 1203536,
+      "cached_input_tokens": 995328,
+      "output_tokens": 16216
+    }
+  ],
+  "recovered_service_errors": 0,
+  "service_error_kind": null,
+  "service_error_detail": null,
+  "terminated": false,
+  "truncated": false,
+  "budget": 1200,
+  "finished_at": "2026-10-23T13:03:38.835092+00:00",
+  "reasoning_record": "Public Codex JSONL reasoning summaries and messages only; hidden chain-of-thought is unavailable"
+}

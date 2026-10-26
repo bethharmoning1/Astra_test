@@ -1,0 +1,37 @@
+{
+  "episode_id": "bare--pinch_tongs--s100000",
+  "mode": "bare",
+  "task": "pinch_tongs",
+  "seed": 100000,
+  "trial": 1,
+  "attempt_id": "attempt-0acad1acdb484e5c9b4e2755411d9647",
+  "started_at": "2026-10-22T14:44:43.125117+00:00",
+  "status": "failure",
+  "succeed": false,
+  "scored": true,
+  "steps": 780,
+  "action_calls": 26,
+  "reason": "agent_stopped_without_success",
+  "session_id": "01a16412-5c8e-7481-a25e-ecc8fc4277ff",
+  "evidence_dir": "episodes/bare--pinch_tongs--s100000/attempt-0acad1acdb484e5c9b4e2755411d9647",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "xhigh",
+  "backend_model_independently_verified": false,
+  "codex_exit_code": 0,
+  "policy_wall_seconds_excluding_interface": 1247.6780542598572,
+  "token_usage": [
+    {
+      "input_tokens": 3795121,
+      "cached_input_tokens": 3699072,
+      "output_tokens": 8037
+    }
+  ],
+  "recovered_service_errors": 0,
+  "service_error_kind": null,
+  "service_error_detail": null,
+  "terminated": false,
+  "truncated": false,
+  "budget": 1000,
+  "finished_at": "2026-10-22T15:18:05.378837+00:00",
+  "reasoning_record": "Public Codex JSONL reasoning summaries and messages only; hidden chain-of-thought is unavailable"
+}

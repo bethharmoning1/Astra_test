@@ -1,0 +1,37 @@
+{
+  "episode_id": "bare--bimanual_hanoi--s100001",
+  "mode": "bare",
+  "task": "bimanual_hanoi",
+  "seed": 100001,
+  "trial": 2,
+  "attempt_id": "attempt-9c3c7ba301d144a09ce568bfeea4e97e",
+  "started_at": "2026-10-23T14:34:22.124392+00:00",
+  "status": "failure",
+  "succeed": false,
+  "scored": true,
+  "steps": 549,
+  "action_calls": 31,
+  "reason": "agent_stopped_without_success",
+  "session_id": "01a1692f-43db-7dd1-814a-5a9476d40e05",
+  "evidence_dir": "episodes/bare--bimanual_hanoi--s100001/attempt-9c3c7ba301d144a09ce568bfeea4e97e",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "xhigh",
+  "backend_model_independently_verified": false,
+  "codex_exit_code": 0,
+  "policy_wall_seconds_excluding_interface": 2992.7444815235212,
+  "token_usage": [
+    {
+      "input_tokens": 2227301,
+      "cached_input_tokens": 1741952,
+      "output_tokens": 45641
+    }
+  ],
+  "recovered_service_errors": 2,
+  "service_error_kind": null,
+  "service_error_detail": null,
+  "terminated": false,
+  "truncated": false,
+  "budget": 1500,
+  "finished_at": "2026-10-23T15:34:06.307416+00:00",
+  "reasoning_record": "Public Codex JSONL reasoning summaries and messages only; hidden chain-of-thought is unavailable"
+}

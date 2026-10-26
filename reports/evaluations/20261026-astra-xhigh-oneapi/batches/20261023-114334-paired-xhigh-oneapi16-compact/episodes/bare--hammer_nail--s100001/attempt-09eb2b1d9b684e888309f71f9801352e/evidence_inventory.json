@@ -1,0 +1,187 @@
+{
+  "algorithm": "sha256",
+  "errors": [],
+  "files": [
+    {
+      "path": "CONTRACT.json",
+      "sha256": "17955830b3cd3409159da09c5561cf633e0ac0f1b92ecf131089525cab7c5802",
+      "size": 2470
+    },
+    {
+      "path": "codex.events.jsonl",
+      "sha256": "37b59be30982cd8bc1dc5fa636f1736e5b2e23dd3cf204eb0f3f1526fbea8c8f",
+      "size": 15956
+    },
+    {
+      "path": "codex.stderr.log",
+      "sha256": "9d60ce6b64e778da13446177a3befdcad90042e7fd388409d950928ecf280875",
+      "size": 153
+    },
+    {
+      "path": "evaluator/codex_errors.json",
+      "sha256": "75f05311219bc1d471afc3b43da41dea5d41d3d545a96b669d01e4ded3f49162",
+      "size": 3898
+    },
+    {
+      "path": "evaluator/dispatch.json",
+      "sha256": "48193f8d621cff88aec4831ed21a4c53084678334b32821c6d274d4a7d023efa",
+      "size": 1996
+    },
+    {
+      "path": "evaluator/docker-create.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "evaluator/error.log",
+      "sha256": "e8371299b1da60070743aa50bfa708a4abf1abeeaf53f4d95ddda2af12cc1453",
+      "size": 343
+    },
+    {
+      "path": "evaluator/events.jsonl",
+      "sha256": "348fab5ed932285b7089dc0fee53bc931ed5b9484df0b72726ce68505aeb69dd",
+      "size": 40571
+    },
+    {
+      "path": "evaluator/final_outcome.json",
+      "sha256": "089e13f7b450e863adb4296aeb12bfe86ef4d7e0f092812becddf35cf0edd00e",
+      "size": 285
+    },
+    {
+      "path": "evaluator/isolation.json",
+      "sha256": "e6b7f8c7f1e540af45d6354d6ae12e43536b1c25ddcb7a2faa6f0c5a4875ff6b",
+      "size": 2922
+    },
+    {
+      "path": "evaluator/model_connections.jsonl",
+      "sha256": "5e1f007aeaa44e77fee261c041d6f9b4e747b1173267c90a4b85b46790278045",
+      "size": 3751
+    },
+    {
+      "path": "evaluator/outcome.json",
+      "sha256": "089e13f7b450e863adb4296aeb12bfe86ef4d7e0f092812becddf35cf0edd00e",
+      "size": 285
+    },
+    {
+      "path": "evaluator/policy_lifecycle.json",
+      "sha256": "0d02051f0dfb0f704e7d76ef510d1c8cb32563f3748bacc11f475d2ce93e0548",
+      "size": 9668
+    },
+    {
+      "path": "evaluator/tool_calls.jsonl",
+      "sha256": "6cb10dc3409a4806e45da84fec1ed00b525035b1dae6b815e8d69bce9655d467",
+      "size": 6347
+    },
+    {
+      "path": "initial_observation.json",
+      "sha256": "683d213b8b1c29c4b62ae1b5a3848d85957641ee7b81bb0c88cc7b5b7ac833ff",
+      "size": 571
+    },
+    {
+      "path": "missing_evidence.json",
+      "sha256": "215a083f6a1074171f6e0d589961fa28c1ae8cb73fb74d0738479cc6760f63fd",
+      "size": 56
+    },
+    {
+      "path": "observations/frame_000000_step_000000_external.png",
+      "sha256": "416fa38c49efbb095d8fb19dfd1d8f1047df0e749c60d5ff8c43727ebd516645",
+      "size": 374736
+    },
+    {
+      "path": "observations/frame_000000_step_000000_wrist.png",
+      "sha256": "38181a277b78071aecda025eb0c9340518a13cd67522fda180e86df20bc59735",
+      "size": 399848
+    },
+    {
+      "path": "observations/frame_000001_step_000001_external.png",
+      "sha256": "2124370c4d62e60d5bc2f6687256265eceade213a38e8d00db063cc075f19bd2",
+      "size": 374882
+    },
+    {
+      "path": "observations/frame_000001_step_000001_wrist.png",
+      "sha256": "a0ca45eb2804e51aa8bf10a606910cfec95a75c2d4b61c315a27bb0756c3c676",
+      "size": 400059
+    },
+    {
+      "path": "observations/frame_000002_step_000031_external.png",
+      "sha256": "5f42f72d2e2122d8520869b4836c4530963a63e3ee965fa5636770cdc24626a6",
+      "size": 395493
+    },
+    {
+      "path": "observations/frame_000002_step_000031_wrist.png",
+      "sha256": "4dd312f6325bdb9118058d804d1141aecec449a247f0fed28b7535262824c283",
+      "size": 379874
+    },
+    {
+      "path": "prompt.txt",
+      "sha256": "6aa26145d1f544f75f85ed7f4f0657277e2f0577e39c988dae551b80813b4434",
+      "size": 2216
+    },
+    {
+      "path": "public_reasoning.json",
+      "sha256": "1baf2ef77fefec9daf42974adf35c655c659b98a3e869594e7e56e9151a24858",
+      "size": 1248
+    },
+    {
+      "path": "result.json",
+      "sha256": "b4b374fb59a821867d0f11c42e7de9f1b45be21aabeed1b258fed5e4a57a8e6e",
+      "size": 1165
+    },
+    {
+      "path": "script_versions.jsonl",
+      "sha256": "3f2cd8bfb7c70a66b811c6adac1d76330f618f4e302b8eb036162466a4376b06",
+      "size": 1306
+    },
+    {
+      "path": "script_versions/17955830b3cd3409159da09c5561cf633e0ac0f1b92ecf131089525cab7c5802/CONTRACT.json",
+      "sha256": "17955830b3cd3409159da09c5561cf633e0ac0f1b92ecf131089525cab7c5802",
+      "size": 2470
+    },
+    {
+      "path": "script_versions/38bd3a0e55cb0cca3b9f88b0da79175fa0b950412a05538be2c7a2161d2b2353/actions.json",
+      "sha256": "38bd3a0e55cb0cca3b9f88b0da79175fa0b950412a05538be2c7a2161d2b2353",
+      "size": 3840
+    },
+    {
+      "path": "script_versions/4dc18c820c5f7761045d9ec7dc7d9916ce35c675bb920dcc7ede1b8568b62898/actions.json",
+      "sha256": "4dc18c820c5f7761045d9ec7dc7d9916ce35c675bb920dcc7ede1b8568b62898",
+      "size": 76
+    },
+    {
+      "path": "script_versions/603c22d9ce98970bc491fbc7be2704053b04b04ae49fea47c778c4309ccfc5d7/actions.json",
+      "sha256": "603c22d9ce98970bc491fbc7be2704053b04b04ae49fea47c778c4309ccfc5d7",
+      "size": 128
+    },
+    {
+      "path": "script_versions/683d213b8b1c29c4b62ae1b5a3848d85957641ee7b81bb0c88cc7b5b7ac833ff/initial_observation.json",
+      "sha256": "683d213b8b1c29c4b62ae1b5a3848d85957641ee7b81bb0c88cc7b5b7ac833ff",
+      "size": 571
+    },
+    {
+      "path": "timeline.html",
+      "sha256": "e57358ef5b77efd15247a44ac63003cefc720dceaf97996d2b6a8ed8728a268d",
+      "size": 15999
+    },
+    {
+      "path": "workspace/CONTRACT.json",
+      "sha256": "17955830b3cd3409159da09c5561cf633e0ac0f1b92ecf131089525cab7c5802",
+      "size": 2470
+    },
+    {
+      "path": "workspace/TASK.md",
+      "sha256": "6aa26145d1f544f75f85ed7f4f0657277e2f0577e39c988dae551b80813b4434",
+      "size": 2216
+    },
+    {
+      "path": "workspace/actions.json",
+      "sha256": "38bd3a0e55cb0cca3b9f88b0da79175fa0b950412a05538be2c7a2161d2b2353",
+      "size": 3840
+    },
+    {
+      "path": "workspace/initial_observation.json",
+      "sha256": "683d213b8b1c29c4b62ae1b5a3848d85957641ee7b81bb0c88cc7b5b7ac833ff",
+      "size": 571
+    }
+  ],
+  "skipped": []
+}

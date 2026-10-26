@@ -1,0 +1,37 @@
+{
+  "episode_id": "bare--water_plant--s100002",
+  "mode": "bare",
+  "task": "water_plant",
+  "seed": 100002,
+  "trial": 3,
+  "attempt_id": "attempt-96023f6e24c54804ab01007687eef3a3",
+  "started_at": "2026-10-22T20:59:51.820267+00:00",
+  "status": "failure",
+  "succeed": false,
+  "scored": true,
+  "steps": 660,
+  "action_calls": 22,
+  "reason": "agent_stopped_without_success",
+  "session_id": "01a16569-d1c2-7bd2-a1d7-0cfcf210b330",
+  "evidence_dir": "episodes/bare--water_plant--s100002/attempt-96023f6e24c54804ab01007687eef3a3",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "xhigh",
+  "backend_model_independently_verified": false,
+  "codex_exit_code": 0,
+  "policy_wall_seconds_excluding_interface": 911.0385367918061,
+  "token_usage": [
+    {
+      "input_tokens": 2750722,
+      "cached_input_tokens": 2656512,
+      "output_tokens": 5754
+    }
+  ],
+  "recovered_service_errors": 0,
+  "service_error_kind": null,
+  "service_error_detail": null,
+  "terminated": false,
+  "truncated": false,
+  "budget": 1000,
+  "finished_at": "2026-10-22T21:20:13.737574+00:00",
+  "reasoning_record": "Public Codex JSONL reasoning summaries and messages only; hidden chain-of-thought is unavailable"
+}

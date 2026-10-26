@@ -1,0 +1,1159 @@
+{
+  "attempt_count": 81,
+  "audit": {
+    "issues": [],
+    "ok": true
+  },
+  "batch_id": "20261022-200600-paired-xhigh-oneapi16",
+  "expected": {
+    "episodes_per_mode": 55,
+    "episodes_per_task": 5,
+    "modes": 2,
+    "tasks_per_mode": 11
+  },
+  "formal_eligible": true,
+  "modes": [
+    {
+      "attempts": 39,
+      "completed": 33,
+      "conflicts": 0,
+      "failures": 12,
+      "infra_count": 6,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 22,
+      "mode": "assisted",
+      "planned": 55,
+      "provisional_rate": 0.6363636363636364,
+      "rate": null,
+      "required": 55,
+      "status": "pending",
+      "successes": 21
+    },
+    {
+      "attempts": 42,
+      "completed": 36,
+      "conflicts": 0,
+      "failures": 29,
+      "infra_count": 6,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 19,
+      "mode": "bare",
+      "planned": 55,
+      "provisional_rate": 0.19444444444444445,
+      "rate": null,
+      "required": 55,
+      "status": "pending",
+      "successes": 7
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "a_only_success": 1,
+      "a_successes": 1,
+      "b_only_success": 0,
+      "b_successes": 0,
+      "both_failure": 0,
+      "both_success": 0,
+      "difference": 1.0,
+      "matched": 1,
+      "mode_a": "assisted",
+      "mode_b": "bare",
+      "pairs": [
+        {
+          "episode_a": "assisted--bimanual_hanoi--s100000",
+          "episode_b": "bare--bimanual_hanoi--s100000",
+          "result_a": "episodes/assisted--bimanual_hanoi--s100000/attempt-989716a5ccde468298010c40a9a85107/result.json",
+          "result_b": "episodes/bare--bimanual_hanoi--s100000/attempt-71ce104ab03c470d8912a29bbc5af8bc/result.json",
+          "seed": 100000,
+          "succeed_a": true,
+          "succeed_b": false
+        }
+      ],
+      "rate_a": 1.0,
+      "rate_b": 0.0,
+      "task": "bimanual_hanoi"
+    },
+    {
+      "a_only_success": 1,
+      "a_successes": 1,
+      "b_only_success": 0,
+      "b_successes": 0,
+      "both_failure": 1,
+      "both_success": 0,
+      "difference": 0.5,
+      "matched": 2,
+      "mode_a": "assisted",
+      "mode_b": "bare",
+      "pairs": [
+        {
+          "episode_a": "assisted--bimanual_unlock_ipad--s100000",
+          "episode_b": "bare--bimanual_unlock_ipad--s100000",
+          "result_a": "episodes/assisted--bimanual_unlock_ipad--s100000/attempt-1a31507ed977498087d1ca46d93eb9e6/result.json",
+          "result_b": "episodes/bare--bimanual_unlock_ipad--s100000/attempt-283c18f66f3d4b2896c8e5e673ea7371/result.json",
+          "seed": 100000,
+          "succeed_a": true,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--bimanual_unlock_ipad--s100002",
+          "episode_b": "bare--bimanual_unlock_ipad--s100002",
+          "result_a": "episodes/assisted--bimanual_unlock_ipad--s100002/attempt-abdc4cf224da4322aa793ac292e484cf/result.json",
+          "result_b": "episodes/bare--bimanual_unlock_ipad--s100002/attempt-cbac9ae7c0084765a4661948ac5b49d9/result.json",
+          "seed": 100002,
+          "succeed_a": false,
+          "succeed_b": false
+        }
+      ],
+      "rate_a": 0.5,
+      "rate_b": 0.0,
+      "task": "bimanual_unlock_ipad"
+    },
+    {
+      "a_only_success": 0,
+      "a_successes": 5,
+      "b_only_success": 0,
+      "b_successes": 5,
+      "both_failure": 0,
+      "both_success": 5,
+      "difference": 0.0,
+      "matched": 5,
+      "mode_a": "assisted",
+      "mode_b": "bare",
+      "pairs": [
+        {
+          "episode_a": "assisted--click_mouse--s100000",
+          "episode_b": "bare--click_mouse--s100000",
+          "result_a": "episodes/assisted--click_mouse--s100000/attempt-d5a04bb20ab24d5195afeb10b7c67f23/result.json",
+          "result_b": "episodes/bare--click_mouse--s100000/attempt-63189f3b4a4a43f8bc2df5e63d96512c/result.json",
+          "seed": 100000,
+          "succeed_a": true,
+          "succeed_b": true
+        },
+        {
+          "episode_a": "assisted--click_mouse--s100001",
+          "episode_b": "bare--click_mouse--s100001",
+          "result_a": "episodes/assisted--click_mouse--s100001/attempt-3dca5143575846a691ea228f319160b9/result.json",
+          "result_b": "episodes/bare--click_mouse--s100001/attempt-fdf3e12df12f48acbe75fe51fa4af0b7/result.json",
+          "seed": 100001,
+          "succeed_a": true,
+          "succeed_b": true
+        },
+        {
+          "episode_a": "assisted--click_mouse--s100002",
+          "episode_b": "bare--click_mouse--s100002",
+          "result_a": "episodes/assisted--click_mouse--s100002/attempt-29729ed6a5634a9c8a63a7853abd1dbc/result.json",
+          "result_b": "episodes/bare--click_mouse--s100002/attempt-cf9a96ce5daf412f8dbd5f6e2ac62733/result.json",
+          "seed": 100002,
+          "succeed_a": true,
+          "succeed_b": true
+        },
+        {
+          "episode_a": "assisted--click_mouse--s100003",
+          "episode_b": "bare--click_mouse--s100003",
+          "result_a": "episodes/assisted--click_mouse--s100003/attempt-26f74e33ec0641da90e3a259003b97f7/result.json",
+          "result_b": "episodes/bare--click_mouse--s100003/attempt-f7f05fbf8d6d47b9962d86bca592af53/result.json",
+          "seed": 100003,
+          "succeed_a": true,
+          "succeed_b": true
+        },
+        {
+          "episode_a": "assisted--click_mouse--s100004",
+          "episode_b": "bare--click_mouse--s100004",
+          "result_a": "episodes/assisted--click_mouse--s100004/attempt-fb4eb11b4a0f4a52beaec7229703a81e/result.json",
+          "result_b": "episodes/bare--click_mouse--s100004/attempt-aa601f362d4e4ef087aad752ea13267d/result.json",
+          "seed": 100004,
+          "succeed_a": true,
+          "succeed_b": true
+        }
+      ],
+      "rate_a": 1.0,
+      "rate_b": 1.0,
+      "task": "click_mouse"
+    },
+    {
+      "a_only_success": 1,
+      "a_successes": 1,
+      "b_only_success": 0,
+      "b_successes": 0,
+      "both_failure": 4,
+      "both_success": 0,
+      "difference": 0.2,
+      "matched": 5,
+      "mode_a": "assisted",
+      "mode_b": "bare",
+      "pairs": [
+        {
+          "episode_a": "assisted--fold_glasses--s100000",
+          "episode_b": "bare--fold_glasses--s100000",
+          "result_a": "episodes/assisted--fold_glasses--s100000/attempt-e30fb544acd34f3292afb7b80ae30930/result.json",
+          "result_b": "episodes/bare--fold_glasses--s100000/attempt-5b1144b551134ca99a4252549822970a/result.json",
+          "seed": 100000,
+          "succeed_a": true,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--fold_glasses--s100001",
+          "episode_b": "bare--fold_glasses--s100001",
+          "result_a": "episodes/assisted--fold_glasses--s100001/attempt-8fa4f10747f04ac4951b4be442a7ff3d/result.json",
+          "result_b": "episodes/bare--fold_glasses--s100001/attempt-6bcab9c98c054a86a82d665861148275/result.json",
+          "seed": 100001,
+          "succeed_a": false,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--fold_glasses--s100002",
+          "episode_b": "bare--fold_glasses--s100002",
+          "result_a": "episodes/assisted--fold_glasses--s100002/attempt-ebfddac456784570937b6230a8a3a02b/result.json",
+          "result_b": "episodes/bare--fold_glasses--s100002/attempt-e3de63cac8084744afb8d26d08664ec5/result.json",
+          "seed": 100002,
+          "succeed_a": false,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--fold_glasses--s100003",
+          "episode_b": "bare--fold_glasses--s100003",
+          "result_a": "episodes/assisted--fold_glasses--s100003/attempt-85231df948904dd68908c2131a5e8f40/result.json",
+          "result_b": "episodes/bare--fold_glasses--s100003/attempt-752f04aad36d411599bafecde8017ede/result.json",
+          "seed": 100003,
+          "succeed_a": false,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--fold_glasses--s100004",
+          "episode_b": "bare--fold_glasses--s100004",
+          "result_a": "episodes/assisted--fold_glasses--s100004/attempt-30bb58b9cff64c2f9695e0d4bb660590/result.json",
+          "result_b": "episodes/bare--fold_glasses--s100004/attempt-5938e028b6ca463cba5493f69942a301/result.json",
+          "seed": 100004,
+          "succeed_a": false,
+          "succeed_b": false
+        }
+      ],
+      "rate_a": 0.2,
+      "rate_b": 0.0,
+      "task": "fold_glasses"
+    },
+    {
+      "a_only_success": 3,
+      "a_successes": 5,
+      "b_only_success": 0,
+      "b_successes": 2,
+      "both_failure": 0,
+      "both_success": 2,
+      "difference": 0.6,
+      "matched": 5,
+      "mode_a": "assisted",
+      "mode_b": "bare",
+      "pairs": [
+        {
+          "episode_a": "assisted--hammer_nail--s100000",
+          "episode_b": "bare--hammer_nail--s100000",
+          "result_a": "episodes/assisted--hammer_nail--s100000/attempt-21321cf7a3c844a89aa5f00269e4bbae/result.json",
+          "result_b": "episodes/bare--hammer_nail--s100000/attempt-d368ff2c96da47048445a2da8442f82e/result.json",
+          "seed": 100000,
+          "succeed_a": true,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--hammer_nail--s100001",
+          "episode_b": "bare--hammer_nail--s100001",
+          "result_a": "episodes/assisted--hammer_nail--s100001/attempt-4ba9dfb7cf524eee8e9ef4f6553a6c0f/result.json",
+          "result_b": "episodes/bare--hammer_nail--s100001/attempt-cd6af9732a91473fa010fc7ef8ab0691/result.json",
+          "seed": 100001,
+          "succeed_a": true,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--hammer_nail--s100002",
+          "episode_b": "bare--hammer_nail--s100002",
+          "result_a": "episodes/assisted--hammer_nail--s100002/attempt-fed7ef67545649779859408f13534b0e/result.json",
+          "result_b": "episodes/bare--hammer_nail--s100002/attempt-80afd9f445c442afac30df894ecbe72a/result.json",
+          "seed": 100002,
+          "succeed_a": true,
+          "succeed_b": true
+        },
+        {
+          "episode_a": "assisted--hammer_nail--s100003",
+          "episode_b": "bare--hammer_nail--s100003",
+          "result_a": "episodes/assisted--hammer_nail--s100003/attempt-616f24e02f9d4be99a684a9e48ff3659/result.json",
+          "result_b": "episodes/bare--hammer_nail--s100003/attempt-fd2eaa63320041d69d75e1cd4614dae9/result.json",
+          "seed": 100003,
+          "succeed_a": true,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--hammer_nail--s100004",
+          "episode_b": "bare--hammer_nail--s100004",
+          "result_a": "episodes/assisted--hammer_nail--s100004/attempt-9c6fae47db0f4452b55dae15db240ef0/result.json",
+          "result_b": "episodes/bare--hammer_nail--s100004/attempt-8f6ed08bb87d4f7b8d117cbf310023a3/result.json",
+          "seed": 100004,
+          "succeed_a": true,
+          "succeed_b": true
+        }
+      ],
+      "rate_a": 1.0,
+      "rate_b": 0.4,
+      "task": "hammer_nail"
+    },
+    {
+      "a_only_success": 2,
+      "a_successes": 2,
+      "b_only_success": 0,
+      "b_successes": 0,
+      "both_failure": 3,
+      "both_success": 0,
+      "difference": 0.4,
+      "matched": 5,
+      "mode_a": "assisted",
+      "mode_b": "bare",
+      "pairs": [
+        {
+          "episode_a": "assisted--pick_bucket--s100000",
+          "episode_b": "bare--pick_bucket--s100000",
+          "result_a": "episodes/assisted--pick_bucket--s100000/attempt-5846652b13a84f4fa876ef4473198396/result.json",
+          "result_b": "episodes/bare--pick_bucket--s100000/attempt-fbdc8b212648497a83abea44f2262c9b/result.json",
+          "seed": 100000,
+          "succeed_a": true,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--pick_bucket--s100001",
+          "episode_b": "bare--pick_bucket--s100001",
+          "result_a": "episodes/assisted--pick_bucket--s100001/attempt-82063915f14a42f8ba867ef2498501f6/result.json",
+          "result_b": "episodes/bare--pick_bucket--s100001/attempt-e4fce88a75cd47fc8cdefee871ae503b/result.json",
+          "seed": 100001,
+          "succeed_a": true,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--pick_bucket--s100002",
+          "episode_b": "bare--pick_bucket--s100002",
+          "result_a": "episodes/assisted--pick_bucket--s100002/attempt-d867717a281f42e995a42e62c44d8500/result.json",
+          "result_b": "episodes/bare--pick_bucket--s100002/attempt-1e46649788b541d0befdaa56b928bfcf/result.json",
+          "seed": 100002,
+          "succeed_a": false,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--pick_bucket--s100003",
+          "episode_b": "bare--pick_bucket--s100003",
+          "result_a": "episodes/assisted--pick_bucket--s100003/attempt-6cd12423a09b4b6dae1813bd5a03f589/result.json",
+          "result_b": "episodes/bare--pick_bucket--s100003/attempt-0096f6848f8a4d4e89e667c9dcb427c1/result.json",
+          "seed": 100003,
+          "succeed_a": false,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--pick_bucket--s100004",
+          "episode_b": "bare--pick_bucket--s100004",
+          "result_a": "episodes/assisted--pick_bucket--s100004/attempt-c4e6119ee2044aedb07402b579a881fa/result.json",
+          "result_b": "episodes/bare--pick_bucket--s100004/attempt-9e8dce65f5404a19bf4c01b4de75325d/result.json",
+          "seed": 100004,
+          "succeed_a": false,
+          "succeed_b": false
+        }
+      ],
+      "rate_a": 0.4,
+      "rate_b": 0.0,
+      "task": "pick_bucket"
+    },
+    {
+      "a_only_success": 3,
+      "a_successes": 3,
+      "b_only_success": 0,
+      "b_successes": 0,
+      "both_failure": 2,
+      "both_success": 0,
+      "difference": 0.6,
+      "matched": 5,
+      "mode_a": "assisted",
+      "mode_b": "bare",
+      "pairs": [
+        {
+          "episode_a": "assisted--pinch_tongs--s100000",
+          "episode_b": "bare--pinch_tongs--s100000",
+          "result_a": "episodes/assisted--pinch_tongs--s100000/attempt-7cb1d43b18df443aa97155e09907a67f/result.json",
+          "result_b": "episodes/bare--pinch_tongs--s100000/attempt-0acad1acdb484e5c9b4e2755411d9647/result.json",
+          "seed": 100000,
+          "succeed_a": true,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--pinch_tongs--s100001",
+          "episode_b": "bare--pinch_tongs--s100001",
+          "result_a": "episodes/assisted--pinch_tongs--s100001/attempt-0e89ada1b9ba434594a84eb49495b8d9/result.json",
+          "result_b": "episodes/bare--pinch_tongs--s100001/attempt-6dc8f2d1b9314034b02df4120e220bf8/result.json",
+          "seed": 100001,
+          "succeed_a": true,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--pinch_tongs--s100002",
+          "episode_b": "bare--pinch_tongs--s100002",
+          "result_a": "episodes/assisted--pinch_tongs--s100002/attempt-60e479481fa54e09acdc7617972fec10/result.json",
+          "result_b": "episodes/bare--pinch_tongs--s100002/attempt-1ef3c711a6d540e3a5f17e006344c2bf/result.json",
+          "seed": 100002,
+          "succeed_a": true,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--pinch_tongs--s100003",
+          "episode_b": "bare--pinch_tongs--s100003",
+          "result_a": "episodes/assisted--pinch_tongs--s100003/attempt-a6b2253fe6a548f8a32e5d3cc0a09bf7/result.json",
+          "result_b": "episodes/bare--pinch_tongs--s100003/attempt-a7921c0ff2c94608a1c4d8d161e0c7bf/result.json",
+          "seed": 100003,
+          "succeed_a": false,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--pinch_tongs--s100004",
+          "episode_b": "bare--pinch_tongs--s100004",
+          "result_a": "episodes/assisted--pinch_tongs--s100004/attempt-b88cc7efaa144f35a047695d02db61ad/result.json",
+          "result_b": "episodes/bare--pinch_tongs--s100004/attempt-9df41ad39c1344d28c1a4bfebecaf5bf/result.json",
+          "seed": 100004,
+          "succeed_a": false,
+          "succeed_b": false
+        }
+      ],
+      "rate_a": 0.6,
+      "rate_b": 0.0,
+      "task": "pinch_tongs"
+    },
+    {
+      "a_only_success": 3,
+      "a_successes": 3,
+      "b_only_success": 0,
+      "b_successes": 0,
+      "both_failure": 2,
+      "both_success": 0,
+      "difference": 0.6,
+      "matched": 5,
+      "mode_a": "assisted",
+      "mode_b": "bare",
+      "pairs": [
+        {
+          "episode_a": "assisted--water_plant--s100000",
+          "episode_b": "bare--water_plant--s100000",
+          "result_a": "episodes/assisted--water_plant--s100000/attempt-532b3f228ad5428bb12379556f9e8567/result.json",
+          "result_b": "episodes/bare--water_plant--s100000/attempt-d5e7f5fdb3724929a74d4326531dd0ff/result.json",
+          "seed": 100000,
+          "succeed_a": false,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--water_plant--s100001",
+          "episode_b": "bare--water_plant--s100001",
+          "result_a": "episodes/assisted--water_plant--s100001/attempt-abed414ad52643b6b3391084662507ee/result.json",
+          "result_b": "episodes/bare--water_plant--s100001/attempt-8222f654fe5b4072a80bf1dab1ecb96f/result.json",
+          "seed": 100001,
+          "succeed_a": false,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--water_plant--s100002",
+          "episode_b": "bare--water_plant--s100002",
+          "result_a": "episodes/assisted--water_plant--s100002/attempt-90509b8c4ab94f9ba0730e669bced0ec/result.json",
+          "result_b": "episodes/bare--water_plant--s100002/attempt-96023f6e24c54804ab01007687eef3a3/result.json",
+          "seed": 100002,
+          "succeed_a": true,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--water_plant--s100003",
+          "episode_b": "bare--water_plant--s100003",
+          "result_a": "episodes/assisted--water_plant--s100003/attempt-41697749635548549f56ec892253132d/result.json",
+          "result_b": "episodes/bare--water_plant--s100003/attempt-8e2ee9ae91f8461eb89c73ee2ea99b5e/result.json",
+          "seed": 100003,
+          "succeed_a": true,
+          "succeed_b": false
+        },
+        {
+          "episode_a": "assisted--water_plant--s100004",
+          "episode_b": "bare--water_plant--s100004",
+          "result_a": "episodes/assisted--water_plant--s100004/attempt-bcfc9d97d5e84281a2ab746ff240b90e/result.json",
+          "result_b": "episodes/bare--water_plant--s100004/attempt-29cdf88f73ee4614b4b8e06a3881f4c1/result.json",
+          "seed": 100004,
+          "succeed_a": true,
+          "succeed_b": false
+        }
+      ],
+      "rate_a": 0.6,
+      "rate_b": 0.0,
+      "task": "water_plant"
+    }
+  ],
+  "schema_version": 1,
+  "status": "pending",
+  "tasks": [
+    {
+      "attempts": 0,
+      "completed": 0,
+      "conflicts": 0,
+      "evidence_dirs": [],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 0,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 5,
+      "mode": "assisted",
+      "planned": 5,
+      "provisional_rate": null,
+      "rate": null,
+      "required": 5,
+      "status": "pending",
+      "successes": 0,
+      "task": "bimanual_assembly"
+    },
+    {
+      "attempts": 1,
+      "completed": 1,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/assisted--bimanual_hanoi--s100000/attempt-989716a5ccde468298010c40a9a85107"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 0,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 4,
+      "mode": "assisted",
+      "planned": 5,
+      "provisional_rate": 1.0,
+      "rate": null,
+      "required": 5,
+      "status": "pending",
+      "successes": 1,
+      "task": "bimanual_hanoi"
+    },
+    {
+      "attempts": 0,
+      "completed": 0,
+      "conflicts": 0,
+      "evidence_dirs": [],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 0,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 5,
+      "mode": "assisted",
+      "planned": 5,
+      "provisional_rate": null,
+      "rate": null,
+      "required": 5,
+      "status": "pending",
+      "successes": 0,
+      "task": "bimanual_microwave_cook"
+    },
+    {
+      "attempts": 0,
+      "completed": 0,
+      "conflicts": 0,
+      "evidence_dirs": [],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 0,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 5,
+      "mode": "assisted",
+      "planned": 5,
+      "provisional_rate": null,
+      "rate": null,
+      "required": 5,
+      "status": "pending",
+      "successes": 0,
+      "task": "bimanual_photograph"
+    },
+    {
+      "attempts": 5,
+      "completed": 2,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/assisted--bimanual_unlock_ipad--s100000/attempt-1a31507ed977498087d1ca46d93eb9e6",
+        "episodes/assisted--bimanual_unlock_ipad--s100001/attempt-908969e67961405fb37336b9e1dd9b76",
+        "episodes/assisted--bimanual_unlock_ipad--s100002/attempt-abdc4cf224da4322aa793ac292e484cf",
+        "episodes/assisted--bimanual_unlock_ipad--s100003/attempt-7c32d472b1ea4cf2989748bef3920e21",
+        "episodes/assisted--bimanual_unlock_ipad--s100004/attempt-ff731b998f3743079bf40781f2a4797d"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 1,
+      "infra_count": 3,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 3,
+      "mode": "assisted",
+      "planned": 5,
+      "provisional_rate": 0.5,
+      "rate": null,
+      "required": 5,
+      "status": "pending",
+      "successes": 1,
+      "task": "bimanual_unlock_ipad"
+    },
+    {
+      "attempts": 5,
+      "completed": 5,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/assisted--click_mouse--s100000/attempt-d5a04bb20ab24d5195afeb10b7c67f23",
+        "episodes/assisted--click_mouse--s100001/attempt-3dca5143575846a691ea228f319160b9",
+        "episodes/assisted--click_mouse--s100002/attempt-29729ed6a5634a9c8a63a7853abd1dbc",
+        "episodes/assisted--click_mouse--s100003/attempt-26f74e33ec0641da90e3a259003b97f7",
+        "episodes/assisted--click_mouse--s100004/attempt-fb4eb11b4a0f4a52beaec7229703a81e"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 0,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 0,
+      "mode": "assisted",
+      "planned": 5,
+      "provisional_rate": 1.0,
+      "rate": 1.0,
+      "required": 5,
+      "status": "complete",
+      "successes": 5,
+      "task": "click_mouse"
+    },
+    {
+      "attempts": 7,
+      "completed": 5,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/assisted--fold_glasses--s100000/attempt-e30fb544acd34f3292afb7b80ae30930",
+        "episodes/assisted--fold_glasses--s100001/attempt-35342823943545bab646722b459dac48",
+        "episodes/assisted--fold_glasses--s100001/attempt-8fa4f10747f04ac4951b4be442a7ff3d",
+        "episodes/assisted--fold_glasses--s100002/attempt-50c5443fe89245389dd8068d5783326d",
+        "episodes/assisted--fold_glasses--s100002/attempt-ebfddac456784570937b6230a8a3a02b",
+        "episodes/assisted--fold_glasses--s100003/attempt-85231df948904dd68908c2131a5e8f40",
+        "episodes/assisted--fold_glasses--s100004/attempt-30bb58b9cff64c2f9695e0d4bb660590"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 4,
+      "infra_count": 2,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 0,
+      "mode": "assisted",
+      "planned": 5,
+      "provisional_rate": 0.2,
+      "rate": 0.2,
+      "required": 5,
+      "status": "complete",
+      "successes": 1,
+      "task": "fold_glasses"
+    },
+    {
+      "attempts": 5,
+      "completed": 5,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/assisted--hammer_nail--s100000/attempt-21321cf7a3c844a89aa5f00269e4bbae",
+        "episodes/assisted--hammer_nail--s100001/attempt-4ba9dfb7cf524eee8e9ef4f6553a6c0f",
+        "episodes/assisted--hammer_nail--s100002/attempt-fed7ef67545649779859408f13534b0e",
+        "episodes/assisted--hammer_nail--s100003/attempt-616f24e02f9d4be99a684a9e48ff3659",
+        "episodes/assisted--hammer_nail--s100004/attempt-9c6fae47db0f4452b55dae15db240ef0"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 0,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 0,
+      "mode": "assisted",
+      "planned": 5,
+      "provisional_rate": 1.0,
+      "rate": 1.0,
+      "required": 5,
+      "status": "complete",
+      "successes": 5,
+      "task": "hammer_nail"
+    },
+    {
+      "attempts": 5,
+      "completed": 5,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/assisted--pick_bucket--s100000/attempt-5846652b13a84f4fa876ef4473198396",
+        "episodes/assisted--pick_bucket--s100001/attempt-82063915f14a42f8ba867ef2498501f6",
+        "episodes/assisted--pick_bucket--s100002/attempt-d867717a281f42e995a42e62c44d8500",
+        "episodes/assisted--pick_bucket--s100003/attempt-6cd12423a09b4b6dae1813bd5a03f589",
+        "episodes/assisted--pick_bucket--s100004/attempt-c4e6119ee2044aedb07402b579a881fa"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 3,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 0,
+      "mode": "assisted",
+      "planned": 5,
+      "provisional_rate": 0.4,
+      "rate": 0.4,
+      "required": 5,
+      "status": "complete",
+      "successes": 2,
+      "task": "pick_bucket"
+    },
+    {
+      "attempts": 6,
+      "completed": 5,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/assisted--pinch_tongs--s100000/attempt-7cb1d43b18df443aa97155e09907a67f",
+        "episodes/assisted--pinch_tongs--s100001/attempt-0e89ada1b9ba434594a84eb49495b8d9",
+        "episodes/assisted--pinch_tongs--s100002/attempt-60adc3023f3147428d79f6949e7f4e6e",
+        "episodes/assisted--pinch_tongs--s100002/attempt-60e479481fa54e09acdc7617972fec10",
+        "episodes/assisted--pinch_tongs--s100003/attempt-a6b2253fe6a548f8a32e5d3cc0a09bf7",
+        "episodes/assisted--pinch_tongs--s100004/attempt-b88cc7efaa144f35a047695d02db61ad"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 2,
+      "infra_count": 1,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 0,
+      "mode": "assisted",
+      "planned": 5,
+      "provisional_rate": 0.6,
+      "rate": 0.6,
+      "required": 5,
+      "status": "complete",
+      "successes": 3,
+      "task": "pinch_tongs"
+    },
+    {
+      "attempts": 5,
+      "completed": 5,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/assisted--water_plant--s100000/attempt-532b3f228ad5428bb12379556f9e8567",
+        "episodes/assisted--water_plant--s100001/attempt-abed414ad52643b6b3391084662507ee",
+        "episodes/assisted--water_plant--s100002/attempt-90509b8c4ab94f9ba0730e669bced0ec",
+        "episodes/assisted--water_plant--s100003/attempt-41697749635548549f56ec892253132d",
+        "episodes/assisted--water_plant--s100004/attempt-bcfc9d97d5e84281a2ab746ff240b90e"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 2,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 0,
+      "mode": "assisted",
+      "planned": 5,
+      "provisional_rate": 0.6,
+      "rate": 0.6,
+      "required": 5,
+      "status": "complete",
+      "successes": 3,
+      "task": "water_plant"
+    },
+    {
+      "attempts": 0,
+      "completed": 0,
+      "conflicts": 0,
+      "evidence_dirs": [],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 0,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 5,
+      "mode": "bare",
+      "planned": 5,
+      "provisional_rate": null,
+      "rate": null,
+      "required": 5,
+      "status": "pending",
+      "successes": 0,
+      "task": "bimanual_assembly"
+    },
+    {
+      "attempts": 1,
+      "completed": 1,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/bare--bimanual_hanoi--s100000/attempt-71ce104ab03c470d8912a29bbc5af8bc"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 1,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 4,
+      "mode": "bare",
+      "planned": 5,
+      "provisional_rate": 0.0,
+      "rate": null,
+      "required": 5,
+      "status": "pending",
+      "successes": 0,
+      "task": "bimanual_hanoi"
+    },
+    {
+      "attempts": 0,
+      "completed": 0,
+      "conflicts": 0,
+      "evidence_dirs": [],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 0,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 5,
+      "mode": "bare",
+      "planned": 5,
+      "provisional_rate": null,
+      "rate": null,
+      "required": 5,
+      "status": "pending",
+      "successes": 0,
+      "task": "bimanual_microwave_cook"
+    },
+    {
+      "attempts": 0,
+      "completed": 0,
+      "conflicts": 0,
+      "evidence_dirs": [],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 0,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 5,
+      "mode": "bare",
+      "planned": 5,
+      "provisional_rate": null,
+      "rate": null,
+      "required": 5,
+      "status": "pending",
+      "successes": 0,
+      "task": "bimanual_photograph"
+    },
+    {
+      "attempts": 5,
+      "completed": 5,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/bare--bimanual_unlock_ipad--s100000/attempt-283c18f66f3d4b2896c8e5e673ea7371",
+        "episodes/bare--bimanual_unlock_ipad--s100001/attempt-a5a09967b9624f1db7a903d13cdc20e5",
+        "episodes/bare--bimanual_unlock_ipad--s100002/attempt-cbac9ae7c0084765a4661948ac5b49d9",
+        "episodes/bare--bimanual_unlock_ipad--s100003/attempt-ea0c43f60da5413ab9235e4fb67f37dd",
+        "episodes/bare--bimanual_unlock_ipad--s100004/attempt-de915e89c7b9452e88f40eaffddbe400"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 5,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 0,
+      "mode": "bare",
+      "planned": 5,
+      "provisional_rate": 0.0,
+      "rate": 0.0,
+      "required": 5,
+      "status": "complete",
+      "successes": 0,
+      "task": "bimanual_unlock_ipad"
+    },
+    {
+      "attempts": 5,
+      "completed": 5,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/bare--click_mouse--s100000/attempt-63189f3b4a4a43f8bc2df5e63d96512c",
+        "episodes/bare--click_mouse--s100001/attempt-fdf3e12df12f48acbe75fe51fa4af0b7",
+        "episodes/bare--click_mouse--s100002/attempt-cf9a96ce5daf412f8dbd5f6e2ac62733",
+        "episodes/bare--click_mouse--s100003/attempt-f7f05fbf8d6d47b9962d86bca592af53",
+        "episodes/bare--click_mouse--s100004/attempt-aa601f362d4e4ef087aad752ea13267d"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 0,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 0,
+      "mode": "bare",
+      "planned": 5,
+      "provisional_rate": 1.0,
+      "rate": 1.0,
+      "required": 5,
+      "status": "complete",
+      "successes": 5,
+      "task": "click_mouse"
+    },
+    {
+      "attempts": 5,
+      "completed": 5,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/bare--fold_glasses--s100000/attempt-5b1144b551134ca99a4252549822970a",
+        "episodes/bare--fold_glasses--s100001/attempt-6bcab9c98c054a86a82d665861148275",
+        "episodes/bare--fold_glasses--s100002/attempt-e3de63cac8084744afb8d26d08664ec5",
+        "episodes/bare--fold_glasses--s100003/attempt-752f04aad36d411599bafecde8017ede",
+        "episodes/bare--fold_glasses--s100004/attempt-5938e028b6ca463cba5493f69942a301"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 5,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 0,
+      "mode": "bare",
+      "planned": 5,
+      "provisional_rate": 0.0,
+      "rate": 0.0,
+      "required": 5,
+      "status": "complete",
+      "successes": 0,
+      "task": "fold_glasses"
+    },
+    {
+      "attempts": 7,
+      "completed": 5,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/bare--hammer_nail--s100000/attempt-815e410f895c4e42990a653e5465668b",
+        "episodes/bare--hammer_nail--s100000/attempt-d368ff2c96da47048445a2da8442f82e",
+        "episodes/bare--hammer_nail--s100001/attempt-cd6af9732a91473fa010fc7ef8ab0691",
+        "episodes/bare--hammer_nail--s100002/attempt-80afd9f445c442afac30df894ecbe72a",
+        "episodes/bare--hammer_nail--s100003/attempt-b9c025ed36754266a5942f03e474bdd6",
+        "episodes/bare--hammer_nail--s100003/attempt-fd2eaa63320041d69d75e1cd4614dae9",
+        "episodes/bare--hammer_nail--s100004/attempt-8f6ed08bb87d4f7b8d117cbf310023a3"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 3,
+      "infra_count": 2,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 0,
+      "mode": "bare",
+      "planned": 5,
+      "provisional_rate": 0.4,
+      "rate": 0.4,
+      "required": 5,
+      "status": "complete",
+      "successes": 2,
+      "task": "hammer_nail"
+    },
+    {
+      "attempts": 7,
+      "completed": 5,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/bare--pick_bucket--s100000/attempt-fbdc8b212648497a83abea44f2262c9b",
+        "episodes/bare--pick_bucket--s100001/attempt-e4fce88a75cd47fc8cdefee871ae503b",
+        "episodes/bare--pick_bucket--s100002/attempt-1e46649788b541d0befdaa56b928bfcf",
+        "episodes/bare--pick_bucket--s100002/attempt-460c852615994456ab9b8aa31bdf2887",
+        "episodes/bare--pick_bucket--s100003/attempt-0096f6848f8a4d4e89e667c9dcb427c1",
+        "episodes/bare--pick_bucket--s100003/attempt-ed98b990c53f4505a8f033363af21ed9",
+        "episodes/bare--pick_bucket--s100004/attempt-9e8dce65f5404a19bf4c01b4de75325d"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 5,
+      "infra_count": 2,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 0,
+      "mode": "bare",
+      "planned": 5,
+      "provisional_rate": 0.0,
+      "rate": 0.0,
+      "required": 5,
+      "status": "complete",
+      "successes": 0,
+      "task": "pick_bucket"
+    },
+    {
+      "attempts": 7,
+      "completed": 5,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/bare--pinch_tongs--s100000/attempt-0acad1acdb484e5c9b4e2755411d9647",
+        "episodes/bare--pinch_tongs--s100001/attempt-6dc8f2d1b9314034b02df4120e220bf8",
+        "episodes/bare--pinch_tongs--s100002/attempt-1ef3c711a6d540e3a5f17e006344c2bf",
+        "episodes/bare--pinch_tongs--s100003/attempt-19cd0fa09a374979b7b3751bfc0346a6",
+        "episodes/bare--pinch_tongs--s100003/attempt-366511cbc40b459ba273ea488d89de6e",
+        "episodes/bare--pinch_tongs--s100003/attempt-a7921c0ff2c94608a1c4d8d161e0c7bf",
+        "episodes/bare--pinch_tongs--s100004/attempt-9df41ad39c1344d28c1a4bfebecaf5bf"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 5,
+      "infra_count": 2,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 0,
+      "mode": "bare",
+      "planned": 5,
+      "provisional_rate": 0.0,
+      "rate": 0.0,
+      "required": 5,
+      "status": "complete",
+      "successes": 0,
+      "task": "pinch_tongs"
+    },
+    {
+      "attempts": 5,
+      "completed": 5,
+      "conflicts": 0,
+      "evidence_dirs": [
+        "episodes/bare--water_plant--s100000/attempt-d5e7f5fdb3724929a74d4326531dd0ff",
+        "episodes/bare--water_plant--s100001/attempt-8222f654fe5b4072a80bf1dab1ecb96f",
+        "episodes/bare--water_plant--s100002/attempt-96023f6e24c54804ab01007687eef3a3",
+        "episodes/bare--water_plant--s100003/attempt-8e2ee9ae91f8461eb89c73ee2ea99b5e",
+        "episodes/bare--water_plant--s100004/attempt-29cdf88f73ee4614b4b8e06a3881f4c1"
+      ],
+      "expected_seeds": [
+        100000,
+        100001,
+        100002,
+        100003,
+        100004
+      ],
+      "failures": 5,
+      "infra_count": 0,
+      "interrupted_count": 0,
+      "invalid_attempts": 0,
+      "missing": 0,
+      "mode": "bare",
+      "planned": 5,
+      "provisional_rate": 0.0,
+      "rate": 0.0,
+      "required": 5,
+      "status": "complete",
+      "successes": 0,
+      "task": "water_plant"
+    }
+  ]
+}

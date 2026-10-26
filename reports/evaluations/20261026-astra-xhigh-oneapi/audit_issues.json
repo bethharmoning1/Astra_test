@@ -1,0 +1,70 @@
+{
+  "issues": [
+    {
+      "batch_id": "20261022-200600-paired-xhigh-oneapi16",
+      "episode_id": "assisted--water_plant--s100003",
+      "attempt_id": "attempt-41697749635548549f56ec892253132d",
+      "scored": true,
+      "succeed": true,
+      "error": {
+        "code": "script_snapshot_reference_mismatch",
+        "path": "script_versions.jsonl",
+        "line": 14
+      },
+      "retained_for_coverage": true
+    },
+    {
+      "batch_id": "20261023-114334-paired-xhigh-oneapi16-compact",
+      "episode_id": "assisted--bimanual_assembly--s100002",
+      "attempt_id": "attempt-da76ea5bcf944fb6a4c228b463e20083",
+      "scored": true,
+      "succeed": false,
+      "error": {
+        "code": "script_snapshot_reference_mismatch",
+        "path": "script_versions.jsonl",
+        "line": 16
+      },
+      "retained_for_coverage": true
+    },
+    {
+      "batch_id": "20261023-114334-paired-xhigh-oneapi16-compact",
+      "episode_id": "assisted--bimanual_microwave_cook--s100003",
+      "attempt_id": "attempt-721b18b0f4524a4999a5da439970c700",
+      "scored": true,
+      "succeed": false,
+      "error": {
+        "code": "script_snapshot_reference_mismatch",
+        "path": "script_versions.jsonl",
+        "line": 39
+      },
+      "retained_for_coverage": true
+    },
+    {
+      "batch_id": "20261023-114334-paired-xhigh-oneapi16-compact",
+      "episode_id": "assisted--bimanual_photograph--s100001",
+      "attempt_id": "attempt-f2f95e9b4c254f9fb54d76a5ed07b01a",
+      "scored": true,
+      "succeed": false,
+      "error": {
+        "code": "script_snapshot_reference_mismatch",
+        "path": "script_versions.jsonl",
+        "line": 24
+      },
+      "retained_for_coverage": true
+    },
+    {
+      "batch_id": "20261023-114334-paired-xhigh-oneapi16-compact",
+      "episode_id": "bare--bimanual_microwave_cook--s100001",
+      "attempt_id": "attempt-18b3206e03c8420da640b4422ff27a32",
+      "scored": true,
+      "succeed": false,
+      "error": {
+        "code": "script_snapshot_reference_mismatch",
+        "path": "script_versions.jsonl",
+        "line": 72
+      },
+      "retained_for_coverage": true
+    }
+  ],
+  "resolved": false
+}

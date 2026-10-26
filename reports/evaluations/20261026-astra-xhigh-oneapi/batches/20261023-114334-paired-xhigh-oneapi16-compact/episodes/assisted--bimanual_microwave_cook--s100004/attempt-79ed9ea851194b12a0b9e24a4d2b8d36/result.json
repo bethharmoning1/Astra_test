@@ -1,0 +1,37 @@
+{
+  "episode_id": "assisted--bimanual_microwave_cook--s100004",
+  "mode": "assisted",
+  "task": "bimanual_microwave_cook",
+  "seed": 100004,
+  "trial": 5,
+  "attempt_id": "attempt-79ed9ea851194b12a0b9e24a4d2b8d36",
+  "started_at": "2026-10-25T19:51:25.999521+00:00",
+  "status": "failure",
+  "succeed": false,
+  "scored": true,
+  "steps": 60,
+  "action_calls": 2,
+  "reason": "agent_stopped_without_success",
+  "session_id": "01a1749e-4488-76c2-8ed0-40a4bd622b60",
+  "evidence_dir": "episodes/assisted--bimanual_microwave_cook--s100004/attempt-79ed9ea851194b12a0b9e24a4d2b8d36",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "xhigh",
+  "backend_model_independently_verified": false,
+  "codex_exit_code": 0,
+  "policy_wall_seconds_excluding_interface": 117.4933515629964,
+  "token_usage": [
+    {
+      "input_tokens": 227679,
+      "cached_input_tokens": 180608,
+      "output_tokens": 3413
+    }
+  ],
+  "recovered_service_errors": 0,
+  "service_error_kind": null,
+  "service_error_detail": null,
+  "terminated": false,
+  "truncated": false,
+  "budget": 1100,
+  "finished_at": "2026-10-25T19:54:20.865778+00:00",
+  "reasoning_record": "Public Codex JSONL reasoning summaries and messages only; hidden chain-of-thought is unavailable"
+}

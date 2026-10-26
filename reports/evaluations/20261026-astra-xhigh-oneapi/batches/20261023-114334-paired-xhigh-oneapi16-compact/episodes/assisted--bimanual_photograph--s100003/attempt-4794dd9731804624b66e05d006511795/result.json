@@ -1,0 +1,37 @@
+{
+  "episode_id": "assisted--bimanual_photograph--s100003",
+  "mode": "assisted",
+  "task": "bimanual_photograph",
+  "seed": 100003,
+  "trial": 4,
+  "attempt_id": "attempt-4794dd9731804624b66e05d006511795",
+  "started_at": "2026-10-26T00:07:18.483056+00:00",
+  "status": "success",
+  "succeed": true,
+  "scored": true,
+  "steps": 320,
+  "action_calls": 15,
+  "reason": "official_info.succeed",
+  "session_id": "01a17588-8741-78b0-ad3e-386dd97c2baa",
+  "evidence_dir": "episodes/assisted--bimanual_photograph--s100003/attempt-4794dd9731804624b66e05d006511795",
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "xhigh",
+  "backend_model_independently_verified": false,
+  "codex_exit_code": 0,
+  "policy_wall_seconds_excluding_interface": 571.7566368181724,
+  "token_usage": [
+    {
+      "input_tokens": 1447200,
+      "cached_input_tokens": 1249920,
+      "output_tokens": 14959
+    }
+  ],
+  "recovered_service_errors": 0,
+  "service_error_kind": null,
+  "service_error_detail": null,
+  "terminated": true,
+  "truncated": false,
+  "budget": 1000,
+  "finished_at": "2026-10-26T00:20:56.800997+00:00",
+  "reasoning_record": "Public Codex JSONL reasoning summaries and messages only; hidden chain-of-thought is unavailable"
+}
